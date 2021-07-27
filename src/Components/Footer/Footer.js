@@ -1,7 +1,8 @@
-import './Footer.css';
+import React from 'react'
+import './Footer.css'
 
-function Footer() {
-    return (
+function Footer () {
+  return (
       <div className="Footer">
         <footer>
           <p>
@@ -9,7 +10,7 @@ function Footer() {
           </p>
         </footer>
       </div>
-    );
-  }
-  
-  export default Footer;
+  )
+}
+
+export default Footer
