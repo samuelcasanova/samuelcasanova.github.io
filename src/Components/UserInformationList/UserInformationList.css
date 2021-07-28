@@ -1,0 +1,7 @@
+.list {
+    display: grid;
+    margin: 3%;
+    grid-template-columns: repeat(4, 23%);
+    column-gap: 3%;
+    grid-row-gap: 3%;
+  }
