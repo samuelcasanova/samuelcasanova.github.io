@@ -6,10 +6,10 @@ class UserInformation extends React.Component {
   render () {
     return (
             <div className="card">
-                <img src={ this.props.user.imgSrc } alt={ this.props.user.firstName } />
-                <h3> { this.props.user.firstName + ' ' + this.props.user.lastName } </h3>
-                <p className="title"> { this.props.user.email } </p>
-                <p> { this.props.user.city } </p>
+                <img src={ this.props.user.image } alt={ this.props.user.name } />
+                <h3> { this.props.user.name } </h3>
+                <p className="title"> { this.props.user.gender } </p>
+                <p> { this.props.user.status } </p>
                 <p><button disabled>Coming soon...</button></p>
             </div>
     )
