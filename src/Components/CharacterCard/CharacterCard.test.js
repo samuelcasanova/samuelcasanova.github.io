@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react'
-import UserInformation from './UserInformation'
+import CharacterCard from './CharacterCard'
 import test from jest
 
 test('renders the coming soon button element', () => {
-  render(<UserInformation />)
+  render(<CharacterCard />)
   const buttonElement = screen.getByRole('button')
   expect(buttonElement).toBeInTheDocument()
   expect(buttonElement).toHaveTextContent('Coming soon...')

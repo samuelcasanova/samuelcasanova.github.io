@@ -1,11 +1,11 @@
-class UserService {
-  async getUsers () {
+class CharacterService {
+  async getCharacters () {
     try {
       return fetch('/characters').then(response => response.json()).then(response =>
         new Promise(resolve => {
           console.log('Fetched data:' + response)
-          const users = response
-          return resolve(users)
+          const characters = response
+          return resolve(characters)
         }))
     } catch (message) {
       console.log(message)
@@ -13,4 +13,4 @@ class UserService {
   }
 }
 
-export default UserService
+export default CharacterService

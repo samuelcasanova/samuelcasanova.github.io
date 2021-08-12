@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
             <header className="App-header">
                 <p>
-                    My favourite random users
+                    Rick and Morty characters
                 </p>
             </header>
     )

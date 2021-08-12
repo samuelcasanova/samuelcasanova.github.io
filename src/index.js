@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
-import UserInformationList from './Components/UserInformationList/UserInformationList'
+import CharactersList from './Components/CharactersList/CharactersList'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
-    <UserInformationList />
+    <CharactersList />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
