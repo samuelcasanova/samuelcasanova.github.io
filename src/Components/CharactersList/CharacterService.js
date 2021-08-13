@@ -3,7 +3,7 @@ class CharacterService {
     try {
       return fetch('/characters').then(response => response.json()).then(response =>
         new Promise(resolve => {
-          console.log('Fetched data:' + response)
+          console.log('Fetched data from /characters')
           const characters = response
           return resolve(characters)
         }))

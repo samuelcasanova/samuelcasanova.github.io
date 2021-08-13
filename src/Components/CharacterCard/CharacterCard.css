@@ -27,6 +27,10 @@ button:hover, a:hover {
     text-align: center;
     background-color: #ccc;
   }
+
+  .card img {
+    width: 90%;
+  }
   
 .title {
   color: grey;

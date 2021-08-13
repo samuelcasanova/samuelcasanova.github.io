@@ -17,7 +17,12 @@ class CharacterCard extends React.Component {
 }
 
 CharacterCard.propTypes = {
-  character: PropTypes.objectOf(PropTypes.string)
+  character: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    gender: PropTypes.string.isRequired,
+    status: PropTypes.string.isRequired
+  })
 }
 
 export default CharacterCard
