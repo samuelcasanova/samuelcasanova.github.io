@@ -11,23 +11,23 @@ describe('Merging calendars', () => {
 
   beforeAll(() => {
     simpleCalendarMatches1 = [
-      { datetime: new Date(2021, 9, 9, 11, 0), home: 'Home 11', away: 'Away 11' },
-      { datetime: new Date(2021, 9, 16, 12, 0), home: 'Home 12', away: 'Away 12' }
+      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam: 'Home 11', awayTeam 'Away 11' },
+      { datetime: new Date(2021, 9, 16, 12, 0), homeTeam 'Home 12', awayTeam 'Away 12' }
     ]
     simpleCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 10, 11, 30), home: 'Home 21', away: 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 12, 30), home: 'Home 22', away: 'Away 22' }
+      { datetime: new Date(2021, 9, 10, 11, 30), homeTeam 'Home 21', awayTeam 'Away 21' },
+      { datetime: new Date(2021, 9, 17, 12, 30), homeTeam 'Home 22', awayTeam 'Away 22' }
     ]
     complexCalendarMatches1 = [
-      { datetime: new Date(2021, 9, 9, 11, 0), home: 'Home 11', away: 'Away 11' },
-      { datetime: new Date(2021, 9, 16, 11, 0), home: 'Home 12', away: 'Away 12' },
-      { datetime: new Date(2021, 9, 23, 11, 0), home: 'Home 13', away: 'Away 13' },
-      { datetime: new Date(2021, 9, 31, 12, 0), home: 'Home 14', away: 'Away 14' }
+      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam 'Home 11', awayTeam 'Away 11' },
+      { datetime: new Date(2021, 9, 16, 11, 0), homeTeam 'Home 12', awayTeam 'Away 12' },
+      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam 'Home 13', awayTeam 'Away 13' },
+      { datetime: new Date(2021, 9, 31, 12, 0), homeTeam 'Home 14', awayTeam 'Away 14' }
     ]
     complexCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 9, 11, 30), home: 'Home 21', away: 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 11, 0), home: 'Home 22', away: 'Away 22' },
-      { datetime: new Date(2021, 9, 23, 11, 0), home: 'Home 23', away: 'Away 23' }
+      { datetime: new Date(2021, 9, 9, 11, 30), homeTeam 'Home 21', awayTeam 'Away 21' },
+      { datetime: new Date(2021, 9, 17, 11, 0), homeTeam 'Home 22', awayTeam 'Away 22' },
+      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam 'Home 23', awayTeam 'Away 23' }
     ]
   })
 
@@ -51,20 +51,20 @@ describe('Merging calendars', () => {
       expect(calendar.weeks[1].matches.length).toBe(2)
     })
     test('First match of first week is Home 11 vs Away 11', () => {
-      expect(calendar.weeks[0].matches[0].home).toBe('Home 11')
-      expect(calendar.weeks[0].matches[0].away).toBe('Away 11')
+      expect(calendar.weeks[0].matches[0].homeTeam).toBe('Home 11')
+      expect(calendar.weeks[0].matches[0].awayTeam).toBe('Away 11')
     })
     test('Second match of first week is Home 21 vs Away 21', () => {
-      expect(calendar.weeks[0].matches[1].home).toBe('Home 21')
-      expect(calendar.weeks[0].matches[1].away).toBe('Away 21')
+      expect(calendar.weeks[0].matches[1].homeTeam).toBe('Home 21')
+      expect(calendar.weeks[0].matches[1].awayTeam).toBe('Away 21')
     })
     test('First match of second week is Home 12 vs Away 12', () => {
-      expect(calendar.weeks[1].matches[0].home).toBe('Home 12')
-      expect(calendar.weeks[1].matches[0].away).toBe('Away 12')
+      expect(calendar.weeks[1].matches[0].homeTeam).toBe('Home 12')
+      expect(calendar.weeks[1].matches[0].awayTeam).toBe('Away 12')
     })
     test('Second match of second week is Home 22 vs Away 22', () => {
-      expect(calendar.weeks[1].matches[1].home).toBe('Home 22')
-      expect(calendar.weeks[1].matches[1].away).toBe('Away 22')
+      expect(calendar.weeks[1].matches[1].homeTeam).toBe('Home 22')
+      expect(calendar.weeks[1].matches[1].awayTeam).toBe('Away 22')
     })
   })
 
@@ -88,32 +88,32 @@ describe('Merging calendars', () => {
       expect(calendar.weeks[3].matches.length).toBe(1)
     })
     test('First match of first week is Home 11 vs Away 11', () => {
-      expect(calendar.weeks[0].matches[0].home).toBe('Home 11')
-      expect(calendar.weeks[0].matches[0].away).toBe('Away 11')
+      expect(calendar.weeks[0].matches[0].homeTeam).toBe('Home 11')
+      expect(calendar.weeks[0].matches[0].awayTeam).toBe('Away 11')
     })
     test('Second match of first week is Home 21 vs Away 21', () => {
-      expect(calendar.weeks[0].matches[1].home).toBe('Home 21')
-      expect(calendar.weeks[0].matches[1].away).toBe('Away 21')
+      expect(calendar.weeks[0].matches[1].homeTeam).toBe('Home 21')
+      expect(calendar.weeks[0].matches[1].awayTeam).toBe('Away 21')
     })
     test('First match of second week is Home 12 vs Away 12', () => {
-      expect(calendar.weeks[1].matches[0].home).toBe('Home 12')
-      expect(calendar.weeks[1].matches[0].away).toBe('Away 12')
+      expect(calendar.weeks[1].matches[0].homeTeam).toBe('Home 12')
+      expect(calendar.weeks[1].matches[0].awayTeam).toBe('Away 12')
     })
     test('Second match of second week is Home 22 vs Away 22', () => {
-      expect(calendar.weeks[1].matches[1].home).toBe('Home 22')
-      expect(calendar.weeks[1].matches[1].away).toBe('Away 22')
+      expect(calendar.weeks[1].matches[1].homeTeam).toBe('Home 22')
+      expect(calendar.weeks[1].matches[1].awayTeam).toBe('Away 22')
     })
     test('First match of third week is Home 13 vs Away 13', () => {
-      expect(calendar.weeks[2].matches[0].home).toBe('Home 13')
-      expect(calendar.weeks[2].matches[0].away).toBe('Away 13')
+      expect(calendar.weeks[2].matches[0].homeTeam).toBe('Home 13')
+      expect(calendar.weeks[2].matches[0].awayTeam).toBe('Away 13')
     })
     test('Second match of third week is Home 23 vs Away 23', () => {
-      expect(calendar.weeks[2].matches[1].home).toBe('Home 23')
-      expect(calendar.weeks[2].matches[1].away).toBe('Away 23')
+      expect(calendar.weeks[2].matches[1].homeTeam).toBe('Home 23')
+      expect(calendar.weeks[2].matches[1].awayTeam).toBe('Away 23')
     })
     test('First match of fourth week is Home 14 vs Away 14', () => {
-      expect(calendar.weeks[3].matches[0].home).toBe('Home 14')
-      expect(calendar.weeks[3].matches[0].away).toBe('Away 14')
+      expect(calendar.weeks[3].matches[0].homeTeam).toBe('Home 14')
+      expect(calendar.weeks[3].matches[0].awayTeam).toBe('Away 14')
     })
   })
 

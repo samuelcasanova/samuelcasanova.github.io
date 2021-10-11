@@ -6,11 +6,11 @@ class MatchCard extends React.Component {
   render () {
     return (
             <div className="card">
-                <span> { this.props.match.matchday } </span>
                 <span> { this.props.match.date } </span>
                 <span> { this.props.match.time } </span>
-                <span> { this.props.match.home } </span>
-                <span> { this.props.match.away } </span>
+                <span> { this.props.match.homeTeam } </span>
+                <span> vs </span>
+                <span> { this.props.match.awayTeam } </span>
             </div>
     )
   }
@@ -21,8 +21,8 @@ MatchCard.propTypes = {
     matchday: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     time: PropTypes.string.isRequired,
-    home: PropTypes.string.isRequired,
-    away: PropTypes.string.isRequired
+    homeTeam: PropTypes.string.isRequired,
+    awayTeam: PropTypes.string.isRequired
   })
 }
 

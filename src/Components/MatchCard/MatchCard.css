@@ -25,12 +25,12 @@ button:hover, a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: calc(8px + 2vmin);
     text-align: center;
-    background-color: #ccc;
+    background-color: #fff;
   }
 
-  .card img {
-    width: 90%;
-  }
+.card span {
+  color: #000;
+}
   
 .title {
   color: grey;

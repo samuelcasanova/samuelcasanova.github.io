@@ -4,9 +4,15 @@ import MatchCard from '../MatchCard/MatchCard'
 
 class WeekCard extends React.Component {
   render () {
+    let matchdaytext = null
+    if (this.props.isCurrentWeek || this.props.week.matches.length === 0) {
+      matchdaytext = <div><span>Próxima Jornada</span></div>
+    } else {
+      matchdaytext = <div><span>Jornada { this.props.week.matches[0].matchday }</span></div>
+    }
     return (
             <div>
-              <div><span>Week { this.props.week.weekofyear }</span></div>
+              {matchdaytext}
               <div>
                 {
                   this.props.week.matches.map(
@@ -22,6 +28,7 @@ class WeekCard extends React.Component {
 }
 
 WeekCard.propTypes = {
+  isCurrentWeek: PropTypes.bool.isRequired,
   week: PropTypes.shape({
     weekofyear: PropTypes.number.isRequired,
     matches: PropTypes.array.isRequired

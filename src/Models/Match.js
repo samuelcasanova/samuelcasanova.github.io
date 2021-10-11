@@ -3,9 +3,11 @@ class Match {
   date
   time
   datetime
-  home
-  away
+  homeTeam
+  awayTeam
   result
+  playerName
+  isAway
 }
 
 export default Match

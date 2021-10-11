@@ -14,12 +14,14 @@ class CalendarTableParseService {
       const match = new Match()
       const tdFields = trRows.item(i).getElementsByTagName('td')
       match.matchday = tdFields.item(0).textContent.trim()
-      match.date = tdFields.item(1).textContent.trim()
-      match.time = tdFields.item(2).textContent.trim()
-      match.datetime = this.parseDateAndTime(tdFields.item(1).textContent.trim(), tdFields.item(2).textContent.trim())
-      match.home = this.transformTeamName(tdFields.item(3).textContent.trim())
-      match.away = this.transformTeamName(tdFields.item(4).textContent.trim())
+      const datetime = this.parseDateAndTime(tdFields.item(1).textContent.trim(), tdFields.item(2).textContent.trim())
+      match.datetime = datetime
+      match.date = this.datetimeToDateString(datetime)
+      match.time = this.datetimeToTimeString(datetime)
+      match.homeTeam = this.transformTeamName(tdFields.item(3).textContent.trim())
+      match.awayTeam = this.transformTeamName(tdFields.item(4).textContent.trim())
       match.result = tdFields.item(5).textContent.trim()
+      match.isAway = this.isAway(match.homeTeam, match.awayTeam)
       matches.push(match)
     }
 
@@ -41,7 +43,33 @@ class CalendarTableParseService {
   }
 
   transformTeamName (teamNameString) {
-    return teamNameString.replace('ESCOLA DE FUTBOL PREMIER BARCELONA', 'PREMIER')
+    const replacedToPremierShortName = teamNameString.replace('ESCOLA DE FUTBOL PREMIER BARCELONA', 'PREMIER')
+    return this.toTitleCase(replacedToPremierShortName)
+  }
+
+  datetimeToDateString (datetime) {
+    const formattedDateString = datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', day: '2-digit', month: 'short', weekday: 'short' })
+    const uppercaseAndRemovedCommas = formattedDateString.toUpperCase().replace(',', '')
+    return uppercaseAndRemovedCommas
+  }
+
+  datetimeToTimeString (datetime) {
+    const formattedTimeString = datetime.toLocaleTimeString('es-ES', { hour12: false, hour: '2-digit', minute: '2-digit' })
+    const addedH = formattedTimeString + 'h'
+    return addedH
+  }
+
+  toTitleCase (text) {
+    return text
+      .toLowerCase()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+  }
+
+  isAway (homeTeam, awayTeam) {
+    const isAway = awayTeam.toLowerCase().includes('premier')
+    return isAway
   }
 }
 

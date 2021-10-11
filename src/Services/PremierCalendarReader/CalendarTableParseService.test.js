@@ -66,7 +66,7 @@ describe('Parsing simple calendar table', () => {
     })
 
     test('match home team is PREMIER D', () => {
-      expect(singleMatch.home).toBe('PREMIER D')
+      expect(singleMatch.homeTeam).toBe('PREMIER D')
     })
   })
 
@@ -80,8 +80,8 @@ describe('Parsing simple calendar table', () => {
     })
 
     test('First match has home and away', () => {
-      expect(matches[0].home).toBeDefined()
-      expect(matches[0].away).toBeDefined()
+      expect(matches[0].homeTeam).toBeDefined()
+      expect(matches[0].awayTeam).toBeDefined()
     })
   })
 })
