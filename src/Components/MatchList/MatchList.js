@@ -1,16 +1,9 @@
 import React from 'react'
 import MatchCard from '../MatchCard/MatchCard'
 import './MatchList.css'
-import MatchService from './MatchService'
+import MatchService from '../Calendar/CalendarService'
 
 class MatchList extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      matches: []
-    }
-  }
-
   render () {
     return (
             <div className="list">

@@ -36,9 +36,10 @@ describe('Parsing simple calendar table', () => {
 
   let matches = null
   let singleMatch = null
+  let calendarTableParseService = null
 
   beforeAll(() => {
-    const calendarTableParseService = new CalendarTableParseService()
+    calendarTableParseService = new CalendarTableParseService()
     matches = calendarTableParseService.parseMatches(tableHtmlCode)
     singleMatch = matches[0]
   })
@@ -48,16 +49,24 @@ describe('Parsing simple calendar table', () => {
       expect(singleMatch).toBeInstanceOf(Match)
     })
 
-    test('match round is 1', () => {
-      expect(singleMatch.round).toBe('1')
+    test('matchday is 1', () => {
+      expect(singleMatch.matchday).toBe('1')
     })
 
     test('match time is 11:00', () => {
       expect(singleMatch.time).toBe('11:00')
     })
 
-    test('match home team is ESCOLA DE FUTBOL PREMIER BARCELONA D', () => {
-      expect(singleMatch.home).toBe('ESCOLA DE FUTBOL PREMIER BARCELONA D')
+    test('match date is 10-10-2021', () => {
+      expect(singleMatch.date).toBe('10-10-2021')
+    })
+
+    test('match datetime day is correctly merged and printed', () => {
+      expect(calendarTableParseService.dateTimeToString(singleMatch.datetime)).toBe('Sun Oct 10 2021')
+    })
+
+    test('match home team is PREMIER D', () => {
+      expect(singleMatch.home).toBe('PREMIER D')
     })
   })
 
@@ -68,6 +77,11 @@ describe('Parsing simple calendar table', () => {
 
     test('matches contains exactly 2 matches', () => {
       expect(matches).toHaveLength(2)
+    })
+
+    test('First match has home and away', () => {
+      expect(matches[0].home).toBeDefined()
+      expect(matches[0].away).toBeDefined()
     })
   })
 })

@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
-import MatchList from './Components/MatchList/MatchList'
+import Calendar from './Components/Calendar/Calendar'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
-    <MatchList />
+    <Calendar/>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

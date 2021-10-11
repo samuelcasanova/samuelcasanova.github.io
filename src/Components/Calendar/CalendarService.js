@@ -1,10 +1,10 @@
 import PremierCalendarReaderService from '../../Services/PremierCalendarReader/PremierCalendarReaderService'
 
-class MatchService {
-  async getMatches () {
+class CalendarService {
+  async getCalendar () {
     const premierCalendarReaderService = new PremierCalendarReaderService()
-    return premierCalendarReaderService.getBenjaminMatches()
+    return premierCalendarReaderService.getPremierCalendar()
   }
 }
 
-export default MatchService
+export default CalendarService

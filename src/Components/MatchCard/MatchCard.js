@@ -6,7 +6,7 @@ class MatchCard extends React.Component {
   render () {
     return (
             <div className="card">
-                <span> { this.props.match.round } </span>
+                <span> { this.props.match.matchday } </span>
                 <span> { this.props.match.date } </span>
                 <span> { this.props.match.time } </span>
                 <span> { this.props.match.home } </span>
@@ -18,7 +18,7 @@ class MatchCard extends React.Component {
 
 MatchCard.propTypes = {
   match: PropTypes.shape({
-    round: PropTypes.string.isRequired,
+    matchday: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     time: PropTypes.string.isRequired,
     home: PropTypes.string.isRequired,

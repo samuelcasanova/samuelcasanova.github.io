@@ -1,7 +1,8 @@
 class Match {
-  round
+  matchday
   date
   time
+  datetime
   home
   away
   result
