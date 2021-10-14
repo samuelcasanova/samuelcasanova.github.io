@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import MatchCard from '../MatchCard/MatchCard'
+import './WeekCard.css'
 
 class WeekCard extends React.Component {
   render () {
@@ -12,7 +13,7 @@ class WeekCard extends React.Component {
     }
     return (
             <div>
-              {matchdaytext}
+              <div className='matchdaytext'>{matchdaytext}</div>
               <div>
                 {
                   this.props.week.matches.map(

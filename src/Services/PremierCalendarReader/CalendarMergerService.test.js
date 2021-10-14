@@ -11,23 +11,23 @@ describe('Merging calendars', () => {
 
   beforeAll(() => {
     simpleCalendarMatches1 = [
-      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam: 'Home 11', awayTeam 'Away 11' },
-      { datetime: new Date(2021, 9, 16, 12, 0), homeTeam 'Home 12', awayTeam 'Away 12' }
+      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam: 'Home 11', awayTeam: 'Away 11' },
+      { datetime: new Date(2021, 9, 16, 12, 0), homeTeam: 'Home 12', awayTeam: 'Away 12' }
     ]
     simpleCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 10, 11, 30), homeTeam 'Home 21', awayTeam 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 12, 30), homeTeam 'Home 22', awayTeam 'Away 22' }
+      { datetime: new Date(2021, 9, 10, 11, 30), homeTeam: 'Home 21', awayTeam: 'Away 21' },
+      { datetime: new Date(2021, 9, 17, 12, 30), homeTeam: 'Home 22', awayTeam: 'Away 22' }
     ]
     complexCalendarMatches1 = [
-      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam 'Home 11', awayTeam 'Away 11' },
-      { datetime: new Date(2021, 9, 16, 11, 0), homeTeam 'Home 12', awayTeam 'Away 12' },
-      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam 'Home 13', awayTeam 'Away 13' },
-      { datetime: new Date(2021, 9, 31, 12, 0), homeTeam 'Home 14', awayTeam 'Away 14' }
+      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam: 'Home 11', awayTeam: 'Away 11' },
+      { datetime: new Date(2021, 9, 16, 11, 0), homeTeam: 'Home 12', awayTeam: 'Away 12' },
+      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam: 'Home 13', awayTeam: 'Away 13' },
+      { datetime: new Date(2021, 9, 31, 12, 0), homeTeam: 'Home 14', awayTeam: 'Away 14' }
     ]
     complexCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 9, 11, 30), homeTeam 'Home 21', awayTeam 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 11, 0), homeTeam 'Home 22', awayTeam 'Away 22' },
-      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam 'Home 23', awayTeam 'Away 23' }
+      { datetime: new Date(2021, 9, 9, 11, 30), homeTeam: 'Home 21', awayTeam: 'Away 21' },
+      { datetime: new Date(2021, 9, 17, 11, 0), homeTeam: 'Home 22', awayTeam: 'Away 22' },
+      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam: 'Home 23', awayTeam: 'Away 23' }
     ]
   })
 

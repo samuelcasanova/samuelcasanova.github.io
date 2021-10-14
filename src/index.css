@@ -1,8 +1,11 @@
+@font-face {
+  font-family: 'FiraSans';
+  src: local('FiraSans'), url(./Fonts/FiraSans/FiraSansCondensed-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'FiraSans', 'Helvetica';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

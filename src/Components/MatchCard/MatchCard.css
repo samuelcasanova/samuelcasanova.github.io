@@ -1,38 +1,38 @@
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
-.card {
+.container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: calc(8px + 2vmin);
+    padding: 1vmin;
     text-align: center;
     background-color: #fff;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "date player teams isAway"
+      "time player teams isAway";
+    align-items: center;
   }
 
-.card span {
-  color: #000;
-}
-  
-.title {
-  color: grey;
-  font-size: 18px;
-}
+  .date {
+    grid-area: date;
+    font-weight: bolder;
+  }
+
+  .time {
+    grid-area: time;
+  }
+
+  .playerName {
+    grid-area: player;
+    grid-row: span 2;
+  }
+
+  .teams {
+    grid-area: teams;
+    grid-row: span 2;
+  }
+
+  .isAway {
+    grid-area: isAway;
+    grid-row: span 2;
+  }

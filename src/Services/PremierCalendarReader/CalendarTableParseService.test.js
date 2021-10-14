@@ -40,7 +40,7 @@ describe('Parsing simple calendar table', () => {
 
   beforeAll(() => {
     calendarTableParseService = new CalendarTableParseService()
-    matches = calendarTableParseService.parseMatches(tableHtmlCode)
+    matches = calendarTableParseService.parseMatches(tableHtmlCode, 'Victor')
     singleMatch = matches[0]
   })
 
@@ -53,20 +53,28 @@ describe('Parsing simple calendar table', () => {
       expect(singleMatch.matchday).toBe('1')
     })
 
-    test('match time is 11:00', () => {
-      expect(singleMatch.time).toBe('11:00')
+    test('match time is 11:00h', () => {
+      expect(singleMatch.time).toBe('11:00h')
     })
 
-    test('match date is 10-10-2021', () => {
-      expect(singleMatch.date).toBe('10-10-2021')
+    test('match date is DOM. 10 OCT.', () => {
+      expect(singleMatch.date).toBe('DOM. 10 OCT.')
     })
 
     test('match datetime day is correctly merged and printed', () => {
       expect(calendarTableParseService.dateTimeToString(singleMatch.datetime)).toBe('Sun Oct 10 2021')
     })
 
+    test('player name is Victor', () => {
+      expect(singleMatch.playerName).toBe('Victor')
+    })
+
     test('match home team is PREMIER D', () => {
-      expect(singleMatch.homeTeam).toBe('PREMIER D')
+      expect(singleMatch.homeTeam).toBe('Premier D')
+    })
+
+    test('isAway is false when the match is home for Premier', () => {
+      expect(singleMatch.isAway).toBeFalsy()
     })
   })
 

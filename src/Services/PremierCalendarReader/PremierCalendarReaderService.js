@@ -5,20 +5,22 @@ import CalendarMergerService from './CalendarMergerService'
 class PremierCalendarReaderService {
   preBenjaminUrl = 'https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/escola-de-futbol-premier-barcelona-d'
   benjaminUrl = 'https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f'
+  preBenjaminPlayerName = 'Victor'
+  benjaminPlayerName = 'Alex'
 
   async getPremierCalendar () {
-    const benjaminMatches = await this.getMatchesFromURL(this.benjaminUrl)
-    const preBenjaminMatches = await this.getMatchesFromURL(this.preBenjaminUrl)
+    const benjaminMatches = await this.getMatchesFromURL(this.benjaminUrl, this.benjaminPlayerName)
+    const preBenjaminMatches = await this.getMatchesFromURL(this.preBenjaminUrl, this.preBenjaminPlayerName)
     const calendarMergerService = new CalendarMergerService()
     const calendar = calendarMergerService.mergeMatchesIntoCalendar(benjaminMatches, preBenjaminMatches)
     return calendar
   }
 
-  async getMatchesFromURL (url) {
+  async getMatchesFromURL (url, playerName) {
     const htmlCodeFromURLService = new HtmlCodeFromURLService()
     const calendarSourceCode = await htmlCodeFromURLService.getHtmlCodeFromURL(url)
     const calendarTableParseService = new CalendarTableParseService()
-    const matches = calendarTableParseService.parseMatches(calendarSourceCode)
+    const matches = calendarTableParseService.parseMatches(calendarSourceCode, playerName)
     return matches
   }
 }

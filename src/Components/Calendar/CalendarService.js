@@ -3,7 +3,8 @@ import PremierCalendarReaderService from '../../Services/PremierCalendarReader/P
 class CalendarService {
   async getCalendar () {
     const premierCalendarReaderService = new PremierCalendarReaderService()
-    return premierCalendarReaderService.getPremierCalendar()
+    const premierCalendar = await premierCalendarReaderService.getPremierCalendar()
+    return premierCalendar
   }
 }
 

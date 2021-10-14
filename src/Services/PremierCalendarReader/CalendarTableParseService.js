@@ -1,7 +1,7 @@
 import Match from '../../Models/Match'
 
 class CalendarTableParseService {
-  parseMatches (htmlCode) {
+  parseMatches (htmlCode, playerName) {
     const domParser = new DOMParser()
     const htmlDocument = domParser.parseFromString(htmlCode, 'text/html')
     const tableDocument = htmlDocument.getElementsByClassName('fcftable').item(0)
@@ -18,6 +18,7 @@ class CalendarTableParseService {
       match.datetime = datetime
       match.date = this.datetimeToDateString(datetime)
       match.time = this.datetimeToTimeString(datetime)
+      match.playerName = playerName
       match.homeTeam = this.transformTeamName(tdFields.item(3).textContent.trim())
       match.awayTeam = this.transformTeamName(tdFields.item(4).textContent.trim())
       match.result = tdFields.item(5).textContent.trim()
