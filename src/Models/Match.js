@@ -8,6 +8,8 @@ class Match {
   result
   playerName
   isAway
+  isRivalRetired
+  isResting
 }
 
 export default Match

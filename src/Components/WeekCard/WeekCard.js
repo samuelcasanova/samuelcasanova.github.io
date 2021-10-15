@@ -12,7 +12,7 @@ class WeekCard extends React.Component {
       matchdaytext = <div><span>Jornada { this.props.week.matches[0].matchday }</span></div>
     }
     return (
-            <div>
+            <div className='weekcard'>
               <div className='matchdaytext'>{matchdaytext}</div>
               <div>
                 {

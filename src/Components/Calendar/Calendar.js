@@ -1,6 +1,7 @@
 import React from 'react'
 import WeekCard from '../WeekCard/WeekCard'
 import CalendarService from './CalendarService'
+import './Calendar.css'
 
 class Calendar extends React.Component {
   constructor (props) {

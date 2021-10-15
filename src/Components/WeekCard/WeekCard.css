@@ -1,4 +1,8 @@
 .matchdaytext {
-  padding: 4vmin 0 4vmin 0;
+  padding: 2vmin 0 2vmin 0;
   text-align: center;
+}
+
+.weekcard {
+  margin-top: 2vmin;
 }
