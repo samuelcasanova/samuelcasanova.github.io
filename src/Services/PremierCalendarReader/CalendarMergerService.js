@@ -32,13 +32,16 @@ class CalendarMergerService {
         if (today > lastMatchEndOfMatchTime) {
           calendar.currentWeekIndex++
         }
-
+        currentWeekProcessing.shortDescription = this.getWeekShortDescription(currentWeekProcessing.matches)
+        currentMatchProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
         currentWeekProcessing = new Week(currentMatchProcessingWeekOfYear)
         calendar.weeks.push(currentWeekProcessing)
       }
 
       currentWeekProcessing.matches.push(currentMatchProcessing)
     }
+    currentWeekProcessing.shortDescription = this.getWeekShortDescription(currentWeekProcessing.matches)
+    currentMatchProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
     return calendar
   }
 
@@ -48,6 +51,48 @@ class CalendarMergerService {
     const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
     const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7)
     return weekNo
+  }
+
+  getWeekShortDescription (matches) {
+    let currentDay = matches[0].datetime.getDate()
+    let weekShortDescription = matches[0].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase() + ' '
+    for (let i = 0; i < matches.length; i++) {
+      if (matches[i].datetime.getDate() !== currentDay) {
+        currentDay = matches[i].datetime.getDate()
+        weekShortDescription += matches[i].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase() + ' '
+      }
+      weekShortDescription += matches[i].playerName + ' ' + matches[i].time + ' ' + (matches[i].isAway ? 'Fuera' : 'Casa') + ', '
+    }
+    return weekShortDescription.substring(0, weekShortDescription.length - 2)
+  }
+
+  isProblematic (matches) {
+    if (matches.length < 2) {
+      return false
+    }
+    let match1 = matches[0]
+    for (let i = 1; i < matches.length; i++) {
+      if (this.areMatchesProblematics(match1, matches[i])) {
+        return true
+      }
+      match1 = matches[i]
+    }
+    return false
+  }
+
+  areMatchesProblematics (match1, match2) {
+    // problems when it's the same day and ((timespan between matches is < 1,5h both at home) or (timespan between matches is < 3h at least one is away))
+    if (match1.datetime.getDate() !== match2.datetime.getDate()) {
+      return false
+    }
+    const timeBetweenMatchesInHours = (match2.datetime - match1.datetime) / (1000 * 60 * 60)
+    if (!match1.isAway && !match2.isAway && timeBetweenMatchesInHours > 1.5) {
+      return false
+    }
+    if ((match1.isAway || match2.isAway) && timeBetweenMatchesInHours > 3) {
+      return false
+    }
+    return true
   }
 }
 

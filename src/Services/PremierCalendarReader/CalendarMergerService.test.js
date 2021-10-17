@@ -15,19 +15,19 @@ describe('Merging calendars', () => {
       { datetime: new Date(2021, 9, 16, 12, 0), homeTeam: 'Home 12', awayTeam: 'Away 12' }
     ]
     simpleCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 10, 11, 30), homeTeam: 'Home 21', awayTeam: 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 12, 30), homeTeam: 'Home 22', awayTeam: 'Away 22' }
+      { playerName: 'Victor', datetime: new Date(2021, 9, 10, 11, 30), homeTeam: 'Home 21', awayTeam: 'Away 21' },
+      { playerName: 'Victor', datetime: new Date(2021, 9, 17, 12, 30), homeTeam: 'Home 22', awayTeam: 'Away 22' }
     ]
     complexCalendarMatches1 = [
-      { datetime: new Date(2021, 9, 9, 11, 0), homeTeam: 'Home 11', awayTeam: 'Away 11' },
-      { datetime: new Date(2021, 9, 16, 11, 0), homeTeam: 'Home 12', awayTeam: 'Away 12' },
-      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam: 'Home 13', awayTeam: 'Away 13' },
-      { datetime: new Date(2021, 9, 31, 12, 0), homeTeam: 'Home 14', awayTeam: 'Away 14' }
+      { playerName: 'Alex', datetime: new Date(2021, 9, 9, 11, 0), time: '11:00h', homeTeam: 'Home 11', awayTeam: 'Away 11', isAway: false },
+      { playerName: 'Alex', datetime: new Date(2021, 9, 16, 11, 0), time: '11:00h', homeTeam: 'Home 12', awayTeam: 'Away 12', isAway: false },
+      { playerName: 'Alex', datetime: new Date(2021, 9, 23, 9, 0), time: '9:00h', homeTeam: 'Home 13', awayTeam: 'Away 13', isAway: true },
+      { playerName: 'Alex', datetime: new Date(2021, 9, 31, 12, 0), time: '12:00h', homeTeam: 'Home 14', awayTeam: 'Away 14', isAway: false }
     ]
     complexCalendarMatches2 = [
-      { datetime: new Date(2021, 9, 9, 11, 30), homeTeam: 'Home 21', awayTeam: 'Away 21' },
-      { datetime: new Date(2021, 9, 17, 11, 0), homeTeam: 'Home 22', awayTeam: 'Away 22' },
-      { datetime: new Date(2021, 9, 23, 11, 0), homeTeam: 'Home 23', awayTeam: 'Away 23' }
+      { playerName: 'Victor', datetime: new Date(2021, 9, 9, 11, 30), time: '11:30h', homeTeam: 'Home 21', awayTeam: 'Away 21', isAway: true },
+      { playerName: 'Victor', datetime: new Date(2021, 9, 17, 11, 0), time: '11:00h', homeTeam: 'Home 22', awayTeam: 'Away 22', isAway: false },
+      { playerName: 'Victor', datetime: new Date(2021, 9, 23, 13, 0), time: '13:00h', homeTeam: 'Home 23', awayTeam: 'Away 23', isAway: false }
     ]
   })
 
@@ -114,6 +114,47 @@ describe('Merging calendars', () => {
     test('First match of fourth week is Home 14 vs Away 14', () => {
       expect(calendar.weeks[3].matches[0].homeTeam).toBe('Home 14')
       expect(calendar.weeks[3].matches[0].awayTeam).toBe('Away 14')
+    })
+    test('First week short description is SÁB. Alex 11:00h Casa, Victor 11:30h Fuera', () => {
+      const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[0].matches)
+      expect(weekShortDescription).toBe('SÁB. Alex 11:00h Casa, Victor 11:30h Fuera')
+    })
+    test('Second week short description is SÁB. Alex 11:00h Casa, DOM. Victor 11:30h Casa', () => {
+      const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[1].matches)
+      expect(weekShortDescription).toBe('SÁB. Alex 11:00h Casa, DOM. Victor 11:00h Casa')
+    })
+    test('Third week short description is SÁB. Alex 9:00h Fuera, Victor 13:00h Casa', () => {
+      const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[2].matches)
+      expect(weekShortDescription).toBe('SÁB. Alex 9:00h Fuera, Victor 13:00h Casa')
+    })
+    test('Fourth week short description is DOM. Alex 12:00h Casa', () => {
+      const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[3].matches)
+      expect(weekShortDescription).toBe('DOM. Alex 12:00h Casa')
+    })
+  })
+
+  describe('Checking problems between matches', () => {
+    beforeAll(() => {
+      calendar = calendarMergerService.mergeMatchesIntoCalendar(complexCalendarMatches1, complexCalendarMatches2)
+    })
+    test('Matches of the first week are problematic', () => {
+      const areMatchesProblematic = calendarMergerService.areMatchesProblematics(complexCalendarMatches1[0], complexCalendarMatches2[0])
+      expect(areMatchesProblematic).toBeTruthy()
+    })
+    test('Matches of the second week are not problematic', () => {
+      const areMatchesProblematic = calendarMergerService.areMatchesProblematics(complexCalendarMatches1[1], complexCalendarMatches2[1])
+      expect(areMatchesProblematic).toBeFalsy()
+    })
+    test('Matches of the third week are not problematic', () => {
+      const areMatchesProblematic = calendarMergerService.areMatchesProblematics(complexCalendarMatches1[2], complexCalendarMatches2[2])
+      expect(areMatchesProblematic).toBeFalsy()
+    })
+    test('First week is calculated as problematic', () => {
+      const isWeekProblematic = calendarMergerService.isProblematic(calendar.weeks[0].matches)
+      expect(isWeekProblematic).toBeTruthy()
+    })
+    test('First week is problematic', () => {
+      expect(calendar.weeks[0].isProblematic).toBeTruthy()
     })
   })
 

@@ -1,8 +1,20 @@
-.matchdaytext {
+.Collapsible__trigger {
   padding: 2vmin 0 2vmin 0;
-  text-align: center;
+  text-align: center; 
+  display: block;
+  position: relative;
+  font-size: calc(6px + 2vmin);
 }
 
-.weekcard {
-  margin-top: 2vmin;
+.Collapsible__trigger:after {
+    content: "+";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+}
+
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
 }

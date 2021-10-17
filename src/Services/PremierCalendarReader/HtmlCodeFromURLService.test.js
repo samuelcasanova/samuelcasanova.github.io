@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import HtmlCodeFromURLService from './HtmlCodeFromURLService'
 
-describe('Retrieving source code for Premier football website', () => {
+describe('INTEGRATION: Retrieving source code for Premier football website', () => {
   let htmlCode = null
 
   beforeAll(async () => {

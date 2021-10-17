@@ -11,7 +11,7 @@ class FieldCard extends React.Component {
       fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(this.props.match.homeTeam)
     } else {
       fieldIcon = 'home'
-      fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI('Esola Premier Barcelona')
+      fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI('Escola Premier Barcelona')
     }
 
     return (
