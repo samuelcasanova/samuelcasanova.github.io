@@ -55,15 +55,14 @@ class CalendarMergerService {
 
   getWeekShortDescription (matches) {
     let currentDay = matches[0].datetime.getDate()
-    let weekShortDescription = matches[0].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase() + ' '
+    let weekShortDescription = matches[0].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase().substring(0, 3)
     for (let i = 0; i < matches.length; i++) {
       if (matches[i].datetime.getDate() !== currentDay) {
         currentDay = matches[i].datetime.getDate()
-        weekShortDescription += matches[i].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase() + ' '
+        weekShortDescription += '+' + matches[i].datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase().substring(0, 3)
       }
-      weekShortDescription += matches[i].playerName + ' ' + matches[i].time + ' ' + (matches[i].isAway ? 'Fuera' : 'Casa') + ', '
     }
-    return weekShortDescription.substring(0, weekShortDescription.length - 2)
+    return weekShortDescription
   }
 
   isProblematic (matches) {

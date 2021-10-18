@@ -13,7 +13,7 @@ class WeekCard extends React.Component {
       matchdaytext = 'Próxima Jornada'
       isCollapsibleOpen = true
     } else {
-      matchdaytext = 'Jornada ' + this.props.week.matches[0].matchday + ' (' + this.props.week.shortDescription + ')'
+      matchdaytext = 'Jornada ' + this.props.week.matches[0].matchday + ' ' + this.props.week.shortDescription
     }
     if (this.props.week.isProblematic) {
       collapsibleTriggerClass += ' problematic'
@@ -21,7 +21,8 @@ class WeekCard extends React.Component {
     return (
             <div className='weekcard'>
               {/* <div className='matchdaytext'>{matchdaytext}</div> */}
-              <Collapsible trigger={matchdaytext} triggerTagName='div' open={isCollapsibleOpen} triggerClassName={collapsibleTriggerClass}>
+              <Collapsible trigger={matchdaytext} triggerTagName='div' open={isCollapsibleOpen} triggerClassName={collapsibleTriggerClass}
+                triggerOpenedClassName={collapsibleTriggerClass}>
                 <div>
                   {
                     this.props.week.matches.map(

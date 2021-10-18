@@ -115,21 +115,17 @@ describe('Merging calendars', () => {
       expect(calendar.weeks[3].matches[0].homeTeam).toBe('Home 14')
       expect(calendar.weeks[3].matches[0].awayTeam).toBe('Away 14')
     })
-    test('First week short description is SÁB. Alex 11:00h Casa, Victor 11:30h Fuera', () => {
+    test('First week short description is SÁB', () => {
       const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[0].matches)
-      expect(weekShortDescription).toBe('SÁB. Alex 11:00h Casa, Victor 11:30h Fuera')
+      expect(weekShortDescription).toBe('SÁB')
     })
-    test('Second week short description is SÁB. Alex 11:00h Casa, DOM. Victor 11:30h Casa', () => {
+    test('Second week short description is SÁB+DOM', () => {
       const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[1].matches)
-      expect(weekShortDescription).toBe('SÁB. Alex 11:00h Casa, DOM. Victor 11:00h Casa')
+      expect(weekShortDescription).toBe('SÁB+DOM')
     })
-    test('Third week short description is SÁB. Alex 9:00h Fuera, Victor 13:00h Casa', () => {
-      const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[2].matches)
-      expect(weekShortDescription).toBe('SÁB. Alex 9:00h Fuera, Victor 13:00h Casa')
-    })
-    test('Fourth week short description is DOM. Alex 12:00h Casa', () => {
+    test('Fourth week short description is DOM', () => {
       const weekShortDescription = calendarMergerService.getWeekShortDescription(calendar.weeks[3].matches)
-      expect(weekShortDescription).toBe('DOM. Alex 12:00h Casa')
+      expect(weekShortDescription).toBe('DOM')
     })
   })
 
