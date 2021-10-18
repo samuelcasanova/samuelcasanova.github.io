@@ -18,3 +18,7 @@
 .Collapsible__trigger.is-open:after {
   transform: rotateZ(180deg);
 }
+
+.problematic {
+  color: #ffaaaa;
+}

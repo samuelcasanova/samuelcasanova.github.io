@@ -33,7 +33,7 @@ class CalendarMergerService {
           calendar.currentWeekIndex++
         }
         currentWeekProcessing.shortDescription = this.getWeekShortDescription(currentWeekProcessing.matches)
-        currentMatchProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
+        currentWeekProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
         currentWeekProcessing = new Week(currentMatchProcessingWeekOfYear)
         calendar.weeks.push(currentWeekProcessing)
       }
@@ -41,7 +41,7 @@ class CalendarMergerService {
       currentWeekProcessing.matches.push(currentMatchProcessing)
     }
     currentWeekProcessing.shortDescription = this.getWeekShortDescription(currentWeekProcessing.matches)
-    currentMatchProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
+    currentWeekProcessing.isProblematic = this.isProblematic(currentWeekProcessing.matches)
     return calendar
   }
 
@@ -81,18 +81,10 @@ class CalendarMergerService {
   }
 
   areMatchesProblematics (match1, match2) {
-    // problems when it's the same day and ((timespan between matches is < 1,5h both at home) or (timespan between matches is < 3h at least one is away))
-    if (match1.datetime.getDate() !== match2.datetime.getDate()) {
-      return false
-    }
+    const areTheSameDay = match1.datetime.getDate() === match2.datetime.getDate()
     const timeBetweenMatchesInHours = (match2.datetime - match1.datetime) / (1000 * 60 * 60)
-    if (!match1.isAway && !match2.isAway && timeBetweenMatchesInHours > 1.5) {
-      return false
-    }
-    if ((match1.isAway || match2.isAway) && timeBetweenMatchesInHours > 3) {
-      return false
-    }
-    return true
+    const atLeastOneIsAway = match1.isAway || match2.isAway
+    return (areTheSameDay && timeBetweenMatchesInHours < 3 && atLeastOneIsAway)
   }
 }
 
