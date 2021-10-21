@@ -1,4 +1,5 @@
 import Match from '../../Models/Match'
+import config from '../../config.json'
 
 class CalendarTableParseService {
   parseMatches (htmlCode, playerName) {
@@ -63,8 +64,12 @@ class CalendarTableParseService {
   }
 
   transformTeamName (teamNameString) {
-    const replacedToPremierShortName = teamNameString.replace('ESCOLA DE FUTBOL PREMIER BARCELONA', 'PREMIER')
-    return this.toTitleCase(replacedToPremierShortName)
+    let transformedTeamName = teamNameString
+    config.teamNameReplacements.forEach((item) => {
+      transformedTeamName = transformedTeamName.replace(item.teamNameToReplace, item.newTeamName)
+    })
+    transformedTeamName = this.toTitleCase(transformedTeamName)
+    return transformedTeamName
   }
 
   datetimeToDateString (datetime) {
@@ -88,14 +93,18 @@ class CalendarTableParseService {
   }
 
   isAway (homeTeam, awayTeam) {
-    const isAway = awayTeam.toLowerCase().includes('premier')
+    const isAway = awayTeam.toLowerCase().includes(config.teamNameToIdentifyAwayMatches)
     return isAway
   }
 
   isRivalRetired (homeTeam, awayTeam) {
-    const retiredTeam = 'Don Bosco, C.f. A'
-    const isRivalRetired = awayTeam === retiredTeam || homeTeam === retiredTeam
-    return isRivalRetired
+    config.retiredTeams.forEach((item) => {
+      const isRivalRetired = awayTeam === item.teamName || homeTeam === item.teamName
+      if (isRivalRetired) {
+        return true
+      }
+    })
+    return false
   }
 
   isResting (homeTeam, awayTeam) {
