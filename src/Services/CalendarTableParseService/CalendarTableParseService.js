@@ -27,23 +27,6 @@ class CalendarTableParseService {
       match.isRivalRetired = this.isRivalRetired(match.homeTeam, match.awayTeam)
       match.isResting = this.isResting(match.homeTeam, match.awayTeam)
       matches.push(match)
-      // TODO Remove this after the 17/10
-      if (match.isRivalRetired && match.homeTeam === 'Don Bosco, C.f. A') {
-        const friendlyMatch = new Match()
-        friendlyMatch.matchday = 2
-        const datetime = this.parseDateAndTime('17-10-2021', '12:30')
-        friendlyMatch.datetime = datetime
-        friendlyMatch.date = this.datetimeToDateString(datetime)
-        friendlyMatch.time = this.datetimeToTimeString(datetime)
-        friendlyMatch.playerName = 'Alex'
-        friendlyMatch.homeTeam = 'Premier F'
-        friendlyMatch.awayTeam = 'Premier G (Amistoso)'
-        friendlyMatch.result = ''
-        friendlyMatch.isAway = false
-        friendlyMatch.isRivalRetired = false
-        friendlyMatch.isResting = this.isResting(match.homeTeam, match.awayTeam)
-        matches.push(friendlyMatch)
-      }
     }
 
     return matches

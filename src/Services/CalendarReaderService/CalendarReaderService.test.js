@@ -1,4 +1,5 @@
 import CalendarReaderService from './CalendarReaderService'
+import config from '../../config.json'
 
 /* eslint-disable no-undef */
 describe('Merging Internet calendars', () => {
@@ -6,14 +7,14 @@ describe('Merging Internet calendars', () => {
   let calendar = null
 
   describe('Getting correctly the 2 calendars', () => {
-    test('PreBenjamin calendar has >20 matches', async () => {
-      const preBenjaminMatches = await calendarReaderService.getMatchesFromURL(calendarReaderService.preBenjaminUrl)
-      expect(preBenjaminMatches.length).toBeGreaterThan(20)
+    test('Player 1 calendar has >20 matches', async () => {
+      const player1Matches = await calendarReaderService.getMatchesFromURL(config.players[0].calendarUrl)
+      expect(player1Matches.length).toBeGreaterThan(20)
     })
 
-    test('Benjamin calendar has >20 matches', async () => {
-      const benjaminMatches = await calendarReaderService.getMatchesFromURL(calendarReaderService.benjaminUrl)
-      expect(benjaminMatches.length).toBeGreaterThan(20)
+    test('Player 2 calendar has >20 matches', async () => {
+      const player2Matches = await calendarReaderService.getMatchesFromURL(config.players[1].calendarUrl)
+      expect(player2Matches.length).toBeGreaterThan(20)
     })
   })
 
