@@ -1,25 +1,25 @@
-import PremierCalendarReaderService from './PremierCalendarReaderService'
+import CalendarReaderService from './CalendarReaderService'
 
 /* eslint-disable no-undef */
 describe('Merging Internet calendars', () => {
-  const premierCalendarReaderService = new PremierCalendarReaderService()
+  const calendarReaderService = new CalendarReaderService()
   let calendar = null
 
   describe('Getting correctly the 2 calendars', () => {
     test('PreBenjamin calendar has >20 matches', async () => {
-      const preBenjaminMatches = await premierCalendarReaderService.getMatchesFromURL(premierCalendarReaderService.preBenjaminUrl)
+      const preBenjaminMatches = await calendarReaderService.getMatchesFromURL(calendarReaderService.preBenjaminUrl)
       expect(preBenjaminMatches.length).toBeGreaterThan(20)
     })
 
     test('Benjamin calendar has >20 matches', async () => {
-      const benjaminMatches = await premierCalendarReaderService.getMatchesFromURL(premierCalendarReaderService.benjaminUrl)
+      const benjaminMatches = await calendarReaderService.getMatchesFromURL(calendarReaderService.benjaminUrl)
       expect(benjaminMatches.length).toBeGreaterThan(20)
     })
   })
 
   describe('Checking the length of the season', () => {
     test('Merging 2 simple calendars groups correctly into 2 weeks', async () => {
-      calendar = await premierCalendarReaderService.getPremierCalendar()
+      calendar = await calendarReaderService.getCalendar()
       expect(calendar.weeks.length).toBeGreaterThan(20)
     })
   })

@@ -1,10 +1,10 @@
-import PremierCalendarReaderService from '../../Services/PremierCalendarReader/PremierCalendarReaderService'
+import CalendarReaderService from '../../Services/CalendarReaderService/CalendarReaderService'
 
 class CalendarService {
   async getCalendar () {
-    const premierCalendarReaderService = new PremierCalendarReaderService()
-    const premierCalendar = await premierCalendarReaderService.getPremierCalendar()
-    return premierCalendar
+    const calendarReaderService = new CalendarReaderService()
+    const calendar = await calendarReaderService.getCalendar()
+    return calendar
   }
 }
 

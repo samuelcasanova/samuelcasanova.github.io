@@ -1,4 +1,4 @@
-class HtmlCodeFromURLService {
+class HtmlCodeFromUrlService {
   async getHtmlCodeFromURL (url) {
     try {
       return fetch(url).then((response) => response.text()).then(htmlCode =>
@@ -11,4 +11,4 @@ class HtmlCodeFromURLService {
   }
 }
 
-export default HtmlCodeFromURLService
+export default HtmlCodeFromUrlService

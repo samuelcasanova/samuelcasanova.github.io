@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
-import HtmlCodeFromURLService from './HtmlCodeFromURLService'
+import HtmlCodeFromUrlService from './HtmlCodeFromUrlService'
 
 describe('INTEGRATION: Retrieving source code for Premier football website', () => {
   let htmlCode = null
 
   beforeAll(async () => {
-    const htmlCodeFromURLService = new HtmlCodeFromURLService()
+    const htmlCodeFromURLService = new HtmlCodeFromUrlService()
     htmlCode = await htmlCodeFromURLService.getHtmlCodeFromURL('https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f')
   })
 
