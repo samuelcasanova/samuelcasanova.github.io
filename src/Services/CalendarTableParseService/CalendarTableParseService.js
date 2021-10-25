@@ -1,35 +1,65 @@
-import Match from '../../Models/Match'
+import Match from '../../Models/Match/Match'
 import config from '../../config.json'
 
 class CalendarTableParseService {
   parseMatches (htmlCode, playerName) {
+    const trRows = this.readMatchesRows(htmlCode)
+
+    const matches = []
+
+    for (let i = 0; i < trRows.length; i++) {
+      const tdFields = trRows.item(i).getElementsByTagName('td')
+      const matchdayString = this.readMatchDayFromRow(tdFields)
+      const datetime = this.getDatetimeFromRow(tdFields)
+      const homeTeam = this.getHomeTeamFromRow(tdFields)
+      const awayTeam = this.getAwayTeamFromRow(tdFields)
+      const resultString = this.getResultFromRow(tdFields)
+
+      const match = new Match(homeTeam, awayTeam)
+      match.matchday = matchdayString
+      match.setDatetime(datetime)
+      match.playerName = playerName
+      match.result = resultString
+      matches.push(match)
+    }
+
+    return matches
+  }
+
+  getResultFromRow (tdFields) {
+    return tdFields.item(5).textContent.trim()
+  }
+
+  getAwayTeamFromRow (tdFields) {
+    const awayTeamString = tdFields.item(4).textContent.trim()
+    const parsedAwayTeam = this.parseTeamName(awayTeamString)
+    return parsedAwayTeam
+  }
+
+  getHomeTeamFromRow (tdFields) {
+    const homeTeamString = tdFields.item(3).textContent.trim()
+    const parsedHomeTeam = this.parseTeamName(homeTeamString)
+    return parsedHomeTeam
+  }
+
+  getDatetimeFromRow (tdFields) {
+    const dateString = tdFields.item(1).textContent.trim()
+    const timeString = tdFields.item(2).textContent.trim()
+    const datetime = this.parseDateAndTime(dateString, timeString)
+    return datetime
+  }
+
+  readMatchDayFromRow (tdFields) {
+    return tdFields.item(0).textContent.trim()
+  }
+
+  readMatchesRows (htmlCode) {
     const domParser = new DOMParser()
     const htmlDocument = domParser.parseFromString(htmlCode, 'text/html')
     const tableDocument = htmlDocument.getElementsByClassName('fcftable').item(0)
     const tableBodyDocument = tableDocument.getElementsByTagName('tbody').item(0)
     const trRows = tableBodyDocument.getElementsByTagName('tr')
-
-    const matches = []
-
-    for (let i = 0; i < trRows.length; i++) {
-      const match = new Match()
-      const tdFields = trRows.item(i).getElementsByTagName('td')
-      match.matchday = tdFields.item(0).textContent.trim()
-      const datetime = this.parseDateAndTime(tdFields.item(1).textContent.trim(), tdFields.item(2).textContent.trim())
-      match.datetime = datetime
-      match.date = this.datetimeToDateString(datetime)
-      match.time = this.datetimeToTimeString(datetime)
-      match.playerName = playerName
-      match.homeTeam = this.transformTeamName(tdFields.item(3).textContent.trim())
-      match.awayTeam = this.transformTeamName(tdFields.item(4).textContent.trim())
-      match.result = tdFields.item(5).textContent.trim()
-      match.isAway = this.isAway(match.homeTeam, match.awayTeam)
-      match.isRivalRetired = this.isRivalRetired(match.homeTeam, match.awayTeam)
-      match.isResting = this.isResting(match.homeTeam, match.awayTeam)
-      matches.push(match)
-    }
-
-    return matches
+    return trRows
   }
 
   parseDateAndTime (dateString, timeString) {
@@ -46,7 +76,7 @@ class CalendarTableParseService {
     return datetime.toDateString()
   }
 
-  transformTeamName (teamNameString) {
+  parseTeamName (teamNameString) {
     let transformedTeamName = teamNameString
     config.teamNameReplacements.forEach((item) => {
       transformedTeamName = transformedTeamName.replace(item.teamNameToReplace, item.newTeamName)
@@ -55,44 +85,12 @@ class CalendarTableParseService {
     return transformedTeamName
   }
 
-  datetimeToDateString (datetime) {
-    const formattedDateString = datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', day: '2-digit', month: 'short', weekday: 'short' })
-    const uppercaseAndRemovedCommas = formattedDateString.toUpperCase().replace(',', '')
-    return uppercaseAndRemovedCommas
-  }
-
-  datetimeToTimeString (datetime) {
-    const formattedTimeString = datetime.toLocaleTimeString('es-ES', { hour12: false, hour: '2-digit', minute: '2-digit' })
-    const addedH = formattedTimeString + 'h'
-    return addedH
-  }
-
   toTitleCase (text) {
     return text
       .toLowerCase()
       .split(' ')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ')
-  }
-
-  isAway (homeTeam, awayTeam) {
-    const isAway = awayTeam.toLowerCase().includes(config.teamNameToIdentifyAwayMatches)
-    return isAway
-  }
-
-  isRivalRetired (homeTeam, awayTeam) {
-    config.retiredTeams.forEach((item) => {
-      const isRivalRetired = awayTeam === item.teamName || homeTeam === item.teamName
-      if (isRivalRetired) {
-        return true
-      }
-    })
-    return false
-  }
-
-  isResting (homeTeam, awayTeam) {
-    const isResting = !homeTeam || !awayTeam
-    return isResting
   }
 }
 

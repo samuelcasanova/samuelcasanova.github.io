@@ -3,7 +3,7 @@ class Calendar {
     currentWeekIndex
     constructor () {
       this.weeks = []
-      this.currentWeekIndex = 0
+      this.currentWeekIndex = -1
     }
 }
 

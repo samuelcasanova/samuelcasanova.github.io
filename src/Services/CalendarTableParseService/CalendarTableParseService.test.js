@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import CalendarTableParseService from './CalendarTableParseService'
-import Match from '../../Models/Match'
+import Match from '../../Models/Match/Match'
 
 describe('Parsing simple calendar table', () => {
   const tableHtmlCode = `<html><head></head><body><table class="fcftable w-100 fs-12_ml">
@@ -58,7 +58,7 @@ describe('Parsing simple calendar table', () => {
     })
 
     test('match date is DOM. 10 OCT.', () => {
-      expect(singleMatch.date).toBe('DOM. 10 OCT.')
+      expect(singleMatch.date).toBe('DOM 10 OCT')
     })
 
     test('match datetime day is correctly merged and printed', () => {
@@ -90,6 +90,18 @@ describe('Parsing simple calendar table', () => {
     test('First match has home and away', () => {
       expect(matches[0].homeTeam).toBeDefined()
       expect(matches[0].awayTeam).toBeDefined()
+    })
+  })
+
+  describe('Testing CalendarTableParseService internal functions', () => {
+    test('Parsing team name: BARCINO D', () => {
+      const parsedName = calendarTableParseService.parseTeamName('BARCINO D')
+      expect(parsedName).toBe('Barcino D')
+    })
+
+    test('Parsing Premier name: ESCOLA DE FUTBOL PREMIER BARCELONA F', () => {
+      const parsedName = calendarTableParseService.parseTeamName('ESCOLA DE FUTBOL PREMIER BARCELONA F')
+      expect(parsedName).toBe('Premier F')
     })
   })
 })
