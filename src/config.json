@@ -15,12 +15,14 @@
             "newTeamName": "PREMIER F"
         },
         {
+            "teamNameToReplace": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
+            "newTeamName": "PREMIER C"
+        },
+        {
             "teamNameToReplace": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
             "newTeamName": "PREMIER D"
         }
     ],
     "teamNameToIdentifyAwayMatches": "premier",
-    "retiredTeams": [
-        { "teamName": "Don Bosco, C.f. A" }
-    ]
+    "applicationDataUrl": "applicationData.json"
 }

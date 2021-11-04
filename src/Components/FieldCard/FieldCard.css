@@ -28,11 +28,11 @@
   font-feature-settings: 'liga';
 }
 
-a:link {
+a.fieldcard:link {
   color: #000;
 }
 
 /* visited link */
-a:visited {
+a.fieldcard:visited {
   color: #000;
 }

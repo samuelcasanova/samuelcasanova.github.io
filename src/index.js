@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
-import Calendar from './Components/Calendar/Calendar'
+import { Switch, Route, HashRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
+import Calendar from './Components/Calendar/Calendar'
+import Categories from './Components/Categories/Categories'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
-    <Calendar/>
-    <Footer />
+    <HashRouter>
+      <Header/>
+      <Switch>
+        <Route exact path='/' component={Calendar}/>
+        <Route path='/Categorias' component={Categories}/>
+      </Switch>
+      <Footer />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 )

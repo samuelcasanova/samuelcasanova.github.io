@@ -13,8 +13,10 @@ describe('Testing Match model', () => {
   })
 
   test('Teams are correctly set', () => {
-    expect(homeMatch.homeTeam).toBe('Premier F')
-    expect(homeMatch.awayTeam).toBe('Don Bosco, C.f. A')
+    expect(homeMatch.homeTeam).not.toBeNull()
+    expect(homeMatch.awayMatch).not.toBeNull()
+    expect(homeMatch.homeTeam.name).toBe('Premier F')
+    expect(homeMatch.awayTeam.name).toBe('Don Bosco, C.f. A')
   })
 
   test('Date and time is correctly set', () => {
@@ -29,7 +31,7 @@ describe('Testing Match model', () => {
     expect(awayMatch.isAway).toBeTruthy()
   })
 
-  test('When the rival is Don Bosco then is retired, otherwise is not', () => {
+  test('Home match rival is retired, away is not', () => {
     expect(homeMatch.isRivalRetired).toBeTruthy()
     expect(awayMatch.isRivalRetired).toBeFalsy()
   })

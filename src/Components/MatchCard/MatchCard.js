@@ -3,6 +3,7 @@ import './MatchCard.css'
 import PropTypes from 'prop-types'
 import PlayerCard from '../PlayerCard/PlayerCard'
 import FieldCard from '../FieldCard/FieldCard'
+import TeamsCard from '../TeamsCard/TeamsCard'
 
 class MatchCard extends React.Component {
   render () {
@@ -14,7 +15,7 @@ class MatchCard extends React.Component {
         </div>
       )
     } else if (this.props.match.isRivalRetired) {
-      const retiredTeam = this.props.match.isAway ? this.props.match.homeTeam : this.props.match.awayTeam
+      const retiredTeam = this.props.match.isAway ? this.props.match.homeTeam.name : this.props.match.awayTeam.name
       return (
         <div className='container'>
             <span className='playerName'><PlayerCard playerName={ this.props.match.playerName }/></span>
@@ -27,7 +28,7 @@ class MatchCard extends React.Component {
             <span className='date'> { this.props.match.date } </span>
             <span className='time'> { this.props.match.time } </span>
             <span className='playerName'><PlayerCard playerName={ this.props.match.playerName }/></span>
-            <span className='teams'> { this.props.match.homeTeam } vs { this.props.match.awayTeam } </span>
+            <span className='teams'>  <TeamsCard match={ (this.props.match) }/></span>
             <span className='isAway'> <FieldCard match={ (this.props.match) }/></span>
         </div>
       )
@@ -41,8 +42,8 @@ MatchCard.propTypes = {
     date: PropTypes.string.isRequired,
     time: PropTypes.string.isRequired,
     playerName: PropTypes.string.isRequired,
-    homeTeam: PropTypes.string.isRequired,
-    awayTeam: PropTypes.string.isRequired,
+    homeTeam: PropTypes.object.isRequired,
+    awayTeam: PropTypes.object.isRequired,
     isAway: PropTypes.bool.isRequired,
     isRivalRetired: PropTypes.bool.isRequired,
     isResting: PropTypes.bool.isRequired

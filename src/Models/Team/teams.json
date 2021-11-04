@@ -1,0 +1,141 @@
+{
+    "teams": [
+        {
+            "name": "BARCELONETA, C.F. B",
+            "fieldName": "CAMP DE FUTBOL MPAL. PARC CATALANA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/barceloneta-cf-b"
+        },
+        {
+            "name": "FUNDACIO P. CE. JUPITER C",
+            "fieldName": "CAMP DE FUTBOL CEM JÚPITER",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/fundacio-p-ce-jupiter-c"
+        },
+        {
+            "name": "MARTINENC, F.C. E",
+            "fieldName": "CAMP DE FUTBOL CEM GUINARDÓ",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/martinenc-fc-e"
+        },
+        {
+            "name": "SISTRELLS C.F. B",
+            "fieldName": "CAMP DE FUTBOL ZEM CAN CABANYES",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/sistrells-cf-b"
+        },
+        {
+            "name": "Pª BARC. BARCINO, CE C",
+            "fieldName": "CAMP DE FUTBOL MPAL. MENORCA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/pa-barc-barcino-ce-c"
+        },
+        {
+            "name": "FUNDACIÓ ACADÈMIA F. L'HOSPITALET B",
+            "fieldName": "CAMP DE FUTBOL MPAL. SANTA EULÀLIA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/fundacio-academia-f-lhospitalet-b"
+        },
+        {
+            "name": "HORTA, U.AT. C",
+            "fieldName": "CAMP DE FUTBOL MPAL. HORTA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/horta-uat-c"
+        },
+        {
+            "name": "SANT GABRIEL, C.D. B",
+            "fieldName": "PAVELLÓ ZEM LA MINA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/sant-gabriel-cd-b"
+        },
+        {
+            "name": "LLOREDA, C.F. D",
+            "fieldName": "CAMP DE FUTBOL MPAL. LLOREDA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/lloreda-cf-d"
+        },
+        {
+            "name": "POBLE NOU ,AT. B",
+            "fieldName": "CAMP DE FUTBOL CEM BOGATELL",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/poble-nou-at-b"
+        },
+        {
+            "name": "Premier F",
+            "fieldName": "CAMP DE FUTBOL MUNICIPAL VALL D'HEBRON",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f"
+        },
+        {
+            "name": "Premier D",
+            "fieldName": "CAMP DE FUTBOL MUNICIPAL VALL D'HEBRON",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/escola-de-futbol-premier-barcelona-d"
+        },
+        {
+            "name": "IMPERIO , C.F. A",
+            "fieldName": "CAMP DE FUTBOL CEM CAN ZAM",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/imperio-cf-a"
+        },
+        {
+            "name": "FUNDACIÓ P. CE. JÚPITER D",
+            "fieldName": "CAMP DE FUTBOL CEM JÚPITER",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/fundacio-p-ce-jupiter-d"
+        },
+        {
+            "name": "YOUNG TALENT BADALONA SUD ASSOC.ESP. B",
+            "fieldName": "CAMP DE FUTBOL MPAL. DE BADALONA SUD",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/young-talent-badalona-sud-assocesp-b"
+        },
+        {
+            "name": "LES CORTS DE BARCELONA CLUB ESP. A",
+            "fieldName": "CAMP DE FUTBOL CEM ARISTIDES MAILLOL",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/les-corts-de-barcelona-club-esp-a"
+        },
+        {
+            "name": "LLOREDA, C.F. B",
+            "fieldName": "CAMP DE FUTBOL MPAL. LLOREDA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/lloreda-cf-b"
+        },
+        {
+            "name": "UNIFICACIÓN LLEFIÀ,CF. D",
+            "fieldName": "CAMP DE FUTBOL MPAL. LLEFIÀ",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/unificacion-llefia-cf-d"
+        },
+        {
+            "name": "UNIFICACIÓN BELLVITGE, U.D. C",
+            "fieldName": "CAMP DE FUTBOL MPAL. LA FEIXA LLARGA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/unificacion-bellvitge-ud-c"
+        },
+        {
+            "name": "GRANJA VELLA , UNIÓ ESPORTIVA A",
+            "fieldName": " CAMP DE FUTBOL CLUB MEILAND",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/granja-vella-unio-esportiva-a"
+        },
+        {
+            "name": "POMAR, C.D. A",
+            "fieldName": "CAMP DE FUTBOL MPAL. POMAR",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/pomar-cd-a"
+        },
+        {
+            "name": "PENYA BLAUGRANA TRINITAT VELLA A",
+            "fieldName": "CAMP DE FUTBOL MPAL. TRINITAT VELLA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/penya-blaugrana-trinitat-vella-a"
+        },
+        {
+            "name": "APA POBLE SEC, CE. B",
+            "fieldName": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/apa-poble-sec-ce-b"
+        },
+        {
+            "name": "BUFALÀ, C.F. B",
+            "fieldName": "CAMP DE FUTBOL ZEM BUFALÀ",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/bufala-cf-b"
+        },
+        {
+            "name": "HORTA, U.AT. C",
+            "fieldName": "CAMP DE FUTBOL MPAL. HORTA",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/horta-uat-c"
+        },
+        {
+            "name": "DON BOSCO, C.F. A",
+            "fieldName": "CAMP DE FUTBOL ESCOLA INDUSTRIAL",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/don-bosco-cf-a",
+            "isRetired": true
+        },
+        {
+            "name": "MONTAÑESA, C.F. C",
+            "fieldName": "C.F. Montañesa",
+            "calendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/cf-montanesa",
+            "isRetired": true
+        }
+    ]
+}

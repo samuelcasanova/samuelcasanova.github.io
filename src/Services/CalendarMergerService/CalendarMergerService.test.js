@@ -7,6 +7,7 @@ describe('Merging calendars', () => {
   let calendar1Matches = null
   let calendar2Matches = null
   let calendar = null
+  let matches = null
 
   beforeAll(() => {
     const getNewMatchToTest = (playerName, datetime, homeTeam, awayTeam) => {
@@ -27,11 +28,12 @@ describe('Merging calendars', () => {
       getNewMatchToTest('Victor', new Date(2021, 9, 17, 11, 0), 'Premier D', 'Granja Vella'),
       getNewMatchToTest('Victor', new Date(2021, 9, 23, 13, 0), 'Barcino A', 'Premier D')
     ]
+    matches = calendarMergerService.getMergedAndSortedMatches(calendar1Matches, calendar2Matches)
   })
 
   describe('Merging 2 calendars', () => {
     beforeAll(() => {
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches)
     })
     test('Merging 2 simple calendars groups correctly into 2 weeks', () => {
       expect(calendar.weeks.length).toBe(4)
@@ -49,59 +51,59 @@ describe('Merging calendars', () => {
       expect(calendar.weeks[3].matches.length).toBe(1)
     })
     test('First match of first week is Premier F vs Barcino D', () => {
-      expect(calendar.weeks[0].matches[0].homeTeam).toBe('Premier F')
-      expect(calendar.weeks[0].matches[0].awayTeam).toBe('Barcino D')
+      expect(calendar.weeks[0].matches[0].homeTeam.name).toBe('Premier F')
+      expect(calendar.weeks[0].matches[0].awayTeam.name).toBe('Barcino D')
     })
     test('Second match of first week is Parets C vs Premier D', () => {
-      expect(calendar.weeks[0].matches[1].homeTeam).toBe('Parets C')
-      expect(calendar.weeks[0].matches[1].awayTeam).toBe('Premier D')
+      expect(calendar.weeks[0].matches[1].homeTeam.name).toBe('Parets C')
+      expect(calendar.weeks[0].matches[1].awayTeam.name).toBe('Premier D')
     })
     test('First match of second week is Premier F vs Sarrià B', () => {
-      expect(calendar.weeks[1].matches[0].homeTeam).toBe('Premier F')
-      expect(calendar.weeks[1].matches[0].awayTeam).toBe('Sarrià B')
+      expect(calendar.weeks[1].matches[0].homeTeam.name).toBe('Premier F')
+      expect(calendar.weeks[1].matches[0].awayTeam.name).toBe('Sarrià B')
     })
     test('Second match of second week is Premier D vs Granja Vella', () => {
-      expect(calendar.weeks[1].matches[1].homeTeam).toBe('Premier D')
-      expect(calendar.weeks[1].matches[1].awayTeam).toBe('Granja Vella')
+      expect(calendar.weeks[1].matches[1].homeTeam.name).toBe('Premier D')
+      expect(calendar.weeks[1].matches[1].awayTeam.name).toBe('Granja Vella')
     })
     test('First match of third week is Horta C vs Premier F', () => {
-      expect(calendar.weeks[2].matches[0].homeTeam).toBe('Horta C')
-      expect(calendar.weeks[2].matches[0].awayTeam).toBe('Premier F')
+      expect(calendar.weeks[2].matches[0].homeTeam.name).toBe('Horta C')
+      expect(calendar.weeks[2].matches[0].awayTeam.name).toBe('Premier F')
     })
     test('Second match of third week is Barcino A vs Premier D', () => {
-      expect(calendar.weeks[2].matches[1].homeTeam).toBe('Barcino A')
-      expect(calendar.weeks[2].matches[1].awayTeam).toBe('Premier D')
+      expect(calendar.weeks[2].matches[1].homeTeam.name).toBe('Barcino A')
+      expect(calendar.weeks[2].matches[1].awayTeam.name).toBe('Premier D')
     })
     test('First match of fourth week is Premier F vs Llefià', () => {
-      expect(calendar.weeks[3].matches[0].homeTeam).toBe('Premier F')
-      expect(calendar.weeks[3].matches[0].awayTeam).toBe('Llefià')
+      expect(calendar.weeks[3].matches[0].homeTeam.name).toBe('Premier F')
+      expect(calendar.weeks[3].matches[0].awayTeam.name).toBe('Llefià')
     })
   })
 
   describe('Checking current week when merging', () => {
     test('today is before all the calendar matches', () => {
       const aDayBeforeFirstWeek = new Date(2021, 9, 8)
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches, aDayBeforeFirstWeek)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches, aDayBeforeFirstWeek)
       expect(calendar.currentWeekIndex).toBe(0)
     })
     test('today is between first and second match of the first week', () => {
       const aDayBeforeFirstWeek = new Date(2021, 9, 9, 12, 30)
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches, aDayBeforeFirstWeek)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches, aDayBeforeFirstWeek)
       expect(calendar.currentWeekIndex).toBe(0)
     })
     test('today is rigth after the last match of the first week', () => {
       const aDayBeforeFirstWeek = new Date(2021, 9, 10, 13, 0)
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches, aDayBeforeFirstWeek)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches, aDayBeforeFirstWeek)
       expect(calendar.currentWeekIndex).toBe(1)
     })
     test('today is between the first and the last match of the second week', () => {
       const firstMatchSecondRoundAfternoon = new Date(2021, 9, 16, 17, 0)
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches, firstMatchSecondRoundAfternoon)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches, firstMatchSecondRoundAfternoon)
       expect(calendar.currentWeekIndex).toBe(1)
     })
     test('today is after the last match of the season', () => {
       const afterLastMatchOfSeason = new Date(2021, 9, 31, 17, 0)
-      calendar = calendarMergerService.mergeMatchesIntoCalendar(calendar1Matches, calendar2Matches, afterLastMatchOfSeason)
+      calendar = calendarMergerService.createCalendarFromSortedMatches(matches, afterLastMatchOfSeason)
       expect(calendar.currentWeekIndex).toBe(3)
     })
   })

@@ -2,7 +2,7 @@ import Match from '../../Models/Match/Match'
 import config from '../../config.json'
 
 class CalendarTableParseService {
-  parseMatches (htmlCode, playerName) {
+  parseMatchesFromHtmlCode (htmlCode, playerName) {
     const trRows = this.readMatchesRows(htmlCode)
 
     const matches = []
@@ -23,6 +23,21 @@ class CalendarTableParseService {
       matches.push(match)
     }
 
+    return matches
+  }
+
+  parseMatchesFromData (matchesData) {
+    const matches = []
+    matchesData.forEach((matchData) => {
+      const homeTeamName = this.parseTeamName(matchData.homeTeamName)
+      const awayTeamName = this.parseTeamName(matchData.awayTeamName)
+      const datetime = this.parseDateAndTime(matchData.date, matchData.time)
+      const match = new Match(homeTeamName, awayTeamName)
+      match.setDatetime(datetime)
+      match.playerName = matchData.playerName
+      match.result = matchData.result
+      matches.push(match)
+    })
     return matches
   }
 
@@ -76,12 +91,13 @@ class CalendarTableParseService {
     return datetime.toDateString()
   }
 
-  parseTeamName (teamNameString) {
-    let transformedTeamName = teamNameString
+  parseTeamName (teamName) {
+    let transformedTeamName = teamName
     config.teamNameReplacements.forEach((item) => {
       transformedTeamName = transformedTeamName.replace(item.teamNameToReplace, item.newTeamName)
     })
     transformedTeamName = this.toTitleCase(transformedTeamName)
+    transformedTeamName = transformedTeamName.replace(/[\\]/g, '')
     return transformedTeamName
   }
 

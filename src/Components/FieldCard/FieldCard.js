@@ -8,14 +8,14 @@ class FieldCard extends React.Component {
     let fieldLinkUrl = null
     if (this.props.match.isAway) {
       fieldIcon = 'place'
-      fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(this.props.match.homeTeam)
+      fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(this.props.match.homeTeam.fieldName)
     } else {
       fieldIcon = 'home'
       fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI('Escola Premier Barcelona')
     }
 
     return (
-              <a href={ fieldLinkUrl } target='_blank' rel='noreferrer' >
+              <a className='fieldcard' href={ fieldLinkUrl } target='_blank' rel='noreferrer' >
                 <span className='materialicons'>
                   { fieldIcon }
                 </span>
@@ -26,8 +26,14 @@ class FieldCard extends React.Component {
 
 FieldCard.propTypes = {
   match: PropTypes.shape({
-    homeTeam: PropTypes.string.isRequired,
-    awayTeam: PropTypes.string.isRequired,
+    homeTeam: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      fieldName: PropTypes.string.isRequired
+    }),
+    awayTeam: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      fieldName: PropTypes.string.isRequired
+    }),
     isAway: PropTypes.bool.isRequired
   })
 }

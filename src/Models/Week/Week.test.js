@@ -9,7 +9,6 @@ describe('Testing week model', () => {
   let match3 = null
 
   beforeAll(() => {
-    week = new Week(20)
     match1 = new Match('Premier F', 'Barcino D')
     match1.setDatetime(new Date(2021, 9, 16, 10, 0))
     match2 = new Match('Sarrià B', 'Premier D')
@@ -19,11 +18,13 @@ describe('Testing week model', () => {
   })
 
   test('Matches array is correctly initialized', () => {
+    week = new Week(20)
     expect(week.matches).toHaveLength(0)
   })
 
   describe('Inserting a first match', () => {
     beforeAll(() => {
+      week = new Week(20)
       week.addMatch(match1)
     })
 
@@ -42,6 +43,8 @@ describe('Testing week model', () => {
 
   describe('Inserting a second match', () => {
     beforeAll(() => {
+      week = new Week(20)
+      week.addMatch(match1)
       week.addMatch(match2)
     })
 
@@ -60,6 +63,9 @@ describe('Testing week model', () => {
 
   describe('Inserting a third match', () => {
     beforeAll(() => {
+      week = new Week(20)
+      week.addMatch(match1)
+      week.addMatch(match2)
       week.addMatch(match3)
     })
 
@@ -73,6 +79,26 @@ describe('Testing week model', () => {
 
     test('With the second match the week is still problematic', () => {
       expect(week.isProblematic).toBeTruthy()
+    })
+  })
+
+  describe('Other potentially problematic scenarios', () => {
+    test('With a resting matchday a week cant be problematic', () => {
+      week = new Week(20)
+      week.addMatch(match2)
+      const restingMatch = new Match('Premier D', '')
+      restingMatch.setDatetime(new Date(2021, 9, 16, 10, 0))
+      week.addMatch(restingMatch)
+      expect(week.isProblematic).toBeFalsy()
+    })
+
+    test('With a retired team cant be problematic', () => {
+      week = new Week(20)
+      week.addMatch(match2)
+      const matchAgainstRetiredTeam = new Match('Premier D', 'Don Bosco, C.f. A')
+      matchAgainstRetiredTeam.setDatetime(new Date(2021, 9, 16, 10, 0))
+      week.addMatch(matchAgainstRetiredTeam)
+      expect(week.isProblematic).toBeFalsy()
     })
   })
 })

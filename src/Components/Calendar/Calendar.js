@@ -39,9 +39,20 @@ class Calendar extends React.Component {
 
   componentDidMount () {
     const calendarService = new CalendarService()
-    calendarService.getCalendar().then(
-      calendar => {
-        this.setState({ calendar: calendar })
+
+    if (this.state.calendar && this.state.calendar.weeks && this.state.calendar.weeks.length === 0) {
+      const cachedCalendar = calendarService.getCachedCalendar()
+      if (cachedCalendar) {
+        this.setState({ calendar: cachedCalendar })
+      }
+    }
+
+    calendarService.getLiveCalendar().then(
+      liveCalendar => {
+        if (liveCalendar && liveCalendar.weeks && liveCalendar.weeks.length > 0) {
+          this.setState({ calendar: liveCalendar })
+          calendarService.setCachedCalendar(liveCalendar)
+        }
       })
   }
 }

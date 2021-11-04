@@ -2,18 +2,16 @@ import Calendar from '../../Models/Calendar/Calendar'
 import Week from '../../Models/Week/Week'
 
 class CalendarMergerService {
-  mergeMatchesIntoCalendar (matches1, matches2, originalToday) {
+  createCalendarFromSortedMatches (matches, originalToday) {
     const calendar = new Calendar()
     const today = (originalToday || new Date())
 
-    const allSortedMatches = this.getMergedAndSortedMatches(matches1, matches2)
-
-    const firstMatchWeekOfYear = this.getWeekOfYear(allSortedMatches[0].datetime)
+    const firstMatchWeekOfYear = this.getWeekOfYear(matches[0].datetime)
     let currentWeekProcessing = new Week(firstMatchWeekOfYear)
     calendar.weeks.push(currentWeekProcessing)
     calendar.currentWeekIndex = 0
 
-    allSortedMatches.forEach((currentMatchProcessing) => {
+    matches.forEach((currentMatchProcessing) => {
       const currentMatchProcessingWeekOfYear = this.getWeekOfYear(currentMatchProcessing.datetime)
 
       const isCurrentMatchInTheNextWeekOfYear = currentMatchProcessingWeekOfYear !== currentWeekProcessing.weekofyear

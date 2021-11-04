@@ -6,7 +6,7 @@ class HtmlCodeFromUrlService {
           return resolve(htmlCode)
         }))
     } catch (message) {
-      console.log(message)
+      console.error(message)
     }
   }
 }
