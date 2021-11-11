@@ -11,7 +11,7 @@ class CalendarMergerService {
     calendar.weeks.push(currentWeekProcessing)
     calendar.currentWeekIndex = 0
 
-    matches.forEach((currentMatchProcessing) => {
+    for (const currentMatchProcessing of matches) {
       const currentMatchProcessingWeekOfYear = this.getWeekOfYear(currentMatchProcessing.datetime)
 
       const isCurrentMatchInTheNextWeekOfYear = currentMatchProcessingWeekOfYear !== currentWeekProcessing.weekofyear
@@ -25,7 +25,7 @@ class CalendarMergerService {
       }
 
       currentWeekProcessing.addMatch(currentMatchProcessing)
-    })
+    }
     return calendar
   }
 

@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import CalendarTableParseService from './CalendarTableParseService'
 import Match from '../../Models/Match/Match'
+import Footballer from '../../Models/Footballer/Footballer'
 
 describe('Parsing simple calendar table', () => {
   const tableHtmlCode = `<html><head></head><body><table class="fcftable w-100 fs-12_ml">
@@ -40,7 +41,8 @@ describe('Parsing simple calendar table', () => {
 
   beforeAll(() => {
     calendarTableParseService = new CalendarTableParseService()
-    matches = calendarTableParseService.parseMatchesFromHtmlCode(tableHtmlCode, 'Victor')
+    const footballer = new Footballer('Victor')
+    matches = calendarTableParseService.parseMatchesFromHtmlCode(tableHtmlCode, footballer)
     singleMatch = matches[0]
   })
 
@@ -65,12 +67,12 @@ describe('Parsing simple calendar table', () => {
       expect(calendarTableParseService.dateTimeToString(singleMatch.datetime)).toBe('Sun Oct 10 2021')
     })
 
-    test('player name is Victor', () => {
-      expect(singleMatch.playerName).toBe('Victor')
+    test('footballer name is Victor', () => {
+      expect(singleMatch.footballer.name).toBe('Victor')
     })
 
     test('match home team is PREMIER D', () => {
-      expect(singleMatch.homeTeam.name).toBe('Premier D')
+      expect(singleMatch.homeTeam.displayName).toBe('Premier D')
     })
 
     test('isAway is false when the match is home for Premier', () => {
@@ -93,27 +95,10 @@ describe('Parsing simple calendar table', () => {
     })
   })
 
-  describe('Testing CalendarTableParseService internal functions', () => {
-    test('Parsing team name: BARCINO D', () => {
-      const parsedName = calendarTableParseService.parseTeamName('BARCINO D')
-      expect(parsedName).toBe('Barcino D')
-    })
-
-    test('Parsing a name with \\', () => {
-      const parsedName = calendarTableParseService.parseTeamName('FUNDACIÓ ACADÈMIA F. L\'HOSPITALET B')
-      expect(parsedName).toBe('Fundació Acadèmia F. L\'hospitalet B')
-    })
-
-    test('Parsing Premier name: ESCOLA DE FUTBOL PREMIER BARCELONA F', () => {
-      const parsedName = calendarTableParseService.parseTeamName('ESCOLA DE FUTBOL PREMIER BARCELONA F')
-      expect(parsedName).toBe('Premier F')
-    })
-  })
-
   describe('Parsing config data with additional matches', () => {
     beforeAll(() => {
       const configData = [{
-        playerName: 'Victor',
+        footballerName: 'Victor',
         homeTeamName: 'Martinenc D',
         awayTeamName: 'ESCOLA DE FUTBOL PREMIER BARCELONA C',
         date: '30-10-2021',
@@ -124,7 +109,7 @@ describe('Parsing simple calendar table', () => {
 
     test('Checking data from the match at the config', () => {
       expect(matches).toHaveLength(1)
-      expect(matches[0].awayTeam.name).toBe('Premier C')
+      expect(matches[0].awayTeam.displayName).toBe('Premier C')
       expect(matches[0].datetime).toBeDefined()
     })
   })

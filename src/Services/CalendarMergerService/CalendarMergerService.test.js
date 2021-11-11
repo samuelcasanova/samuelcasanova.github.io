@@ -10,23 +10,22 @@ describe('Merging calendars', () => {
   let matches = null
 
   beforeAll(() => {
-    const getNewMatchToTest = (playerName, datetime, homeTeam, awayTeam) => {
+    const getNewMatchToTest = (datetime, homeTeam, awayTeam) => {
       const newMatch = new Match(homeTeam, awayTeam)
-      newMatch.playerName = playerName
       newMatch.setDatetime(datetime)
       return newMatch
     }
 
     calendar1Matches = [
-      getNewMatchToTest('Alex', new Date(2021, 9, 9, 11, 0), 'Premier F', 'Barcino D'),
-      getNewMatchToTest('Alex', new Date(2021, 9, 16, 11, 0), 'Premier F', 'Sarrià B'),
-      getNewMatchToTest('Alex', new Date(2021, 9, 23, 9, 0), 'Horta C', 'Premier F'),
-      getNewMatchToTest('Alex', new Date(2021, 9, 31, 12, 0), 'Premier F', 'Llefià')
+      getNewMatchToTest(new Date(2021, 9, 9, 11, 0), 'Premier F', 'Barcino D'),
+      getNewMatchToTest(new Date(2021, 9, 16, 11, 0), 'Premier F', 'Sarrià B'),
+      getNewMatchToTest(new Date(2021, 9, 23, 9, 0), 'Horta C', 'Premier F'),
+      getNewMatchToTest(new Date(2021, 9, 31, 12, 0), 'Premier F', 'Llefià')
     ]
     calendar2Matches = [
-      getNewMatchToTest('Victor', new Date(2021, 9, 9, 11, 30), 'Parets C', 'Premier D'),
-      getNewMatchToTest('Victor', new Date(2021, 9, 17, 11, 0), 'Premier D', 'Granja Vella'),
-      getNewMatchToTest('Victor', new Date(2021, 9, 23, 13, 0), 'Barcino A', 'Premier D')
+      getNewMatchToTest(new Date(2021, 9, 9, 11, 30), 'Parets C', 'Premier D'),
+      getNewMatchToTest(new Date(2021, 9, 17, 11, 0), 'Premier D', 'Granja Vella'),
+      getNewMatchToTest(new Date(2021, 9, 23, 13, 0), 'Barcino A', 'Premier D')
     ]
     matches = calendarMergerService.getMergedAndSortedMatches(calendar1Matches, calendar2Matches)
   })

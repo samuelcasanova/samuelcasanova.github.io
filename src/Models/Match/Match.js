@@ -9,7 +9,7 @@ class Match {
   homeTeam
   awayTeam
   result
-  playerName
+  footballer
 
   isAway
   isRivalRetired
@@ -18,8 +18,8 @@ class Match {
   constructor (homeTeamName, awayTeamName) {
     this.setDatetime(new Date(1970, 0, 1, 0, 0))
     try {
-      this.homeTeam = this.getTeam(homeTeamName)
-      this.awayTeam = this.getTeam(awayTeamName)
+      this.homeTeam = new Team(homeTeamName)
+      this.awayTeam = new Team(awayTeamName)
     } catch (error) {
       if (error.message === 'Team name should have value') {
         this.isResting = true
@@ -65,10 +65,6 @@ class Match {
 
   getShortDescription () {
     return this.datetime.toLocaleDateString('es-ES', { timeZone: 'UTC', weekday: 'short' }).toUpperCase().substring(0, 3)
-  }
-
-  getTeam (teamName) {
-    return new Team(teamName)
   }
 }
 

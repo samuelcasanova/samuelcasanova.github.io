@@ -1,8 +1,8 @@
 import Match from '../../Models/Match/Match'
-import config from '../../config.json'
+import Footballer from '../../Models/Footballer/Footballer'
 
 class CalendarTableParseService {
-  parseMatchesFromHtmlCode (htmlCode, playerName) {
+  parseMatchesFromHtmlCode (htmlCode, footballer) {
     const trRows = this.readMatchesRows(htmlCode)
 
     const matches = []
@@ -11,14 +11,14 @@ class CalendarTableParseService {
       const tdFields = trRows.item(i).getElementsByTagName('td')
       const matchdayString = this.readMatchDayFromRow(tdFields)
       const datetime = this.getDatetimeFromRow(tdFields)
-      const homeTeam = this.getHomeTeamFromRow(tdFields)
-      const awayTeam = this.getAwayTeamFromRow(tdFields)
+      const homeTeamName = this.getHomeTeamFromRow(tdFields)
+      const awayTeamName = this.getAwayTeamFromRow(tdFields)
       const resultString = this.getResultFromRow(tdFields)
 
-      const match = new Match(homeTeam, awayTeam)
+      const match = new Match(homeTeamName, awayTeamName)
       match.matchday = matchdayString
       match.setDatetime(datetime)
-      match.playerName = playerName
+      match.footballer = footballer
       match.result = resultString
       matches.push(match)
     }
@@ -28,16 +28,16 @@ class CalendarTableParseService {
 
   parseMatchesFromData (matchesData) {
     const matches = []
-    matchesData.forEach((matchData) => {
-      const homeTeamName = this.parseTeamName(matchData.homeTeamName)
-      const awayTeamName = this.parseTeamName(matchData.awayTeamName)
+    for (const matchData of matchesData) {
+      const homeTeamName = matchData.homeTeamName
+      const awayTeamName = matchData.awayTeamName
       const datetime = this.parseDateAndTime(matchData.date, matchData.time)
       const match = new Match(homeTeamName, awayTeamName)
       match.setDatetime(datetime)
-      match.playerName = matchData.playerName
+      match.footballer = new Footballer(matchData.footballerName)
       match.result = matchData.result
       matches.push(match)
-    })
+    }
     return matches
   }
 
@@ -47,14 +47,12 @@ class CalendarTableParseService {
 
   getAwayTeamFromRow (tdFields) {
     const awayTeamString = tdFields.item(4).textContent.trim()
-    const parsedAwayTeam = this.parseTeamName(awayTeamString)
-    return parsedAwayTeam
+    return awayTeamString
   }
 
   getHomeTeamFromRow (tdFields) {
     const homeTeamString = tdFields.item(3).textContent.trim()
-    const parsedHomeTeam = this.parseTeamName(homeTeamString)
-    return parsedHomeTeam
+    return homeTeamString
   }
 
   getDatetimeFromRow (tdFields) {
@@ -89,24 +87,6 @@ class CalendarTableParseService {
 
   dateTimeToString (datetime) {
     return datetime.toDateString()
-  }
-
-  parseTeamName (teamName) {
-    let transformedTeamName = teamName
-    config.teamNameReplacements.forEach((item) => {
-      transformedTeamName = transformedTeamName.replace(item.teamNameToReplace, item.newTeamName)
-    })
-    transformedTeamName = this.toTitleCase(transformedTeamName)
-    transformedTeamName = transformedTeamName.replace(/[\\]/g, '')
-    return transformedTeamName
-  }
-
-  toTitleCase (text) {
-    return text
-      .toLowerCase()
-      .split(' ')
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ')
   }
 }
 

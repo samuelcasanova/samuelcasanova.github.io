@@ -1,27 +1,7 @@
 {
-    "players": [
-        {
-            "playerName": "Alex",
-            "calendarUrl" : "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f"
-        },
-        {
-            "playerName": "Victor",
-            "calendarUrl" : "https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/escola-de-futbol-premier-barcelona-d"
-        }
-    ],
-    "teamNameReplacements": [
-        {
-            "teamNameToReplace": "ESCOLA DE FUTBOL PREMIER BARCELONA F",
-            "newTeamName": "PREMIER F"
-        },
-        {
-            "teamNameToReplace": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
-            "newTeamName": "PREMIER C"
-        },
-        {
-            "teamNameToReplace": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "newTeamName": "PREMIER D"
-        }
+    "homePageFootballerNames": [
+        "Alex",
+        "Victor"
     ],
     "teamNameToIdentifyAwayMatches": "premier",
     "applicationDataUrl": "applicationData.json"

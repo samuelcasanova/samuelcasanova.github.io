@@ -5,7 +5,7 @@ class TeamsCard extends React.Component {
   render () {
     return (
       <span>
-        <a href={ this.props.match.homeTeam.calendarUrl }>{ this.props.match.homeTeam.name }</a> vs <a href={ this.props.match.awayTeam.calendarUrl }>{ this.props.match.awayTeam.name }</a>
+        <a href={ this.props.match.homeTeam.calendarUrl }>{ this.props.match.homeTeam.displayName }</a> vs <a href={ this.props.match.awayTeam.calendarUrl }>{ this.props.match.awayTeam.displayName }</a>
       </span>
     )
   }
@@ -14,11 +14,11 @@ class TeamsCard extends React.Component {
 TeamsCard.propTypes = {
   match: PropTypes.shape({
     homeTeam: PropTypes.shape({
-      name: PropTypes.string.isRequired,
+      displayName: PropTypes.string.isRequired,
       calendarUrl: PropTypes.string.isRequired
     }),
     awayTeam: PropTypes.shape({
-      name: PropTypes.string.isRequired,
+      displayName: PropTypes.string.isRequired,
       calendarUrl: PropTypes.string.isRequired
     })
   })

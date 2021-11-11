@@ -8,8 +8,8 @@
     grid-template-columns: 3fr 1fr 7fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-      "date player teams isAway"
-      "time player teams isAway";
+      "date footballer teams isAway"
+      "time footballer teams isAway";
     align-items: center;
   }
 
@@ -22,8 +22,8 @@
     grid-area: time;
   }
 
-  .playerName {
-    grid-area: player;
+  .footballer {
+    grid-area: footballer;
     grid-row: span 2;
   }
 
