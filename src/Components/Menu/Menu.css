@@ -1,0 +1,68 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  transition: transform 0.2s ease-in-out;
+  z-index: 1;
+  background: white;
+  width: 100%;
+}
+
+.menu-open {
+  transform: translateX(0);
+}
+
+.menu-close {
+  transform: translateX(100%);
+  visibility: hidden;
+}
+
+.burger {
+  background-color: #282c34;
+  border: none;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.burger-open {
+  transform: rotate(0.5turn);
+}
+
+.burger-close {
+  transform: rotate(-0.5turn);
+}
+
+@font-face {
+  font-family: 'MaterialIcons';
+  src: local('MaterialIcons'), url(../../Fonts/MaterialIcons/MaterialIcons-Regular.woff) format('woff');
+}
+
+.materialicons {
+  font-family: 'MaterialIcons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
