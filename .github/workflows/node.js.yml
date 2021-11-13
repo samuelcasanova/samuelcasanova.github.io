@@ -35,7 +35,7 @@ jobs:
       with:
         server: samuelcasanova.com
         username: premier_ftp@premier.samuelcasanova.com
-        password: ${{ secrets.ftp_password }}
+        password: PremierFTP123!
         protocol: ftps
         local-dir: ./build/
         server-dir: testingGithub/
