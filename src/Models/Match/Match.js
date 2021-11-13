@@ -46,7 +46,7 @@ class Match {
   }
 
   datetimeToTimeString (datetime) {
-    const formattedTimeString = datetime.toLocaleTimeString('es-ES', { hour12: false, hour: '2-digit', minute: '2-digit' })
+    const formattedTimeString = datetime.toLocaleTimeString('es-ES', { timeZone: 'UTC', hour12: false, hour: '2-digit', minute: '2-digit' })
     const addedH = formattedTimeString + 'h'
     return addedH
   }

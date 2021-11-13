@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* height: 90vh; */
   text-align: center;
   position: absolute;
   top: 10vh;
@@ -38,34 +37,4 @@
 
 .burger-close {
   transform: rotate(-0.5turn);
-}
-
-@font-face {
-  font-family: 'MaterialIcons';
-  src: local('MaterialIcons'), url(../../Fonts/MaterialIcons/MaterialIcons-Regular.woff) format('woff');
-}
-
-.materialicons {
-  font-family: 'MaterialIcons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 32px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
 }

@@ -20,8 +20,8 @@ describe('Testing Match model', () => {
   })
 
   test('Date and time is correctly set', () => {
-    homeMatch.setDatetime(new Date(2021, 9, 16, 17, 0))
-    expect(homeMatch.datetime.toUTCString()).toBe('Sat, 16 Oct 2021 15:00:00 GMT')
+    homeMatch.setDatetime(new Date(Date.UTC(2021, 9, 16, 17, 0)))
+    expect(homeMatch.datetime.toUTCString()).toBe('Sat, 16 Oct 2021 17:00:00 GMT')
     expect(homeMatch.date).toBe('SÁB 16 OCT')
     expect(homeMatch.time).toBe('17:00h')
   })
