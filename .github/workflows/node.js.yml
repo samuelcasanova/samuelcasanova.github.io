@@ -31,14 +31,12 @@ jobs:
     - run: npm test
 
     - name: Deploy build
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      uses: airvzxf/ftp-deployment-action@latest
       with:
         server: samuelcasanova.com
-        username: premier_ftp@premier.samuelcasanova.com
+        user: premier_ftp@premier.samuelcasanova.com
         password: PremierFTP123!
         protocol: ftp
-        local-dir: ./build/
-        server-dir: testingGithub/
-        dry-run: true
-        log-level: verbose
+        local_dir: ./build/
+        remote_dir: testingGithub/
         
