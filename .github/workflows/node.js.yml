@@ -40,4 +40,5 @@ jobs:
         local-dir: ./build/
         server-dir: testingGithub/
         dry-run: true
+        log-level: verbose
         
