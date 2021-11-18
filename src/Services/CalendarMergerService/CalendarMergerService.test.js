@@ -1,5 +1,6 @@
 import Match from '../../Models/Match/Match'
 import CalendarMergerService from './CalendarMergerService'
+import Team from '../../Models/Team/Team'
 
 /* eslint-disable no-undef */
 describe('Merging calendars', () => {
@@ -10,22 +11,22 @@ describe('Merging calendars', () => {
   let matches = null
 
   beforeAll(() => {
-    const getNewMatchToTest = (datetime, homeTeam, awayTeam) => {
-      const newMatch = new Match(homeTeam, awayTeam)
+    const getNewMatchToTest = (datetime, homeTeamName, awayTeamName) => {
+      const newMatch = new Match(new Team(homeTeamName), new Team(awayTeamName))
       newMatch.setDatetime(datetime)
       return newMatch
     }
 
     calendar1Matches = [
-      getNewMatchToTest(new Date(2021, 9, 9, 11, 0), 'Premier F', 'Barcino D'),
-      getNewMatchToTest(new Date(2021, 9, 16, 11, 0), 'Premier F', 'Sarrià B'),
-      getNewMatchToTest(new Date(2021, 9, 23, 9, 0), 'Horta C', 'Premier F'),
-      getNewMatchToTest(new Date(2021, 9, 31, 12, 0), 'Premier F', 'Llefià')
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 9, 11, 0)), 'Premier F', 'Barcino D'),
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 16, 11, 0)), 'Premier F', 'Sarrià B'),
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 23, 9, 0)), 'Horta C', 'Premier F'),
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 31, 12, 0)), 'Premier F', 'Llefià')
     ]
     calendar2Matches = [
-      getNewMatchToTest(new Date(2021, 9, 9, 11, 30), 'Parets C', 'Premier D'),
-      getNewMatchToTest(new Date(2021, 9, 17, 11, 0), 'Premier D', 'Granja Vella'),
-      getNewMatchToTest(new Date(2021, 9, 23, 13, 0), 'Barcino A', 'Premier D')
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 9, 11, 30)), 'Parets C', 'Premier D'),
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 17, 11, 0)), 'Premier D', 'Granja Vella'),
+      getNewMatchToTest(new Date(Date.UTC(2021, 9, 23, 13, 0)), 'Barcino A', 'Premier D')
     ]
     matches = calendarMergerService.getMergedAndSortedMatches(calendar1Matches, calendar2Matches)
   })
@@ -86,22 +87,22 @@ describe('Merging calendars', () => {
       expect(calendar.currentWeekIndex).toBe(0)
     })
     test('today is between first and second match of the first week', () => {
-      const aDayBeforeFirstWeek = new Date(2021, 9, 9, 12, 30)
+      const aDayBeforeFirstWeek = new Date(Date.UTC(2021, 9, 9, 12, 30))
       calendar = calendarMergerService.createCalendarFromSortedMatches(matches, aDayBeforeFirstWeek)
       expect(calendar.currentWeekIndex).toBe(0)
     })
     test('today is rigth after the last match of the first week', () => {
-      const aDayBeforeFirstWeek = new Date(2021, 9, 10, 13, 0)
+      const aDayBeforeFirstWeek = new Date(Date.UTC(2021, 9, 10, 13, 0))
       calendar = calendarMergerService.createCalendarFromSortedMatches(matches, aDayBeforeFirstWeek)
       expect(calendar.currentWeekIndex).toBe(1)
     })
     test('today is between the first and the last match of the second week', () => {
-      const firstMatchSecondRoundAfternoon = new Date(2021, 9, 16, 17, 0)
+      const firstMatchSecondRoundAfternoon = new Date(Date.UTC(2021, 9, 16, 17, 0))
       calendar = calendarMergerService.createCalendarFromSortedMatches(matches, firstMatchSecondRoundAfternoon)
       expect(calendar.currentWeekIndex).toBe(1)
     })
     test('today is after the last match of the season', () => {
-      const afterLastMatchOfSeason = new Date(2021, 9, 31, 17, 0)
+      const afterLastMatchOfSeason = new Date(Date.UTC(2021, 9, 31, 17, 0))
       calendar = calendarMergerService.createCalendarFromSortedMatches(matches, afterLastMatchOfSeason)
       expect(calendar.currentWeekIndex).toBe(3)
     })

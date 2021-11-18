@@ -1,3 +1,4 @@
+import Team from '../Team/Team'
 import Match from './Match'
 
 /* eslint-disable no-undef */
@@ -7,9 +8,9 @@ describe('Testing Match model', () => {
   let restingMatch = null
 
   beforeAll(() => {
-    homeMatch = new Match('Premier F', 'Don Bosco, C.f. A')
-    awayMatch = new Match('Barcino D', 'Premier F')
-    restingMatch = new Match('Premier D', '')
+    homeMatch = new Match(new Team('Premier F'), new Team('Don Bosco, C.f. A'))
+    awayMatch = new Match(new Team('Barcino D'), new Team('Premier F'))
+    restingMatch = new Match(new Team('Premier D'), null)
   })
 
   test('Teams are correctly set', () => {

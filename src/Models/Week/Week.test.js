@@ -1,5 +1,6 @@
 import Week from './Week'
 import Match from '../../Models/Match/Match'
+import Team from '../Team/Team'
 
 /* eslint-disable no-undef */
 describe('Testing week model', () => {
@@ -9,12 +10,12 @@ describe('Testing week model', () => {
   let match3 = null
 
   beforeAll(() => {
-    match1 = new Match('Premier F', 'Barcino D')
-    match1.setDatetime(new Date(2021, 9, 16, 10, 0))
-    match2 = new Match('Sarrià B', 'Premier D')
-    match2.setDatetime(new Date(2021, 9, 16, 11, 0))
-    match3 = new Match('Sarrià A', 'Premier A')
-    match3.setDatetime(new Date(2021, 9, 17, 10, 0))
+    match1 = new Match(new Team('Premier F'), new Team('Barcino D'))
+    match1.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
+    match2 = new Match(new Team('Sarrià B'), new Team('Premier D'))
+    match2.setDatetime(new Date(Date.UTC(2021, 9, 16, 11, 0)))
+    match3 = new Match(new Team('Sarrià A'), new Team('Premier A'))
+    match3.setDatetime(new Date(Date.UTC(2021, 9, 17, 10, 0)))
   })
 
   test('Matches array is correctly initialized', () => {
@@ -86,8 +87,8 @@ describe('Testing week model', () => {
     test('With a resting matchday a week cant be problematic', () => {
       week = new Week(20)
       week.addMatch(match2)
-      const restingMatch = new Match('Premier D', '')
-      restingMatch.setDatetime(new Date(2021, 9, 16, 10, 0))
+      const restingMatch = new Match(new Team('Premier D'), null)
+      restingMatch.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
       week.addMatch(restingMatch)
       expect(week.isProblematic).toBeFalsy()
     })
@@ -95,8 +96,8 @@ describe('Testing week model', () => {
     test('With a retired team cant be problematic', () => {
       week = new Week(20)
       week.addMatch(match2)
-      const matchAgainstRetiredTeam = new Match('Premier D', 'Don Bosco, C.f. A')
-      matchAgainstRetiredTeam.setDatetime(new Date(2021, 9, 16, 10, 0))
+      const matchAgainstRetiredTeam = new Match(new Team('Premier D'), new Team('Don Bosco, C.f. A'))
+      matchAgainstRetiredTeam.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
       week.addMatch(matchAgainstRetiredTeam)
       expect(week.isProblematic).toBeFalsy()
     })

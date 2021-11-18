@@ -1,5 +1,4 @@
 import config from '../../config.json'
-import Team from '../Team/Team'
 
 class Match {
   matchday
@@ -15,19 +14,10 @@ class Match {
   isRivalRetired
   isResting
 
-  constructor (homeTeamName, awayTeamName) {
+  constructor (homeTeam, awayTeam) {
     this.setDatetime(new Date(1970, 0, 1, 0, 0))
-    try {
-      this.homeTeam = new Team(homeTeamName)
-      this.awayTeam = new Team(awayTeamName)
-    } catch (error) {
-      if (error.message === 'Team name should have value') {
-        this.isResting = true
-        this.isAway = false
-        this.isRivalRetired = false
-        return
-      }
-    }
+    this.homeTeam = homeTeam
+    this.awayTeam = awayTeam
     this.setIsAway()
     this.setIsResting()
     this.setIsRivalRetired()

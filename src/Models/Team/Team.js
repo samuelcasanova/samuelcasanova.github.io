@@ -2,16 +2,18 @@ import teamsConfigJson from './teams.json'
 
 class Team {
   name
+  category
   displayName
   fieldName
   calendarUrl
   isRetired
 
-  constructor (name) {
+  constructor (name, category) {
     if (!name) {
       throw new Error('Team name should have value')
     }
     this.name = name
+    this.category = (category || 'NOCATEGORY')
     const teamConfig = teamsConfigJson.teams.find(team => this.normalizeName(team.name) === this.normalizeName(name))
     this.displayName = (teamConfig ? teamConfig.displayName : this.formatDisplayName(name))
     this.fieldName = (teamConfig ? teamConfig.fieldName : name)

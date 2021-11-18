@@ -1,5 +1,6 @@
 import Match from '../../Models/Match/Match'
 import Footballer from '../../Models/Footballer/Footballer'
+import Team from '../../Models/Team/Team'
 
 class CalendarTableParseService {
   parseMatchesFromHtmlCode (htmlCode, footballer) {
@@ -14,8 +15,10 @@ class CalendarTableParseService {
       const homeTeamName = this.getHomeTeamFromRow(tdFields)
       const awayTeamName = this.getAwayTeamFromRow(tdFields)
       const resultString = this.getResultFromRow(tdFields)
+      const homeTeam = (homeTeamName ? new Team(homeTeamName) : null)
+      const awayTeam = (awayTeamName ? new Team(awayTeamName) : null)
 
-      const match = new Match(homeTeamName, awayTeamName)
+      const match = new Match(homeTeam, awayTeam)
       match.matchday = matchdayString
       match.setDatetime(datetime)
       match.footballer = footballer
@@ -32,7 +35,7 @@ class CalendarTableParseService {
       const homeTeamName = matchData.homeTeamName
       const awayTeamName = matchData.awayTeamName
       const datetime = this.parseDateAndTime(matchData.date, matchData.time)
-      const match = new Match(homeTeamName, awayTeamName)
+      const match = new Match(new Team(homeTeamName), new Team(awayTeamName))
       match.setDatetime(datetime)
       match.footballer = new Footballer(matchData.footballerName)
       match.result = matchData.result
@@ -81,7 +84,7 @@ class CalendarTableParseService {
     const year = dateString.substring(6)
     const hour = timeString.substring(0, 2)
     const minute = timeString.substring(3)
-    const datetime = new Date(year, month - 1, day, hour, minute)
+    const datetime = new Date(Date.UTC(year, month - 1, day, hour, minute))
     return datetime
   }
 
