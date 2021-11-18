@@ -34,9 +34,8 @@ jobs:
       uses: airvzxf/ftp-deployment-action@latest
       with:
         server: samuelcasanova.com
-        user: premier_ftp
-        password: PremierFTP123!
-        protocol: ftp
+        user: premier@samuelcasanova.com
+        password: PremierFTP123
         local_dir: ./build/
         remote_dir: testingGithub/
         
