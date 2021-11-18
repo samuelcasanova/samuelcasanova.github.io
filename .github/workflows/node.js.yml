@@ -38,5 +38,4 @@ jobs:
         password: PremierFTP123
         local_dir: ./build/
         remote_dir: testingGithub/
-        ftp_ssl_allow: true
         
