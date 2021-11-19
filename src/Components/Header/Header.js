@@ -8,7 +8,7 @@ class Header extends React.Component {
             <header className="header">
                 <img src='/iconPremier.webp' alt='icon' />
                 <p>
-                    Partidos de la Premier de Alex y Victor
+                    Partidos de la Premier Alex, Victor y Míster
                 </p>
                 <Menu/>
             </header>

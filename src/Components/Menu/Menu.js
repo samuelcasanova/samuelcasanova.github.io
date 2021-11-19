@@ -15,10 +15,13 @@ const Menu = () => {
         <span className='materialicons'>{ open ? 'close' : 'menu' }</span>
       </button>
       <div className={ open ? 'menu menu-open' : 'menu menu-close'} onClick={() => { setOpen(false) }}>
-        <a href="/#/">Calendario</a>
-        <a href="/#/Categorias">Categorías</a>
+        <a href="/#/">Calendario Peques</a>
+        <a href="/#/loupes">Calendario Míster</a>
+        <a href="/#/categorias">Categorías</a>
         <a href="https://www.fcf.cat/classificacio/2022/futbol-7/benjami-7-tercera-divisio/grup-6">Clasificación Alex</a>
         <a href="https://www.fcf.cat/classificacio/2022/futbol-7/prebenjami-7/grup-18">Clasificación Victor</a>
+        <a href="https://www.fcf.cat/classificacio/2022/futbol-7/alevi-tercera-divisio/grup-3">Clasificación Míster Alevines</a>
+        <a href="https://www.fcf.cat/classificacio/2022/futbol-11/cadet-segona-divisio/grup-17">Clasificación Míster Cadetes</a>
       </div>
     </div>
   )

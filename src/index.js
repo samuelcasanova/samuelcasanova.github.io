@@ -13,8 +13,9 @@ ReactDOM.render(
     <HashRouter>
       <Header/>
       <Switch>
-        <Route exact path='/'><Calendar calendarName='home'/></Route>
-        <Route path='/Categorias' component={Categories}/>
+        <Route key='home' exact path='/'><Calendar calendarName='home'/></Route>
+        <Route key='loupes' path='/loupes'><Calendar calendarName='loupes'/></Route>
+        <Route key='categories' path='/categorias' component={Categories}/>
       </Switch>
       <Footer />
     </HashRouter>
