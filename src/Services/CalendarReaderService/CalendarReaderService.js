@@ -16,20 +16,24 @@ class CalendarReaderService {
     this.applicationDataService = new ApplicationDataService()
   }
 
-  async getCalendar () {
-    let homePageFootballerMatches = []
-    for (const footballerName of config.homePageFootballerNames) {
+  async getCalendar (calendarName) {
+    let allFootballerMatches = []
+    const calendarConfig = config.calendars.find(calendar => calendar.name === calendarName)
+    for (const footballerName of calendarConfig.footballerNames) {
       const footballer = new Footballer(footballerName)
-      const footballerCalendarUrl = footballer.teams[0].calendarUrl
-      const footballerMatches = await this.getMatchesFromURL(footballerCalendarUrl,
-        footballer, footballer.teams[0].category)
-      homePageFootballerMatches = this.calendarMergerService.getMergedAndSortedMatches(homePageFootballerMatches,
-        footballerMatches)
+      for (const team of footballer.teams) {
+        const footballerMatches = await this.getMatchesFromURL(team.calendarUrl, footballer, team.category)
+        allFootballerMatches = this.calendarMergerService.getMergedAndSortedMatches(allFootballerMatches,
+          footballerMatches)
+        console.info('CalendarReaderService.getCalendar: Got and merged matches for team %s from the url:',
+          team.displayName, team.calendarUrl)
+      }
+      console.info('CalendarReaderService.getCalendar: Got calendar for footballer %s', footballerName)
     }
 
     const additionalMatches = await this.getMatchesFromApplicationData()
 
-    const allMatches = this.calendarMergerService.getMergedAndSortedMatches(homePageFootballerMatches, additionalMatches)
+    const allMatches = this.calendarMergerService.getMergedAndSortedMatches(allFootballerMatches, additionalMatches)
     const calendar = this.calendarMergerService.createCalendarFromSortedMatches(allMatches)
     return calendar
   }

@@ -46,7 +46,7 @@ class Match {
   }
 
   setIsRivalRetired () {
-    this.isRivalRetired = this.awayTeam && this.homeTeam && (this.homeTeam.isRetired || this.awayTeam.isRetired)
+    this.isRivalRetired = (this.homeTeam?.isRetired || this.awayTeam?.isRetired) ?? false
   }
 
   setIsResting () {

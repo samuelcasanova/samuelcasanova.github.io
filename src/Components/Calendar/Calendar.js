@@ -1,6 +1,7 @@
 import React from 'react'
 import WeekCard from '../WeekCard/WeekCard'
 import CalendarService from './CalendarService'
+import PropTypes from 'prop-types'
 import './Calendar.css'
 
 class Calendar extends React.Component {
@@ -41,20 +42,24 @@ class Calendar extends React.Component {
     const calendarService = new CalendarService()
 
     if (this.state.calendar && this.state.calendar.weeks && this.state.calendar.weeks.length === 0) {
-      const cachedCalendar = calendarService.getCachedCalendar()
+      const cachedCalendar = calendarService.getCachedCalendar(this.props.calendarName)
       if (cachedCalendar) {
         this.setState({ calendar: cachedCalendar })
       }
     }
 
-    calendarService.getLiveCalendar().then(
+    calendarService.getLiveCalendar(this.props.calendarName).then(
       liveCalendar => {
         if (liveCalendar && liveCalendar.weeks && liveCalendar.weeks.length > 0) {
           this.setState({ calendar: liveCalendar })
-          calendarService.setCachedCalendar(liveCalendar)
+          calendarService.setCachedCalendar(this.props.calendarName, liveCalendar)
         }
       })
   }
+}
+
+Calendar.propTypes = {
+  calendarName: PropTypes.string.isRequired
 }
 
 export default Calendar
