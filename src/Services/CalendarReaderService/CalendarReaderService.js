@@ -21,7 +21,8 @@ class CalendarReaderService {
     for (const footballerName of config.homePageFootballerNames) {
       const footballer = new Footballer(footballerName)
       const footballerCalendarUrl = footballer.teams[0].calendarUrl
-      const footballerMatches = await this.getMatchesFromURL(footballerCalendarUrl, footballer)
+      const footballerMatches = await this.getMatchesFromURL(footballerCalendarUrl,
+        footballer, footballer.teams[0].category)
       homePageFootballerMatches = this.calendarMergerService.getMergedAndSortedMatches(homePageFootballerMatches,
         footballerMatches)
     }
@@ -33,10 +34,10 @@ class CalendarReaderService {
     return calendar
   }
 
-  async getMatchesFromURL (url, footballer) {
+  async getMatchesFromURL (url, footballer, category) {
     const htmlCodeFromURLService = new HtmlCodeFromURLService()
     const calendarSourceCode = await htmlCodeFromURLService.getHtmlCodeFromURL(url)
-    const matches = this.calendarTableParseService.parseMatchesFromHtmlCode(calendarSourceCode, footballer)
+    const matches = this.calendarTableParseService.parseMatchesFromHtmlCode(calendarSourceCode, footballer, category)
     return matches
   }
 

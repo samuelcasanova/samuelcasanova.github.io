@@ -14,11 +14,20 @@ class Team {
     }
     this.name = name
     this.category = (category || 'NOCATEGORY')
-    const teamConfig = teamsConfigJson.teams.find(team => this.normalizeName(team.name) === this.normalizeName(name))
-    this.displayName = (teamConfig ? teamConfig.displayName : this.formatDisplayName(name))
-    this.fieldName = (teamConfig ? teamConfig.fieldName : name)
-    this.calendarUrl = (teamConfig ? teamConfig.calendarUrl : '')
-    this.isRetired = (teamConfig ? teamConfig.isRetired : false)
+    const categoryJson = teamsConfigJson.categories.find(categoryJson => categoryJson.name === category)
+    if (categoryJson) {
+      const teamConfig = categoryJson.teams.find(team => this.normalizeName(team.name) === this.normalizeName(name))
+      this.displayName = (teamConfig ? teamConfig.displayName : this.formatDisplayName(name))
+      this.fieldName = (teamConfig ? teamConfig.fieldName : name)
+      this.calendarUrl = (teamConfig ? teamConfig.calendarUrl : '')
+      this.isRetired = (teamConfig ? teamConfig.isRetired : false)
+    } else {
+      console.info('Category not found: %s, ', category)
+      this.displayName = this.formatDisplayName(name)
+      this.fieldName = name
+      this.calendarUrl = ''
+      this.isRetired = false
+    }
   }
 
   normalizeName (name) {

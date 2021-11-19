@@ -3,7 +3,7 @@ import Footballer from '../../Models/Footballer/Footballer'
 import Team from '../../Models/Team/Team'
 
 class CalendarTableParseService {
-  parseMatchesFromHtmlCode (htmlCode, footballer) {
+  parseMatchesFromHtmlCode (htmlCode, footballer, category) {
     const trRows = this.readMatchesRows(htmlCode)
 
     const matches = []
@@ -15,8 +15,8 @@ class CalendarTableParseService {
       const homeTeamName = this.getHomeTeamFromRow(tdFields)
       const awayTeamName = this.getAwayTeamFromRow(tdFields)
       const resultString = this.getResultFromRow(tdFields)
-      const homeTeam = (homeTeamName ? new Team(homeTeamName) : null)
-      const awayTeam = (awayTeamName ? new Team(awayTeamName) : null)
+      const homeTeam = (homeTeamName ? new Team(homeTeamName, category) : null)
+      const awayTeam = (awayTeamName ? new Team(awayTeamName, category) : null)
 
       const match = new Match(homeTeam, awayTeam)
       match.matchday = matchdayString
@@ -32,13 +32,18 @@ class CalendarTableParseService {
   parseMatchesFromData (matchesData) {
     const matches = []
     for (const matchData of matchesData) {
-      const homeTeamName = matchData.homeTeamName
-      const awayTeamName = matchData.awayTeamName
       const datetime = this.parseDateAndTime(matchData.date, matchData.time)
-      const match = new Match(new Team(homeTeamName), new Team(awayTeamName))
+
+      const homeTeam = new Team(matchData.homeTeamName)
+      homeTeam.calendarUrl = matchData.homeTeamCalendarUrl
+      homeTeam.fieldName = matchData.fieldName
+
+      const awayTeam = new Team(matchData.awayTeamName)
+      awayTeam.calendarUrl = matchData.awayTeamCalendarUrl
+
+      const match = new Match(homeTeam, awayTeam)
       match.setDatetime(datetime)
       match.footballer = new Footballer(matchData.footballerName)
-      match.result = matchData.result
       matches.push(match)
     }
     return matches

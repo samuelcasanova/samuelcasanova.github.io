@@ -19,7 +19,7 @@ class Footballer {
     this.imageUrl = (footballerConfig.imageUrl ? footballerConfig.imageUrl : '')
     this.statsUrl = (footballerConfig.statsUrl ? footballerConfig.statsUrl : '')
     for (const team of footballerConfig.teams) {
-      this.teams.push(new Team(team))
+      this.teams.push(new Team(team.name, team.category))
     }
   }
 

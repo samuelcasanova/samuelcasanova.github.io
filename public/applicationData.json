@@ -2,9 +2,12 @@
   "additionalMatches": [
       { 
           "footballerName": "Alex",
-          "homeTeamName": "Martinenc D",
-          "awayTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
-          "date": "06-11-2021",
+          "homeTeamName": "Poble Sec B",
+          "homeTeamCalendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/apa-poble-sec-ce-b",
+          "awayTeamName": "Premier F",
+          "awayTeamCalendarUrl": "https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f",
+          "fieldName": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+          "date": "13-11-2021",
           "time": "10:30"
       }
   ]

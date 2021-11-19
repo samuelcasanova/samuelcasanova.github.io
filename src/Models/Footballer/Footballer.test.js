@@ -9,7 +9,7 @@ describe('Testing Footballer model', () => {
   })
 
   test('Footballer name is correctly set', () => {
-    expect(alex.name).not.toBeNull()
+    expect(alex.name).not.toBeUndefined()
     expect(alex.name).toBe('Alex')
   })
 

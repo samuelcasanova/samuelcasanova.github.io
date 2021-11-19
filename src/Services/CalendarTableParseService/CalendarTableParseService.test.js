@@ -42,7 +42,7 @@ describe('Parsing simple calendar table', () => {
   beforeAll(() => {
     calendarTableParseService = new CalendarTableParseService()
     const footballer = new Footballer('Victor')
-    matches = calendarTableParseService.parseMatchesFromHtmlCode(tableHtmlCode, footballer)
+    matches = calendarTableParseService.parseMatchesFromHtmlCode(tableHtmlCode, footballer, 'Pre-benjamín')
     singleMatch = matches[0]
   })
 
@@ -100,7 +100,7 @@ describe('Parsing simple calendar table', () => {
       const configData = [{
         footballerName: 'Victor',
         homeTeamName: 'Martinenc D',
-        awayTeamName: 'ESCOLA DE FUTBOL PREMIER BARCELONA C',
+        awayTeamName: 'Premier C',
         date: '30-10-2021',
         time: '10:30'
       }]

@@ -10,11 +10,16 @@ describe('Testing week model', () => {
   let match3 = null
 
   beforeAll(() => {
-    match1 = new Match(new Team('Premier F'), new Team('Barcino D'))
+    const premierFTeam = new Team('ESCOLA DE FUTBOL PREMIER BARCELONA F', 'Benjamín')
+    const bufalaTeam = new Team('BUFALÀ, C.F. B', 'Benjamín')
+
+    const premierDTeam = new Team('ESCOLA DE FUTBOL PREMIER BARCELONA D', 'Pre-benjamín')
+    const martinencETeam = new Team('MARTINENC, F.C. E', 'Pre-benjamín')
+    match1 = new Match(premierFTeam, bufalaTeam)
     match1.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
-    match2 = new Match(new Team('Sarrià B'), new Team('Premier D'))
+    match2 = new Match(martinencETeam, premierDTeam)
     match2.setDatetime(new Date(Date.UTC(2021, 9, 16, 11, 0)))
-    match3 = new Match(new Team('Sarrià A'), new Team('Premier A'))
+    match3 = new Match(martinencETeam, premierFTeam)
     match3.setDatetime(new Date(Date.UTC(2021, 9, 17, 10, 0)))
   })
 
@@ -96,7 +101,9 @@ describe('Testing week model', () => {
     test('With a retired team cant be problematic', () => {
       week = new Week(20)
       week.addMatch(match2)
-      const matchAgainstRetiredTeam = new Match(new Team('Premier D'), new Team('Don Bosco, C.f. A'))
+      const premierDTeam = new Team('ESCOLA DE FUTBOL PREMIER BARCELONA D', 'Pre-benjamín')
+      const retiredTeam = new Team('MONTAÑESA, C.F. C', 'Pre-benjamín')
+      const matchAgainstRetiredTeam = new Match(premierDTeam, retiredTeam)
       matchAgainstRetiredTeam.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
       week.addMatch(matchAgainstRetiredTeam)
       expect(week.isProblematic).toBeFalsy()

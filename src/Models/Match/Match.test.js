@@ -8,16 +8,19 @@ describe('Testing Match model', () => {
   let restingMatch = null
 
   beforeAll(() => {
-    homeMatch = new Match(new Team('Premier F'), new Team('Don Bosco, C.f. A'))
-    awayMatch = new Match(new Team('Barcino D'), new Team('Premier F'))
-    restingMatch = new Match(new Team('Premier D'), null)
+    const premierFTeam = new Team('ESCOLA DE FUTBOL PREMIER BARCELONA F', 'Benjamín')
+    const donBoscoTeam = new Team('DON BOSCO, C.F. A', 'Benjamín')
+    const imperioTeam = new Team('IMPERIO , C.F. A', 'Benjamín')
+    homeMatch = new Match(premierFTeam, donBoscoTeam)
+    awayMatch = new Match(imperioTeam, premierFTeam)
+    restingMatch = new Match(premierFTeam, null)
   })
 
   test('Teams are correctly set', () => {
-    expect(homeMatch.homeTeam).not.toBeNull()
-    expect(homeMatch.awayMatch).not.toBeNull()
-    expect(homeMatch.homeTeam.name).toBe('Premier F')
-    expect(homeMatch.awayTeam.name).toBe('Don Bosco, C.f. A')
+    expect(homeMatch.homeTeam).not.toBeUndefined()
+    expect(homeMatch.awayTeam).not.toBeUndefined()
+    expect(homeMatch.homeTeam.name).toBe('ESCOLA DE FUTBOL PREMIER BARCELONA F')
+    expect(homeMatch.awayTeam.name).toBe('DON BOSCO, C.F. A')
   })
 
   test('Date and time is correctly set', () => {
