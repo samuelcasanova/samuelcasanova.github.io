@@ -42,7 +42,7 @@ class Match {
   }
 
   setIsAway () {
-    this.isAway = this.awayTeam && this.awayTeam.name.toLowerCase().includes(config.teamNameToIdentifyAwayMatches)
+    this.isAway = this.awayTeam?.name?.toLowerCase().includes(config.teamNameToIdentifyAwayMatches) ?? false
   }
 
   setIsRivalRetired () {

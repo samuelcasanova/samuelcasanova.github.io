@@ -1,6 +1,6 @@
 import React from 'react'
 import WeekCard from '../WeekCard/WeekCard'
-import CalendarService from './CalendarService'
+import CalendarReaderService from '../../Services/CalendarReaderService/CalendarReaderService'
 import PropTypes from 'prop-types'
 import './Calendar.css'
 
@@ -38,23 +38,23 @@ class Calendar extends React.Component {
     )
   }
 
-  componentDidMount () {
-    const calendarService = new CalendarService()
+  async componentDidMount () {
+    const calendarReaderService = new CalendarReaderService()
 
-    if (this.state.calendar && this.state.calendar.weeks && this.state.calendar.weeks.length === 0) {
-      const cachedCalendar = calendarService.getCachedCalendar(this.props.calendarName)
-      if (cachedCalendar) {
-        this.setState({ calendar: cachedCalendar })
-      }
+    const cachedCalendar = calendarReaderService.getCachedCalendar(this.props.calendarName)
+    if (cachedCalendar) {
+      this.setState({ calendar: cachedCalendar })
     }
 
-    calendarService.getLiveCalendar(this.props.calendarName).then(
-      liveCalendar => {
-        if (liveCalendar && liveCalendar.weeks && liveCalendar.weeks.length > 0) {
-          this.setState({ calendar: liveCalendar })
-          calendarService.setCachedCalendar(this.props.calendarName, liveCalendar)
-        }
-      })
+    try {
+      const liveCalendar = await calendarReaderService.getLiveCalendar(this.props.calendarName)
+      if (liveCalendar && liveCalendar.weeks) {
+        this.setState({ calendar: liveCalendar })
+        calendarReaderService.setCachedCalendar(this.props.calendarName, liveCalendar)
+      }
+    } catch (error) {
+      console.error(error.message)
+    }
   }
 }
 

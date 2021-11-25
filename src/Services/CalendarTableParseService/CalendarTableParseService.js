@@ -36,14 +36,17 @@ class CalendarTableParseService {
 
       const homeTeam = new Team(matchData.homeTeamName)
       homeTeam.calendarUrl = matchData.homeTeamCalendarUrl
+      homeTeam.logoUrl = matchData.homeTeamLogoUrl
       homeTeam.fieldName = matchData.fieldName
 
       const awayTeam = new Team(matchData.awayTeamName)
       awayTeam.calendarUrl = matchData.awayTeamCalendarUrl
+      awayTeam.logoUrl = matchData.awayTeamLogoUrl
 
       const match = new Match(homeTeam, awayTeam)
       match.setDatetime(datetime)
       match.footballer = new Footballer(matchData.footballerName)
+      match.isAway = matchData.isAway
       matches.push(match)
     }
     return matches

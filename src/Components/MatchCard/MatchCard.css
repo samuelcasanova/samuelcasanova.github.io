@@ -5,34 +5,88 @@
     background-color: #fff;
     color: #000;
     display: grid;
-    grid-template-columns: 3fr 1fr 7fr 1fr;
+    grid-template-columns: 2fr 6fr auto 6fr 0.5fr;
     grid-template-rows: auto;
     grid-template-areas: 
-      "date footballer teams isAway"
-      "time footballer teams isAway";
+    "footballer homeTeamLogo datetime awayTeamLogo isAway"
+    "footballer homeTeamName datetime awayTeamName isAway";
     align-items: center;
   }
 
-  .date {
-    grid-area: date;
-    font-weight: bolder;
+  .datetime {
+    grid-area: datetime;
+    display: flex;
+    flex-direction: column;
   }
 
-  .time {
-    grid-area: time;
+  .datetime span:first-child {
+    font-weight: bolder;
   }
 
   .footballer {
     grid-area: footballer;
-    grid-row: span 2;
   }
 
-  .teams {
-    grid-area: teams;
-    grid-row: span 2;
+  .homeTeamName {
+    grid-area: homeTeamName;
+  }
+
+  .awayTeamName {
+    grid-area: awayTeamName;
+  }
+
+  .homeTeamName, .awayTeamName {
+    font-size: calc(6px + 2vw);
+    align-self: flex-start;
+  }
+  
+  .homeTeamLogo {
+    grid-area: homeTeamLogo;
+  }
+    
+  .awayTeamLogo {
+    grid-area: awayTeamLogo;
+  }
+  
+  .vs {
+    display: none;
   }
 
   .isAway {
     grid-area: isAway;
-    grid-row: span 2;
+  }
+
+  .homeTeamLogo img, .awayTeamLogo img {
+    width: 10vmin;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .container {
+      grid-template-columns: 3fr 1fr 4fr 0.5fr 0.1fr 0.5fr 4fr 1fr;
+      grid-template-areas: 
+        "datetime footballer homeTeamName homeTeamLogo vs awayTeamLogo awayTeamName isAway"
+        "datetime footballer homeTeamName homeTeamLogo vs awayTeamLogo awayTeamName isAway";
+    }
+
+    .homeTeamName {
+      text-align: right;
+    }
+    
+    .awayTeamName {
+      text-align: left;
+    }
+  
+    .homeTeamName, .awayTeamName {
+      align-self: inherit;
+    }
+
+    .vs {
+      grid-area: vs;
+      font-size: 1.5vw;
+      display: inherit;
+    }
+
+    .homeTeamLogo img, .awayTeamLogo img {
+      margin: 0 0.5vw;
+    }
   }

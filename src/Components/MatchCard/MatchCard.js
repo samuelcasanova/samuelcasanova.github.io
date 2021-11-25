@@ -3,36 +3,40 @@ import './MatchCard.css'
 import PropTypes from 'prop-types'
 import FootballerCard from '../FootballerCard/FootballerCard'
 import FieldCard from '../FieldCard/FieldCard'
-import TeamsCard from '../TeamsCard/TeamsCard'
 
 class MatchCard extends React.Component {
   render () {
+    let matchDetails = ''
     if (this.props.match.isResting) {
-      return (
-        <div className='container'>
-            <span className='footballer'><FootballerCard footballer={ this.props.match.footballer }/></span>
-            <span className='teams'> (Descansa) </span>
-        </div>
-      )
+      matchDetails = <div className='datetime'>(Descansa)</div>
     } else if (this.props.match.isRivalRetired) {
-      const retiredTeam = this.props.match.isAway ? this.props.match.homeTeam.name : this.props.match.awayTeam.name
-      return (
-        <div className='container'>
-            <span className='footballer'><FootballerCard footballer={ this.props.match.footballer }/></span>
-            <span className='teams'> { retiredTeam } (Retirado) </span>
-        </div>
-      )
+      matchDetails = <div className='datetime'>(Retirado)</div>
     } else {
-      return (
+      matchDetails = (<div className='datetime'>
+                        <span> { this.props.match.date } </span>
+                        <span> { this.props.match.time } </span>
+                      </div>)
+    }
+    return (
         <div className='container'>
-            <span className='date'> { this.props.match.date } </span>
-            <span className='time'> { this.props.match.time } </span>
+            {matchDetails}
             <span className='footballer'><FootballerCard footballer={ this.props.match.footballer }/></span>
-            <span className='teams'>  <TeamsCard match={ (this.props.match) }/></span>
+            <a className='homeTeamName' href={ this.props.match.homeTeam?.calendarUrl }>
+              { this.props.match.homeTeam?.displayName }
+            </a>
+            <a className='homeTeamLogo' href={ this.props.match.homeTeam?.calendarUrl }>
+              <img src={ this.props.match.homeTeam?.logoUrl }/>
+            </a>
+            <span className='vs'>vs</span>
+            <a className='awayTeamLogo' href={ this.props.match.awayTeam?.calendarUrl }>
+              <img src={ this.props.match.awayTeam?.logoUrl }/>
+            </a>
+            <a className='awayTeamName' href={ this.props.match.awayTeam?.calendarUrl }>
+              { this.props.match.awayTeam?.displayName }
+            </a>
             <span className='isAway'> <FieldCard match={ (this.props.match) }/></span>
         </div>
-      )
-    }
+    )
   }
 }
 
@@ -42,11 +46,19 @@ MatchCard.propTypes = {
     date: PropTypes.string.isRequired,
     time: PropTypes.string.isRequired,
     footballer: PropTypes.object.isRequired,
-    homeTeam: PropTypes.object.isRequired,
-    awayTeam: PropTypes.object.isRequired,
+    homeTeam: PropTypes.shape({
+      displayName: PropTypes.string.isRequired,
+      calendarUrl: PropTypes.string,
+      logoUrl: PropTypes.string
+    }),
+    awayTeam: PropTypes.shape({
+      displayName: PropTypes.string.isRequired,
+      calendarUrl: PropTypes.string,
+      logoUrl: PropTypes.string
+    }),
     isAway: PropTypes.bool.isRequired,
-    isRivalRetired: PropTypes.bool.isRequired,
-    isResting: PropTypes.bool.isRequired
+    isRivalRetired: PropTypes.bool,
+    isResting: PropTypes.bool
   })
 }
 

@@ -6,11 +6,12 @@ class Team {
   displayName
   fieldName
   calendarUrl
+  logoUrl
   isRetired
 
   constructor (name, category) {
     if (!name) {
-      throw new Error('Team name should have value')
+      throw new Error('Team.constructor: Team name should have value')
     }
     this.name = name
     this.category = (category || 'NOCATEGORY')
@@ -20,12 +21,14 @@ class Team {
       this.displayName = (teamConfig ? teamConfig.displayName : this.formatDisplayName(name))
       this.fieldName = (teamConfig ? teamConfig.fieldName : name)
       this.calendarUrl = (teamConfig ? teamConfig.calendarUrl : '')
+      this.logoUrl = (teamConfig ? teamConfig.logoUrl : '')
       this.isRetired = (teamConfig ? teamConfig.isRetired : false)
     } else {
-      console.info('Category not found: %s, ', category)
+      console.warn('Team.constructor: Category not found: %s, while trying to build team with name: %s', category, name)
       this.displayName = this.formatDisplayName(name)
       this.fieldName = name
       this.calendarUrl = ''
+      this.logoUrl = ''
       this.isRetired = false
     }
   }

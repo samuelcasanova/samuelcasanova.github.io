@@ -16,9 +16,22 @@ class CalendarReaderService {
     this.applicationDataService = new ApplicationDataService()
   }
 
-  async getCalendar (calendarName) {
+  getCachedCalendar (calendarName) {
+    const calendarJson = localStorage.getItem(calendarName)
+    const calendar = JSON.parse(calendarJson)
+    console.info('CalendarReaderService.getCachedCalendar: Got cached calendar: %s', calendarName)
+    return calendar
+  }
+
+  setCachedCalendar (calendarName, calendar) {
+    localStorage.setItem(calendarName, JSON.stringify(calendar))
+    console.info('CalendarService.setCachedCalendar: Set cached calendar: %s', calendarName)
+  }
+
+  async getLiveCalendar (calendarName) {
     let allFootballerMatches = []
     const calendarConfig = config.calendars.find(calendar => calendar.name === calendarName)
+
     for (const footballerName of calendarConfig.footballerNames) {
       const footballer = new Footballer(footballerName)
       for (const team of footballer.teams) {
@@ -32,8 +45,13 @@ class CalendarReaderService {
     }
 
     const additionalMatches = await this.getMatchesFromApplicationData()
+    const footballerAdditionalMatches = additionalMatches.filter(
+      match => calendarConfig.footballerNames.includes(match.footballer.name))
+    console.info(`CalendarReaderService.getCalendar: Found ${footballerAdditionalMatches.length} 
+      additional matches for calendar ${calendarName}`)
 
-    const allMatches = this.calendarMergerService.getMergedAndSortedMatches(allFootballerMatches, additionalMatches)
+    const allMatches = this.calendarMergerService.getMergedAndSortedMatches(allFootballerMatches,
+      footballerAdditionalMatches)
     const calendar = this.calendarMergerService.createCalendarFromSortedMatches(allMatches)
     return calendar
   }
@@ -42,6 +60,9 @@ class CalendarReaderService {
     const htmlCodeFromURLService = new HtmlCodeFromURLService()
     const calendarSourceCode = await htmlCodeFromURLService.getHtmlCodeFromURL(url)
     const matches = this.calendarTableParseService.parseMatchesFromHtmlCode(calendarSourceCode, footballer, category)
+    if (!matches || matches.length === 0) {
+      throw new Error(`CalendarReaderService.getMatchesFromURL: 0 matches read from calendar: ${url}`)
+    }
     return matches
   }
 
