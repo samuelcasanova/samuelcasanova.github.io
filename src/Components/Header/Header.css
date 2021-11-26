@@ -1,6 +1,5 @@
 .header {
   background-color: #282c34;
-  padding: 0 2vh 0 2vh;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -11,6 +10,16 @@
   color: white;
 }
 
-.header button span{
-  font-size: 40px;
+.header > div {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2vw 0 2vw;
+}
+
+.header button span {
+  font-size: 8vw;
+}
+
+.header img {
+  width: 8vw;
 }

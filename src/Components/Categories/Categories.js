@@ -57,6 +57,12 @@ class Categories extends React.Component {
               <td>Fútbol 11</td>
               <td></td>
             </tr>
+            <tr>
+              <td>Sénior</td>
+              <td>20 años o más</td>
+              <td>Fútbol 11</td>
+              <td><FootballerCard footballer={loupesFootballer}/></td>
+            </tr>
           </tbody>
         </table>
       </div>

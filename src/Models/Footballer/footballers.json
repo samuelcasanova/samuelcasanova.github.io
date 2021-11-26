@@ -25,7 +25,7 @@
         {
             "name": "Loupes",
             "imageUrl": "/footballers/Loupes.png",
-            "statsUrl": "https://www.instagram.com/daniel_loupes/",
+            "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-11/quarta-catalana/grup-14/41803910/746973",
             "teams": [
                 { 
                     "name": "ESCOLA DE FUTBOL PREMIER BARCELONA G",
@@ -34,6 +34,10 @@
                 {
                     "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
                     "category": "Cadete"
+                },
+                {
+                    "name": "CANYELLES,C.E. B",
+                    "category": "Sénior"
                 }
             ]
         }

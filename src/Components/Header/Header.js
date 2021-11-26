@@ -6,9 +6,12 @@ class Header extends React.Component {
   render () {
     return (
             <header className="header">
-                <img src='/iconPremier.webp' alt='icon' />
+                <div>
+                  <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000618164_premier_200x200.png' alt='icon' />
+                  <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png' alt='icon' />
+                </div>
                 <p>
-                    Partidos de la Premier Alex, Victor y Míster
+                    Partidos de Alex, Victor y Míster
                 </p>
                 <Menu/>
             </header>

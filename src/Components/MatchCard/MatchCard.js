@@ -21,17 +21,17 @@ class MatchCard extends React.Component {
         <div className='container'>
             {matchDetails}
             <span className='footballer'><FootballerCard footballer={ this.props.match.footballer }/></span>
-            <a className='homeTeamName' href={ this.props.match.homeTeam?.calendarUrl }>
+            <a className='homeTeamName' href={ this.props.match.homeTeam?.calendarUrl } target="_blank" rel="noreferrer">
               { this.props.match.homeTeam?.displayName }
             </a>
-            <a className='homeTeamLogo' href={ this.props.match.homeTeam?.calendarUrl }>
+            <a className='homeTeamLogo' href={ this.props.match.homeTeam?.calendarUrl } target="_blank" rel="noreferrer">
               <img src={ this.props.match.homeTeam?.logoUrl }/>
             </a>
             <span className='vs'>vs</span>
-            <a className='awayTeamLogo' href={ this.props.match.awayTeam?.calendarUrl }>
+            <a className='awayTeamLogo' href={ this.props.match.awayTeam?.calendarUrl } target="_blank" rel="noreferrer">
               <img src={ this.props.match.awayTeam?.logoUrl }/>
             </a>
-            <a className='awayTeamName' href={ this.props.match.awayTeam?.calendarUrl }>
+            <a className='awayTeamName' href={ this.props.match.awayTeam?.calendarUrl } target="_blank" rel="noreferrer">
               { this.props.match.awayTeam?.displayName }
             </a>
             <span className='isAway'> <FieldCard match={ (this.props.match) }/></span>
