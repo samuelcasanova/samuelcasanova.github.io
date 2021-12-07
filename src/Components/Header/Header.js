@@ -2,21 +2,19 @@ import React from 'react'
 import Menu from '../Menu/Menu'
 import './Header.css'
 
-class Header extends React.Component {
-  render () {
-    return (
-            <header className="header">
-                <div>
-                  <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000618164_premier_200x200.png' alt='icon' />
-                  <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png' alt='icon' />
-                </div>
-                <p>
-                    Partidos de Alex, Victor y Míster
-                </p>
-                <Menu/>
-            </header>
-    )
-  }
+function Header () {
+  return (
+          <header className="header">
+              <div>
+                <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000618164_premier_200x200.png' alt='icon' />
+                <img src='https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png' alt='icon' />
+              </div>
+              <p>
+                  Partidos de Alex, Victor y Míster
+              </p>
+              <Menu/>
+          </header>
+  )
 }
 
 export default Header

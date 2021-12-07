@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './Menu.css'
 
-const Menu = () => {
+function Menu () {
   const [open, setOpen] = useState(false)
 
-  const setMenuState = () => {
+  function setMenuState () {
     setOpen(!open)
     setMenuHeightAndTop()
   }
