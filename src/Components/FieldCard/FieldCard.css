@@ -3,7 +3,6 @@ a.fieldcard:link {
   font-size: 8vmin;
 }
 
-/* visited link */
 a.fieldcard:visited {
   color: #000;
 }

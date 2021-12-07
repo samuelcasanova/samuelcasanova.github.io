@@ -10,7 +10,7 @@ class FootballerCard extends React.Component {
 
     return (
             <div className='footballercard'>
-              <a href= { statsUrl } target="_blank" rel="noreferrer" >
+              <a href= { statsUrl } target="_blank" rel="noreferrer">
                 <img src={ imageUrl } alt={ name } />
               </a>
             </div>
