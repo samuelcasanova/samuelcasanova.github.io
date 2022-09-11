@@ -1,3 +1,17 @@
 {
-  "additionalMatches": []
+  "additionalMatches": [
+    {
+      "footballerName": "Alex",
+      "homeTeamName": "Martinenc D",
+      "homeTeamCalendarUrl": "https://www.fcf.cat/equip/2022/1j/escola-de-futbol-premier-barcelona-a",
+      "homeTeamLogoUrl": "http://www.escudosdefutbolyequipaciones.com/images_esc3/ESPA/CATALU%D1A/escudos_jpg/escudo-f.c.%20martinenc.jpg",
+      "awayTeamName": "Premier C",
+      "awayTeamCalendarUrl": "https://www.fcf.cat/equip/2022/1j/escola-de-futbol-premier-barcelona-a",
+      "awayTeamLogoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
+      "fieldName": "Camp Municipal Teixonera",
+      "date": "18-09-2021",
+      "time": "10:30",
+      "isAway": true
+    }
+  ]
 }
