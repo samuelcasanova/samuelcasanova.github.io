@@ -97,16 +97,5 @@ describe('Testing week model', () => {
       week.addMatch(restingMatch)
       expect(week.isProblematic).toBeFalsy()
     })
-
-    test('With a retired team cant be problematic', () => {
-      week = new Week(20)
-      week.addMatch(match2)
-      const premierDTeam = new Team('ESCOLA DE FUTBOL PREMIER BARCELONA D', 'Pre-benjamín')
-      const retiredTeam = new Team('MONTAÑESA, C.F. C', 'Pre-benjamín')
-      const matchAgainstRetiredTeam = new Match(premierDTeam, retiredTeam)
-      matchAgainstRetiredTeam.setDatetime(new Date(Date.UTC(2021, 9, 16, 10, 0)))
-      week.addMatch(matchAgainstRetiredTeam)
-      expect(week.isProblematic).toBeFalsy()
-    })
   })
 })

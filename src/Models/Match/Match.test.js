@@ -35,11 +35,6 @@ describe('Testing Match model', () => {
     expect(awayMatch.isAway).toBeTruthy()
   })
 
-  test('Home match rival is retired, away is not', () => {
-    expect(homeMatch.isRivalRetired).toBeTruthy()
-    expect(awayMatch.isRivalRetired).toBeFalsy()
-  })
-
   test('When Premier is the only team, then is resting', () => {
     expect(restingMatch.isResting).toBeTruthy()
   })

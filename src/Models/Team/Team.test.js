@@ -18,21 +18,6 @@ describe('Testing Team model', () => {
     expect(nonExistingTeam.name).toBe('NON EXISTING')
   })
 
-  test('Team calendar Urls are correctly set', () => {
-    expect(homeTeam.calendarUrl).toBe('https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/escola-de-futbol-premier-barcelona-d')
-  })
-
-  test('Team fields are correctly matched', () => {
-    expect(homeTeam.fieldName).not.toBeUndefined()
-    expect(homeTeam.fieldName).toBe('CAMP DE FUTBOL MPAL. VALL D\'HEBRON')
-    expect(awayTeam.fieldName).toBeUndefined()
-  })
-
-  test('Team display name is taken from config if exists', () => {
-    expect(homeTeam.displayName).not.toBeUndefined()
-    expect(homeTeam.displayName).toBe('Premier D')
-  })
-
   test('If a team name doesnt exist then field Name is the same as the team name', () => {
     expect(nonExistingTeam.fieldName).not.toBeUndefined()
     expect(nonExistingTeam.fieldName).toBe('NON EXISTING')
@@ -50,9 +35,5 @@ describe('Testing Team model', () => {
     } catch (exception) {
       expect(exception).toBeInstanceOf(Error)
     }
-  })
-
-  test('Team Montañesa is retired', () => {
-    expect(awayTeam.isRetired).toBeTruthy()
   })
 })

@@ -71,10 +71,6 @@ describe('Parsing simple calendar table', () => {
       expect(singleMatch.footballer.name).toBe('Victor')
     })
 
-    test('match home team is PREMIER D', () => {
-      expect(singleMatch.homeTeam.displayName).toBe('Premier D')
-    })
-
     test('isAway is false when the match is home for Premier', () => {
       expect(singleMatch.isAway).toBeFalsy()
     })
