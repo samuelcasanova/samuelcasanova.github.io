@@ -1,17 +1,30 @@
 {
   "additionalMatches": [
     {
-      "footballerName": "Alex",
-      "homeTeamName": "Martinenc D",
-      "homeTeamCalendarUrl": "https://www.fcf.cat/equip/2022/1j/escola-de-futbol-premier-barcelona-a",
-      "homeTeamLogoUrl": "http://www.escudosdefutbolyequipaciones.com/images_esc3/ESPA/CATALU%D1A/escudos_jpg/escudo-f.c.%20martinenc.jpg",
-      "awayTeamName": "Premier C",
-      "awayTeamCalendarUrl": "https://www.fcf.cat/equip/2022/1j/escola-de-futbol-premier-barcelona-a",
+      "footballerName": "Victor",
+      "homeTeamName": "Santboià A",
+      "homeTeamCalendarUrl": "https://www.fcf.cat/club/2021/santboia-fc",
+      "homeTeamLogoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672065_fcsantboia_200x200.png",
+      "awayTeamName": "Premier A",
+      "awayTeamCalendarUrl": "https://www.fcf.cat/club/2022/escola-de-futbol-premier-barcelona",
       "awayTeamLogoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
-      "fieldName": "Camp Municipal Teixonera",
-      "date": "18-09-2021",
-      "time": "10:30",
+      "fieldName": "Municipal Joan Baptista Sant Boi",
+      "date": "25-09-2022",
+      "time": "9:00",
       "isAway": true
+    },
+    {
+      "footballerName": "Alex",
+      "homeTeamName": "Premier G",
+      "homeTeamCalendarUrl": "https://www.fcf.cat/club/2022/escola-de-futbol-premier-barcelona",
+      "homeTeamLogoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
+      "awayTeamName": "Imperio A",
+      "awayTeamCalendarUrl": "https://www.fcf.cat/club/1718/imperio-cf",
+      "awayTeamLogoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000669225_cfimperio_200x200.png",
+      "fieldName": "Camp Municipal Teixonera",
+      "date": "25-09-2022",
+      "time": "11:00",
+      "isAway": false
     }
   ]
 }

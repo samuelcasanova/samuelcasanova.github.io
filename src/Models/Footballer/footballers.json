@@ -5,9 +5,9 @@
             "imageUrl": "/footballers/Alex.png",
             "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-7/benjami-7-tercera-divisio/grup-6/42202112/41820009",
             "teams": [
-                { 
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA F",
-                    "category": "Benjamín"
+                {
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA G",
+                    "category": "Alevín G"
                 }
             ]
         },
@@ -16,9 +16,9 @@
             "imageUrl": "/footballers/Victor.png",
             "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-7/prebenjami-7/grup-18/42489296/41994731",
             "teams": [
-                { 
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-                    "category": "Pre-benjamín"
+                {
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
+                    "category": "Pre-benjamín A"
                 }
             ]
         },
@@ -27,19 +27,15 @@
             "imageUrl": "/footballers/Loupes.png",
             "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-11/quarta-catalana/grup-14/41803910/746973",
             "teams": [
-                { 
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA G",
-                    "category": "Alevín"
-                },
                 {
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
-                    "category": "Cadete"
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
+                    "category": "Alevín femenino A"
                 },
                 {
                     "name": "CANYELLES,C.E. B",
-                    "category": "Sénior"
+                    "category": "Cuarta Catalana"
                 }
             ]
         }
-   ]
+    ]
 }

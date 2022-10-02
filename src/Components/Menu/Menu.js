@@ -18,10 +18,10 @@ function Menu () {
         <a href="/#/">Calendario Peques</a>
         <a href="/#/loupes">Calendario Míster</a>
         <a href="/#/categorias">Categorías</a>
-        <a href="https://www.fcf.cat/classificacio/2022/futbol-7/benjami-7-tercera-divisio/grup-6">Clasificación Alex</a>
-        <a href="https://www.fcf.cat/classificacio/2022/futbol-7/prebenjami-7/grup-18">Clasificación Victor</a>
-        <a href="https://www.fcf.cat/classificacio/2022/futbol-7/alevi-tercera-divisio/grup-3">Clasificación Míster Alevines</a>
-        <a href="https://www.fcf.cat/classificacio/2022/futbol-11/cadet-segona-divisio/grup-17">Clasificación Míster Cadetes</a>
+        <a href="https://www.fcf.cat/classificacio/2223/futbol-7/alevi-tercera-divisio/grup-1">Clasificación Alex</a>
+        <a href="https://www.fcf.cat/classificacio/2223/futbol-7/prebenjami-7/grup-9">Clasificación Victor</a>
+        <a href="https://www.fcf.cat/classificacio/2223/futbol-femeni/segona-divisio-femeni-alevi/grup-4">Clasificación Míster Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2223/futbol-11/quarta-catalana/grup-18">Clasificación Míster Senior</a>
       </div>
     </div>
   )
