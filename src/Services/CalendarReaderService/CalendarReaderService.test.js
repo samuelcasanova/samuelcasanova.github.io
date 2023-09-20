@@ -13,22 +13,10 @@ describe('Merging Internet calendars', () => {
       expect(footballer1Matches.length).toBeGreaterThan(20)
     })
 
-    test.skip('Footballer 2 calendar has >20 matches', async () => {
+    test('Footballer 2 calendar has >20 matches', async () => {
       const footballer2 = new Footballer(config.calendars[0].footballerNames[1])
       const footballer2Matches = await calendarReaderService.getMatchesFromURL(footballer2.teams[0].calendarUrl, footballer2, footballer2.teams[0].category)
       expect(footballer2Matches.length).toBeGreaterThan(20)
-    })
-
-    test.skip('Footballer 3 1º calendar has >20 matches', async () => {
-      const footballer3 = new Footballer(config.calendars[1].footballerNames[0])
-      const footballer3Matches = await calendarReaderService.getMatchesFromURL(footballer3.teams[0].calendarUrl, footballer3, footballer3.teams[0].category)
-      expect(footballer3Matches.length).toBeGreaterThan(20)
-    })
-
-    test.skip('Footballer 3 2º calendar has >20 matches', async () => {
-      const footballer3 = new Footballer(config.calendars[1].footballerNames[0])
-      const footballer3Matches = await calendarReaderService.getMatchesFromURL(footballer3.teams[1].calendarUrl, footballer3, footballer3.teams[1].category)
-      expect(footballer3Matches.length).toBeGreaterThan(20)
     })
 
     test('Wrong calendar give an error', async () => {

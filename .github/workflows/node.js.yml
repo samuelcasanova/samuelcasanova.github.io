@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  buildanddeploy:
+  buildandtest:
 
     runs-on: ubuntu-latest
 
@@ -30,11 +30,4 @@ jobs:
     - run: npm test
     - run: npm run build --if-present
 
-    - name: Deploy build
-      uses: airvzxf/ftp-deployment-action@latest
-      with:
-        server: samuelcasanova.com
-        user: premier@samuelcasanova.com
-        password: ${{ secrets.FTP_PASSWORD }}
-        local_dir: ./build/
         

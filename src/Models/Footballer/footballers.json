@@ -6,8 +6,8 @@
             "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-7/benjami-7-tercera-divisio/grup-6/42202112/41820009",
             "teams": [
                 {
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA G",
-                    "category": "Alevín G"
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA F",
+                    "category": "Alevín F"
                 }
             ]
         },
@@ -18,22 +18,7 @@
             "teams": [
                 {
                     "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
-                    "category": "Pre-benjamín A"
-                }
-            ]
-        },
-        {
-            "name": "Loupes",
-            "imageUrl": "/footballers/Loupes.png",
-            "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-11/quarta-catalana/grup-14/41803910/746973",
-            "teams": [
-                {
-                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
-                    "category": "Alevín femenino A"
-                },
-                {
-                    "name": "CANYELLES,C.E. B",
-                    "category": "Cuarta Catalana"
+                    "category": "Benjamín A"
                 }
             ]
         }

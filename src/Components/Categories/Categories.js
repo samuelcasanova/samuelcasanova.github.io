@@ -6,7 +6,6 @@ import Footballer from '../../Models/Footballer/Footballer'
 function Categories () {
   const alexFootballer = new Footballer('Alex')
   const victorFootballer = new Footballer('Victor')
-  const loupesFootballer = new Footballer('Loupes')
 
   return (
     <div>
@@ -24,19 +23,19 @@ function Categories () {
             <td>Pre-benjamines</td>
             <td>6 y 7 años</td>
             <td>Fútbol 7</td>
-            <td><FootballerCard footballer={victorFootballer}/></td>
+            <td></td>
           </tr>
           <tr>
             <td>Benjamines</td>
             <td>8 y 9 años</td>
             <td>Fútbol 7</td>
-            <td><FootballerCard footballer={alexFootballer}/></td>
+            <td><FootballerCard footballer={victorFootballer}/></td>
           </tr>
           <tr>
             <td>Alevines</td>
             <td>10 y 11 años</td>
             <td>Fútbol 7</td>
-            <td><FootballerCard footballer={loupesFootballer}/></td>
+            <td><FootballerCard footballer={alexFootballer}/></td>
           </tr>
           <tr>
             <td>Infantiles</td>
@@ -48,7 +47,7 @@ function Categories () {
             <td>Cadetes</td>
             <td>14 y 15 años</td>
             <td>Fútbol 11</td>
-            <td><FootballerCard footballer={loupesFootballer}/></td>
+            <td></td>
           </tr>
           <tr>
             <td>Juveniles</td>
@@ -60,7 +59,7 @@ function Categories () {
             <td>Sénior</td>
             <td>20 años o más</td>
             <td>Fútbol 11</td>
-            <td><FootballerCard footballer={loupesFootballer}/></td>
+            <td></td>
           </tr>
         </tbody>
       </table>

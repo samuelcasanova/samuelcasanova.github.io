@@ -1,516 +1,248 @@
 {
   "categories": [
     {
-      "name": "Alevín G",
+      "name": "Alevín F",
       "teams": [
         {
-          "name": "CERRO CLUB DEPORTIVO A",
-          "displayName": "Cerro Deportivo A",
-          "fieldName": "CAMP DE FUTBOL MPAL. TRINITAT VELLA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/cerro-club-deportivo-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000586444_cerro_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/cerro-club-deportivo-a"
+          "name": "BON PASTOR AGRUPACIO ESPORTIVA B",
+          "displayName": "Bon Pastor B",
+          "fieldName": "CAMP DE FUTBOL CEM BON PASTOR",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/bon-pastor-agrupacio-esportiva-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000280977_logo_aebonpastor.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/bon-pastor-agrupacio-esportiva-b"
         },
         {
-          "name": "FUNDACIÓ ESPORTIVA GRAMA F",
-          "displayName": "Grama F",
-          "fieldName": "CAMP DE FUTBOL MPAL. LES OLIVERES",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/fundacio-esportiva-grama-f",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000574709_fgrama_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/fundacio-esportiva-grama-f"
+          "name": "APA POBLE SEC, CE. C",
+          "displayName": "Poble Sec C",
+          "fieldName": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/apa-poble-sec-ce-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000287980_Escut_2D_-_66px_-_fons_transparent.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/apa-poble-sec-ce-c"
         },
         {
-          "name": "LA SALUT PERE GOL AE. C",
-          "displayName": "La Salut Pere Gol C",
-          "fieldName": "CAMP DE FUTBOL MPAL. PERE GOL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/la-salut-pere-gol-ae-c",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651347_lasalutperegol_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/la-salut-pere-gol-ae-c"
+          "name": "TECNOFUTBOL C.F B",
+          "displayName": "Tecnofutbol B",
+          "fieldName": "CAMP DE FUTBOL CLUB MEILAND",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/tecnofutbol-cf-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000034722_tecnofutbol.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/tecnofutbol-cf-b"
         },
         {
-          "name": "UNIFICACIÓN BELLVITGE, U.D. B",
-          "displayName": "Bellvitge B",
-          "fieldName": "CAMP DE FUTBOL MPAL. LA FEIXA LLARGA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/unificacion-bellvitge-ud-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000265621_escut.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/unificacion-bellvitge-ud-b"
+          "name": "CARMELO, C.D. B",
+          "displayName": "Carmelo B",
+          "fieldName": "CAMP DE FUTBOL MPAL. CARMEL",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/carmelo-cd-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000674925_carmelo_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/carmelo-cd-b"
         },
         {
-          "name": "SALESIANS BOSCO-HORTA CE. A",
-          "displayName": "Salesians Horta A",
-          "fieldName": "CAMP DE FUTBOL COL·LEGI SALESIANS D'HORTA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/salesians-bosco-horta-ce-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000260026_logo_CES_BoscoHorta.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/salesians-bosco-horta-ce-a"
+          "name": "BESOS BARON DE VIVER CLUB FUTBOL A",
+          "displayName": "Besos A",
+          "fieldName": "CAMP DE FUTBOL MPAL. BARÓ DE VIVER",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/besos-baron-de-viver-club-futbol-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000740544_besosbaron_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/besos-baron-de-viver-club-futbol-a"
         },
         {
-          "name": "ESCOLA F ANGEL PEDRAZA D",
-          "displayName": "F Angel Pedraza D",
-          "fieldName": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/escola-f-angel-pedraza-d",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651412_efapedraza_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/escola-f-angel-pedraza-d"
-        },
-        {
-          "name": "MERCAT NOU MAGÒRIA, S.E. CLUB A",
-          "displayName": "Nou Magòria A",
-          "fieldName": "CAMP DE FUTBOL CE DE L'ENERGIA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/mercat-nou-magoria-se-club-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000656055_mercatnoumagoria_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/mercat-nou-magoria-se-club-a"
-        },
-        {
-          "name": "POBLE NOU ,AT. B",
-          "displayName": "Poble Nou B",
-          "fieldName": "CAMP DE FUTBOL CEM MARESME",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/poble-nou-at-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000310887_Logo_Facebook.fw.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/poble-nou-at-b"
-        },
-        {
-          "name": "Pª BARC. BARCINO, CE F",
-          "displayName": "Barcino F",
-          "fieldName": "CAMP DE FUTBOL MPAL. SANT MARTÍ DE PROVENÇALS",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/pa-barc-barcino-ce-f",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000257610_24136.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/pa-barc-barcino-ce-f"
-        },
-        {
-          "name": "SANT IGNASI C.E. C",
-          "displayName": "Sant Ignasi C",
-          "fieldName": "CAMP DE FUTBOL COL·LEGI SANT IGNASI",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/sant-ignasi-ce-c",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664682_stignasice_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/sant-ignasi-ce-c"
-        },
-        {
-          "name": "VILA OLÍMPICA CLUB ESP. K",
-          "displayName": "Vila Olímpica K",
-          "fieldName": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/vila-olimpica-club-esp-k",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000586311_cevo_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/vila-olimpica-club-esp-k"
-        },
-        {
-          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA G",
-          "displayName": "Premier G",
-          "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
-          "calendarUrl": "https://www.fcf.cat/calendari-equip/2223/futbol-7/alevi-tercera-divisio/grup-1/escola-de-futbol-premier-barcelona-g",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/escola-de-futbol-premier-barcelona-g"
-        },
-        {
-          "name": "SISTRELLS C.F. C",
-          "displayName": "Sistrells C",
-          "fieldName": "CAMP DE FUTBOL ZEM CAN CABANYES",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/sistrells-cf-c",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012752_sistrells(sin recuadro).png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/sistrells-cf-c"
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F B",
+          "displayName": "Guineueta B",
+          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/escola-esportiva-guineueta-cf-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/escola-esportiva-guineueta-cf-b"
         },
         {
           "name": "IMPERIO , C.F. A",
           "displayName": "Imperio A",
           "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (1)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/imperio-cf-a",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/imperio-cf-a",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000669225_cfimperio_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/imperio-cf-a"
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/imperio-cf-a"
         },
         {
-          "name": "APA POBLE SEC, CE. E",
-          "displayName": "Poble Sec E",
-          "fieldName": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/3al/apa-poble-sec-ce-e",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000287980_Escut_2D_-_66px_-_fons_transparent.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/3al/apa-poble-sec-ce-e"
+          "name": "FUNDACIÓ ESPORTIVA GRAMA D",
+          "displayName": "Grama D",
+          "fieldName": "CAMP DE FUTBOL MPAL. LES OLIVERES",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/fundacio-esportiva-grama-d",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000574709_fgrama_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/fundacio-esportiva-grama-d"
+        },
+        {
+          "name": "MERCAT NOU MAGORIA, S.E. CLUB A",
+          "displayName": "Mercat Nou Magoria A",
+          "fieldName": "CAMP DE FUTBOL CE DE L'ENERGIA",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/mercat-nou-magoria-se-club-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000943118_6568_mercatnou_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/mercat-nou-magoria-se-club-a"
+        },
+        {
+          "name": "ESCOLA PIA SARRIÀ S.E. B",
+          "displayName": "Escola Pia Sarrià B",
+          "fieldName": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/escola-pia-sarria-se-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000113186_LOGO_TARONJA.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/escola-pia-sarria-se-b"
+        },
+        {
+          "name": "Pª BARC. VILLAVERDE-PENITENTS C",
+          "displayName": "Villaverde Penitents C",
+          "fieldName": "CAMP DE FUTBOL MPAL. SANT GENÍS",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/pa-barc-villaverde-penitents-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012218_Villaverde pequeno.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/pa-barc-villaverde-penitents-c"
+        },
+        {
+          "name": "YOUNG TALENT BADALONA SUD ASSOC.ESP. A",
+          "displayName": "Young Talent Badalona A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE BADALONA SUD",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/young-talent-badalona-sud-assocesp-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000661316_youngtalent_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/young-talent-badalona-sud-assocesp-a"
+        },
+        {
+          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA F",
+          "displayName": "Premier F",
+          "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2324/futbol-7/tercera-divisio-alevi-s12/grup-5/escola-de-futbol-premier-barcelona-f",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/escola-de-futbol-premier-barcelona-f"
+        },
+        {
+          "name": "LES CORTS DE BARCELONA CLUB ESP. A",
+          "displayName": "Les Corts A",
+          "fieldName": "CAMP DE FUTBOL CEM ARISTIDES MAILLOL",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/les-corts-de-barcelona-club-esp-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000665423_celescorts_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/les-corts-de-barcelona-club-esp-a"
+        },
+        {
+          "name": "CANYELLES,C.E. C",
+          "displayName": "Canyelles C",
+          "fieldName": "CAMP DE FUTBOL MPAL. CANYELLES (BCN)",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/3al12/canyelles-ce-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/3al12/canyelles-ce-c"
         }
       ]
     },
     {
-      "name": "Pre-benjamín A",
+      "name": "Benjamín A",
       "teams": [
         {
-          "name": "ALZAMORA, C.F. A",
-          "displayName": "Alzamora A",
-          "fieldName": "CAMP DE FUTBOL CEM CAN DRAGO",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/alzamora-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000484779_ALZAMORA,_C.F._copia.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/alzamora-cf-a"
+          "name": "FUNDACIÓ FUTBOL BADALONA C",
+          "displayName": "Badalona C",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE MONTIGALÀ",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/fundacio-futbol-badalona-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000599903_ffb_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/fundacio-futbol-badalona-c"
+        },
+        {
+          "name": "ARRABAL-CALAF GRAMANET C.D. A",
+          "displayName": "Arrabal Gramanet A",
+          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (1)",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/arrabal-calaf-gramanet-cd-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000897899_arrabalcalaf_200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/arrabal-calaf-gramanet-cd-a"
+        },
+        {
+          "name": "SINGUERLIN, C.F.  A",
+          "displayName": "Singuerlin A",
+          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (2)",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/singuerlin-cf-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664370_singuerlin_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/singuerlin-cf-a"
+        },
+        {
+          "name": "LA SALUT PERE GOL AE. A",
+          "displayName": "La Salut Pere Gol A",
+          "fieldName": "CAMP DE FUTBOL MPAL. PERE GOL",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/la-salut-pere-gol-ae-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651347_lasalutperegol_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/la-salut-pere-gol-ae-a"
         },
         {
           "name": "Pª BARC. BARCINO, CE A",
           "displayName": "Barcino A",
           "fieldName": "CAMP DE FUTBOL MPAL. MENORCA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/pa-barc-barcino-ce-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000257610_24136.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/pa-barc-barcino-ce-a"
-        },
-        {
-          "name": "FUNDACIÓ FUTBOL BADALONA A",
-          "displayName": "Badalona A",
-          "fieldName": "CAMP DE FUTBOL MPAL. DE MONTIGALÀ",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-futbol-badalona-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000599903_ffb_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-futbol-badalona-a"
-        },
-        {
-          "name": "L'HOSPITALET, CENTRE ESPORTS A",
-          "displayName": "L'Hospitalet A",
-          "fieldName": "CAMP DE FUTBOL MPAL. DE L'HOSPITALET LLOBREGAT",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/lhospitalet-centre-esports-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000879825_cehospi_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/lhospitalet-centre-esports-a"
-        },
-        {
-          "name": "UNIFICACION LLEFIA,CF. A",
-          "displayName": "Llefia A",
-          "fieldName": "CAMP DE FUTBOL MPAL. LLEFIÀ",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/unificacion-llefia-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000879078_llefia_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/unificacion-llefia-cf-a"
-        },
-        {
-          "name": "ESCOLA ESPORTIVA GUINEUETA C.F  A",
-          "displayName": "Guineueta A",
-          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/escola-esportiva-guineueta-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/escola-esportiva-guineueta-cf-a"
-        },
-        {
-          "name": "FUNDACIÓ ACADÈMIA F. L'HOSPITALET  A",
-          "displayName": "L'Hospitalet A",
-          "fieldName": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-academia-f-lhospitalet-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000817600_faf_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-academia-f-lhospitalet-a"
-        },
-        {
-          "name": "FUNDACIO P. CE. JUPITER A",
-          "displayName": "Jupiter A",
-          "fieldName": "CAMP DE FUTBOL CEM JÚPITER",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-p-ce-jupiter-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672019_cejupiter_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/fundacio-p-ce-jupiter-a"
-        },
-        {
-          "name": "Pª BARC. CINC COPES A",
-          "displayName": "Cinc Copes A",
-          "fieldName": "CAMP DE FUTBOL MPAL. PARC CATALANA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/pa-barc-cinc-copes-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000576648_cinccopes_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/pa-barc-cinc-copes-a"
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/pa-barc-barcino-ce-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000936883_2432_pe_a_barcino_ce_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/pa-barc-barcino-ce-a"
         },
         {
           "name": "HORTA, U.AT. A",
           "displayName": "Horta A",
           "fieldName": "CAMP DE FUTBOL MPAL. HORTA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/horta-uat-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000816159_horta_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/horta-uat-a"
-        },
-        {
-          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
-          "displayName": "Premier A",
-          "fieldName": "CAMP DE FUTBOL MPAL. TEIXONERA",
-          "calendarUrl": "https://www.fcf.cat/calendari-equip/2223/futbol-7/prebenjami-7/grup-9/escola-de-futbol-premier-barcelona-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/escola-de-futbol-premier-barcelona-a"
-        },
-        {
-          "name": "SINGUERLIN, C.F. A",
-          "displayName": "Singuerlin A",
-          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (2)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/singuerlin-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664370_singuerlin_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/singuerlin-cf-a"
-        },
-        {
-          "name": "MARTINENC, F.C. A",
-          "displayName": "Martinenc A",
-          "fieldName": "CAMP DE FUTBOL CEM GUINARDÓ",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/martinenc-fc-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000577607_martinenc-200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/martinenc-fc-a"
-        },
-        {
-          "name": "SISTRELLS C.F. A",
-          "displayName": "Sistrells A",
-          "fieldName": "CAMP DE FUTBOL ZEM CAN CABANYES",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/sistrells-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012752_sistrells(sin recuadro).png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/sistrells-cf-a"
-        },
-        {
-          "name": "SANT ANDREU, U.E A",
-          "displayName": "Sant Andreu A",
-          "fieldName": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/7pb/sant-andreu-ue-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000573790_standreu_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/7pb/sant-andreu-ue-a"
-        }
-      ]
-    },
-    {
-      "name": "Alevín femenino A",
-      "teams": [
-        {
-          "name": "MARTINENC, F.C. A",
-          "displayName": "Martinenc A",
-          "fieldName": "CAMP DE FUTBOL CEM GUINARDÓ",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/martinenc-fc-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000577607_martinenc-200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/martinenc-fc-a"
-        },
-        {
-          "name": "SISTRELLS C.F. A",
-          "displayName": "Sistrells A",
-          "fieldName": "CAMP DE FUTBOL ZEM CAN CABANYES",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/sistrells-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012752_sistrells(sin recuadro).png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/sistrells-cf-a"
-        },
-        {
-          "name": "ESCOLA F ÀNGEL PEDRAZA A",
-          "displayName": "F Àngel Pedraza A",
-          "fieldName": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/escola-f-angel-pedraza-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651412_efapedraza_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/escola-f-angel-pedraza-a"
-        },
-        {
-          "name": "CARMELO, C.D. A",
-          "displayName": "Carmelo A",
-          "fieldName": "CAMP DE FUTBOL MPAL. CARMEL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/carmelo-cd-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000674925_carmelo_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/carmelo-cd-a"
-        },
-        {
-          "name": "WOMEN'S SOCCER SCHOOL B",
-          "displayName": "Soccer School B",
-          "fieldName": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/womens-soccer-school-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/womens-soccer-school-b"
-        },
-        {
-          "name": "SANT ANDREU, U.E A",
-          "displayName": "Sant Andreu A",
-          "fieldName": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/sant-andreu-ue-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000573790_standreu_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/sant-andreu-ue-a"
-        },
-        {
-          "name": "L'HOSPITALET, CENTRE ESPORTS A",
-          "displayName": "L'Hospitalet A",
-          "fieldName": "CAMP DE FUTBOL MPAL. DE L'HOSPITALET LLOBREGAT",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/lhospitalet-centre-esports-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000879825_cehospi_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/lhospitalet-centre-esports-a"
-        },
-        {
-          "name": "MERCAT NOU MAGORIA, S.E. CLUB A",
-          "displayName": "Nou Magoria A",
-          "fieldName": "CAMP DE FUTBOL CE DE L'ENERGIA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/mercat-nou-magoria-se-club-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000656055_mercatnoumagoria_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/mercat-nou-magoria-se-club-a"
-        },
-        {
-          "name": "FUNDACIO P. CE. JUPITER A",
-          "displayName": "Jupiter A",
-          "fieldName": "CAMP DE FUTBOL CEM JÚPITER",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/fundacio-p-ce-jupiter-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672019_cejupiter_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/fundacio-p-ce-jupiter-a"
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/horta-uat-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000959029_1049_HortaUAT_200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/horta-uat-a"
         },
         {
           "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
           "displayName": "Premier A",
           "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
-          "calendarUrl": "https://www.fcf.cat/calendari-equip/2223/futbol-femeni/segona-divisio-femeni-alevi/grup-4/escola-de-futbol-premier-barcelona-a",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2324/futbol-7/primera-divisio-benjami-s9/grup-3/escola-de-futbol-premier-barcelona-a",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/escola-de-futbol-premier-barcelona-a"
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/escola-de-futbol-premier-barcelona-a"
         },
         {
-          "name": "CANYELLES,C.E. A",
-          "displayName": "Canyelles A",
-          "fieldName": "CAMP DE FUTBOL MPAL. CANYELLES (BCN)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/canyelles-ce-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/canyelles-ce-a"
-        },
-        {
-          "name": "Pª BARC. BARCINO, CE B",
-          "displayName": "Barcino B",
-          "fieldName": "CAMP DE FUTBOL MPAL. MENORCA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/pa-barc-barcino-ce-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000257610_24136.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/pa-barc-barcino-ce-b"
-        },
-        {
-          "name": "ESCOLA ESPORTIVA GUINEUETA C.F B",
-          "displayName": "Guineueta  B",
-          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/escola-esportiva-guineueta-cf-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/escola-esportiva-guineueta-cf-b"
-        },
-        {
-          "name": "SINGUERLIN, C.F. A",
-          "displayName": "Singuerlin A",
-          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (2)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/singuerlin-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664370_singuerlin_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/singuerlin-cf-a"
-        },
-        {
-          "name": "CAN BUXERES, F.C. A",
-          "displayName": "Can Buxeres A",
-          "fieldName": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/can-buxeres-fc-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000648509_canbuxeres_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/can-buxeres-fc-a"
-        },
-        {
-          "name": "CAN VIDALET, C.F. A",
-          "displayName": "Can Vidalet A",
-          "fieldName": "CAMP D'ESPORTS MPAL. EL MOLI",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/2fab/can-vidalet-cf-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672069_canvidalet_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/2fab/can-vidalet-cf-a"
-        },
-        {
-          "name": "BON PASTOR AGRUPACIÓ ESPORTIVA A",
-          "displayName": "Bon Pastor A",
-          "isRetired": true
-        }
-      ]
-    },
-    {
-      "name": "Cuarta Catalana",
-      "teams": [
-        {
-          "name": "L'ESQUERRA DE L'EIXAMPLE, F.C. B",
-          "displayName": "L'esquerra Eixample B",
+          "name": "Pª BARC. ANGUERA B",
+          "displayName": "Anguera B",
           "fieldName": "CAMP DE FUTBOL ESCOLA INDUSTRIAL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/lesquerra-de-leixample-fc-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000574659_esqeixample_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/lesquerra-de-leixample-fc-b"
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/pa-barc-anguera-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000003634_PB ANGUERA.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/pa-barc-anguera-b"
         },
         {
-          "name": "GRAN Pª ESPANYOLISTA MANIGUA B",
-          "displayName": "Manigua B",
-          "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/gran-pa-espanyolista-manigua-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000485147_GRAN_P__ESPANYOLISTA_MANIGUA_copia.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/gran-pa-espanyolista-manigua-b"
+          "name": "MARTINENC, F.C. A",
+          "displayName": "Martinenc A",
+          "fieldName": "CAMP DE FUTBOL CEM GUINARDÓ",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/martinenc-fc-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000577607_martinenc-200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/martinenc-fc-a"
         },
         {
-          "name": "CANYELLES,C.E. B",
-          "displayName": "Canyelles B",
-          "fieldName": "CAMP DE FUTBOL MPAL. CANYELLES (BCN)",
-          "calendarUrl": "https://www.fcf.cat/calendari-equip/2223/futbol-11/quarta-catalana/grup-18/canyelles-ce-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000741560_canyelles_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/canyelles-ce-b"
+          "name": "SANT ANDREU, U.E B",
+          "displayName": "Sant Andreu B",
+          "fieldName": "CAMP DE FUTBOL MPAL. NARCÍS SALA",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/sant-andreu-ue-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000573790_standreu_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/sant-andreu-ue-b"
         },
         {
-          "name": "ATHLETIC CAN VIDALET, F.C. A",
-          "displayName": "Can Vidalet A",
-          "fieldName": "CAMP DE FUTBOL MPAL. CANYELLES (BCN)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/athletic-can-vidalet-fc-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000661313_athcanvidalet_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/athletic-can-vidalet-fc-a"
+          "name": "ESCOLA FUTBOL MATARO C.E B",
+          "displayName": "Escola Mataro B",
+          "fieldName": "CAMP DE FUTBOL MPAL. DEL CENTENARI",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/escola-futbol-mataro-ce-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672015_cemataro_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/escola-futbol-mataro-ce-b"
         },
         {
-          "name": "SANT IGNASI C.E. C",
-          "displayName": "Sant Ignasi C",
-          "fieldName": "CAMP DE FUTBOL COL·LEGI SANT IGNASI",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/sant-ignasi-ce-c",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664682_stignasice_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/sant-ignasi-ce-c"
+          "name": "VILA OLIMPICA CLUB ESP. B",
+          "displayName": "Vila Olimpica B",
+          "fieldName": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/vila-olimpica-club-esp-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000586311_cevo_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/vila-olimpica-club-esp-b"
         },
         {
-          "name": "THAU, C.E. A",
-          "displayName": "Thau A",
-          "fieldName": "CAMP DE FUTBOL ESCOLA THAU",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/thau-ce-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000300730_Logo_thau.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/thau-ce-a"
+          "name": "SARRIA, C.P. A",
+          "displayName": "Sarria A",
+          "fieldName": "CAMP DE FUTBOL CEM CAN CARALLEU",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/sarria-cp-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000388904_00100_0000337753_escut-cp-sarria-1952.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/sarria-cp-a"
         },
         {
-          "name": "LA FLORIDA C.F. B",
-          "displayName": "La Florida B",
-          "fieldName": "CAMP DE FUTBOL MPAL. LA FLORIDA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/la-florida-cf-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000485176_LA_FLORIDA_C.F._copia.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/la-florida-cf-b"
+          "name": "SANT GABRIEL, C.D. B",
+          "displayName": "Sant Gabriel B",
+          "fieldName": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+          "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/sant-gabriel-cd-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000832660_santgabriel_200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/sant-gabriel-cd-b"
         },
         {
-          "name": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-          "displayName": "Collblanc B",
-          "fieldName": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/escola-collblanc-torrassa-ce-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000003500_images.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/escola-collblanc-torrassa-ce-b"
-        },
-        {
-          "name": "PEREGRINOS FUTBOL CLUB A",
-          "displayName": "Peregrinos A",
-          "fieldName": "CAMP DE FUTBOL CEM ARISTIDES MAILLOL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/peregrinos-futbol-club-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000064727_New_Escudo_Peregrinos.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/peregrinos-futbol-club-a"
-        },
-        {
-          "name": "VISTA ALEGRE,U.D. C",
-          "displayName": "Vista Alegre C",
-          "fieldName": "CAMP D'ESPORTS MPAL. CAN VINADER",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/vista-alegre-ud-c",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672066_vistaalegre_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/vista-alegre-ud-c"
-        },
-        {
-          "name": "ALBIREX NIIGATA BARCELONA FUTBOL CLUB A",
-          "displayName": "Albirex A",
-          "fieldName": "CAMP DE FUTBOL MPAL. SANT ILDEFONS",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/albirex-niigata-barcelona-futbol-club-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000062902_ALBIREX_NIIGATA_BCN.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/albirex-niigata-barcelona-futbol-club-a"
-        },
-        {
-          "name": "SINERGIA, C.F. B",
-          "displayName": "Sinergia B",
-          "fieldName": "CAMP DE FUTBOL MPAL. CANYELLES (BCN)",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/sinergia-cf-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000740920_nacionalfc_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/sinergia-cf-b"
-        },
-        {
-          "name": "LA BOMBONERA , C.D. A",
-          "displayName": "La Bombonera A",
-          "fieldName": "CAMP DE FUTBOL MPAL. TURÓ DE LA PEIRA",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/la-bombonera-cd-a",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000888126_bombonera_200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/la-bombonera-cd-a"
-        },
-        {
-          "name": "GORNAL, U.D. B",
-          "displayName": "Gornal B",
-          "fieldName": "CAMP DE FUTBOL MPAL. EL GORNAL",
-          "calendarUrl": "https://www.fcf.cat/equip/2223/4cat/gornal-ud-b",
-          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000174959_gg.png",
-          "teamUrl": "https://www.fcf.cat/equip/2223/4cat/gornal-ud-b"
-        },
-        {
-          "name": "SAN JORGE 23 D'ABRIL CLUB ESP. A",
-          "displayName": "San Jorge 23 D'abril A",
-          "isRetired": true
-        },
-        {
-          "name": "BARCELONA DRAGONS CLUB DE FUTBOL A",
-          "displayName": "Barcelona Dragons De  A",
+          "name": "FUNDACIÓ FUTBOL BADALONA C",
+          "displayName": "Badalona C",
           "isRetired": true
         }
       ]
