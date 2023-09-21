@@ -21,6 +21,21 @@
                     "category": "Benjamín A"
                 }
             ]
+        },
+        {
+            "name": "Loupes",
+            "imageUrl": "/footballers/Loupes.png",
+            "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-11/quarta-catalana/grup-14/41803910/746973",
+            "teams": [
+                { 
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
+                    "category": "Alevín Femenino A"
+                },
+                {
+                    "name": "CANYELLES,C.E. C",
+                    "category": "Sénior C"
+                }
+            ]
         }
     ]
 }

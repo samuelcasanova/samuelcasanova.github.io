@@ -4,7 +4,6 @@ import './FieldCard.css'
 
 function FieldCard ({ match }) {
   const fieldIcon = (match.isAway ? 'place' : 'home')
-  console.log('TEMP match=', match)
   const fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(match.homeTeam?.fieldName)
 
   return (
