@@ -20,7 +20,8 @@ function Menu () {
         <a href="/#/categorias">Categorías</a>
         <a href="https://www.fcf.cat/classificacio/2324/futbol-7/tercera-divisio-alevi-s12/grup-5">Clasificación Alex</a>
         <a href="https://www.fcf.cat/classificacio/2324/futbol-7/primera-divisio-benjami-s9/grup-3">Clasificación Victor</a>
-        <a href="https://www.fcf.cat/classificacio/2324/futbol-femen%C3%AD/primera-divisio-femeni-alevi/grup-1">Clasificación Míster Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2324/futbol-femen%C3%AD/primera-divisio-femeni-alevi/grup-1">Clasificación Alevín Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2324/futbol-femeni/segona-divisio-femeni-infantil/grup-16">Clasificación Infantil Femenino</a>
         <a href="https://www.fcf.cat/classificacio/2324/futbol-11/quarta-catalana/grup-18">Clasificación Míster Senior</a>
       </div>
     </div>
