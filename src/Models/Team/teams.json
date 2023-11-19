@@ -134,7 +134,8 @@
           "fieldName": "CAMP DE FUTBOL MPAL. DE MONTIGALÀ",
           "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/fundacio-futbol-badalona-c",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000599903_ffb_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/fundacio-futbol-badalona-c"
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/fundacio-futbol-badalona-c",
+          "isRetired": true
         },
         {
           "name": "ARRABAL-CALAF GRAMANET C.D. A",
