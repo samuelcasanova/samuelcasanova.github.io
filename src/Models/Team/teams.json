@@ -159,7 +159,8 @@
           "fieldName": "CAMP DE FUTBOL MPAL. PERE GOL",
           "calendarUrl": "https://www.fcf.cat/equip/2324/1b9/la-salut-pere-gol-ae-a",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651347_lasalutperegol_200x200.png",
-          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/la-salut-pere-gol-ae-a"
+          "teamUrl": "https://www.fcf.cat/equip/2324/1b9/la-salut-pere-gol-ae-a",
+          "isRetired": true
         },
         {
           "name": "Pª BARC. BARCINO, CE A",
