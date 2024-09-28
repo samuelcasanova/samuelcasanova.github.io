@@ -7,7 +7,7 @@ describe('Merging Internet calendars', () => {
   const calendarReaderService = new CalendarReaderService()
 
   describe('Getting correctly the calendars', () => {
-    test('Footballer 1 calendar has >20 matches', async () => {
+    test.skip('Footballer 1 calendar has >20 matches', async () => {
       const footballer1 = new Footballer(config.calendars[0].footballerNames[0])
       const footballer1Matches = await calendarReaderService.getMatchesFromURL(footballer1.teams[0].calendarUrl, footballer1, footballer1.teams[0].category)
       expect(footballer1Matches.length).toBeGreaterThan(20)

@@ -35,13 +35,13 @@ function Categories () {
             <td>Alevines</td>
             <td>10 y 11 años</td>
             <td>Fútbol 7</td>
-            <td><FootballerCard footballer={alexFootballer}/></td>
+            <td></td>
           </tr>
           <tr>
             <td>Infantiles</td>
             <td>12 y 13 años</td>
             <td>Fútbol 11</td>
-            <td></td>
+            <td><FootballerCard footballer={alexFootballer}/></td>
           </tr>
           <tr>
             <td>Cadetes</td>

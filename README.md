@@ -50,6 +50,24 @@ You will need a docker installation to run this portal
    npm install && npm start
    ```
 
+### Yearly update
+
+When the season begin there are several steps to do:
+
+1. Go to premier scrapper project and update the index.json file with the classification URLs in the FCF site.
+2. Execute the scrapper.
+   ```sh
+   npm start
+   ```
+3. Check the output.json file. Check each display name. If there is anyone incorrect adapt the preReplacements array at the end of the index.json file.
+4. Replace the teams.json with the output.json file content.
+5. Go to footballers.json and update the categories and stats URLs for the players.
+6. Go to menu.js and update the classification urls
+7. Execute the tests and commit and pull the changes to the repository to upload the live website
+   ```sh
+   npm test
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
