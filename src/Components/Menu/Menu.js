@@ -18,7 +18,7 @@ function Menu () {
         <a href="/#/">Calendario Peques</a>
         <a href="/#/loupes">Calendario Míster</a>
         <a href="/#/categorias">Categorías</a>
-        {/* <a href="https://www.fcf.cat/classificacio/2324/futbol-7/tercera-divisio-alevi-s12/grup-5">Clasificación Alex</a> */}
+        <a href="https://www.fcf.cat/classificacio/2425/futbol-11/infantil-segona-divisio-s13/grup-6">Clasificación Alex</a>
         <a href="https://www.fcf.cat/classificacio/2425/futbol-7/primera-divisio-benjami-s10/grup-10">Clasificación Victor</a>
         <a href="https://www.fcf.cat/classificacio/2425/futbol-femeni/primera-divisio-femeni-infantil/grup-3">Clasificación Infantil Femenino</a>
       </div>

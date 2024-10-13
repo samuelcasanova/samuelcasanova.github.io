@@ -4,7 +4,12 @@
             "name": "Alex",
             "imageUrl": "/footballers/Alex.png",
             "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-7/benjami-7-tercera-divisio/grup-6/42202112/41820009",
-            "teams": []
+            "teams": [
+                {
+                    "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
+                    "category": "S13C"
+                }
+            ]
         },
         {
             "name": "Victor",

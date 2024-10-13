@@ -133,7 +133,132 @@
         }
       ]
     },
-    { "name": "S13C", "teams": [] },
+    {
+      "name": "S13C",
+      "teams": [
+        {
+          "name": "Pª BARC. ANGUERA C",
+          "displayName": "Peña Anguera C",
+          "fieldName": "CAMP DE FUTBOL INEF BARCELONA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/pa-barc-anguera-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000003634_PB ANGUERA.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/pa-barc-anguera-c"
+        },
+        {
+          "name": "VILA OLIMPICA CLUB ESP. C",
+          "displayName": "Vila Olimpica C",
+          "fieldName": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/vila-olimpica-club-esp-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000586311_cevo_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/vila-olimpica-club-esp-c"
+        },
+        {
+          "name": "ESCOLA COLLBLANC-TORRASSA,C.E A",
+          "displayName": "Collblanc Torrassa A",
+          "fieldName": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/escola-collblanc-torrassa-ce-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000003500_images.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/escola-collblanc-torrassa-ce-a"
+        },
+        {
+          "name": "SARRIA, C.P. B",
+          "displayName": "Sarria B",
+          "fieldName": "CAMP DE FUTBOL CEM CAN CARALLEU",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/sarria-cp-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000388904_00100_0000337753_escut-cp-sarria-1952.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/sarria-cp-b"
+        },
+        {
+          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
+          "displayName": "Premier C",
+          "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/escola-de-futbol-premier-barcelona-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/escola-de-futbol-premier-barcelona-c"
+        },
+        {
+          "name": "CATALONIA, U.B. B",
+          "displayName": "Catalonia B",
+          "fieldName": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/catalonia-ub-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000675978_catalonia_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/catalonia-ub-b"
+        },
+        {
+          "name": "IMPERIO , C.F. A",
+          "displayName": "Imperio A",
+          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (2)",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/imperio-cf-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000669225_cfimperio_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/imperio-cf-a"
+        },
+        {
+          "name": "ESCOLA F ANGEL PEDRAZA B",
+          "displayName": "Angel Pedraza B",
+          "fieldName": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/escola-f-angel-pedraza-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651412_efapedraza_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/escola-f-angel-pedraza-b"
+        },
+        {
+          "name": "Pª BARC. VILLAVERDE-PENITENTS A",
+          "displayName": "Villaverde Penitents A",
+          "fieldName": "CAMP DE FUTBOL MPAL. SANT GENÍS",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/pa-barc-villaverde-penitents-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012218_Villaverde pequeno.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/pa-barc-villaverde-penitents-a"
+        },
+        {
+          "name": "Pª BARC. BARCINO, CE C",
+          "displayName": "Barcino C",
+          "fieldName": "CAMP DE FUTBOL MPAL. SANT MARTÍ DE PROVENÇALS",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/pa-barc-barcino-ce-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000936883_2432_pe_a_barcino_ce_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/pa-barc-barcino-ce-c"
+        },
+        {
+          "name": "CARMELO, C.D. A",
+          "displayName": "Carmelo A",
+          "fieldName": "CAMP DE FUTBOL MPAL. CARMEL",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/carmelo-cd-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000674925_carmelo_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/carmelo-cd-a"
+        },
+        {
+          "name": "SANT IGNASI C.E. B",
+          "displayName": "Sant Ignasi B",
+          "fieldName": "CAMP DE FUTBOL COL·LEGI SANT IGNASI",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/sant-ignasi-ce-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000664682_stignasice_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/sant-ignasi-ce-b"
+        },
+        {
+          "name": "FUNDACIO ESPORT.HOSPITALET AT B",
+          "displayName": "Hospitalet At B",
+          "fieldName": "CAMP DE FUTBOL MPAL. PROVENÇANA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/fundacio-esporthospitalet-at-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001021744_ESCUDO__FUNDA.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/fundacio-esporthospitalet-at-b"
+        },
+        {
+          "name": "ESCOLA E.BRAFA B",
+          "displayName": "Brafa B",
+          "fieldName": "CAMP DE FUTBOL ESCOLA ESPORTIVA BRAFA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/escola-ebrafa-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000814734_brafa_200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/escola-ebrafa-b"
+        },
+        {
+          "name": "LES CORTS DE BARCELONA CLUB ESP. B",
+          "displayName": "Les Corts B",
+          "fieldName": "CAMP DE FUTBOL CEM ARISTIDES MAILLOL",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-11/infantil-segona-divisio-s13/grup-6/les-corts-de-barcelona-club-esp-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000665423_celescorts_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2i13/les-corts-de-barcelona-club-esp-b"
+        }
+      ],
+      "retiredTeams": [ "TECNOFUTBOL C.F A" ]
+    },
     {
       "name": "Infantil Fem",
       "teams": [

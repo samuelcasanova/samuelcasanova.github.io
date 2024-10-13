@@ -30,8 +30,8 @@ describe('Testing Footballer model', () => {
     }
   })
 
-  test.skip('Can add a team to the footballer', () => {
-    expect(alex.teams).toHaveLength(0)
-    // expect(alex.teams[0].name).toBe('ESCOLA DE FUTBOL PREMIER BARCELONA B')
+  test('Can add a team to the footballer', () => {
+    expect(alex.teams).toHaveLength(1)
+    expect(alex.teams[0].name).toBe('ESCOLA DE FUTBOL PREMIER BARCELONA C')
   })
 })
