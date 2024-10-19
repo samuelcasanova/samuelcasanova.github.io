@@ -288,7 +288,7 @@
         },
         {
           "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
-          "displayName": "Premier A",
+          "displayName": "Infantil Fem A",
           "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
           "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/primera-divisio-femeni-infantil/grup-3/escola-de-futbol-premier-barcelona-a",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
@@ -389,6 +389,128 @@
           "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/primera-divisio-femeni-infantil/grup-3/viladecans-ud-a",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001041121_ESCUTRENOVAT.png",
           "teamUrl": "https://www.fcf.cat/equip/2425/1ia/viladecans-ud-a"
+        }
+      ]
+    },
+    {
+      "name": "Alevín Fem",
+      "teams": [
+        {
+          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
+          "displayName": "Alevín Fem A",
+          "fieldName": "CAMP DE FUTBOL MPAL. VALL D'HEBRON",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/escola-de-futbol-premier-barcelona-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000754057_premierbcn_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/escola-de-futbol-premier-barcelona-a"
+        },
+        {
+          "name": "WOMEN'S SOCCER SCHOOL B",
+          "displayName": "Women's School B",
+          "fieldName": "CAMP DE FUTBOL MPAL. TEIXONERA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/womens-soccer-school-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/womens-soccer-school-b"
+        },
+        {
+          "name": "MARTINENC, F.C. B",
+          "displayName": "Martinenc B",
+          "fieldName": "CAMP DE FUTBOL CEM GUINARDÓ",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/martinenc-fc-b",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000577607_martinenc-200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/martinenc-fc-b"
+        },
+        {
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F D",
+          "displayName": "Guineueta D",
+          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/escola-esportiva-guineueta-cf-d",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/escola-esportiva-guineueta-cf-d"
+        },
+        {
+          "name": "POMAR, C.D. A",
+          "displayName": "Pomar A",
+          "fieldName": "CAMP DE FUTBOL MPAL. POMAR",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/pomar-cd-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001021762_ESCUDO_JPG.jpg",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/pomar-cd-a"
+        },
+        {
+          "name": "Pª BARC. BARCINO, CE C",
+          "displayName": "Barcino C",
+          "fieldName": "CAMP DE FUTBOL MPAL. SANT MARTÍ DE PROVENÇALS",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/pa-barc-barcino-ce-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000936883_2432_pe_a_barcino_ce_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/pa-barc-barcino-ce-c"
+        },
+        {
+          "name": "SARRIA, C.P. A",
+          "displayName": "Sarria A",
+          "fieldName": "CAMP DE FUTBOL CEM CAN CARALLEU",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/sarria-cp-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000388904_00100_0000337753_escut-cp-sarria-1952.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/sarria-cp-a"
+        },
+        {
+          "name": "Pª BARC. VILLAVERDE-PENITENTS A",
+          "displayName": "Villaverde Penitents A",
+          "fieldName": "CAMP DE FUTBOL MPAL. SANT GENÍS",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/pa-barc-villaverde-penitents-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000012218_Villaverde pequeno.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/pa-barc-villaverde-penitents-a"
+        },
+        {
+          "name": "SISTRELLS C.F. A",
+          "displayName": "Sistrells A",
+          "fieldName": "CAMP DE FUTBOL ZEM CAN CABANYES",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/sistrells-cf-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000908880_ESCUDO_NUEVO.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/sistrells-cf-a"
+        },
+        {
+          "name": "FUNDACIO P. CE. JUPITER A",
+          "displayName": "Jupiter A",
+          "fieldName": "",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/fundacio-p-ce-jupiter-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000672019_cejupiter_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/fundacio-p-ce-jupiter-a"
+        },
+        {
+          "name": "BASE SEAGULL C",
+          "displayName": "Base Seagull C",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE MONTIGALÀ",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/base-seagull-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000963503_00100_0000953606_Escut.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/base-seagull-c"
+        },
+        {
+          "name": "SANT ANDREU, U.E A",
+          "displayName": "Sant Andreu A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/sant-andreu-ue-a",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000573790_standreu_200x200.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/sant-andreu-ue-a"
+        },
+        {
+          "name": "FONTSANTA-FATJO, C.D. C",
+          "displayName": "Fontsanta Fatjo C",
+          "fieldName": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/fontsanta-fatjo-cd-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000062247_escudo-letra.png",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/fontsanta-fatjo-cd-c"
+        },
+        {
+          "name": "SINGUERLIN, C.F. C",
+          "displayName": "Singuerlin C",
+          "fieldName": "CAMP DE FUTBOL CEM CAN ZAM (2)",
+          "calendarUrl": "https://www.fcf.cat/calendari-equip/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9/singuerlin-cf-c",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001021749_IMG_20240611_WA0014.jpg",
+          "teamUrl": "https://www.fcf.cat/equip/2425/2fab/singuerlin-cf-c"
+        },
+        {
+          "name": "ESCOLA DE FUTBOL PONT MARINA A",
+          "displayName": "Pont Marina A",
+          "isRetired": true
         }
       ]
     }
