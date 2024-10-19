@@ -6,8 +6,8 @@ describe('INTEGRATION: Retrieving source code for Premier football website', () 
 
   beforeAll(async () => {
     const htmlCodeFromURLService = new HtmlCodeFromUrlService()
-    htmlCode = await htmlCodeFromURLService.getHtmlCodeFromURL('https://www.fcf.cat/calendari-equip/2022/futbol-7/benjami-7-tercera-divisio/grup-6/escola-de-futbol-premier-barcelona-f')
-  })
+    htmlCode = await htmlCodeFromURLService.getHtmlCodeFromURL('https://www.fcf.cat/calendari-equip/2425/futbol-femen%C3%AD/segona-divisio-femeni-alevi/grup-9/escola-de-futbol-premier-barcelona-a')
+  }, 300000)
 
   test('htmlCode has content', () => {
     expect(htmlCode).toBeDefined()
