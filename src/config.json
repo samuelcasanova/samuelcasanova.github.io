@@ -1,19 +1,14 @@
 {
-    "calendars": [
-        {
-            "name": "home",
-            "footballerNames": [
-                "Alex",
-                "Victor"
-            ]
-        },
-        {
-            "name": "loupes",
-            "footballerNames": [
-                "Loupes"
-            ]
-        }
-    ],
-    "teamNameToIdentifyAwayMatches": "premier",
-    "applicationDataUrl": "applicationData.json"
+  "calendars": [
+    {
+      "name": "home",
+      "footballerNames": ["Victor"]
+    },
+    {
+      "name": "loupes",
+      "footballerNames": ["Loupes"]
+    }
+  ],
+  "teamNameToIdentifyAwayMatches": "premier",
+  "applicationDataUrl": "applicationData.json"
 }
