@@ -18,10 +18,10 @@ function Menu () {
         <a href="/#/">Calendario Peques</a>
         <a href="/#/loupes">Calendario Míster</a>
         <a href="/#/categorias">Categorías</a>
-        <a href="https://www.fcf.cat/classificacio/2425/futbol-11/infantil-segona-divisio-s13/grup-6">Clasificación Alex</a>
-        <a href="https://www.fcf.cat/classificacio/2425/futbol-7/primera-divisio-benjami-s10/grup-10">Clasificación Victor</a>
-        <a href="https://www.fcf.cat/classificacio/2425/futbol-femeni/primera-divisio-femeni-infantil/grup-3">Clasificación Infantil Femenino</a>
-        <a href="https://www.fcf.cat/classificacio/2425/futbol-femeni/segona-divisio-femeni-alevi/grup-9">Clasificación Alevín Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2526/futbol-11/infantil-segona-divisio-s14/grup-8">Clasificación Alex</a>
+        <a href="https://www.fcf.cat/classificacio/2526/futbol-7/segona-divisio-alevi-s11/grup-13">Clasificación Victor</a>
+        <a href="https://www.fcf.cat/classificacio/2526/futbol-femeni/primera-divisio-femeni-infantil/grup-2">Clasificación Infantil Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2526/futbol-11/tercera-catalana/grup-10">Clasificación Dani</a>
       </div>
     </div>
   )

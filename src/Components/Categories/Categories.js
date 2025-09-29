@@ -6,6 +6,7 @@ import Footballer from '../../Models/Footballer/Footballer'
 function Categories () {
   const alexFootballer = new Footballer('Alex')
   const victorFootballer = new Footballer('Victor')
+  const loupesCard = new Footballer('Loupes')
 
   return (
     <div>
@@ -29,13 +30,13 @@ function Categories () {
             <td>Benjamines</td>
             <td>8 y 9 años</td>
             <td>Fútbol 7</td>
-            <td><FootballerCard footballer={victorFootballer}/></td>
+            <td></td>
           </tr>
           <tr>
             <td>Alevines</td>
             <td>10 y 11 años</td>
             <td>Fútbol 7</td>
-            <td></td>
+            <td><FootballerCard footballer={victorFootballer}/></td>
           </tr>
           <tr>
             <td>Infantiles</td>
@@ -59,7 +60,7 @@ function Categories () {
             <td>Sénior</td>
             <td>20 años o más</td>
             <td>Fútbol 11</td>
-            <td></td>
+            <td><FootballerCard footballer={loupesCard}/></td>
           </tr>
         </tbody>
       </table>

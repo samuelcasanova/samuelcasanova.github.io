@@ -2,7 +2,7 @@
   "calendars": [
     {
       "name": "home",
-      "footballerNames": ["Victor"]
+      "footballerNames": ["Alex", "Victor"]
     },
     {
       "name": "loupes",

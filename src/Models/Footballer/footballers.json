@@ -1,13 +1,39 @@
 {
   "footballers": [
     {
+      "name": "Alex",
+      "imageUrl": "/footballers/Alex.png",
+      "statsUrl": "https://www.fcf.cat/equip/2526/2i14/escola-de-futbol-premier-barcelona-c",
+      "teams": [
+        {
+          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
+          "category": "S14C"
+        }
+      ]
+    },
+    {
       "name": "Victor",
       "imageUrl": "/footballers/Victor.png",
-      "statsUrl": "https://www.fcf.cat/jugador/2022/futbol-7/prebenjami-7/grup-18/42489296/41994731",
+      "statsUrl": "https://www.fcf.cat/equip/2526/2al11/escola-de-futbol-premier-barcelona-c",
+      "teams": [
+        {
+          "name": "ESCOLA DE FUTBOL PREMIER BARCELONA C",
+          "category": "S11C"
+        }
+      ]
+    },
+    {
+      "name": "Loupes",
+      "imageUrl": "/footballers/Loupes.png",
+      "statsUrl": "https://www.fcf.cat/equip/2526/3cat/escola-esportiva-guineueta-cf-b",
       "teams": [
         {
           "name": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
-          "category": "S11C"
+          "category": "Infantil Fem"
+        },
+        {
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F B",
+          "category": "Catalana"
         }
       ]
     }
