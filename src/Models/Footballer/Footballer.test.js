@@ -18,7 +18,7 @@ describe('Testing Footballer model', () => {
   })
 
   test('Footballer stats Url is correctly set', () => {
-    expect(alex.statsUrl).toBe('https://www.fcf.cat/jugador/2022/futbol-7/benjami-7-tercera-divisio/grup-6/42202112/41820009')
+    expect(alex.statsUrl).toBe('https://www.fcf.cat/equip/2526/2i14/escola-de-futbol-premier-barcelona-c')
   })
 
   test('Footballer name should have value, otherwise an Error is thrown', () => {
