@@ -21,6 +21,7 @@ function Menu () {
         <a href="https://www.fcf.cat/classificacio/2526/futbol-11/infantil-segona-divisio-s14/grup-8">Clasificación Alex</a>
         <a href="https://www.fcf.cat/classificacio/2526/futbol-7/segona-divisio-alevi-s11/grup-13">Clasificación Victor</a>
         <a href="https://www.fcf.cat/classificacio/2526/futbol-femeni/primera-divisio-femeni-infantil/grup-2">Clasificación Infantil Femenino</a>
+        <a href="https://www.fcf.cat/classificacio/2526/futbol-femeni/segona-divisio-femeni-cadet-f11/grup-5">Clasificación Cadete Femenino</a>
         <a href="https://www.fcf.cat/classificacio/2526/futbol-11/tercera-catalana/grup-10">Clasificación Dani</a>
       </div>
     </div>
