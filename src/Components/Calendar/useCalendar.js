@@ -7,23 +7,27 @@ function useCalendar (calendarName) {
     weeks: []
   })
 
-  useEffect(async () => {
-    const calendarReaderService = new CalendarReaderService()
+  useEffect(() => {
+    const fetchCalendar = async () => {
+      const calendarReaderService = new CalendarReaderService()
 
-    const cachedCalendar = calendarReaderService.getCachedCalendar(calendarName)
-    if (cachedCalendar) {
-      setCalendar(cachedCalendar)
-    }
-
-    try {
-      const liveCalendar = await calendarReaderService.getLiveCalendar(calendarName)
-      if (liveCalendar && liveCalendar.weeks) {
-        setCalendar(liveCalendar)
-        calendarReaderService.setCachedCalendar(calendarName, liveCalendar)
+      const cachedCalendar = calendarReaderService.getCachedCalendar(calendarName)
+      if (cachedCalendar) {
+        setCalendar(cachedCalendar)
       }
-    } catch (error) {
-      console.error(error.message)
+
+      try {
+        const liveCalendar = await calendarReaderService.getLiveCalendar(calendarName)
+        if (liveCalendar && liveCalendar.weeks) {
+          setCalendar(liveCalendar)
+          calendarReaderService.setCachedCalendar(calendarName, liveCalendar)
+        }
+      } catch (error) {
+        console.error(error.message)
+      }
     }
+
+    fetchCalendar()
   }, [])
 
   return calendar
