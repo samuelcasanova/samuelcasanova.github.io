@@ -2,37 +2,34 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import MatchCard from '../MatchCard/MatchCard'
 import './WeekCard.css'
-import Collapsible from 'react-collapsible'
+import Collapse from 'rc-collapse'
 
 function WeekCard ({ isCurrentWeek, week }) {
   let matchdaytext = null
-  let isCollapsibleOpen = false
-  let collapsibleTriggerClass = 'collapsible'
+  // let collapsibleTriggerClass = 'collapsible'
+  let defaultActiveKey = []
   if (isCurrentWeek || week.matches.length === 0) {
     matchdaytext = 'Próxima Jornada'
-    isCollapsibleOpen = true
+    defaultActiveKey = ['1']
   } else {
     matchdaytext = 'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription
   }
   if (week.isProblematic) {
-    collapsibleTriggerClass += ' problematic'
+    // collapsibleTriggerClass += ' problematic'
   }
+
+  const collapsibleItem = [
+    {
+      key: '1',
+      label: matchdaytext,
+      children: week.matches.map((match, index) => <MatchCard key={index} match={match} />)
+    }
+  ]
+
   return (
-          <div className='weekcard'>
-            {/* <div className='matchdaytext'>{matchdaytext}</div> */}
-            <Collapsible trigger={matchdaytext} triggerTagName='div' open={isCollapsibleOpen} triggerClassName={collapsibleTriggerClass}
-              triggerOpenedClassName={collapsibleTriggerClass}>
-              <div>
-                {
-                  week.matches.map(
-                    (match, index) => {
-                      return (<MatchCard match={ match } key={ index }/>)
-                    }
-                  )
-                }
-              </div>
-            </Collapsible>
-          </div>
+    <div className='weekcard'>
+      <Collapse collapsible='header' accordion defaultActiveKey={defaultActiveKey} items={collapsibleItem} />
+    </div>
   )
 }
 
