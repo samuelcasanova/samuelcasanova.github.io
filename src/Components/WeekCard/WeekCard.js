@@ -2,33 +2,28 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import MatchCard from '../MatchCard/MatchCard'
 import './WeekCard.css'
-import Collapse from 'rc-collapse'
 
 function WeekCard ({ isCurrentWeek, week }) {
-  let matchdaytext = null
-  // let collapsibleTriggerClass = 'collapsible'
-  let defaultActiveKey = []
-  if (isCurrentWeek || week.matches.length === 0) {
-    matchdaytext = 'Próxima Jornada'
-    defaultActiveKey = ['1']
-  } else {
-    matchdaytext = 'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription
-  }
-  if (week.isProblematic) {
-    // collapsibleTriggerClass += ' problematic'
-  }
+  const matchdaytext = isCurrentWeek || week.matches.length === 0
+    ? 'Próxima Jornada'
+    : 'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription
 
-  const collapsibleItem = [
-    {
-      key: '1',
-      label: matchdaytext,
-      children: week.matches.map((match, index) => <MatchCard key={index} match={match} />)
-    }
-  ]
+  const initialCollapsedState = !isCurrentWeek
+  const [collapsedState, setCollapsedState] = React.useState(initialCollapsedState)
+  const toggleCollapsedState = () => {
+    setCollapsedState(!collapsedState)
+  }
 
   return (
     <div className='weekcard'>
-      <Collapse collapsible='header' accordion defaultActiveKey={defaultActiveKey} items={collapsibleItem} />
+      <header className={week.isProblematic ? 'problematic' : ''} onClick={toggleCollapsedState}>
+        {matchdaytext}
+      </header>
+      <div style={{ display: collapsedState ? 'none' : 'block' }}>
+        {
+          week.matches.map((match, index) => <MatchCard key={index} match={match} />)
+        }
+      </div>
     </div>
   )
 }

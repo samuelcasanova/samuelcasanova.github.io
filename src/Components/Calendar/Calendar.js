@@ -19,11 +19,13 @@ function Calendar ({ calendarName }) {
             </div>
             <div className='list'>
               {
-                upcomingWeeks.map(
-                  (week, index) => {
-                    return (<WeekCard week={ week } key={ index } isCurrentWeek={ false }/>)
-                  }
-                )
+                upcomingWeeks.map((week, index) => (
+                  // <Panel
+                  //   key={index}
+                  //   header={'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription}
+                  // >
+                  <WeekCard week={ week } key={ index } isCurrentWeek={ false }/>
+                ))
               }
             </div>
           </div>
