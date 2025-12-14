@@ -4,7 +4,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" alt="Logo" height="80">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Logo" height="80">
   <h3 align="center">Kids Football Portal</h3>
 </div>
 
@@ -13,7 +13,7 @@
 
 A React portal to keep track of my children football matches schedule, standings, etc. from one single place.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with CRA and migrated to Vite.
 
 You can see a live demo of this portal here: https://samuelcasanova.github.io
 
@@ -75,7 +75,7 @@ When the season begin there are several steps to do:
 
 Samuel Casanova - [@casanovasamuel](https://twitter.com/casanovasamuel) - samuel.casanova@gmail.com
 
-Project Link: [https://github.com/samuelcasanova/rabbitcourse-rpc](https://github.com/samuelcasanova/rabbitcourse-rpc)
+Project Link: [https://github.com/samuelcasanova/premierportal](https://github.com/samuelcasanova/premierportal)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
