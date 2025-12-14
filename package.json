@@ -6,16 +6,15 @@
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^5.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -40,11 +39,15 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@typescript-eslint/parser": "^4.28.5",
+    "@vitejs/plugin-react": "^5.1.2",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "gh-pages": "^6.3.0",
+    "jsdom": "^27.3.0",
     "typescript": "^4.3.5",
+    "vite": "^7.2.7",
+    "vitest": "^4.0.15",
     "web-vitals": "^1.1.1"
   }
 }
