@@ -1,0 +1,526 @@
+{
+  "partidos": {
+    "1": [
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "55055874",
+        "NOMBRE_CASA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+        "ESCUDO_CASA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
+        "CODEQUIPO_FUERA": "58156551",
+        "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_FUERA": "00100_0000003500_images.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-03 14:40:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "54312654",
+        "NOMBRE_CASA": "DIAGONAL CLUB ESP. B",
+        "ESCUDO_CASA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
+        "CODEQUIPO_FUERA": "54764341",
+        "NOMBRE_FUERA": "POBLE NOU, AT. B",
+        "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png",
+        "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-03 15:45:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "54304710",
+        "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+        "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+        "CODEQUIPO_FUERA": "55285102",
+        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-04 10:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "55248013",
+        "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
+        "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
+        "CODEQUIPO_FUERA": "58457830",
+        "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+        "ESCUDO_FUERA": "00100_0001239322_tarr.jpg",
+        "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-04 10:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "54313454",
+        "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+        "ESCUDO_CASA": "00100_0001226166_FAF.png",
+        "CODEQUIPO_FUERA": "58156824",
+        "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
+        "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-04 12:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "54535327",
+        "NOMBRE_CASA": "DON BOSCO, C.F. A",
+        "ESCUDO_CASA": "00100_0000105692_bosco.png",
+        "CODEQUIPO_FUERA": "58652671",
+        "NOMBRE_FUERA": "Descans",
+        "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-04 17:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "1",
+        "CODEQUIPO_CASA": "54313684",
+        "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+        "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+        "CODEQUIPO_FUERA": "58148497",
+        "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-04 20:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      }
+    ],
+    "2": [
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "55285102",
+        "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
+        "CODEQUIPO_FUERA": "54313454",
+        "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+        "ESCUDO_FUERA": "00100_0001226166_FAF.png",
+        "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 08:30:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "54764341",
+        "NOMBRE_CASA": "POBLE NOU, AT. B",
+        "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
+        "CODEQUIPO_FUERA": "54304710",
+        "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
+        "ESCUDO_FUERA": "00100_0001170981_escut_apa_net.png",
+        "CAMPO": "CAMP DE FUTBOL CEM MARESME",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 14:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "58156824",
+        "NOMBRE_CASA": "CAN BUXERES, F.C. C",
+        "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+        "CODEQUIPO_FUERA": "54535327",
+        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+        "ESCUDO_FUERA": "00100_0000105692_bosco.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 14:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "58457830",
+        "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
+        "ESCUDO_CASA": "00100_0001239322_tarr.jpg",
+        "CODEQUIPO_FUERA": "54313684",
+        "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+        "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 15:30:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "58148497",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "55055874",
+        "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+        "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 16:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "58652671",
+        "NOMBRE_CASA": "Descans",
+        "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
+        "CODEQUIPO_FUERA": "55248013",
+        "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
+        "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 16:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "2",
+        "CODEQUIPO_CASA": "58156551",
+        "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_CASA": "00100_0000003500_images.png",
+        "CODEQUIPO_FUERA": "54312654",
+        "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
+        "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-10 20:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      }
+    ],
+    "3": [
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "55285102",
+        "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
+        "CODEQUIPO_FUERA": "54764341",
+        "NOMBRE_FUERA": "POBLE NOU, AT. B",
+        "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png",
+        "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-17 08:30:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "55055874",
+        "NOMBRE_CASA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+        "ESCUDO_CASA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
+        "CODEQUIPO_FUERA": "58457830",
+        "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+        "ESCUDO_FUERA": "00100_0001239322_tarr.jpg",
+        "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-17 14:40:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "54312654",
+        "NOMBRE_CASA": "DIAGONAL CLUB ESP. B",
+        "ESCUDO_CASA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
+        "CODEQUIPO_FUERA": "58148497",
+        "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png",
+        "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-17 15:45:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "54313684",
+        "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+        "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+        "CODEQUIPO_FUERA": "58652671",
+        "NOMBRE_FUERA": "Descans",
+        "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-17 18:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "54304710",
+        "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+        "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+        "CODEQUIPO_FUERA": "58156551",
+        "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_FUERA": "00100_0000003500_images.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-18 10:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "55248013",
+        "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
+        "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
+        "CODEQUIPO_FUERA": "58156824",
+        "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
+        "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-18 10:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "3",
+        "CODEQUIPO_CASA": "54313454",
+        "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+        "ESCUDO_CASA": "00100_0001226166_FAF.png",
+        "CODEQUIPO_FUERA": "54535327",
+        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+        "ESCUDO_FUERA": "00100_0000105692_bosco.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-18 11:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      }
+    ],
+    "4": [
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "54764341",
+        "NOMBRE_CASA": "POBLE NOU, AT. B",
+        "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
+        "CODEQUIPO_FUERA": "54313454",
+        "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+        "ESCUDO_FUERA": "00100_0001226166_FAF.png",
+        "CAMPO": "CAMP DE FUTBOL CEM MARESME",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 14:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "58156824",
+        "NOMBRE_CASA": "CAN BUXERES, F.C. C",
+        "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+        "CODEQUIPO_FUERA": "54313684",
+        "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+        "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 14:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "58457830",
+        "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
+        "ESCUDO_CASA": "00100_0001239322_tarr.jpg",
+        "CODEQUIPO_FUERA": "54312654",
+        "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
+        "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
+        "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 15:30:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "58148497",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "54304710",
+        "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
+        "ESCUDO_FUERA": "00100_0001170981_escut_apa_net.png",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 16:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "58652671",
+        "NOMBRE_CASA": "Descans",
+        "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
+        "CODEQUIPO_FUERA": "55055874",
+        "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+        "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 16:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "58156551",
+        "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_CASA": "00100_0000003500_images.png",
+        "CODEQUIPO_FUERA": "55285102",
+        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-24 20:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      },
+      {
+        "JORNADA": "4",
+        "CODEQUIPO_CASA": "54535327",
+        "NOMBRE_CASA": "DON BOSCO, C.F. A",
+        "ESCUDO_CASA": "00100_0000105692_bosco.png",
+        "CODEQUIPO_FUERA": "55248013",
+        "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
+        "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
+        "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "COMIENZO1": "2026-10-25 17:00:00",
+        "CERRADA": "0",
+        "ESTADO": "0"
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "value": "54304710",
+      "label": "APA POBLE SEC, CE. B"
+    },
+    {
+      "value": "54304710",
+      "label": "APA POBLE SEC, CE. B"
+    },
+    {
+      "value": "58156824",
+      "label": "CAN BUXERES, F.C. C"
+    },
+    {
+      "value": "58652671",
+      "label": "CARMELO, C.D. C"
+    },
+    {
+      "value": "54312654",
+      "label": "DIAGONAL CLUB ESP. B"
+    },
+    {
+      "value": "54312654",
+      "label": "DIAGONAL CLUB ESP. B"
+    },
+    {
+      "value": "54535327",
+      "label": "DON BOSCO, C.F. A"
+    },
+    {
+      "value": "54535327",
+      "label": "DON BOSCO, C.F. A"
+    },
+    {
+      "value": "58156551",
+      "label": "ESCOLA COLLBLANC-TORRASSA,C.E B"
+    },
+    {
+      "value": "54313684",
+      "label": "ESCOLA DE FUTBOL PREMIER BARCELONA D"
+    },
+    {
+      "value": "54313684",
+      "label": "ESCOLA DE FUTBOL PREMIER BARCELONA D"
+    },
+    {
+      "value": "55055874",
+      "label": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B"
+    },
+    {
+      "value": "55055874",
+      "label": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B"
+    },
+    {
+      "value": "55248013",
+      "label": "ESCOLA FUTBOL ALMOGAVERS A"
+    },
+    {
+      "value": "55248013",
+      "label": "ESCOLA FUTBOL ALMOGAVERS A"
+    },
+    {
+      "value": "58148497",
+      "label": "ESCOLA PIA SARRIÀ S.E. A"
+    },
+    {
+      "value": "54313454",
+      "label": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B"
+    },
+    {
+      "value": "54313454",
+      "label": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B"
+    },
+    {
+      "value": "55285102",
+      "label": "MERCAT NOU MAGORIA, S.E. CLUB A"
+    },
+    {
+      "value": "55285102",
+      "label": "MERCAT NOU MAGORIA, S.E. CLUB A"
+    },
+    {
+      "value": "54764341",
+      "label": "POBLE NOU, AT. B"
+    },
+    {
+      "value": "54764341",
+      "label": "POBLE NOU, AT. B"
+    },
+    {
+      "value": "58457830",
+      "label": "TARR, ASSOC.ESP.  A"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "name": "portal-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "http://samuelcasanova.github.io",
   "dependencies": {
     "react": "^19.2.3",
@@ -13,6 +14,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
+    "fetch-season": "node scripts/fetch-season.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

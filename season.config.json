@@ -1,0 +1,25 @@
+{
+  "clubName": "PREMIER BARCELONA",
+  "footballers": [
+    {
+      "name": "Alex",
+      "imageUrl": "/footballers/Alex.png",
+      "teams": [
+        {
+          "category": "Alex",
+          "competicioUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598"
+        }
+      ]
+    },
+    {
+      "name": "Victor",
+      "imageUrl": "/footballers/Victor.png",
+      "teams": [
+        {
+          "category": "Victor",
+          "competicioUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308235&competicioId=58162008&grupId=58162016"
+        }
+      ]
+    }
+  ]
+}
