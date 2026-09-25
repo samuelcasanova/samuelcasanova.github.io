@@ -4,6 +4,7 @@ import Team from '../../Models/Team/Team'
 
 class CalendarTableParseService {
   parseMatchesFromJson (entries, footballer, category) {
+    const footballerTeamName = footballer.teams.find(team => team.category === category)?.name
     return entries.map(entry => {
       const homeTeam = (entry.homeTeamName ? new Team(entry.homeTeamName, category) : null)
       const awayTeam = (entry.awayTeamName ? new Team(entry.awayTeamName, category) : null)
@@ -14,6 +15,7 @@ class CalendarTableParseService {
       match.footballer = footballer
       match.result = entry.result
       match.fieldName = entry.fieldName
+      match.isAway = entry.awayTeamName === footballerTeamName
       return match
     })
   }

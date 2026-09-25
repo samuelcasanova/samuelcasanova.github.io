@@ -5,6 +5,12 @@
       "label": "Calendario Peques",
       "path": "/",
       "footballerNames": ["Alex", "Victor"]
+    },
+    {
+      "name": "loupes",
+      "label": "Calendario Míster",
+      "path": "/loupes",
+      "footballerNames": ["Loupes"]
     }
   ],
   "teamNameToIdentifyAwayMatches": "premier",

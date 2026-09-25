@@ -523,6 +523,286 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Loupes",
+      "teams": [
+        {
+          "category": "Míster",
+          "matches": [
+            {
+              "matchday": "1",
+              "date": "2026-09-19",
+              "time": "12:20",
+              "homeTeamName": "SABADELL F.C., C.E. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": "1 - 5",
+              "fieldName": "CAMP DE FUTBOL MPAL. OLÍMPIA"
+            },
+            {
+              "matchday": "2",
+              "date": "2026-09-26",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "FONTSANTA-FATJO, C.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "3",
+              "date": "2026-10-03",
+              "time": "11:00",
+              "homeTeamName": "GIRONA, F.C. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. TORRES DE PALAU"
+            },
+            {
+              "matchday": "4",
+              "date": "2026-10-10",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "TORELLO, C.F. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "5",
+              "date": "2026-10-18",
+              "time": "12:30",
+              "homeTeamName": "WOMEN'S SOCCER SCHOOL A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. TEIXONERA"
+            },
+            {
+              "matchday": "6",
+              "date": "2026-10-24",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": null,
+              "result": null,
+              "fieldName": null
+            },
+            {
+              "matchday": "7",
+              "date": "2026-10-31",
+              "time": "10:30",
+              "homeTeamName": "VILADECANS U.D. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE VILADECANS"
+            },
+            {
+              "matchday": "8",
+              "date": "2026-11-07",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "PREMIA DALT, C.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "9",
+              "date": "2026-11-15",
+              "time": "13:30",
+              "homeTeamName": "IGUALADA, C.F. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LES COMES  2 Camps"
+            },
+            {
+              "matchday": "10",
+              "date": "2026-11-21",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "FUNDACIÓ P. F.BASE REUS A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "11",
+              "date": "2026-11-28",
+              "time": "11:15",
+              "homeTeamName": "EUROPA, C.E. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. L'ÀLIGA"
+            },
+            {
+              "matchday": "12",
+              "date": "2026-12-12",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "L'HOSPITALET, CENTRE ESPORTS A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "13",
+              "date": "2026-12-19",
+              "time": "10:30",
+              "homeTeamName": "ESCUELA F.SAN PEDRO SAN PABLO A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU"
+            },
+            {
+              "matchday": "14",
+              "date": "2027-01-09",
+              "time": "10:30",
+              "homeTeamName": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM JULIO MÉNDEZ"
+            },
+            {
+              "matchday": "15",
+              "date": "2027-01-16",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "CIRERA, U.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "16",
+              "date": "2027-01-23",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "SABADELL F.C., C.E. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "17",
+              "date": "2027-01-31",
+              "time": "11:35",
+              "homeTeamName": "FONTSANTA-FATJO, C.D. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ"
+            },
+            {
+              "matchday": "18",
+              "date": "2027-02-13",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "GIRONA, F.C. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "19",
+              "date": "2027-02-20",
+              "time": "10:00",
+              "homeTeamName": "TORELLO, C.F. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE TORELLÓ"
+            },
+            {
+              "matchday": "20",
+              "date": "2027-02-27",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "WOMEN'S SOCCER SCHOOL A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "21",
+              "date": "2027-03-07",
+              "time": "12:00",
+              "homeTeamName": null,
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": null
+            },
+            {
+              "matchday": "22",
+              "date": "2027-03-13",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "VILADECANS U.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "23",
+              "date": "2027-03-20",
+              "time": "12:00",
+              "homeTeamName": "PREMIA DALT, C.D. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT"
+            },
+            {
+              "matchday": "24",
+              "date": "2027-04-03",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "IGUALADA, C.F. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "25",
+              "date": "2027-04-10",
+              "time": "12:00",
+              "homeTeamName": "FUNDACIÓ P. F.BASE REUS A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "ESTADI MPAL. C.F.REUS ANNEX 1"
+            },
+            {
+              "matchday": "26",
+              "date": "2027-04-17",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "EUROPA, C.E. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "27",
+              "date": "2027-04-25",
+              "time": "20:00",
+              "homeTeamName": "L'HOSPITALET, CENTRE ESPORTS A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT"
+            },
+            {
+              "matchday": "28",
+              "date": "2027-05-01",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "ESCUELA F.SAN PEDRO SAN PABLO A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "29",
+              "date": "2027-05-08",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            },
+            {
+              "matchday": "30",
+              "date": "2027-05-16",
+              "time": "12:00",
+              "homeTeamName": "CIRERA, U.D. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. DE CIRERA"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

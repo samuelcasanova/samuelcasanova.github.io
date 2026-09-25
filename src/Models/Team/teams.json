@@ -249,6 +249,139 @@
           "isRetired": false
         }
       ]
+    },
+    {
+      "name": "Míster",
+      "teams": [
+        {
+          "name": "CIRERA, U.D. A",
+          "displayName": "Cirera A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE CIRERA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000572527_cirera_200x200.png",
+          "isRetired": false
+        },
+        {
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+          "displayName": "Guineueta A",
+          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
+          "isRetired": false
+        },
+        {
+          "name": "ESCUELA F.SAN PEDRO SAN PABLO A",
+          "displayName": "Escuela San Pedro San Pablo A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
+          "isRetired": false
+        },
+        {
+          "name": "EUROPA, C.E. A",
+          "displayName": "Europa A",
+          "fieldName": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000735880_europa_200x200.png",
+          "isRetired": false
+        },
+        {
+          "name": "FONTSANTA-FATJO, C.D. A",
+          "displayName": "Fontsanta Fatjo A",
+          "fieldName": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000062247_escudo-letra.png",
+          "isRetired": false
+        },
+        {
+          "name": "FUNDACIÓ P. F.BASE REUS A",
+          "displayName": "Base Reus A",
+          "fieldName": "ESTADI MPAL. C.F.REUS ANNEX 1",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png",
+          "isRetired": false
+        },
+        {
+          "name": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+          "displayName": "Privada Asso Es Prat A",
+          "fieldName": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001270584_Prat.png",
+          "isRetired": false
+        },
+        {
+          "name": "GIRONA, F.C. A",
+          "displayName": "Girona A",
+          "fieldName": "CAMP DE FUTBOL MPAL. TORRES DE PALAU",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000956159_5282_GironaFC_200.png",
+          "isRetired": false
+        },
+        {
+          "name": "IGUALADA, C.F. A",
+          "displayName": "Igualada A",
+          "fieldName": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000822231_igualada_200.png",
+          "isRetired": false
+        },
+        {
+          "name": "L'HOSPITALET, CENTRE ESPORTS A",
+          "displayName": "L'Hospitalet Centre A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001106091_COLOR.png",
+          "isRetired": false
+        },
+        {
+          "name": "OAR VIC A",
+          "displayName": "Oar Vic A",
+          "fieldName": "",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "",
+          "isRetired": true
+        },
+        {
+          "name": "PREMIA DALT, C.D. A",
+          "displayName": "Premia Dalt A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000621266_premia200.png",
+          "isRetired": false
+        },
+        {
+          "name": "SABADELL F.C., C.E. A",
+          "displayName": "Sabadell A",
+          "fieldName": "CAMP DE FUTBOL MPAL. OLÍMPIA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001025828_escut_CES__1_.png",
+          "isRetired": false
+        },
+        {
+          "name": "TORELLO, C.F. A",
+          "displayName": "Torello A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000651415_torello_200x200.png",
+          "isRetired": false
+        },
+        {
+          "name": "VILADECANS U.D. A",
+          "displayName": "Viladecans A",
+          "fieldName": "CAMP DE FUTBOL MPAL. DE VILADECANS",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001107661_escudo_UDV.png",
+          "isRetired": false
+        },
+        {
+          "name": "WOMEN'S SOCCER SCHOOL A",
+          "displayName": "Women's School A",
+          "fieldName": "CAMP DE FUTBOL MPAL. TEIXONERA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000654081_AnagramaPNG.png",
+          "isRetired": false
+        }
+      ]
     }
   ]
 }

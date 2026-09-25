@@ -72,13 +72,13 @@ export function findRetiredTeamCodes (groupTeams, matches) {
 }
 
 export function findClubTeam (groupTeams, clubName, teamName) {
-  const candidates = teamName
-    ? groupTeams.filter(team => team.name === teamName)
-    : groupTeams.filter(team => team.name.toUpperCase().includes(clubName.toUpperCase()))
+  const searchedName = (teamName ?? clubName).toUpperCase()
+  const candidates = groupTeams.filter(team => team.name.toUpperCase().includes(searchedName))
   if (candidates.length !== 1) {
     const found = candidates.map(team => team.name).join(', ') || 'none'
+    const all = groupTeams.map(team => team.name).join(' | ')
     throw new Error(`Expected one team matching "${teamName ?? clubName}" in the group, found: ${found}. ` +
-      'Set teamName in season.config.json to pick one.')
+      `Set teamName in season.config.json to one of: ${all}`)
   }
   return candidates[0]
 }

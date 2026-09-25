@@ -65,6 +65,35 @@
           "isRetired": false
         }
       ]
+    },
+    {
+      "name": "Míster",
+      "teams": [
+        {
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+          "displayName": "Guineueta A",
+          "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000663994_guineueta_200x200.png",
+          "isRetired": false
+        },
+        {
+          "name": "FONTSANTA-FATJO, C.D. A",
+          "displayName": "Fontsanta Fatjo A",
+          "fieldName": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000062247_escudo-letra.png",
+          "isRetired": false
+        },
+        {
+          "name": "SABADELL F.C., C.E. A",
+          "displayName": "Sabadell A",
+          "fieldName": "CAMP DE FUTBOL MPAL. OLÍMPIA",
+          "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+          "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001025828_escut_CES__1_.png",
+          "isRetired": false
+        }
+      ]
     }
   ]
 }

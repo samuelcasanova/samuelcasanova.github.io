@@ -36,12 +36,16 @@ describe('seasonBuilder', () => {
     expect(findClubTeam(groupTeams, 'premier barcelona').name).toBe('ESCOLA DE FUTBOL PREMIER BARCELONA D')
   })
 
-  test('teamName picks the club team explicitly', () => {
-    expect(findClubTeam(groupTeams, 'PREMIER BARCELONA', 'DON BOSCO, C.F. A').code).toBe('54535327')
+  test('teamName picks the team by part of its name instead of the club name', () => {
+    expect(findClubTeam(groupTeams, 'PREMIER BARCELONA', 'don bosco').code).toBe('54535327')
   })
 
-  test('no matching club team is an error', () => {
-    expect(() => findClubTeam(groupTeams, 'NOT IN GROUP')).toThrow(/found: none/)
+  test('no matching team is an error that lists the teams of the group', () => {
+    expect(() => findClubTeam(groupTeams, 'NOT IN GROUP')).toThrow(/found: none.*DON BOSCO, C\.F\. A/)
+  })
+
+  test('more than one matching team is an error', () => {
+    expect(() => findClubTeam(groupTeams, 'PREMIER BARCELONA', 'POBLE')).toThrow(/found: APA POBLE SEC, CE\. B, POBLE NOU, AT\. B/)
   })
 
   test('match entries hold local date and time, field and rest weeks as a null team', () => {

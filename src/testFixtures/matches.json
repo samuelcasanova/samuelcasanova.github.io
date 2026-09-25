@@ -64,6 +64,34 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Loupes",
+      "teams": [
+        {
+          "category": "Míster",
+          "matches": [
+            {
+              "matchday": "1",
+              "date": "2026-09-19",
+              "time": "12:20",
+              "homeTeamName": "SABADELL F.C., C.E. A",
+              "awayTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "result": "1 - 5",
+              "fieldName": "CAMP DE FUTBOL MPAL. OLÍMPIA"
+            },
+            {
+              "matchday": "2",
+              "date": "2026-09-26",
+              "time": "13:15",
+              "homeTeamName": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+              "awayTeamName": "FONTSANTA-FATJO, C.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM LA GUINEUETA"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

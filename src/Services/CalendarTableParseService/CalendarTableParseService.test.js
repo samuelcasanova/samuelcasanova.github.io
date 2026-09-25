@@ -73,6 +73,17 @@ describe('Parsing matches data', () => {
     })
   })
 
+  describe('Parsing matches of a team from another club', () => {
+    const loupesEntries = matchesData.footballers.find(footballer => footballer.name === 'Loupes').teams[0].matches
+
+    test('home and away follow the footballer team, not the Premier name', () => {
+      const [awayMatch, homeMatch] = calendarTableParseService.parseMatchesFromJson(loupesEntries, new Footballer('Loupes'), 'Míster')
+      expect(awayMatch.awayTeam.displayName).toBe('Guineueta A')
+      expect(awayMatch.isAway).toBeTruthy()
+      expect(homeMatch.isAway).toBeFalsy()
+    })
+  })
+
   describe('Parsing config data with additional matches', () => {
     beforeAll(() => {
       const configData = [{

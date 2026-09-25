@@ -25,6 +25,18 @@
           "standingsUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308235&competicioId=58162008&grupId=58162016"
         }
       ]
+    },
+    {
+      "name": "Loupes",
+      "imageUrl": "/footballers/Loupes.png",
+      "statsUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
+      "teams": [
+        {
+          "name": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+          "category": "Míster",
+          "standingsUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362"
+        }
+      ]
     }
   ]
 }
