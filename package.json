@@ -48,6 +48,6 @@
     "typescript": "^4.3.5",
     "vite": "^7.2.7",
     "vitest": "^4.0.15",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^6.2.2"
   }
 }
