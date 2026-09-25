@@ -26,15 +26,17 @@ export function competicioUrlsByGroup (config) {
 export function buildSite ({ config, groups, additionalMatches }) {
   const teams = []
   const matches = []
+  const statsUrls = {}
   for (const footballer of config.footballers) {
     for (const team of footballer.teams) {
       const group = groups.get(grupIdOf(team.competicioUrl))
       const built = buildGroupMatches({ group, footballerName: footballer.name, team, clubName: config.clubName })
       teams.push(...built.teams.map(groupTeam => ({ category: team.category, ...groupTeam })))
       matches.push(...built.matches)
+      statsUrls[footballer.name] ??= built.clubTeamUrl
     }
   }
-  return { calendars: buildCalendars(config, [...matches, ...additionalMatches]), teams }
+  return { calendars: buildCalendars(config, [...matches, ...additionalMatches], statsUrls), teams }
 }
 
 export async function buildCalendarsFile ({ root = ROOT, config, groups } = {}) {

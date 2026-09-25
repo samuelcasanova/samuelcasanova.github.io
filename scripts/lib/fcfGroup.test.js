@@ -4,6 +4,7 @@ import { buildGroupMatches, findClubTeam, findRetiredTeamCodes, flattenMatches, 
 
 const COMPETICIO_URL = 'https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598'
 const CARMELO_C_CODE = '58652671'
+const PREMIER_D_URL = 'https://www.fcf.cat/ca/clubs/15548283/categories/54313684'
 
 describe('fcfGroup', () => {
   const groupTeams = listTeams(group.equipos)
@@ -22,7 +23,7 @@ describe('fcfGroup', () => {
   test('trimming keeps only the used fields and one row per team', () => {
     const trimmed = trimGroup(group)
     expect(Object.keys(trimmed.partidos['1'][0]).sort()).toEqual([
-      'CAMPO', 'CODEQUIPO_CASA', 'CODEQUIPO_FUERA', 'COMIENZO1', 'ESCUDO_CASA', 'ESCUDO_FUERA',
+      'CAMPO', 'CODCLUB_CASA', 'CODCLUB_FUERA', 'CODEQUIPO_CASA', 'CODEQUIPO_FUERA', 'COMIENZO1', 'ESCUDO_CASA', 'ESCUDO_FUERA',
       'GOLES_CASA', 'GOLES_FUERA', 'JORNADA', 'NOMBRE_CASA', 'NOMBRE_FUERA'
     ])
     expect(trimmed.equipos).toHaveLength(14)
@@ -62,17 +63,25 @@ describe('fcfGroup', () => {
       clubName: 'PREMIER BARCELONA'
     })
 
-    test('every team of the group is described, with retired teams flagged', () => {
+    test('every team of the group is described, linking to its team page, with retired teams flagged', () => {
       const { teams } = build()
       expect(teams).toHaveLength(14)
       expect(teams.find(team => team.name === 'ESCOLA DE FUTBOL PREMIER BARCELONA D')).toEqual({
         name: 'ESCOLA DE FUTBOL PREMIER BARCELONA D',
         displayName: 'Premier D',
         logoUrl: expect.stringMatching(/^https:\/\/files\.fcf\.cat\/escudos\/clubes\/escudos\/.+/),
-        url: COMPETICIO_URL,
+        url: PREMIER_D_URL,
         isRetired: false
       })
-      expect(teams.find(team => team.name === 'CARMELO, C.D. C')).toMatchObject({ isRetired: true, logoUrl: '' })
+    })
+
+    test('a retired team has no crest and links to the group, since it never plays', () => {
+      expect(build().teams.find(team => team.name === 'CARMELO, C.D. C'))
+        .toMatchObject({ isRetired: true, logoUrl: '', url: COMPETICIO_URL })
+    })
+
+    test('the club team page is returned for the footballer', () => {
+      expect(build().clubTeamUrl).toBe(PREMIER_D_URL)
     })
 
     test('only the club team matches are kept, ready to render', () => {
@@ -83,8 +92,8 @@ describe('fcfGroup', () => {
         matchday: '1',
         date: '2026-10-04',
         time: '20:00',
-        homeTeam: { displayName: 'Premier D', logoUrl: expect.any(String), url: COMPETICIO_URL },
-        awayTeam: { displayName: 'Pia Sarrià A', logoUrl: expect.any(String), url: COMPETICIO_URL },
+        homeTeam: { displayName: 'Premier D', logoUrl: expect.any(String), url: PREMIER_D_URL },
+        awayTeam: { displayName: 'Pia Sarrià A', logoUrl: expect.any(String), url: 'https://www.fcf.cat/ca/clubs/15544315/categories/58148497' },
         fieldName: 'CAMP DE FUTBOL MPAL. VALL D´HEBRON',
         isAway: false,
         isRivalRetired: false,

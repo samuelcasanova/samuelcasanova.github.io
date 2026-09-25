@@ -7,11 +7,11 @@ const madridOffsetFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/
 const dateLabelFormat = new Intl.DateTimeFormat('es-ES', { timeZone: 'UTC', weekday: 'short', day: '2-digit', month: 'short' })
 const weekdayFormat = new Intl.DateTimeFormat('es-ES', { timeZone: 'UTC', weekday: 'short' })
 
-export function buildCalendars (config, matches) {
+export function buildCalendars (config, matches, statsUrls = {}) {
   const footballers = Object.fromEntries(config.footballers.map(footballer => [footballer.name, {
     name: footballer.name,
     imageUrl: footballer.imageUrl,
-    statsUrl: footballer.teams[0]?.competicioUrl ?? '',
+    statsUrl: statsUrls[footballer.name] ?? footballer.teams[0]?.competicioUrl ?? '',
     ...(footballer.ageGroup && { ageGroup: footballer.ageGroup })
   }]))
 
@@ -29,7 +29,7 @@ export function buildCalendars (config, matches) {
     footballers,
     standings: config.footballers.flatMap(footballer => footballer.teams.map(team => ({
       label: `Clasificación ${team.category}`,
-      url: withTab(team.competicioUrl, 'calendari')
+      url: withTab(team.competicioUrl, 'classificacio')
     })))
   }
 }

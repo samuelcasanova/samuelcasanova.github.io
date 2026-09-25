@@ -1,9 +1,11 @@
 import { getDisplayName } from './displayName.js'
 
 const CREST_BASE_URL = 'https://files.fcf.cat/escudos/clubes/escudos/'
+const TEAM_PAGE_BASE_URL = 'https://www.fcf.cat/ca/clubs/'
 const USED_MATCH_FIELDS = [
   'JORNADA', 'COMIENZO1', 'CAMPO', 'GOLES_CASA', 'GOLES_FUERA',
-  'CODEQUIPO_CASA', 'NOMBRE_CASA', 'ESCUDO_CASA', 'CODEQUIPO_FUERA', 'NOMBRE_FUERA', 'ESCUDO_FUERA'
+  'CODEQUIPO_CASA', 'CODCLUB_CASA', 'NOMBRE_CASA', 'ESCUDO_CASA',
+  'CODEQUIPO_FUERA', 'CODCLUB_FUERA', 'NOMBRE_FUERA', 'ESCUDO_FUERA'
 ]
 
 export function grupIdOf (competicioUrl) {
@@ -33,6 +35,7 @@ export function buildGroupMatches ({ group, footballerName, team, clubName }) {
 
   return {
     teams: [...teamsByCode.values()],
+    clubTeamUrl: teamsByCode.get(clubTeam.code).url,
     matches: matches
       .filter(match => match.CODEQUIPO_CASA === clubTeam.code || match.CODEQUIPO_FUERA === clubTeam.code)
       .map(match => {
@@ -100,11 +103,12 @@ export function findClubTeam (groupTeams, clubName, teamName) {
 }
 
 function describeTeam (team, matches, competicioUrl, retiredCodes) {
+  const { escudo, clubCode } = findTeamSide(team, matches)
   return {
     name: team.name,
     displayName: getDisplayName(team.name),
-    logoUrl: findCrestUrl(team, matches),
-    url: competicioUrl,
+    logoUrl: escudo ? toCrestUrl(escudo) : '',
+    url: clubCode ? `${TEAM_PAGE_BASE_URL}${clubCode}/categories/${team.code}` : competicioUrl,
     isRetired: retiredCodes.has(team.code)
   }
 }
@@ -113,16 +117,16 @@ function toMatchTeam ({ displayName, logoUrl, url }) {
   return { displayName, logoUrl, url }
 }
 
-function findCrestUrl (team, matches) {
+function findTeamSide (team, matches) {
   for (const match of matches) {
-    if (match.CODEQUIPO_CASA === team.code && !isRestTeamName(match.NOMBRE_CASA) && match.ESCUDO_CASA) {
-      return toCrestUrl(match.ESCUDO_CASA)
+    if (match.CODEQUIPO_CASA === team.code && !isRestTeamName(match.NOMBRE_CASA)) {
+      return { escudo: match.ESCUDO_CASA, clubCode: match.CODCLUB_CASA }
     }
-    if (match.CODEQUIPO_FUERA === team.code && !isRestTeamName(match.NOMBRE_FUERA) && match.ESCUDO_FUERA) {
-      return toCrestUrl(match.ESCUDO_FUERA)
+    if (match.CODEQUIPO_FUERA === team.code && !isRestTeamName(match.NOMBRE_FUERA)) {
+      return { escudo: match.ESCUDO_FUERA, clubCode: match.CODCLUB_FUERA }
     }
   }
-  return ''
+  return {}
 }
 
 function toCrestUrl (escudo) {

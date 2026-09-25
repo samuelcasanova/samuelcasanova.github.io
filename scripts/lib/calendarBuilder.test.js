@@ -143,22 +143,28 @@ describe('Preparing a match to render', () => {
 describe('Data for the rest of the portal', () => {
   const { footballers, standings } = buildCalendars(config, [])
 
-  test('footballers are keyed by name, with their stats link and age group', () => {
-    expect(footballers.Alex).toEqual({ name: 'Alex', imageUrl: '/footballers/Alex.png', statsUrl: 'https://fcf/alex', ageGroup: 'Cadetes' })
+  test('footballers are keyed by name, with their age group', () => {
+    expect(footballers.Alex).toMatchObject({ name: 'Alex', imageUrl: '/footballers/Alex.png', ageGroup: 'Cadetes' })
     expect(footballers.Victor).not.toHaveProperty('ageGroup')
   })
 
-  test('there is one standings link per footballer team, opening the calendari tab', () => {
+  test('a footballer links to their team page when known, else to their group', () => {
+    const withTeamPage = buildCalendars(config, [], { Alex: 'https://fcf/clubs/1/categories/2' }).footballers
+    expect(withTeamPage.Alex.statsUrl).toBe('https://fcf/clubs/1/categories/2')
+    expect(withTeamPage.Victor.statsUrl).toBe('https://fcf/victor')
+  })
+
+  test('there is one standings link per footballer team, opening the classificacio tab', () => {
     expect(standings).toEqual([
-      { label: 'Clasificación Alex', url: 'https://fcf/alex?tab=calendari' },
-      { label: 'Clasificación Victor', url: 'https://fcf/victor?tab=calendari' },
-      { label: 'Clasificación Míster', url: 'https://fcf/loupes?tab=calendari' }
+      { label: 'Clasificación Alex', url: 'https://fcf/alex?tab=classificacio' },
+      { label: 'Clasificación Victor', url: 'https://fcf/victor?tab=classificacio' },
+      { label: 'Clasificación Míster', url: 'https://fcf/loupes?tab=classificacio' }
     ])
   })
 
   test('a competicio URL that already has a tab gets it replaced', () => {
-    const withTabConfig = { ...config, footballers: [{ ...config.footballers[0], teams: [{ category: 'Alex', competicioUrl: 'https://fcf/alex?grupId=1&tab=classificacio' }] }] }
-    expect(buildCalendars(withTabConfig, []).standings[0].url).toBe('https://fcf/alex?grupId=1&tab=calendari')
+    const withTabConfig = { ...config, footballers: [{ ...config.footballers[0], teams: [{ category: 'Alex', competicioUrl: 'https://fcf/alex?grupId=1&tab=calendari' }] }] }
+    expect(buildCalendars(withTabConfig, []).standings[0].url).toBe('https://fcf/alex?grupId=1&tab=classificacio')
   })
 
   test('no matches give no weeks', () => {
