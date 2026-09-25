@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Menu.css'
+import config from '../../config.json'
+import footballersJson from '../../Models/Footballer/footballers.json'
 
 function Menu () {
   const [open, setOpen] = useState(false)
@@ -15,14 +17,13 @@ function Menu () {
         <span className='materialicons'>{ open ? 'close' : 'menu' }</span>
       </button>
       <div className={ open ? 'menu menu-open' : 'menu menu-close'} onClick={() => { setOpen(false) }}>
-        <a href="/#/">Calendario Peques</a>
-        <a href="/#/loupes">Calendario Míster</a>
+        {config.calendars.map(calendar => (
+          <a key={calendar.name} href={`/#${calendar.path}`}>{calendar.label}</a>
+        ))}
         <a href="/#/categorias">Categorías</a>
-        <a href="https://www.fcf.cat/classificacio/2526/futbol-11/infantil-segona-divisio-s14/grup-8">Clasificación Alex</a>
-        <a href="https://www.fcf.cat/classificacio/2526/futbol-7/segona-divisio-alevi-s11/grup-13">Clasificación Victor</a>
-        <a href="https://www.fcf.cat/classificacio/2526/futbol-femeni/primera-divisio-femeni-infantil/grup-2">Clasificación Infantil Femenino</a>
-        <a href="https://www.fcf.cat/classificacio/2526/futbol-femeni/segona-divisio-femeni-cadet-f11/grup-5">Clasificación Cadete Femenino</a>
-        <a href="https://www.fcf.cat/classificacio/2526/futbol-11/tercera-catalana/grup-10">Clasificación Dani</a>
+        {footballersJson.footballers.flatMap(footballer => footballer.teams).map(team => (
+          <a key={team.category} href={team.standingsUrl}>Clasificación {team.category}</a>
+        ))}
       </div>
     </div>
   )

@@ -2,22 +2,16 @@ import config from '../../config.json'
 
 class ApplicationDataService {
   async getApplicationData () {
-    try {
-      const headers = new Headers()
-      headers.append('pragma', 'no-cache')
-      headers.append('cache-control', 'no-cache')
-      const init = {
-        method: 'GET',
-        headers: headers
-      }
-      const request = new Request(config.applicationDataUrl)
-      return fetch(request, init).then((response) => response.json()).then(jsonData =>
-        new Promise(resolve => {
-          return resolve(jsonData)
-        }))
-    } catch (message) {
-      console.error(message)
-    }
+    return this.getJson(config.applicationDataUrl)
+  }
+
+  async getMatchesData () {
+    return this.getJson(config.matchesDataUrl)
+  }
+
+  async getJson (url) {
+    const response = await fetch(url, { headers: { pragma: 'no-cache', 'cache-control': 'no-cache' } })
+    return response.json()
   }
 }
 

@@ -2,13 +2,12 @@
   "calendars": [
     {
       "name": "home",
+      "label": "Calendario Peques",
+      "path": "/",
       "footballerNames": ["Alex", "Victor"]
-    },
-    {
-      "name": "loupes",
-      "footballerNames": ["Loupes"]
     }
   ],
   "teamNameToIdentifyAwayMatches": "premier",
-  "applicationDataUrl": "applicationData.json"
+  "applicationDataUrl": "applicationData.json",
+  "matchesDataUrl": "matches.json"
 }

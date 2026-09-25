@@ -1,4 +1,3 @@
-import HtmlCodeFromURLService from '../HtmlCodeFromUrlService/HtmlCodeFromUrlService'
 import CalendarTableParseService from '../CalendarTableParseService/CalendarTableParseService'
 import CalendarMergerService from '../CalendarMergerService/CalendarMergerService'
 import config from '../../config.json'
@@ -31,15 +30,15 @@ class CalendarReaderService {
   async getLiveCalendar (calendarName) {
     let allFootballerMatches = []
     const calendarConfig = config.calendars.find(calendar => calendar.name === calendarName)
+    const matchesData = await this.applicationDataService.getMatchesData()
 
     for (const footballerName of calendarConfig.footballerNames) {
       const footballer = new Footballer(footballerName)
       for (const team of footballer.teams) {
-        const footballerMatches = await this.getMatchesFromURL(team.calendarUrl, footballer, team.category)
+        const footballerMatches = this.getTeamMatches(matchesData, footballer, team.category)
         allFootballerMatches = this.calendarMergerService.getMergedAndSortedMatches(allFootballerMatches,
           footballerMatches)
-        console.info('CalendarReaderService.getCalendar: Got and merged matches for team %s from the url:',
-          team.displayName, team.calendarUrl)
+        console.info('CalendarReaderService.getCalendar: Got and merged matches for team %s', team.displayName)
       }
       console.info('CalendarReaderService.getCalendar: Got calendar for footballer %s', footballerName)
     }
@@ -56,14 +55,14 @@ class CalendarReaderService {
     return calendar
   }
 
-  async getMatchesFromURL (url, footballer, category) {
-    const htmlCodeFromURLService = new HtmlCodeFromURLService()
-    const calendarSourceCode = await htmlCodeFromURLService.getHtmlCodeFromURL(url)
-    const matches = this.calendarTableParseService.parseMatchesFromHtmlCode(calendarSourceCode, footballer, category)
-    if (!matches || matches.length === 0) {
-      throw new Error(`CalendarReaderService.getMatchesFromURL: 0 matches read from calendar: ${url}`)
+  getTeamMatches (matchesData, footballer, category) {
+    const entries = matchesData.footballers
+      .find(footballerData => footballerData.name === footballer.name)?.teams
+      .find(teamData => teamData.category === category)?.matches ?? []
+    if (entries.length === 0) {
+      throw new Error(`CalendarReaderService.getTeamMatches: 0 matches for ${footballer.name} in category ${category}`)
     }
-    return matches
+    return this.calendarTableParseService.parseMatchesFromJson(entries, footballer, category)
   }
 
   async getMatchesFromApplicationData () {

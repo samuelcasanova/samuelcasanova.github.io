@@ -2,12 +2,19 @@ import React from 'react'
 import './Categories.css'
 import FootballerCard from '../FootballerCard/FootballerCard'
 import Footballer from '../../Models/Footballer/Footballer'
+import footballersJson from '../../Models/Footballer/footballers.json'
+
+const AGE_GROUPS = [
+  { name: 'Pre-benjamines', age: '6 y 7 años', modality: 'Fútbol 7' },
+  { name: 'Benjamines', age: '8 y 9 años', modality: 'Fútbol 7' },
+  { name: 'Alevines', age: '10 y 11 años', modality: 'Fútbol 7' },
+  { name: 'Infantiles', age: '12 y 13 años', modality: 'Fútbol 11' },
+  { name: 'Cadetes', age: '14 y 15 años', modality: 'Fútbol 11' },
+  { name: 'Juveniles', age: '16 a 19 años', modality: 'Fútbol 11' },
+  { name: 'Sénior', age: '20 años o más', modality: 'Fútbol 11' }
+]
 
 function Categories () {
-  const alexFootballer = new Footballer('Alex')
-  const victorFootballer = new Footballer('Victor')
-  const loupesCard = new Footballer('Loupes')
-
   return (
     <div>
       <table>
@@ -20,48 +27,18 @@ function Categories () {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Pre-benjamines</td>
-            <td>6 y 7 años</td>
-            <td>Fútbol 7</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Benjamines</td>
-            <td>8 y 9 años</td>
-            <td>Fútbol 7</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Alevines</td>
-            <td>10 y 11 años</td>
-            <td>Fútbol 7</td>
-            <td><FootballerCard footballer={victorFootballer}/></td>
-          </tr>
-          <tr>
-            <td>Infantiles</td>
-            <td>12 y 13 años</td>
-            <td>Fútbol 11</td>
-            <td><FootballerCard footballer={alexFootballer}/></td>
-          </tr>
-          <tr>
-            <td>Cadetes</td>
-            <td>14 y 15 años</td>
-            <td>Fútbol 11</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Juveniles</td>
-            <td>16 a 19 años</td>
-            <td>Fútbol 11</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Sénior</td>
-            <td>20 años o más</td>
-            <td>Fútbol 11</td>
-            <td><FootballerCard footballer={loupesCard}/></td>
-          </tr>
+          {AGE_GROUPS.map(ageGroup => (
+            <tr key={ageGroup.name}>
+              <td>{ageGroup.name}</td>
+              <td>{ageGroup.age}</td>
+              <td>{ageGroup.modality}</td>
+              <td>
+                {footballersJson.footballers
+                  .filter(footballer => footballer.ageGroup === ageGroup.name)
+                  .map(footballer => <FootballerCard key={footballer.name} footballer={new Footballer(footballer.name)}/>)}
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

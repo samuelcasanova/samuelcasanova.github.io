@@ -1,0 +1,69 @@
+{
+  "footballers": [
+    {
+      "name": "Alex",
+      "teams": [
+        {
+          "category": "Alex",
+          "matches": [
+            {
+              "matchday": "1",
+              "date": "2026-10-04",
+              "time": "20:00",
+              "homeTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+              "awayTeamName": "ESCOLA PIA SARRIÀ S.E. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. VALL D´HEBRON"
+            },
+            {
+              "matchday": "2",
+              "date": "2026-10-10",
+              "time": "15:30",
+              "homeTeamName": "TARR, ASSOC.ESP.  A",
+              "awayTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM MUNDET (1)"
+            },
+            {
+              "matchday": "3",
+              "date": "2026-10-17",
+              "time": "18:00",
+              "homeTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+              "awayTeamName": null,
+              "result": null,
+              "fieldName": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Victor",
+      "teams": [
+        {
+          "category": "Victor",
+          "matches": [
+            {
+              "matchday": "1",
+              "date": "2026-09-27",
+              "time": "09:00",
+              "homeTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
+              "awayTeamName": "SANT GABRIEL, C.D. A",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL MPAL. VALL D´HEBRON"
+            },
+            {
+              "matchday": "2",
+              "date": "2026-10-03",
+              "time": "13:00",
+              "homeTeamName": "CONGRÉS CLUB ESP. A",
+              "awayTeamName": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
+              "result": null,
+              "fieldName": "CAMP DE FUTBOL CEM CAN DRAGO"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import './FieldCard.css'
 
 function FieldCard ({ match }) {
   const fieldIcon = (match.isAway ? 'place' : 'home')
-  const fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(match.homeTeam?.fieldName)
+  const fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(match.fieldName ?? match.homeTeam?.fieldName)
 
   return (
             <a className='fieldcard' href={ fieldLinkUrl } target='_blank' rel='noreferrer' >
@@ -17,8 +17,9 @@ function FieldCard ({ match }) {
 
 FieldCard.propTypes = {
   match: PropTypes.shape({
+    fieldName: PropTypes.string,
     homeTeam: PropTypes.shape({
-      fieldName: PropTypes.string.isRequired
+      fieldName: PropTypes.string
     }),
     isAway: PropTypes.bool.isRequired
   })

@@ -1,33 +1,40 @@
 import CalendarReaderService from './CalendarReaderService'
-import config from '../../config.json'
-import Footballer from '../../Models/Footballer/Footballer'
+import matchesData from '../../testFixtures/matches.json'
 
-const WEB_SCRAPPING_LONG_TEST_TIMEOUT_IN_MILLIS = 30000
+vi.mock('../../Models/Footballer/footballers.json', () => import('../../testFixtures/footballers.json'))
+vi.mock('../../Models/Team/teams.json', () => import('../../testFixtures/teams.json'))
+
+function stubFetch (matches) {
+  const responses = {
+    'matches.json': matches,
+    'applicationData.json': { additionalMatches: [] }
+  }
+  return vi.fn(async url => new Response(JSON.stringify(responses[url])))
+}
 
 /* eslint-disable no-undef */
-describe('Merging Internet calendars', () => {
-  const calendarReaderService = new CalendarReaderService()
+describe('Reading calendars from the season data', () => {
+  afterEach(() => {
+    vi.unstubAllGlobals()
+  })
 
-  describe('Getting correctly the calendars', () => {
-    test('Footballer 1 calendar has >20 matches', async () => {
-      const footballer1 = new Footballer(config.calendars[0].footballerNames[0])
-      const footballer1Matches = await calendarReaderService.getMatchesFromURL(footballer1.teams[0].calendarUrl, footballer1, footballer1.teams[0].category)
-      expect(footballer1Matches.length).toBeGreaterThan(20)
-    }, WEB_SCRAPPING_LONG_TEST_TIMEOUT_IN_MILLIS)
+  test('the home calendar merges every footballer match from matches.json, and nothing else is fetched', async () => {
+    const fetchFn = stubFetch(matchesData)
+    vi.stubGlobal('fetch', fetchFn)
 
-    test('Footballer 2 calendar has >20 matches', async () => {
-      const footballer2 = new Footballer(config.calendars[0].footballerNames[1])
-      const footballer2Matches = await calendarReaderService.getMatchesFromURL(footballer2.teams[0].calendarUrl, footballer2, footballer2.teams[0].category)
-      expect(footballer2Matches.length).toBeGreaterThan(20)
-    }, WEB_SCRAPPING_LONG_TEST_TIMEOUT_IN_MILLIS)
+    const calendar = await new CalendarReaderService().getLiveCalendar('home')
 
-    test('Wrong calendar give an error', async () => {
-      try {
-        await calendarReaderService.getMatchesFromURL('https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/montanesa-cf-c')
-      } catch (error) {
-        expect(error).toBeInstanceOf(Error)
-        expect(error.message).toBe('CalendarReaderService.getMatchesFromURL: 0 matches read from calendar: https://www.fcf.cat/calendari-equip/2022/futbol-7/prebenjami-7/grup-18/montanesa-cf-c')
-      }
-    }, WEB_SCRAPPING_LONG_TEST_TIMEOUT_IN_MILLIS)
+    const matches = calendar.weeks.flatMap(week => week.matches)
+    expect(matches).toHaveLength(5)
+    expect(matches.map(match => match.footballer.name)).toEqual(['Victor', 'Victor', 'Alex', 'Alex', 'Alex'])
+    expect(fetchFn.mock.calls.map(([url]) => url).sort()).toEqual(['applicationData.json', 'matches.json'])
+  })
+
+  test('a footballer without matches gives an error', async () => {
+    const withoutVictor = { footballers: matchesData.footballers.filter(footballer => footballer.name !== 'Victor') }
+    vi.stubGlobal('fetch', stubFetch(withoutVictor))
+
+    await expect(new CalendarReaderService().getLiveCalendar('home'))
+      .rejects.toThrow('CalendarReaderService.getTeamMatches: 0 matches for Victor in category Victor')
   })
 })

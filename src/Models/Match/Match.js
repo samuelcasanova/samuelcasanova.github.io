@@ -8,6 +8,7 @@ class Match {
   homeTeam
   awayTeam
   result
+  fieldName
   footballer
 
   isAway

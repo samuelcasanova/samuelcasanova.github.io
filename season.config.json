@@ -4,6 +4,7 @@
     {
       "name": "Alex",
       "imageUrl": "/footballers/Alex.png",
+      "ageGroup": "Cadetes",
       "teams": [
         {
           "category": "Alex",
@@ -14,6 +15,7 @@
     {
       "name": "Victor",
       "imageUrl": "/footballers/Victor.png",
+      "ageGroup": "Alevines",
       "teams": [
         {
           "category": "Victor",

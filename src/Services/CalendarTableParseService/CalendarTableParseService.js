@@ -3,30 +3,19 @@ import Footballer from '../../Models/Footballer/Footballer'
 import Team from '../../Models/Team/Team'
 
 class CalendarTableParseService {
-  parseMatchesFromHtmlCode (htmlCode, footballer, category) {
-    const trRows = this.readMatchesRows(htmlCode)
-
-    const matches = []
-
-    for (let i = 0; i < trRows.length; i++) {
-      const tdFields = trRows.item(i).getElementsByTagName('td')
-      const matchdayString = this.readMatchDayFromRow(tdFields)
-      const datetime = this.getDatetimeFromRow(tdFields)
-      const homeTeamName = this.getHomeTeamFromRow(tdFields)
-      const awayTeamName = this.getAwayTeamFromRow(tdFields)
-      const resultString = this.getResultFromRow(tdFields)
-      const homeTeam = (homeTeamName ? new Team(homeTeamName, category) : null)
-      const awayTeam = (awayTeamName ? new Team(awayTeamName, category) : null)
+  parseMatchesFromJson (entries, footballer, category) {
+    return entries.map(entry => {
+      const homeTeam = (entry.homeTeamName ? new Team(entry.homeTeamName, category) : null)
+      const awayTeam = (entry.awayTeamName ? new Team(entry.awayTeamName, category) : null)
 
       const match = new Match(homeTeam, awayTeam)
-      match.matchday = matchdayString
-      match.setDatetime(datetime)
+      match.matchday = entry.matchday
+      match.setDatetime(new Date(`${entry.date}T${entry.time}:00Z`))
       match.footballer = footballer
-      match.result = resultString
-      matches.push(match)
-    }
-
-    return matches
+      match.result = entry.result
+      match.fieldName = entry.fieldName
+      return match
+    })
   }
 
   parseMatchesFromData (matchesData) {
@@ -50,40 +39,6 @@ class CalendarTableParseService {
       matches.push(match)
     }
     return matches
-  }
-
-  getResultFromRow (tdFields) {
-    return tdFields.item(5).textContent.trim()
-  }
-
-  getAwayTeamFromRow (tdFields) {
-    const awayTeamString = tdFields.item(4).textContent.trim()
-    return awayTeamString
-  }
-
-  getHomeTeamFromRow (tdFields) {
-    const homeTeamString = tdFields.item(3).textContent.trim()
-    return homeTeamString
-  }
-
-  getDatetimeFromRow (tdFields) {
-    const dateString = tdFields.item(1).textContent.trim()
-    const timeString = tdFields.item(2).textContent.trim()
-    const datetime = this.parseDateAndTime(dateString, timeString)
-    return datetime
-  }
-
-  readMatchDayFromRow (tdFields) {
-    return tdFields.item(0).textContent.trim()
-  }
-
-  readMatchesRows (htmlCode) {
-    const domParser = new DOMParser()
-    const htmlDocument = domParser.parseFromString(htmlCode, 'text/html')
-    const tableDocument = htmlDocument.getElementsByClassName('fcftable').item(0)
-    const tableBodyDocument = tableDocument.getElementsByTagName('tbody').item(0)
-    const trRows = tableBodyDocument.getElementsByTagName('tr')
-    return trRows
   }
 
   parseDateAndTime (dateString, timeString) {
