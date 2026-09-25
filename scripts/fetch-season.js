@@ -1,6 +1,7 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { appendFile, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { createFcfClient } from './lib/fcfClient.js'
+import { createFailureTracker } from './lib/failureTracker.js'
 import { buildSeason } from './lib/seasonBuilder.js'
 
 const ROOT = join(import.meta.dirname, '..')
@@ -40,7 +41,32 @@ function printDisplayNames (season) {
   console.table(rows)
 }
 
+export async function runFetchSeason ({ env = process.env, tracker = createTrackerFromEnv(env), ...options } = {}) {
+  try {
+    const season = await fetchSeason(options)
+    printDisplayNames(season)
+    await tracker?.recordSuccess()
+    return { exitCode: 0, skipped: false }
+  } catch (error) {
+    if (!tracker) throw error
+    const { alerted, consecutiveFailures } = await tracker.recordFailure(error)
+    console.error(`Fetch failed (${consecutiveFailures} in a row): ${error.message}`)
+    return { exitCode: alerted ? 1 : 0, skipped: true }
+  }
+}
+
+function createTrackerFromEnv (env) {
+  if (!env.FETCH_STATE_FILE) return null
+  return createFailureTracker({
+    stateFile: env.FETCH_STATE_FILE,
+    threshold: Number(env.FETCH_FAILURE_ALERT_THRESHOLD ?? 4)
+  })
+}
+
 if (import.meta.main) {
-  const season = await fetchSeason()
-  printDisplayNames(season)
+  const { exitCode, skipped } = await runFetchSeason()
+  if (process.env.GITHUB_OUTPUT) {
+    await appendFile(process.env.GITHUB_OUTPUT, `skipped=${skipped}\n`)
+  }
+  process.exitCode = exitCode
 }
