@@ -148,12 +148,17 @@ describe('Data for the rest of the portal', () => {
     expect(footballers.Victor).not.toHaveProperty('ageGroup')
   })
 
-  test('there is one standings link per footballer team', () => {
+  test('there is one standings link per footballer team, opening the calendari tab', () => {
     expect(standings).toEqual([
-      { label: 'Clasificación Alex', url: 'https://fcf/alex' },
-      { label: 'Clasificación Victor', url: 'https://fcf/victor' },
-      { label: 'Clasificación Míster', url: 'https://fcf/loupes' }
+      { label: 'Clasificación Alex', url: 'https://fcf/alex?tab=calendari' },
+      { label: 'Clasificación Victor', url: 'https://fcf/victor?tab=calendari' },
+      { label: 'Clasificación Míster', url: 'https://fcf/loupes?tab=calendari' }
     ])
+  })
+
+  test('a competicio URL that already has a tab gets it replaced', () => {
+    const withTabConfig = { ...config, footballers: [{ ...config.footballers[0], teams: [{ category: 'Alex', competicioUrl: 'https://fcf/alex?grupId=1&tab=classificacio' }] }] }
+    expect(buildCalendars(withTabConfig, []).standings[0].url).toBe('https://fcf/alex?grupId=1&tab=calendari')
   })
 
   test('no matches give no weeks', () => {

@@ -29,9 +29,15 @@ export function buildCalendars (config, matches) {
     footballers,
     standings: config.footballers.flatMap(footballer => footballer.teams.map(team => ({
       label: `Clasificación ${team.category}`,
-      url: team.competicioUrl
+      url: withTab(team.competicioUrl, 'calendari')
     })))
   }
+}
+
+function withTab (competicioUrl, tab) {
+  const url = new URL(competicioUrl)
+  url.searchParams.set('tab', tab)
+  return url.toString()
 }
 
 function prepareMatch (match, footballers) {
