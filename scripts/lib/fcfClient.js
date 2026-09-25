@@ -1,3 +1,5 @@
+import { grupIdOf } from './fcfGroup.js'
+
 const API_BASE_URL = 'https://www.fcf.cat/api/competition'
 const PAUSE_BETWEEN_CALLS_MS = 5_000
 const RETRY_AFTER_CHALLENGE_MS = 60_000
@@ -48,10 +50,7 @@ export function createFcfClient ({ fetchFn = fetch, sleep = defaultSleep, baseUr
   }
 
   async function getGroup (competicioUrl) {
-    const grupId = new URL(competicioUrl).searchParams.get('grupId')
-    if (!grupId) {
-      throw new Error(`No grupId in ${competicioUrl}`)
-    }
+    const grupId = grupIdOf(competicioUrl)
     const partidos = await requestWithOneRetry('partidos', grupId, competicioUrl)
     const equipos = await requestWithOneRetry('equipos', grupId, competicioUrl)
     if (typeof partidos !== 'object' || partidos === null || Array.isArray(partidos) || !Array.isArray(equipos)) {

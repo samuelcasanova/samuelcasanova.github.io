@@ -3,13 +3,8 @@ import PropTypes from 'prop-types'
 import MatchCard from '../MatchCard/MatchCard'
 import './WeekCard.css'
 
-function WeekCard ({ isCurrentWeek, week }) {
-  const matchdaytext = isCurrentWeek || week.matches.length === 0
-    ? 'Próxima Jornada'
-    : 'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription
-
-  const initialCollapsedState = !isCurrentWeek
-  const [collapsedState, setCollapsedState] = React.useState(initialCollapsedState)
+function WeekCard ({ isCurrentWeek, week, footballers }) {
+  const [collapsedState, setCollapsedState] = React.useState(!isCurrentWeek)
   const toggleCollapsedState = () => {
     setCollapsedState(!collapsedState)
   }
@@ -17,11 +12,13 @@ function WeekCard ({ isCurrentWeek, week }) {
   return (
     <div className='weekcard'>
       <header className={week.isProblematic ? 'problematic' : ''} onClick={toggleCollapsedState}>
-        {matchdaytext}
+        {isCurrentWeek ? 'Próxima Jornada' : week.title}
       </header>
       <div style={{ display: collapsedState ? 'none' : 'block' }}>
         {
-          week.matches.map((match, index) => <MatchCard key={index} match={match} />)
+          week.matches.map(match => (
+            <MatchCard key={`${match.footballer} ${match.startsAt}`} match={match} footballer={footballers[match.footballer]} />
+          ))
         }
       </div>
     </div>
@@ -31,11 +28,11 @@ function WeekCard ({ isCurrentWeek, week }) {
 WeekCard.propTypes = {
   isCurrentWeek: PropTypes.bool.isRequired,
   week: PropTypes.shape({
-    weekofyear: PropTypes.number.isRequired,
-    shortDescription: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
     isProblematic: PropTypes.bool.isRequired,
     matches: PropTypes.array.isRequired
-  })
+  }).isRequired,
+  footballers: PropTypes.object.isRequired
 }
 
 export default WeekCard

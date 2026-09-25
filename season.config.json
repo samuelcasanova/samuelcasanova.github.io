@@ -1,5 +1,9 @@
 {
   "clubName": "PREMIER BARCELONA",
+  "calendars": [
+    { "name": "home", "label": "Calendario Peques", "path": "/", "footballerNames": ["Alex", "Victor"] },
+    { "name": "loupes", "label": "Calendario Míster", "path": "/loupes", "footballerNames": ["Loupes"] }
+  ],
   "footballers": [
     {
       "name": "Alex",

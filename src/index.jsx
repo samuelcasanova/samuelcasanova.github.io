@@ -7,7 +7,7 @@ import { Switch, Route, HashRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 import Calendar from './Components/Calendar/Calendar'
 import Categories from './Components/Categories/Categories'
-import config from './config.json'
+import { calendars, footballers } from './data/calendars.json'
 
 const container = document.getElementById('root')
 const root = createRoot(container)
@@ -17,8 +17,8 @@ root.render(
       <Header/>
       <Switch>
         <Route key='categories' path='/categorias' component={Categories}/>
-        {config.calendars.map(calendar => (
-          <Route key={calendar.name} exact path={calendar.path}><Calendar calendarName={calendar.name}/></Route>
+        {calendars.map(calendar => (
+          <Route key={calendar.name} exact path={calendar.path}><Calendar calendar={calendar} footballers={footballers}/></Route>
         ))}
       </Switch>
       <Footer />

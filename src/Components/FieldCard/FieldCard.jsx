@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import './FieldCard.css'
 
 function FieldCard ({ match }) {
-  const fieldIcon = (match.isAway ? 'place' : 'home')
-  const fieldLinkUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURI(match.fieldName ?? match.homeTeam?.fieldName)
-
+  if (!match.fieldMapUrl) {
+    return null
+  }
   return (
-            <a className='fieldcard' href={ fieldLinkUrl } target='_blank' rel='noreferrer' >
+            <a className='fieldcard' href={ match.fieldMapUrl } target='_blank' rel='noreferrer' >
               <span className='materialicons'>
-                { fieldIcon }
+                { match.isAway ? 'place' : 'home' }
               </span>
             </a>
   )
@@ -17,10 +17,7 @@ function FieldCard ({ match }) {
 
 FieldCard.propTypes = {
   match: PropTypes.shape({
-    fieldName: PropTypes.string,
-    homeTeam: PropTypes.shape({
-      fieldName: PropTypes.string
-    }),
+    fieldMapUrl: PropTypes.string,
     isAway: PropTypes.bool.isRequired
   })
 }

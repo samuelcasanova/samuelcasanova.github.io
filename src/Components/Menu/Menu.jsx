@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Menu.css'
-import config from '../../config.json'
-import footballersJson from '../../Models/Footballer/footballers.json'
+import { calendars, standings } from '../../data/calendars.json'
 
 function Menu () {
   const [open, setOpen] = useState(false)
@@ -17,12 +16,12 @@ function Menu () {
         <span className='materialicons'>{ open ? 'close' : 'menu' }</span>
       </button>
       <div className={ open ? 'menu menu-open' : 'menu menu-close'} onClick={() => { setOpen(false) }}>
-        {config.calendars.map(calendar => (
+        {calendars.map(calendar => (
           <a key={calendar.name} href={`/#${calendar.path}`}>{calendar.label}</a>
         ))}
         <a href="/#/categorias">Categorías</a>
-        {footballersJson.footballers.flatMap(footballer => footballer.teams).map(team => (
-          <a key={team.category} href={team.standingsUrl}>Clasificación {team.category}</a>
+        {standings.map(standing => (
+          <a key={standing.url} href={standing.url}>{standing.label}</a>
         ))}
       </div>
     </div>

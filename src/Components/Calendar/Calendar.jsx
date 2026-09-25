@@ -1,30 +1,24 @@
 import React from 'react'
 import WeekCard from '../WeekCard/WeekCard'
-import useCalendar from './useCalendar'
 import PropTypes from 'prop-types'
+import { getCurrentWeekIndex } from './currentWeek'
 import './Calendar.css'
 
-function Calendar ({ calendarName }) {
-  const calendar = useCalendar(calendarName)
-
-  let nextweek = null
-  if (calendar.currentWeekIndex !== -1) {
-    nextweek = <WeekCard week={ calendar.weeks[calendar.currentWeekIndex] } isCurrentWeek= { true }/>
-  }
-  const upcomingWeeks = calendar.weeks.slice(calendar.currentWeekIndex + 1)
+function Calendar ({ calendar, footballers, now = new Date() }) {
+  const currentWeekIndex = getCurrentWeekIndex(calendar.weeks, now)
+  const currentWeek = calendar.weeks[currentWeekIndex]
+  const upcomingWeeks = calendar.weeks.slice(currentWeekIndex + 1)
   return (
           <div>
             <div>
-              <div className='nextweek'>{nextweek}</div>
+              <div className='nextweek'>
+                {currentWeek && <WeekCard week={ currentWeek } footballers={ footballers } isCurrentWeek={ true }/>}
+              </div>
             </div>
             <div className='list'>
               {
-                upcomingWeeks.map((week, index) => (
-                  // <Panel
-                  //   key={index}
-                  //   header={'Jornada ' + week.matches[0].matchday + ' ' + week.shortDescription}
-                  // >
-                  <WeekCard week={ week } key={ index } isCurrentWeek={ false }/>
+                upcomingWeeks.map(week => (
+                  <WeekCard week={ week } footballers={ footballers } key={ week.endsAt } isCurrentWeek={ false }/>
                 ))
               }
             </div>
@@ -33,7 +27,11 @@ function Calendar ({ calendarName }) {
 }
 
 Calendar.propTypes = {
-  calendarName: PropTypes.string.isRequired
+  calendar: PropTypes.shape({
+    weeks: PropTypes.array.isRequired
+  }).isRequired,
+  footballers: PropTypes.object.isRequired,
+  now: PropTypes.instanceOf(Date)
 }
 
 export default Calendar

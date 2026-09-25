@@ -1,8 +1,7 @@
 import React from 'react'
 import './Categories.css'
 import FootballerCard from '../FootballerCard/FootballerCard'
-import Footballer from '../../Models/Footballer/Footballer'
-import footballersJson from '../../Models/Footballer/footballers.json'
+import { footballers } from '../../data/calendars.json'
 
 const AGE_GROUPS = [
   { name: 'Pre-benjamines', age: '6 y 7 años', modality: 'Fútbol 7' },
@@ -33,9 +32,9 @@ function Categories () {
               <td>{ageGroup.age}</td>
               <td>{ageGroup.modality}</td>
               <td>
-                {footballersJson.footballers
+                {Object.values(footballers)
                   .filter(footballer => footballer.ageGroup === ageGroup.name)
-                  .map(footballer => <FootballerCard key={footballer.name} footballer={new Footballer(footballer.name)}/>)}
+                  .map(footballer => <FootballerCard key={footballer.name} footballer={footballer}/>)}
               </td>
             </tr>
           ))}

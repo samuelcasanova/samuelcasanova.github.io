@@ -1,50 +1,34 @@
-import { appendFile, readFile, writeFile } from 'node:fs/promises'
+import { appendFile, readdir, rm } from 'node:fs/promises'
 import { join } from 'node:path'
 import { createFcfClient } from './lib/fcfClient.js'
 import { createFailureTracker } from './lib/failureTracker.js'
-import { buildSeason } from './lib/seasonBuilder.js'
-
-const ROOT = join(import.meta.dirname, '..')
-const OUTPUT_FILES = {
-  teams: 'src/Models/Team/teams.json',
-  footballers: 'src/Models/Footballer/footballers.json',
-  matches: 'public/matches.json'
-}
+import { trimGroup } from './lib/fcfGroup.js'
+import { GROUPS_DIR, ROOT, buildCalendarsFile, competicioUrlsByGroup, printTeams, readConfig, writeJson } from './build-calendars.js'
 
 export async function fetchSeason ({ root = ROOT, client = createFcfClient() } = {}) {
-  const config = JSON.parse(await readFile(join(root, 'season.config.json'), 'utf8'))
+  const config = await readConfig(root)
 
-  const groupsByUrl = new Map()
-  for (const footballer of config.footballers) {
-    for (const team of footballer.teams) {
-      if (!groupsByUrl.has(team.competicioUrl)) {
-        groupsByUrl.set(team.competicioUrl, await client.getGroup(team.competicioUrl))
-      }
+  const groups = new Map()
+  for (const [grupId, competicioUrl] of competicioUrlsByGroup(config)) {
+    groups.set(grupId, trimGroup(await client.getGroup(competicioUrl)))
+  }
+
+  const site = await buildCalendarsFile({ root, config, groups })
+  for (const [grupId, group] of groups) {
+    await writeJson(join(root, GROUPS_DIR, `${grupId}.json`), group)
+  }
+  for (const file of await readdir(join(root, GROUPS_DIR))) {
+    if (!groups.has(file.replace(/\.json$/, ''))) {
+      await rm(join(root, GROUPS_DIR, file))
     }
   }
-
-  const season = buildSeason(config, groupsByUrl)
-  for (const [key, path] of Object.entries(OUTPUT_FILES)) {
-    await writeFile(join(root, path), JSON.stringify(season[key], null, 2) + '\n')
-  }
-  return season
-}
-
-function printDisplayNames (season) {
-  const rows = season.teams.categories.flatMap(category =>
-    category.teams.map(team => ({
-      category: category.name,
-      'raw name': team.name,
-      displayName: team.displayName,
-      retired: team.isRetired ? 'yes' : ''
-    })))
-  console.table(rows)
+  return site
 }
 
 export async function runFetchSeason ({ env = process.env, tracker = createTrackerFromEnv(env), ...options } = {}) {
   try {
-    const season = await fetchSeason(options)
-    printDisplayNames(season)
+    const site = await fetchSeason(options)
+    printTeams(site.teams)
     await tracker?.recordSuccess()
     return { exitCode: 0, skipped: false }
   } catch (error) {
