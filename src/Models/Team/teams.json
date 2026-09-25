@@ -69,7 +69,7 @@
         },
         {
           "name": "ESCOLA FUTBOL ALMOGAVERS A",
-          "displayName": "Utbol Almogavers A",
+          "displayName": "Almogavers A",
           "fieldName": "CAMP DE FUTBOL CEM FORT-PIENC",
           "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
@@ -109,7 +109,7 @@
         },
         {
           "name": "TARR, ASSOC.ESP.  A",
-          "displayName": "Tarr Assos A",
+          "displayName": "Tarr A",
           "fieldName": "CAMP DE FUTBOL CEM MUNDET (1)",
           "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001239322_tarr.jpg",
@@ -242,7 +242,7 @@
         },
         {
           "name": "VILA OLIMPICA CLUB ESP. A",
-          "displayName": "Vila A A",
+          "displayName": "Vila Olímpica A",
           "fieldName": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
           "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308235&competicioId=58162008&grupId=58162016",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000586311_cevo_200x200.png",
@@ -271,7 +271,7 @@
         },
         {
           "name": "ESCUELA F.SAN PEDRO SAN PABLO A",
-          "displayName": "Escuela San Pedro San Pablo A",
+          "displayName": "San Pedro San Pablo A",
           "fieldName": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
           "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
@@ -303,7 +303,7 @@
         },
         {
           "name": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
-          "displayName": "Privada Asso Es Prat A",
+          "displayName": "Prat A",
           "fieldName": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
           "calendarUrl": "https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308237&competicioId=58162361&grupId=58162362",
           "logoUrl": "https://files.fcf.cat/escudos/clubes/escudos/00100_0001270584_Prat.png",
