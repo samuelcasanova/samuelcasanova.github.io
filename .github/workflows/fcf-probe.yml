@@ -1,0 +1,39 @@
+name: FCF API probe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Probe partidos endpoint per group
+      run: |
+        probe() {
+          local grupId=$1 referer=$2
+          local status size waf
+          status=$(curl -s -o body.json -D headers.txt -w '%{http_code}' \
+            -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
+            -H 'Accept: application/json' \
+            -H 'Accept-Language: ca' \
+            -H "Referer: $referer" \
+            "https://www.fcf.cat/api/competition/partidos?grupId=$grupId")
+          size=$(stat -c %s body.json)
+          waf=$(grep -i '^x-amzn-waf-action:' headers.txt | cut -d' ' -f2 | tr -d '\r')
+          echo "| $grupId | $status | $size | ${waf:--} |" >> "$GITHUB_STEP_SUMMARY"
+          echo "grupId=$grupId status=$status bytes=$size waf=${waf:--}"
+        }
+        {
+          echo "Runner IP: $(curl -s https://api.ipify.org)"
+          echo
+          echo "| grupId | status | bytes | x-amzn-waf-action |"
+          echo "|---|---|---|---|"
+        } >> "$GITHUB_STEP_SUMMARY"
+        probe 59724598 'https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598'
+        sleep 5
+        probe 58162016 'https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308235&competicioId=58162008&grupId=58162016'
