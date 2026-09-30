@@ -1,56 +1,102 @@
-# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Node.js CI/CD and deployment to Github pages
 
 on:
   push:
     branches: [ master ]
+  schedule:
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
+  issues: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
+env:
+  FETCH_STATE_FILE_PATH: .fetch-state/fetch-state.json
 
 jobs:
   buildanddeploy:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [24.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 24
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 24.x
         cache: 'npm'
     - run: npm ci
+
+    - name: Restore fetch failure counter
+      if: github.event_name == 'schedule'
+      uses: actions/cache/restore@v4
+      with:
+        path: ${{ env.FETCH_STATE_FILE_PATH }}
+        key: fetch-failures-${{ github.run_id }}
+        restore-keys: fetch-failures-
+
+    # Scheduled runs count failures and only fail (and open an issue) after a day of them;
+    # manual runs have no counter, so a failed fetch fails the run right away.
+    - name: Fetch season data from FCF
+      id: fetch
+      if: github.event_name != 'push'
+      env:
+        FETCH_STATE_FILE: ${{ github.event_name == 'schedule' && env.FETCH_STATE_FILE_PATH || '' }}
+        FETCH_FAILURE_ALERT_THRESHOLD: 12
+        GH_TOKEN: ${{ github.token }}
+      run: npm run fetch-season
+
+    - name: Save fetch failure counter
+      if: always() && github.event_name == 'schedule' && hashFiles(env.FETCH_STATE_FILE_PATH) != ''
+      uses: actions/cache/save@v4
+      with:
+        path: ${{ env.FETCH_STATE_FILE_PATH }}
+        key: fetch-failures-${{ github.run_id }}
+
+    - name: Commit refreshed data
+      id: commit
+      if: steps.fetch.outcome == 'success' && steps.fetch.outputs.skipped != 'true'
+      run: |
+        if git diff --quiet -- data/fcf; then
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          exit 0
+        fi
+        git config user.name 'github-actions[bot]'
+        git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git add data/fcf
+        git commit -m 'data: refresh season'
+        git pull --rebase origin master
+        git push origin HEAD:master
+        echo "changed=true" >> "$GITHUB_OUTPUT"
+
+    - name: Decide whether to deploy
+      id: deploy
+      run: |
+        echo "needed=${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && steps.fetch.outcome == 'success') || steps.commit.outputs.changed == 'true' }}" >> "$GITHUB_OUTPUT"
+
     - run: npm test
+      if: steps.deploy.outputs.needed == 'true'
     - run: npm run build
+      if: steps.deploy.outputs.needed == 'true'
 
     - name: Setup Pages
+      if: steps.deploy.outputs.needed == 'true'
       uses: actions/configure-pages@v4
 
     - name: Upload artifact
+      if: steps.deploy.outputs.needed == 'true'
       uses: actions/upload-pages-artifact@v4
       with:
         path: './dist'
-        
+
     - name: Deploy to GitHub Pages
+      if: steps.deploy.outputs.needed == 'true'
       id: deployment
       uses: actions/deploy-pages@v4
-
-      

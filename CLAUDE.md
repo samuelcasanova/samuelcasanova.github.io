@@ -5,6 +5,8 @@
 `npm run build-calendars` (offline; merges `data/fcf/` and `data/additionalMatches.json` into the gitignored
 `src/data/calendars.json`, runs before `start` and `build`) → the portal imports it and only picks the current week.
 Display-name fixes (`scripts/displayNameReplacements.json`) and additional matches need only `build-calendars`.
+`.github/workflows/node.js.yml` runs `fetch-season` every 2 h, commits `data/fcf/` when it changed and redeploys;
+12 failed scheduled fetches in a row open a GitHub issue.
 
 ## Tests must not call fcf.cat
 fcf.cat is behind an AWS WAF rate-based rule. A burst of requests blocks every call for hours (`202`, empty
