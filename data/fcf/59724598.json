@@ -140,21 +140,6 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-10 14:00:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58156824",
-        "CODCLUB_CASA": "6278",
-        "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-        "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
-        "CODEQUIPO_FUERA": "54535327",
-        "CODCLUB_FUERA": "1226",
-        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
-        "ESCUDO_FUERA": "00100_0000105692_bosco.png"
-      },
-      {
-        "JORNADA": "2",
         "COMIENZO1": "2026-10-10 15:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
         "GOLES_CASA": null,
@@ -212,6 +197,21 @@
         "CODCLUB_FUERA": "6385",
         "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
         "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
+      },
+      {
+        "JORNADA": "2",
+        "COMIENZO1": "2026-10-11 13:30:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58156824",
+        "CODCLUB_CASA": "6278",
+        "NOMBRE_CASA": "CAN BUXERES, F.C. C",
+        "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+        "CODEQUIPO_FUERA": "54535327",
+        "CODCLUB_FUERA": "1226",
+        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+        "ESCUDO_FUERA": "00100_0000105692_bosco.png"
       }
     ],
     "3": [
