@@ -875,6 +875,21 @@
       {
         "JORNADA": "9",
         "COMIENZO1": "2026-11-28 14:00:00",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58148497",
+        "CODCLUB_CASA": "15544315",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "58457830",
+        "CODCLUB_FUERA": "58329576",
+        "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+        "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
+      },
+      {
+        "JORNADA": "9",
+        "COMIENZO1": "2026-11-28 14:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARESME",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -901,21 +916,6 @@
         "CODCLUB_FUERA": "15548283",
         "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
         "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
-      },
-      {
-        "JORNADA": "9",
-        "COMIENZO1": "2026-11-28 16:00:00",
-        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58148497",
-        "CODCLUB_CASA": "15544315",
-        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-        "CODEQUIPO_FUERA": "58457830",
-        "CODCLUB_FUERA": "58329576",
-        "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
-        "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
       },
       {
         "JORNADA": "9",
@@ -1624,6 +1624,21 @@
       {
         "JORNADA": "16",
         "COMIENZO1": "2027-02-13 14:00:00",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58148497",
+        "CODCLUB_CASA": "15544315",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "54312654",
+        "CODCLUB_FUERA": "6385",
+        "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
+        "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
+      },
+      {
+        "JORNADA": "16",
+        "COMIENZO1": "2027-02-13 14:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1650,21 +1665,6 @@
         "CODCLUB_FUERA": "40493342",
         "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
         "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png"
-      },
-      {
-        "JORNADA": "16",
-        "COMIENZO1": "2027-02-13 16:00:00",
-        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58148497",
-        "CODCLUB_CASA": "15544315",
-        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-        "CODEQUIPO_FUERA": "54312654",
-        "CODCLUB_FUERA": "6385",
-        "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
-        "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
       },
       {
         "JORNADA": "16",
@@ -2037,6 +2037,21 @@
       {
         "JORNADA": "20",
         "COMIENZO1": "2027-03-13 14:00:00",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58148497",
+        "CODCLUB_CASA": "15544315",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "58156551",
+        "CODCLUB_FUERA": "2670",
+        "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_FUERA": "00100_0000003500_images.png"
+      },
+      {
+        "JORNADA": "20",
+        "COMIENZO1": "2027-03-13 14:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2063,21 +2078,6 @@
         "CODCLUB_FUERA": "1093",
         "NOMBRE_FUERA": "POBLE NOU, AT. B",
         "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png"
-      },
-      {
-        "JORNADA": "20",
-        "COMIENZO1": "2027-03-13 16:00:00",
-        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58148497",
-        "CODCLUB_CASA": "15544315",
-        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-        "CODEQUIPO_FUERA": "58156551",
-        "CODCLUB_FUERA": "2670",
-        "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-        "ESCUDO_FUERA": "00100_0000003500_images.png"
       },
       {
         "JORNADA": "20",
@@ -2587,6 +2587,21 @@
       {
         "JORNADA": "25",
         "COMIENZO1": "2027-04-24 14:00:00",
+        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58148497",
+        "CODCLUB_CASA": "15544315",
+        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+        "CODEQUIPO_FUERA": "54535327",
+        "CODCLUB_FUERA": "1226",
+        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+        "ESCUDO_FUERA": "00100_0000105692_bosco.png"
+      },
+      {
+        "JORNADA": "25",
+        "COMIENZO1": "2027-04-24 14:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARESME",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2628,21 +2643,6 @@
         "CODCLUB_FUERA": "40492704",
         "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
         "ESCUDO_FUERA": "00100_0001226166_FAF.png"
-      },
-      {
-        "JORNADA": "25",
-        "COMIENZO1": "2027-04-24 16:00:00",
-        "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58148497",
-        "CODCLUB_CASA": "15544315",
-        "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-        "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-        "CODEQUIPO_FUERA": "54535327",
-        "CODCLUB_FUERA": "1226",
-        "NOMBRE_FUERA": "DON BOSCO, C.F. A",
-        "ESCUDO_FUERA": "00100_0000105692_bosco.png"
       },
       {
         "JORNADA": "25",
