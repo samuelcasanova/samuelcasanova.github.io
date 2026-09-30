@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './FieldCard.css'
 
 function FieldCard ({ match }) {
@@ -13,13 +12,6 @@ function FieldCard ({ match }) {
               </span>
             </a>
   )
-}
-
-FieldCard.propTypes = {
-  match: PropTypes.shape({
-    fieldMapUrl: PropTypes.string,
-    isAway: PropTypes.bool.isRequired
-  })
 }
 
 export default FieldCard

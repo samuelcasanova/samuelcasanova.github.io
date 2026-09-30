@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import MatchCard from '../MatchCard/MatchCard'
 import './WeekCard.css'
 
@@ -23,16 +22,6 @@ function WeekCard ({ isCurrentWeek, week, footballers }) {
       </div>
     </div>
   )
-}
-
-WeekCard.propTypes = {
-  isCurrentWeek: PropTypes.bool.isRequired,
-  week: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    isProblematic: PropTypes.bool.isRequired,
-    matches: PropTypes.array.isRequired
-  }).isRequired,
-  footballers: PropTypes.object.isRequired
 }
 
 export default WeekCard

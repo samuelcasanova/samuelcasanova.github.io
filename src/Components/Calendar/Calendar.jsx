@@ -1,6 +1,5 @@
 import React from 'react'
 import WeekCard from '../WeekCard/WeekCard'
-import PropTypes from 'prop-types'
 import { getCurrentWeekIndex } from './currentWeek'
 import './Calendar.css'
 
@@ -24,14 +23,6 @@ function Calendar ({ calendar, footballers, now = new Date() }) {
             </div>
           </div>
   )
-}
-
-Calendar.propTypes = {
-  calendar: PropTypes.shape({
-    weeks: PropTypes.array.isRequired
-  }).isRequired,
-  footballers: PropTypes.object.isRequired,
-  now: PropTypes.instanceOf(Date)
 }
 
 export default Calendar

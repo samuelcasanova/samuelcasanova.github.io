@@ -1,6 +1,5 @@
 import React from 'react'
 import './MatchCard.css'
-import PropTypes from 'prop-types'
 import FootballerCard from '../FootballerCard/FootballerCard'
 import FieldCard from '../FieldCard/FieldCard'
 
@@ -36,25 +35,6 @@ function MatchCard ({ match, footballer }) {
           <span className='isAway'> <FieldCard match={ match }/></span>
       </div>
   )
-}
-
-const teamShape = PropTypes.shape({
-  displayName: PropTypes.string.isRequired,
-  url: PropTypes.string,
-  logoUrl: PropTypes.string
-})
-
-MatchCard.propTypes = {
-  match: PropTypes.shape({
-    dateLabel: PropTypes.string.isRequired,
-    timeLabel: PropTypes.string.isRequired,
-    homeTeam: teamShape,
-    awayTeam: teamShape,
-    isAway: PropTypes.bool.isRequired,
-    isRivalRetired: PropTypes.bool.isRequired,
-    isResting: PropTypes.bool.isRequired
-  }).isRequired,
-  footballer: PropTypes.object.isRequired
 }
 
 export default MatchCard
