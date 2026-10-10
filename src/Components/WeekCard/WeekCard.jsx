@@ -16,7 +16,7 @@ function WeekCard ({ isCurrentWeek, week, footballers }) {
       <div style={{ display: collapsedState ? 'none' : 'block' }}>
         {
           week.matches.map(match => (
-            <MatchCard key={`${match.footballer} ${match.startsAt}`} match={match} footballer={footballers[match.footballer]} />
+            <MatchCard key={`${match.footballer} ${match.startsAt ?? match.date}`} match={match} footballer={footballers[match.footballer]} />
           ))
         }
       </div>

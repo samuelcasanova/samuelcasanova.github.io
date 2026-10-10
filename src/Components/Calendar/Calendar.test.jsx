@@ -44,6 +44,18 @@ describe('Calendar', () => {
     expect(screen.queryByText('Pia Sarrià A')).not.toBeInTheDocument()
   })
 
+  test('two matches of a footballer without a confirmed time in the same week are both shown', () => {
+    const unconfirmed = (date, away) => ({ ...week('', '', 'Premier D', away).matches[0], date, startsAt: null, timeLabel: 'Hora por confirmar' })
+    const weeks = [{ ...calendar.weeks[1], matches: [unconfirmed('2026-10-10', 'Tarr A'), unconfirmed('2026-10-11', 'Can Buxeres C')] }]
+    const logError = vi.spyOn(console, 'error').mockImplementation(() => {})
+
+    render(<Calendar calendar={{ weeks }} footballers={footballers} now={new Date('2026-10-05T00:00:00Z')}/>)
+
+    expect(screen.getAllByText('Hora por confirmar')).toHaveLength(2)
+    expect(logError.mock.calls.filter(([message]) => /same key/.test(message))).toEqual([])
+    logError.mockRestore()
+  })
+
   test('a rest week says so and has no field link', () => {
     render(<Calendar calendar={calendar} footballers={footballers} now={new Date('2026-10-12T00:00:00Z')}/>)
 

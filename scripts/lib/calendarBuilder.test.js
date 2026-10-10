@@ -140,6 +140,41 @@ describe('Preparing a match to render', () => {
   })
 })
 
+describe('A match without a confirmed time', () => {
+  const unconfirmed = match('Alex', '2021-10-16', null, 'Premier F', 'Bufalà B')
+  const sameDayAway = match('Victor', '2021-10-16', '11:00', 'Martinenc E', 'Premier D')
+
+  test('says so instead of the time and has no start time', () => {
+    const [prepared] = weeksOf([unconfirmed])[0].matches
+    expect(prepared).toMatchObject({ dateLabel: 'SÁB 16 OCT', timeLabel: 'Hora por confirmar', time: null, startsAt: null })
+  })
+
+  test('goes after the timed matches of its day and before the next day', () => {
+    const sunday = match('Victor', '2021-10-17', '09:00', 'Premier D', 'Llefià')
+    expect(names(weeksOf([sunday, unconfirmed, sameDayAway])[0]))
+      .toEqual(['Martinenc E - Premier D', 'Premier F - Bufalà B', 'Premier D - Llefià'])
+  })
+
+  test('keeps its week current until the end of its day in Madrid', () => {
+    expect(weeksOf([sameDayAway, unconfirmed])[0].endsAt).toBe('2021-10-16T22:00:00.000Z')
+    const [winterWeek] = weeksOf([match('Alex', '2021-11-06', null, 'Premier F', 'Llefià')])
+    expect(winterWeek.endsAt).toBe('2021-11-06T23:00:00.000Z')
+  })
+
+  test('does not shorten a week whose last match is timed', () => {
+    const sunday = match('Victor', '2021-10-17', '09:00', 'Premier D', 'Llefià')
+    expect(weeksOf([unconfirmed, sunday])[0].endsAt).toBe('2021-10-17T08:00:00.000Z')
+  })
+
+  test('is never problematic, since its time is unknown', () => {
+    expect(weeksOf([unconfirmed, sameDayAway])[0].isProblematic).toBe(false)
+  })
+
+  test('a malformed time is still an error', () => {
+    expect(() => weeksOf([match('Alex', '2021-10-16', '10h', 'A', 'B')])).toThrow(/HH:MM/)
+  })
+})
+
 describe('Data for the rest of the portal', () => {
   const { footballers, standings } = buildCalendars(config, [])
 

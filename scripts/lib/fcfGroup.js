@@ -7,6 +7,7 @@ const USED_MATCH_FIELDS = [
   'CODEQUIPO_CASA', 'CODCLUB_CASA', 'NOMBRE_CASA', 'ESCUDO_CASA',
   'CODEQUIPO_FUERA', 'CODCLUB_FUERA', 'NOMBRE_FUERA', 'ESCUDO_FUERA'
 ]
+const KICKOFF_PATTERN = /^(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}))?/
 
 export function grupIdOf (competicioUrl) {
   const grupId = new URL(competicioUrl).searchParams.get('grupId')
@@ -14,6 +15,12 @@ export function grupIdOf (competicioUrl) {
     throw new Error(`No grupId in ${competicioUrl}`)
   }
   return grupId
+}
+
+// COMIENZO1 is "YYYY-MM-DD HH:MM:SS" for a scheduled match; the time, or the whole value, may be missing until then.
+export function parseKickoff (comienzo) {
+  const [, date = null, time = null] = KICKOFF_PATTERN.exec(comienzo ?? '') ?? []
+  return { date, time }
 }
 
 export function trimGroup ({ partidos, equipos }) {
@@ -38,17 +45,21 @@ export function buildGroupMatches ({ group, footballerName, team, clubName }) {
     clubTeamUrl: teamsByCode.get(clubTeam.code).url,
     matches: matches
       .filter(match => match.CODEQUIPO_CASA === clubTeam.code || match.CODEQUIPO_FUERA === clubTeam.code)
-      .map(match => {
+      .flatMap(match => {
+        const { date, time } = parseKickoff(match.COMIENZO1)
+        if (!date) {
+          console.warn(`Skipping matchday ${match.JORNADA} of ${footballerName}: no date in COMIENZO1 ${JSON.stringify(match.COMIENZO1)}`)
+          return []
+        }
         const homeTeam = teamOf(match.CODEQUIPO_CASA, match.NOMBRE_CASA)
         const awayTeam = teamOf(match.CODEQUIPO_FUERA, match.NOMBRE_FUERA)
         const isAway = match.CODEQUIPO_FUERA === clubTeam.code
-        const [date, clock] = match.COMIENZO1.split(' ')
         const isPlayed = match.GOLES_CASA != null && match.GOLES_FUERA != null
         return {
           footballer: footballerName,
           matchday: match.JORNADA,
           date,
-          time: clock.substring(0, 5),
+          time,
           homeTeam: homeTeam && toMatchTeam(homeTeam),
           awayTeam: awayTeam && toMatchTeam(awayTeam),
           fieldName: homeTeam && awayTeam ? match.CAMPO : null,
@@ -73,7 +84,7 @@ export function listTeams (equipos) {
 export function flattenMatches (partidos) {
   return Object.values(partidos)
     .flat()
-    .sort((a, b) => Number(a.JORNADA) - Number(b.JORNADA) || a.COMIENZO1.localeCompare(b.COMIENZO1))
+    .sort((a, b) => Number(a.JORNADA) - Number(b.JORNADA) || (a.COMIENZO1 ?? '').localeCompare(b.COMIENZO1 ?? ''))
 }
 
 export function isRestTeamName (name) {

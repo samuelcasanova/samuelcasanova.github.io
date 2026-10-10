@@ -1,6 +1,6 @@
 // @vitest-environment node
 import group from './fixtures/group-59724598.json' with { type: 'json' }
-import { buildGroupMatches, findClubTeam, findRetiredTeamCodes, flattenMatches, grupIdOf, listTeams, trimGroup } from './fcfGroup.js'
+import { buildGroupMatches, findClubTeam, findRetiredTeamCodes, flattenMatches, grupIdOf, listTeams, parseKickoff, trimGroup } from './fcfGroup.js'
 
 const COMPETICIO_URL = 'https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598'
 const CARMELO_C_CODE = '58652671'
@@ -13,6 +13,19 @@ describe('fcfGroup', () => {
   test('the group id comes from the competicio URL', () => {
     expect(grupIdOf(COMPETICIO_URL)).toBe('59724598')
     expect(() => grupIdOf('https://www.fcf.cat/ca/competicio')).toThrow(/No grupId/)
+  })
+
+  test('the kick-off is split into date and time, each null when FCF does not give it', () => {
+    expect(parseKickoff('2026-10-04 20:00:00')).toEqual({ date: '2026-10-04', time: '20:00' })
+    expect(parseKickoff('2026-10-04T20:00:00')).toEqual({ date: '2026-10-04', time: '20:00' })
+    expect(parseKickoff('2026-10-04')).toEqual({ date: '2026-10-04', time: null })
+    expect(parseKickoff('')).toEqual({ date: null, time: null })
+    expect(parseKickoff(null)).toEqual({ date: null, time: null })
+  })
+
+  test('matches without kick-off are still sorted by matchday', () => {
+    const partidos = { 2: [{ JORNADA: '2', COMIENZO1: null }, { JORNADA: '2', COMIENZO1: '2026-10-10 15:30:00' }], 1: [{ JORNADA: '1', COMIENZO1: null }] }
+    expect(flattenMatches(partidos).map(match => match.JORNADA)).toEqual(['1', '2', '2'])
   })
 
   test('equipos rows are deduplicated by team code', () => {
@@ -104,6 +117,24 @@ describe('fcfGroup', () => {
 
     test('a rest week has a null rival and no field', () => {
       expect(build().matches[2]).toMatchObject({ awayTeam: null, fieldName: null, isAway: false })
+    })
+
+    function withFirstKickoff (comienzo) {
+      const changed = structuredClone(group)
+      changed.partidos['1'].find(match => match.NOMBRE_CASA.includes('PREMIER')).COMIENZO1 = comienzo
+      return changed
+    }
+
+    test('a match without kick-off time keeps its date and has no time', () => {
+      expect(build(withFirstKickoff('2026-10-04')).matches[0]).toMatchObject({ matchday: '1', date: '2026-10-04', time: null })
+    })
+
+    test('a match without date is left out with a warning, since it belongs to no week', () => {
+      const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
+
+      expect(build(withFirstKickoff('')).matches.map(match => match.matchday)).toEqual(['2', '3', '4'])
+      expect(warn).toHaveBeenCalledWith(expect.stringMatching(/matchday 1 of Alex: no date in COMIENZO1 ""/))
+      warn.mockRestore()
     })
 
     test('a played match carries its result', () => {

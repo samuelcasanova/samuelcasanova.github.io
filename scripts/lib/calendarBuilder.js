@@ -1,7 +1,9 @@
-const HOUR_MS = 60 * 60 * 1000
+const MINUTE_MS = 60 * 1000
+const HOUR_MS = 60 * MINUTE_MS
 const MATCH_DURATION_MS = HOUR_MS
 const CLOSE_MATCHES_MS = 3 * HOUR_MS
 const MAPS_SEARCH_URL = 'https://www.google.com/maps/search/?api=1&query='
+const UNCONFIRMED_TIME_LABEL = 'Hora por confirmar'
 
 const madridOffsetFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Madrid', timeZoneName: 'longOffset' })
 const dateLabelFormat = new Intl.DateTimeFormat('es-ES', { timeZone: 'UTC', weekday: 'short', day: '2-digit', month: 'short' })
@@ -17,7 +19,7 @@ export function buildCalendars (config, matches, statsUrls = {}) {
 
   const preparedMatches = matches
     .map(match => prepareMatch(match, footballers))
-    .sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`))
+    .sort((a, b) => sortKey(a).localeCompare(sortKey(b)))
 
   return {
     calendars: config.calendars.map(({ name, label, path, footballerNames }) => ({
@@ -40,12 +42,17 @@ function withTab (competicioUrl, tab) {
   return url.toString()
 }
 
+// A match without a confirmed time goes after the timed matches of its day.
+const sortKey = match => `${match.date} ${match.time ?? '24:00'}`
+
 function prepareMatch (match, footballers) {
   if (!footballers[match.footballer]) {
     throw new Error(`Match on ${match.date} is for "${match.footballer}", who is not a footballer in season.config.json`)
   }
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || !/^\d{2}:\d{2}$/.test(match.time)) {
-    throw new Error(`Match of ${match.footballer} needs date as YYYY-MM-DD and time as HH:MM, got "${match.date}" "${match.time}"`)
+  const time = match.time ?? null
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || (time !== null && !/^\d{2}:\d{2}$/.test(time))) {
+    throw new Error(`Match of ${match.footballer} needs date as YYYY-MM-DD and time as HH:MM, or no time while it is ` +
+      `unconfirmed, got "${match.date}" "${match.time}"`)
   }
   const homeTeam = match.homeTeam ?? null
   const awayTeam = match.awayTeam ?? null
@@ -54,16 +61,16 @@ function prepareMatch (match, footballers) {
     footballer: match.footballer,
     matchday: match.matchday ?? null,
     date: match.date,
-    time: match.time,
+    time,
     homeTeam,
     awayTeam,
     fieldName,
     isAway: match.isAway ?? false,
     isRivalRetired: match.isRivalRetired ?? false,
     result: match.result ?? null,
-    startsAt: toMadridDateTime(match.date, match.time),
+    startsAt: time && toMadridDateTime(match.date, time),
     dateLabel: dateLabelFormat.format(utcDay(match.date)).toUpperCase().replace(/[.,]/g, ''),
-    timeLabel: `${match.time}h`,
+    timeLabel: time ? `${time}h` : UNCONFIRMED_TIME_LABEL,
     isResting: !homeTeam || !awayTeam,
     fieldMapUrl: fieldName ? MAPS_SEARCH_URL + encodeURIComponent(fieldName) : null
   }
@@ -98,14 +105,22 @@ function describeWeek (matches) {
   const matchday = matches[0].matchday
   return {
     title: [matchday && `Jornada ${matchday}`, weekdays.join('+')].filter(Boolean).join(' '),
-    endsAt: new Date(Date.parse(matches.at(-1).startsAt) + MATCH_DURATION_MS).toISOString(),
+    endsAt: new Date(Math.max(...matches.map(endOf))).toISOString(),
     isProblematic,
     matches
   }
 }
 
+// Without a confirmed time the match can still be played at any time of its day.
+function endOf (match) {
+  return match.startsAt
+    ? Date.parse(match.startsAt) + MATCH_DURATION_MS
+    : Date.parse(toMadridDateTime(match.date, '23:59')) + MINUTE_MS
+}
+
 function areProblematic (first, second) {
   return !first.isResting && !second.isResting &&
+    first.startsAt !== null && second.startsAt !== null &&
     !first.isRivalRetired && !second.isRivalRetired &&
     first.date === second.date &&
     Date.parse(second.startsAt) - Date.parse(first.startsAt) < CLOSE_MATCHES_MS &&

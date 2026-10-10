@@ -34,6 +34,17 @@ describe('fetchSeason', () => {
     expect(JSON.parse(firstRun[1]).calendars[0].weeks).toHaveLength(4)
   })
 
+  test('a club match without kick-off time is saved and shown with its time to be confirmed', async () => {
+    const withoutTime = structuredClone(group)
+    withoutTime.partidos['2'].find(match => match.NOMBRE_FUERA.includes('PREMIER')).COMIENZO1 = '2026-10-10'
+
+    await fetchSeason({ root, client: { getGroup: async () => withoutTime } })
+
+    const [, calendars] = await readOutputs()
+    expect(JSON.parse(calendars).calendars[0].weeks[1].matches[0])
+      .toMatchObject({ date: '2026-10-10', dateLabel: 'SÁB 10 OCT', timeLabel: 'Hora por confirmar' })
+  })
+
   test('writes nothing when a group fails', async () => {
     const client = { getGroup: vi.fn(async () => { throw new Error('challenged') }) }
 
