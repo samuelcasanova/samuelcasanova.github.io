@@ -3,7 +3,7 @@
     "1": [
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-26 09:00:00",
+        "COMIENZO1": "2026-09-26T09:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": "3",
         "GOLES_FUERA": "0",
@@ -18,7 +18,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-26 10:00:00",
+        "COMIENZO1": "2026-09-26T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": "6",
         "GOLES_FUERA": "5",
@@ -33,7 +33,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-26 10:30:00",
+        "COMIENZO1": "2026-09-26T10:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": "1",
         "GOLES_FUERA": "2",
@@ -48,7 +48,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-26 11:00:00",
+        "COMIENZO1": "2026-09-26T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": "7",
         "GOLES_FUERA": "1",
@@ -63,7 +63,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-26 12:30:00",
+        "COMIENZO1": "2026-09-26T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": "8",
         "GOLES_FUERA": "1",
@@ -78,7 +78,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-27 09:00:00",
+        "COMIENZO1": "2026-09-27T09:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": "6",
         "GOLES_FUERA": "0",
@@ -93,7 +93,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-27 09:00:00",
+        "COMIENZO1": "2026-09-27T09:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": "1",
         "GOLES_FUERA": "6",
@@ -108,7 +108,7 @@
       },
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-09-27 12:43:00",
+        "COMIENZO1": "2026-09-27T12:43:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": "3",
         "GOLES_FUERA": "3",
@@ -125,10 +125,10 @@
     "2": [
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 09:15:00",
+        "COMIENZO1": "2026-10-03T09:15:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "4",
+        "GOLES_FUERA": "2",
         "CODEQUIPO_CASA": "47012556",
         "CODCLUB_CASA": "1014",
         "NOMBRE_CASA": "SANT ANDREU, U.E C",
@@ -140,10 +140,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 09:30:00",
+        "COMIENZO1": "2026-10-03T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "2",
+        "GOLES_FUERA": "10",
         "CODEQUIPO_CASA": "47007052",
         "CODCLUB_CASA": "1032",
         "NOMBRE_CASA": "MARTINENC, F.C. A",
@@ -155,10 +155,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 10:00:00",
+        "COMIENZO1": "2026-10-03T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "3",
+        "GOLES_FUERA": "4",
         "CODEQUIPO_CASA": "47010178",
         "CODCLUB_CASA": "1321",
         "NOMBRE_CASA": "POMAR, C.D. A",
@@ -170,10 +170,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 10:50:00",
+        "COMIENZO1": "2026-10-03T10:50:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "1",
+        "GOLES_FUERA": "8",
         "CODEQUIPO_CASA": "47007167",
         "CODCLUB_CASA": "6390",
         "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
@@ -185,10 +185,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 13:00:00",
+        "COMIENZO1": "2026-10-03T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "2",
+        "GOLES_FUERA": "2",
         "CODEQUIPO_CASA": "47014053",
         "CODCLUB_CASA": "6399",
         "NOMBRE_CASA": "CONGRÉS CLUB ESP. A",
@@ -200,10 +200,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-03 13:45:00",
+        "COMIENZO1": "2026-10-03T13:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "1",
+        "GOLES_FUERA": "4",
         "CODEQUIPO_CASA": "47012355",
         "CODCLUB_CASA": "31528564",
         "NOMBRE_CASA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -215,7 +215,7 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-04 12:30:00",
+        "COMIENZO1": "2026-10-04T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -230,10 +230,10 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-04 14:15:00",
+        "COMIENZO1": "2026-10-04T14:15:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "0",
+        "GOLES_FUERA": "3",
         "CODEQUIPO_CASA": "47013224",
         "CODCLUB_CASA": "18476477",
         "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
@@ -247,10 +247,10 @@
     "3": [
       {
         "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 08:45:00",
+        "COMIENZO1": "2026-10-10T10:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "7",
+        "GOLES_FUERA": "1",
         "CODEQUIPO_CASA": "47012517",
         "CODCLUB_CASA": "1696",
         "NOMBRE_CASA": "ALZAMORA, C.F. A",
@@ -262,10 +262,25 @@
       },
       {
         "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 08:45:00",
+        "COMIENZO1": "2026-10-10T12:30:00",
+        "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
+        "GOLES_CASA": "6",
+        "GOLES_FUERA": "1",
+        "CODEQUIPO_CASA": "47012066",
+        "CODCLUB_CASA": "2930",
+        "NOMBRE_CASA": "Pª BARC. CINC COPES A",
+        "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
+        "CODEQUIPO_FUERA": "47010178",
+        "CODCLUB_FUERA": "1321",
+        "NOMBRE_FUERA": "POMAR, C.D. A",
+        "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
+      },
+      {
+        "JORNADA": "3",
+        "COMIENZO1": "2026-10-10T12:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "1",
+        "GOLES_FUERA": "4",
         "CODEQUIPO_CASA": "47011200",
         "CODCLUB_CASA": "1011",
         "NOMBRE_CASA": "EUROPA, C.E. B",
@@ -277,10 +292,25 @@
       },
       {
         "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 09:30:00",
+        "COMIENZO1": "2026-10-10T13:30:00",
+        "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
+        "GOLES_CASA": "4",
+        "GOLES_FUERA": "1",
+        "CODEQUIPO_CASA": "47011758",
+        "CODCLUB_CASA": "6178",
+        "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
+        "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+        "CODEQUIPO_FUERA": "47014053",
+        "CODCLUB_FUERA": "6399",
+        "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
+        "ESCUDO_FUERA": "00100_0001268552_congres.png"
+      },
+      {
+        "JORNADA": "3",
+        "COMIENZO1": "2026-10-10T20:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "5",
+        "GOLES_FUERA": "2",
         "CODEQUIPO_CASA": "47012858",
         "CODCLUB_CASA": "1218",
         "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -292,7 +322,7 @@
       },
       {
         "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 10:00:00",
+        "COMIENZO1": "2026-10-11T10:20:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -307,52 +337,7 @@
       },
       {
         "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 11:00:00",
-        "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47011758",
-        "CODCLUB_CASA": "6178",
-        "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-        "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
-        "CODEQUIPO_FUERA": "47014053",
-        "CODCLUB_FUERA": "6399",
-        "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
-        "ESCUDO_FUERA": "00100_0001268552_congres.png"
-      },
-      {
-        "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 11:55:00",
-        "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007167",
-        "CODCLUB_CASA": "6390",
-        "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-        "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
-        "CODEQUIPO_FUERA": "47013224",
-        "CODCLUB_FUERA": "18476477",
-        "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-        "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
-      },
-      {
-        "JORNADA": "3",
-        "COMIENZO1": "2026-10-10 12:30:00",
-        "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47012066",
-        "CODCLUB_CASA": "2930",
-        "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-        "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
-        "CODEQUIPO_FUERA": "47010178",
-        "CODCLUB_FUERA": "1321",
-        "NOMBRE_FUERA": "POMAR, C.D. A",
-        "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
-      },
-      {
-        "JORNADA": "3",
-        "COMIENZO1": "2026-10-11 10:45:00",
+        "COMIENZO1": "2026-10-11T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -364,42 +349,42 @@
         "CODCLUB_FUERA": "15548283",
         "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
         "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
+      },
+      {
+        "JORNADA": "3",
+        "COMIENZO1": "2026-10-11T16:10:00",
+        "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007167",
+        "CODCLUB_CASA": "6390",
+        "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+        "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
+        "CODEQUIPO_FUERA": "47013224",
+        "CODCLUB_FUERA": "18476477",
+        "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
+        "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
       }
     ],
     "4": [
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-17 09:30:00",
-        "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+        "COMIENZO1": "2026-10-17T10:15:00",
+        "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007052",
-        "CODCLUB_CASA": "1032",
-        "NOMBRE_CASA": "MARTINENC, F.C. A",
-        "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-        "CODEQUIPO_FUERA": "47012066",
-        "CODCLUB_FUERA": "2930",
-        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
+        "CODEQUIPO_CASA": "47013224",
+        "CODCLUB_CASA": "18476477",
+        "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
+        "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
+        "CODEQUIPO_FUERA": "47007584",
+        "CODCLUB_FUERA": "6237",
+        "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
       },
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-17 10:23:00",
-        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47009286",
-        "CODCLUB_CASA": "1241",
-        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-        "CODEQUIPO_FUERA": "47012858",
-        "CODCLUB_FUERA": "1218",
-        "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
-        "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
-      },
-      {
-        "JORNADA": "4",
-        "COMIENZO1": "2026-10-17 11:30:00",
+        "COMIENZO1": "2026-10-17T10:20:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -414,7 +399,37 @@
       },
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-17 13:00:00",
+        "COMIENZO1": "2026-10-17T10:30:00",
+        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47009286",
+        "CODCLUB_CASA": "1241",
+        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
+        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+        "CODEQUIPO_FUERA": "47012858",
+        "CODCLUB_FUERA": "1218",
+        "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
+        "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
+      },
+      {
+        "JORNADA": "4",
+        "COMIENZO1": "2026-10-17T11:00:00",
+        "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007052",
+        "CODCLUB_CASA": "1032",
+        "NOMBRE_CASA": "MARTINENC, F.C. A",
+        "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+        "CODEQUIPO_FUERA": "47012066",
+        "CODCLUB_FUERA": "2930",
+        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
+        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
+      },
+      {
+        "JORNADA": "4",
+        "COMIENZO1": "2026-10-17T12:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -429,7 +444,7 @@
       },
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-18 09:30:00",
+        "COMIENZO1": "2026-10-18T10:15:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -444,7 +459,7 @@
       },
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-18 10:30:00",
+        "COMIENZO1": "2026-10-18T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -459,7 +474,7 @@
       },
       {
         "JORNADA": "4",
-        "COMIENZO1": "2026-10-18 12:00:00",
+        "COMIENZO1": "2026-10-18T12:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -471,27 +486,12 @@
         "CODCLUB_FUERA": "1049",
         "NOMBRE_FUERA": "HORTA, U.AT. C",
         "ESCUDO_FUERA": "00100_0000959029_1049_HortaUAT_200.png"
-      },
-      {
-        "JORNADA": "4",
-        "COMIENZO1": "2026-10-18 16:10:00",
-        "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47013224",
-        "CODCLUB_CASA": "18476477",
-        "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-        "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
-        "CODEQUIPO_FUERA": "47007584",
-        "CODCLUB_FUERA": "6237",
-        "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
       }
     ],
     "5": [
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 08:45:00",
+        "COMIENZO1": "2026-10-24T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -506,7 +506,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 08:45:00",
+        "COMIENZO1": "2026-10-24T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -521,7 +521,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 09:30:00",
+        "COMIENZO1": "2026-10-24T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -536,7 +536,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 10:00:00",
+        "COMIENZO1": "2026-10-24T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -551,7 +551,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 11:55:00",
+        "COMIENZO1": "2026-10-24T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -566,7 +566,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24 12:30:00",
+        "COMIENZO1": "2026-10-24T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -581,7 +581,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-25 10:45:00",
+        "COMIENZO1": "2026-10-25T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -596,7 +596,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-25 16:10:00",
+        "COMIENZO1": "2026-10-25T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -613,7 +613,7 @@
     "6": [
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-31 09:30:00",
+        "COMIENZO1": "2026-10-31T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -628,7 +628,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-31 10:23:00",
+        "COMIENZO1": "2026-10-31T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -643,7 +643,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-31 11:00:00",
+        "COMIENZO1": "2026-10-31T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -658,7 +658,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-31 11:30:00",
+        "COMIENZO1": "2026-10-31T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -673,7 +673,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-31 13:00:00",
+        "COMIENZO1": "2026-10-31T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -688,7 +688,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-11-01 09:30:00",
+        "COMIENZO1": "2026-11-01T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -703,7 +703,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-11-01 10:30:00",
+        "COMIENZO1": "2026-11-01T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -718,7 +718,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-11-01 12:00:00",
+        "COMIENZO1": "2026-11-01T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -735,7 +735,7 @@
     "7": [
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-07 08:45:00",
+        "COMIENZO1": "2026-11-07T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -750,7 +750,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-07 09:30:00",
+        "COMIENZO1": "2026-11-07T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -765,7 +765,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-07 10:00:00",
+        "COMIENZO1": "2026-11-07T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -780,7 +780,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-07 11:55:00",
+        "COMIENZO1": "2026-11-07T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -795,7 +795,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-07 12:30:00",
+        "COMIENZO1": "2026-11-07T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -810,7 +810,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-08 09:30:00",
+        "COMIENZO1": "2026-11-08T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -825,7 +825,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-08 10:45:00",
+        "COMIENZO1": "2026-11-08T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -840,7 +840,7 @@
       },
       {
         "JORNADA": "7",
-        "COMIENZO1": "2026-11-08 16:10:00",
+        "COMIENZO1": "2026-11-08T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -857,7 +857,7 @@
     "8": [
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 08:45:00",
+        "COMIENZO1": "2026-11-14T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -872,7 +872,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 09:30:00",
+        "COMIENZO1": "2026-11-14T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -887,7 +887,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 10:23:00",
+        "COMIENZO1": "2026-11-14T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -902,7 +902,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 11:00:00",
+        "COMIENZO1": "2026-11-14T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -917,7 +917,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 11:30:00",
+        "COMIENZO1": "2026-11-14T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -932,7 +932,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14 13:00:00",
+        "COMIENZO1": "2026-11-14T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -947,7 +947,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-15 10:30:00",
+        "COMIENZO1": "2026-11-15T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -962,7 +962,7 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-15 12:00:00",
+        "COMIENZO1": "2026-11-15T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -979,7 +979,7 @@
     "9": [
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-21 08:45:00",
+        "COMIENZO1": "2026-11-21T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -994,7 +994,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-21 10:00:00",
+        "COMIENZO1": "2026-11-21T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1009,7 +1009,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-21 11:30:00",
+        "COMIENZO1": "2026-11-21T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1024,7 +1024,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-21 11:55:00",
+        "COMIENZO1": "2026-11-21T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1039,7 +1039,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-21 12:30:00",
+        "COMIENZO1": "2026-11-21T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1054,7 +1054,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-22 09:30:00",
+        "COMIENZO1": "2026-11-22T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1069,7 +1069,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-22 10:45:00",
+        "COMIENZO1": "2026-11-22T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1084,7 +1084,7 @@
       },
       {
         "JORNADA": "9",
-        "COMIENZO1": "2026-11-22 16:10:00",
+        "COMIENZO1": "2026-11-22T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1101,7 +1101,7 @@
     "10": [
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 08:45:00",
+        "COMIENZO1": "2026-11-28T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1116,7 +1116,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 09:30:00",
+        "COMIENZO1": "2026-11-28T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1131,7 +1131,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 09:30:00",
+        "COMIENZO1": "2026-11-28T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1146,7 +1146,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 10:23:00",
+        "COMIENZO1": "2026-11-28T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1161,7 +1161,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 11:00:00",
+        "COMIENZO1": "2026-11-28T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1176,7 +1176,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-28 13:00:00",
+        "COMIENZO1": "2026-11-28T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1191,7 +1191,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-29 10:30:00",
+        "COMIENZO1": "2026-11-29T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1206,7 +1206,7 @@
       },
       {
         "JORNADA": "10",
-        "COMIENZO1": "2026-11-29 12:00:00",
+        "COMIENZO1": "2026-11-29T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1223,7 +1223,7 @@
     "11": [
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-12 08:45:00",
+        "COMIENZO1": "2026-12-12T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1238,7 +1238,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-12 09:30:00",
+        "COMIENZO1": "2026-12-12T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1253,7 +1253,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-12 11:30:00",
+        "COMIENZO1": "2026-12-12T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1268,7 +1268,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-12 11:55:00",
+        "COMIENZO1": "2026-12-12T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1283,7 +1283,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-12 12:30:00",
+        "COMIENZO1": "2026-12-12T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1298,7 +1298,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-13 09:30:00",
+        "COMIENZO1": "2026-12-13T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1313,7 +1313,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-13 10:45:00",
+        "COMIENZO1": "2026-12-13T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1328,7 +1328,7 @@
       },
       {
         "JORNADA": "11",
-        "COMIENZO1": "2026-12-13 16:10:00",
+        "COMIENZO1": "2026-12-13T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1345,7 +1345,7 @@
     "12": [
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 08:45:00",
+        "COMIENZO1": "2026-12-19T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1360,7 +1360,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 09:30:00",
+        "COMIENZO1": "2026-12-19T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1375,7 +1375,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 10:00:00",
+        "COMIENZO1": "2026-12-19T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1390,7 +1390,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 10:23:00",
+        "COMIENZO1": "2026-12-19T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1405,7 +1405,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 11:00:00",
+        "COMIENZO1": "2026-12-19T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1420,7 +1420,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-19 13:00:00",
+        "COMIENZO1": "2026-12-19T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1435,7 +1435,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-20 10:30:00",
+        "COMIENZO1": "2026-12-20T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1450,7 +1450,7 @@
       },
       {
         "JORNADA": "12",
-        "COMIENZO1": "2026-12-20 12:00:00",
+        "COMIENZO1": "2026-12-20T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1467,7 +1467,7 @@
     "13": [
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-09 08:45:00",
+        "COMIENZO1": "2027-01-09T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1482,7 +1482,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-09 09:30:00",
+        "COMIENZO1": "2027-01-09T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1497,7 +1497,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-09 11:30:00",
+        "COMIENZO1": "2027-01-09T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1512,7 +1512,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-09 11:55:00",
+        "COMIENZO1": "2027-01-09T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1527,7 +1527,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-10 09:30:00",
+        "COMIENZO1": "2027-01-10T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1542,7 +1542,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-10 10:45:00",
+        "COMIENZO1": "2027-01-10T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1557,7 +1557,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-10 12:00:00",
+        "COMIENZO1": "2027-01-10T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1572,7 +1572,7 @@
       },
       {
         "JORNADA": "13",
-        "COMIENZO1": "2027-01-10 16:10:00",
+        "COMIENZO1": "2027-01-10T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1589,7 +1589,7 @@
     "14": [
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 08:45:00",
+        "COMIENZO1": "2027-01-16T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1604,7 +1604,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 09:30:00",
+        "COMIENZO1": "2027-01-16T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1619,7 +1619,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 10:00:00",
+        "COMIENZO1": "2027-01-16T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1634,7 +1634,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 11:00:00",
+        "COMIENZO1": "2027-01-16T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1649,7 +1649,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 12:30:00",
+        "COMIENZO1": "2027-01-16T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1664,7 +1664,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-16 13:00:00",
+        "COMIENZO1": "2027-01-16T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1679,7 +1679,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-17 10:30:00",
+        "COMIENZO1": "2027-01-17T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1694,7 +1694,7 @@
       },
       {
         "JORNADA": "14",
-        "COMIENZO1": "2027-01-17 10:45:00",
+        "COMIENZO1": "2027-01-17T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1711,7 +1711,7 @@
     "15": [
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-23 08:45:00",
+        "COMIENZO1": "2027-01-23T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1726,7 +1726,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-23 09:30:00",
+        "COMIENZO1": "2027-01-23T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1741,7 +1741,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-23 10:23:00",
+        "COMIENZO1": "2027-01-23T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1756,7 +1756,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-23 11:30:00",
+        "COMIENZO1": "2027-01-23T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1771,7 +1771,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-23 11:55:00",
+        "COMIENZO1": "2027-01-23T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1786,7 +1786,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-24 09:30:00",
+        "COMIENZO1": "2027-01-24T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1801,7 +1801,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-24 12:00:00",
+        "COMIENZO1": "2027-01-24T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1816,7 +1816,7 @@
       },
       {
         "JORNADA": "15",
-        "COMIENZO1": "2027-01-24 16:10:00",
+        "COMIENZO1": "2027-01-24T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1833,7 +1833,7 @@
     "16": [
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-30 09:30:00",
+        "COMIENZO1": "2027-01-30T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1848,7 +1848,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-30 10:23:00",
+        "COMIENZO1": "2027-01-30T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1863,7 +1863,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-30 11:30:00",
+        "COMIENZO1": "2027-01-30T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1878,7 +1878,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-30 11:55:00",
+        "COMIENZO1": "2027-01-30T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1893,7 +1893,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-30 13:00:00",
+        "COMIENZO1": "2027-01-30T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1908,7 +1908,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-31 09:30:00",
+        "COMIENZO1": "2027-01-31T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1923,7 +1923,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-31 12:00:00",
+        "COMIENZO1": "2027-01-31T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1938,7 +1938,7 @@
       },
       {
         "JORNADA": "16",
-        "COMIENZO1": "2027-01-31 16:10:00",
+        "COMIENZO1": "2027-01-31T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1955,7 +1955,7 @@
     "17": [
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 08:45:00",
+        "COMIENZO1": "2027-02-13T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1970,7 +1970,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 08:45:00",
+        "COMIENZO1": "2027-02-13T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -1985,7 +1985,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 09:30:00",
+        "COMIENZO1": "2027-02-13T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2000,7 +2000,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 10:00:00",
+        "COMIENZO1": "2027-02-13T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2015,7 +2015,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 11:00:00",
+        "COMIENZO1": "2027-02-13T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2030,7 +2030,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-13 12:30:00",
+        "COMIENZO1": "2027-02-13T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2045,7 +2045,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-14 10:30:00",
+        "COMIENZO1": "2027-02-14T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2060,7 +2060,7 @@
       },
       {
         "JORNADA": "17",
-        "COMIENZO1": "2027-02-14 10:45:00",
+        "COMIENZO1": "2027-02-14T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2077,7 +2077,7 @@
     "18": [
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-20 09:30:00",
+        "COMIENZO1": "2027-02-20T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2092,7 +2092,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-20 10:23:00",
+        "COMIENZO1": "2027-02-20T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2107,7 +2107,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-20 11:30:00",
+        "COMIENZO1": "2027-02-20T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2122,7 +2122,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-20 13:00:00",
+        "COMIENZO1": "2027-02-20T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2137,7 +2137,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-21 09:30:00",
+        "COMIENZO1": "2027-02-21T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2152,7 +2152,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-21 10:30:00",
+        "COMIENZO1": "2027-02-21T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2167,7 +2167,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-21 12:00:00",
+        "COMIENZO1": "2027-02-21T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2182,7 +2182,7 @@
       },
       {
         "JORNADA": "18",
-        "COMIENZO1": "2027-02-21 16:10:00",
+        "COMIENZO1": "2027-02-21T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2199,7 +2199,7 @@
     "19": [
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 08:45:00",
+        "COMIENZO1": "2027-02-27T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2214,7 +2214,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 08:45:00",
+        "COMIENZO1": "2027-02-27T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2229,7 +2229,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 09:30:00",
+        "COMIENZO1": "2027-02-27T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2244,7 +2244,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 10:00:00",
+        "COMIENZO1": "2027-02-27T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2259,7 +2259,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 11:00:00",
+        "COMIENZO1": "2027-02-27T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2274,7 +2274,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 11:55:00",
+        "COMIENZO1": "2027-02-27T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2289,7 +2289,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-27 12:30:00",
+        "COMIENZO1": "2027-02-27T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2304,7 +2304,7 @@
       },
       {
         "JORNADA": "19",
-        "COMIENZO1": "2027-02-28 10:45:00",
+        "COMIENZO1": "2027-02-28T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2321,7 +2321,7 @@
     "20": [
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-06 09:30:00",
+        "COMIENZO1": "2027-03-06T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2336,7 +2336,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-06 10:23:00",
+        "COMIENZO1": "2027-03-06T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2351,7 +2351,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-06 11:00:00",
+        "COMIENZO1": "2027-03-06T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2366,7 +2366,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-06 11:30:00",
+        "COMIENZO1": "2027-03-06T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2381,7 +2381,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-06 13:00:00",
+        "COMIENZO1": "2027-03-06T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2396,7 +2396,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-07 09:30:00",
+        "COMIENZO1": "2027-03-07T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2411,7 +2411,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-07 10:30:00",
+        "COMIENZO1": "2027-03-07T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2426,7 +2426,7 @@
       },
       {
         "JORNADA": "20",
-        "COMIENZO1": "2027-03-07 12:00:00",
+        "COMIENZO1": "2027-03-07T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2443,7 +2443,7 @@
     "21": [
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 08:45:00",
+        "COMIENZO1": "2027-03-13T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2458,7 +2458,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 08:45:00",
+        "COMIENZO1": "2027-03-13T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2473,7 +2473,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 09:30:00",
+        "COMIENZO1": "2027-03-13T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2488,7 +2488,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 10:00:00",
+        "COMIENZO1": "2027-03-13T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2503,7 +2503,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 11:55:00",
+        "COMIENZO1": "2027-03-13T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2518,7 +2518,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-13 12:30:00",
+        "COMIENZO1": "2027-03-13T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2533,7 +2533,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-14 10:45:00",
+        "COMIENZO1": "2027-03-14T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2548,7 +2548,7 @@
       },
       {
         "JORNADA": "21",
-        "COMIENZO1": "2027-03-14 16:10:00",
+        "COMIENZO1": "2027-03-14T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2565,7 +2565,7 @@
     "22": [
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 08:45:00",
+        "COMIENZO1": "2027-03-20T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2580,7 +2580,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 09:30:00",
+        "COMIENZO1": "2027-03-20T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2595,7 +2595,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 10:23:00",
+        "COMIENZO1": "2027-03-20T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2610,7 +2610,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 11:00:00",
+        "COMIENZO1": "2027-03-20T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2625,7 +2625,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 11:30:00",
+        "COMIENZO1": "2027-03-20T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2640,7 +2640,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-20 13:00:00",
+        "COMIENZO1": "2027-03-20T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2655,7 +2655,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-21 10:30:00",
+        "COMIENZO1": "2027-03-21T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2670,7 +2670,7 @@
       },
       {
         "JORNADA": "22",
-        "COMIENZO1": "2027-03-21 12:00:00",
+        "COMIENZO1": "2027-03-21T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2687,7 +2687,7 @@
     "23": [
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-03 08:45:00",
+        "COMIENZO1": "2027-04-03T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2702,7 +2702,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-03 09:30:00",
+        "COMIENZO1": "2027-04-03T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2717,7 +2717,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-03 10:00:00",
+        "COMIENZO1": "2027-04-03T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2732,7 +2732,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-03 11:55:00",
+        "COMIENZO1": "2027-04-03T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2747,7 +2747,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-03 12:30:00",
+        "COMIENZO1": "2027-04-03T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2762,7 +2762,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-04 09:30:00",
+        "COMIENZO1": "2027-04-04T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2777,7 +2777,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-04 10:45:00",
+        "COMIENZO1": "2027-04-04T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2792,7 +2792,7 @@
       },
       {
         "JORNADA": "23",
-        "COMIENZO1": "2027-04-04 16:10:00",
+        "COMIENZO1": "2027-04-04T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2809,7 +2809,7 @@
     "24": [
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 08:45:00",
+        "COMIENZO1": "2027-04-10T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2824,7 +2824,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 09:30:00",
+        "COMIENZO1": "2027-04-10T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2839,7 +2839,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 09:30:00",
+        "COMIENZO1": "2027-04-10T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2854,7 +2854,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 10:23:00",
+        "COMIENZO1": "2027-04-10T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2869,7 +2869,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 11:00:00",
+        "COMIENZO1": "2027-04-10T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2884,7 +2884,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-10 13:00:00",
+        "COMIENZO1": "2027-04-10T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2899,7 +2899,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-11 10:30:00",
+        "COMIENZO1": "2027-04-11T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2914,7 +2914,7 @@
       },
       {
         "JORNADA": "24",
-        "COMIENZO1": "2027-04-11 12:00:00",
+        "COMIENZO1": "2027-04-11T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2931,7 +2931,7 @@
     "25": [
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-17 08:45:00",
+        "COMIENZO1": "2027-04-17T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2946,7 +2946,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-17 10:00:00",
+        "COMIENZO1": "2027-04-17T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2961,7 +2961,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-17 11:30:00",
+        "COMIENZO1": "2027-04-17T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2976,7 +2976,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-17 11:55:00",
+        "COMIENZO1": "2027-04-17T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -2991,7 +2991,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-17 12:30:00",
+        "COMIENZO1": "2027-04-17T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3006,7 +3006,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-18 09:30:00",
+        "COMIENZO1": "2027-04-18T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3021,7 +3021,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-18 10:45:00",
+        "COMIENZO1": "2027-04-18T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3036,7 +3036,7 @@
       },
       {
         "JORNADA": "25",
-        "COMIENZO1": "2027-04-18 16:10:00",
+        "COMIENZO1": "2027-04-18T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3053,7 +3053,7 @@
     "26": [
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 08:45:00",
+        "COMIENZO1": "2027-04-24T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3068,7 +3068,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 09:30:00",
+        "COMIENZO1": "2027-04-24T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3083,7 +3083,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 10:00:00",
+        "COMIENZO1": "2027-04-24T10:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3098,7 +3098,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 10:23:00",
+        "COMIENZO1": "2027-04-24T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3113,7 +3113,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 11:00:00",
+        "COMIENZO1": "2027-04-24T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3128,7 +3128,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-24 13:00:00",
+        "COMIENZO1": "2027-04-24T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3143,7 +3143,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-25 10:30:00",
+        "COMIENZO1": "2027-04-25T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3158,7 +3158,7 @@
       },
       {
         "JORNADA": "26",
-        "COMIENZO1": "2027-04-25 12:00:00",
+        "COMIENZO1": "2027-04-25T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3175,7 +3175,7 @@
     "27": [
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-01 08:45:00",
+        "COMIENZO1": "2027-05-01T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3190,7 +3190,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-01 09:30:00",
+        "COMIENZO1": "2027-05-01T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3205,7 +3205,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-01 11:30:00",
+        "COMIENZO1": "2027-05-01T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3220,7 +3220,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-01 11:55:00",
+        "COMIENZO1": "2027-05-01T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3235,7 +3235,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-01 12:30:00",
+        "COMIENZO1": "2027-05-01T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3250,7 +3250,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-02 09:30:00",
+        "COMIENZO1": "2027-05-02T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3265,7 +3265,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-02 10:45:00",
+        "COMIENZO1": "2027-05-02T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3280,7 +3280,7 @@
       },
       {
         "JORNADA": "27",
-        "COMIENZO1": "2027-05-02 16:10:00",
+        "COMIENZO1": "2027-05-02T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3297,7 +3297,7 @@
     "28": [
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 08:45:00",
+        "COMIENZO1": "2027-05-08T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3312,7 +3312,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 09:30:00",
+        "COMIENZO1": "2027-05-08T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3327,7 +3327,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 10:23:00",
+        "COMIENZO1": "2027-05-08T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3342,7 +3342,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 10:30:00",
+        "COMIENZO1": "2027-05-08T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3357,7 +3357,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 11:00:00",
+        "COMIENZO1": "2027-05-08T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3372,7 +3372,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 12:30:00",
+        "COMIENZO1": "2027-05-08T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3387,7 +3387,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-08 13:00:00",
+        "COMIENZO1": "2027-05-08T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3402,7 +3402,7 @@
       },
       {
         "JORNADA": "28",
-        "COMIENZO1": "2027-05-09 10:30:00",
+        "COMIENZO1": "2027-05-09T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3419,7 +3419,7 @@
     "29": [
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-15 08:45:00",
+        "COMIENZO1": "2027-05-15T08:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3434,7 +3434,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-15 09:30:00",
+        "COMIENZO1": "2027-05-15T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3449,7 +3449,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-15 10:23:00",
+        "COMIENZO1": "2027-05-15T10:23:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3464,7 +3464,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-15 11:30:00",
+        "COMIENZO1": "2027-05-15T11:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3479,7 +3479,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-15 11:55:00",
+        "COMIENZO1": "2027-05-15T11:55:00",
         "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3494,7 +3494,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-16 09:30:00",
+        "COMIENZO1": "2027-05-16T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3509,7 +3509,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-16 12:00:00",
+        "COMIENZO1": "2027-05-16T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3524,7 +3524,7 @@
       },
       {
         "JORNADA": "29",
-        "COMIENZO1": "2027-05-16 16:10:00",
+        "COMIENZO1": "2027-05-16T16:10:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3541,7 +3541,7 @@
     "30": [
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 08:45:00",
+        "COMIENZO1": "2027-05-22T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3556,7 +3556,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 09:30:00",
+        "COMIENZO1": "2027-05-22T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3571,7 +3571,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 10:30:00",
+        "COMIENZO1": "2027-05-22T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3586,7 +3586,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 11:00:00",
+        "COMIENZO1": "2027-05-22T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3601,7 +3601,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 12:30:00",
+        "COMIENZO1": "2027-05-22T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3616,7 +3616,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-22 13:00:00",
+        "COMIENZO1": "2027-05-22T13:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3631,7 +3631,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-23 10:30:00",
+        "COMIENZO1": "2027-05-23T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -3646,7 +3646,7 @@
       },
       {
         "JORNADA": "30",
-        "COMIENZO1": "2027-05-23 10:45:00",
+        "COMIENZO1": "2027-05-23T10:45:00",
         "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
