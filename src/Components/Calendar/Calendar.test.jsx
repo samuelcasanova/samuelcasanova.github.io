@@ -56,6 +56,13 @@ describe('Calendar', () => {
     logError.mockRestore()
   })
 
+  test('shows the stale data alert above the matches', () => {
+    render(<Calendar calendar={calendar} footballers={footballers} staleSince='2026-10-02T08:17:00Z' now={new Date('2026-10-05T00:00:00Z')}/>)
+
+    const alert = screen.getByText('Última actualización hace 2 días')
+    expect(alert.compareDocumentPosition(screen.getByText('Próxima Jornada')) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  })
+
   test('a rest week says so and has no field link', () => {
     render(<Calendar calendar={calendar} footballers={footballers} now={new Date('2026-10-12T00:00:00Z')}/>)
 

@@ -35,6 +35,18 @@ describe('buildCalendarsFile', () => {
     expect(teams.find(team => team.name === 'CARMELO, C.D. C')).toMatchObject({ category: 'Alex', isRetired: true })
   })
 
+  test('writes the stale data time, or none when the data is up to date', async () => {
+    root = await createTestRoot()
+    await writeFile(join(root, 'data', 'fcf', '59724598.json'), JSON.stringify(trimGroup(group)))
+    const readStaleSince = async () => JSON.parse(await readFile(join(root, 'src', 'data', 'calendars.json'), 'utf8')).staleSince
+
+    await buildCalendarsFile({ root })
+    expect(await readStaleSince()).toBeNull()
+
+    await buildCalendarsFile({ root, staleSince: '2026-10-10T08:17:00.000Z' })
+    expect(await readStaleSince()).toBe('2026-10-10T08:17:00.000Z')
+  })
+
   test('a missing saved group is an error', async () => {
     root = await createTestRoot()
 

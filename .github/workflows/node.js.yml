@@ -34,8 +34,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
 
+    # Push runs restore it too (without saving it back) so their build keeps the stale data alert.
     - name: Restore fetch failure counter
-      if: github.event_name == 'schedule'
+      if: github.event_name != 'workflow_dispatch'
       uses: actions/cache/restore@v4
       with:
         path: ${{ env.FETCH_STATE_FILE_PATH }}
@@ -79,7 +80,7 @@ jobs:
     - name: Decide whether to deploy
       id: deploy
       run: |
-        echo "needed=${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && steps.fetch.outcome == 'success') || steps.commit.outputs.changed == 'true' }}" >> "$GITHUB_OUTPUT"
+        echo "needed=${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && steps.fetch.outcome == 'success') || steps.commit.outputs.changed == 'true' || steps.fetch.outputs.staleChanged == 'true' }}" >> "$GITHUB_OUTPUT"
 
     - run: npm test
       if: steps.deploy.outputs.needed == 'true'

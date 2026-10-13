@@ -5,7 +5,7 @@ import group from './lib/fixtures/group-59724598.json' with { type: 'json' }
 import { createTestRoot } from './lib/fixtures/testRoot.js'
 import { fetchSeason, runFetchSeason } from './fetch-season.js'
 import { createFcfClient } from './lib/fcfClient.js'
-import { createFailureTracker } from './lib/failureTracker.js'
+import { createFailureTracker, readStaleSince } from './lib/failureTracker.js'
 
 const OUTPUT_PATHS = ['data/fcf/59724598.json', 'src/data/calendars.json']
 
@@ -93,15 +93,15 @@ describe('fetchSeason', () => {
       const issues = stubIssues()
 
       for (let attempt = 1; attempt <= 3; attempt++) {
-        expect(await run(challengedClient, issues)).toEqual({ exitCode: 0, skipped: true })
+        expect(await run(challengedClient, issues)).toMatchObject({ exitCode: 0, skipped: true })
       }
       expect(issues.create).not.toHaveBeenCalled()
 
-      expect(await run(challengedClient, issues)).toEqual({ exitCode: 1, skipped: true })
+      expect(await run(challengedClient, issues)).toMatchObject({ exitCode: 1, skipped: true })
       expect(issues.create).toHaveBeenCalledOnce()
       expect(issues.create.mock.calls[0][0]).toMatch(/^FCF fetch failing since \d{4}-\d{2}-\d{2}$/)
 
-      expect(await run(challengedClient, issues)).toEqual({ exitCode: 1, skipped: true })
+      expect(await run(challengedClient, issues)).toMatchObject({ exitCode: 1, skipped: true })
       expect(issues.create).toHaveBeenCalledOnce()
     })
 
@@ -120,13 +120,33 @@ describe('fetchSeason', () => {
       const issues = stubIssues()
       for (let attempt = 1; attempt <= 4; attempt++) await run(challengedClient, issues)
 
-      expect(await run(workingClient, issues)).toEqual({ exitCode: 0, skipped: false })
+      expect(await run(workingClient, issues)).toMatchObject({ exitCode: 0, skipped: false })
       expect(issues.close).toHaveBeenCalledWith(42, expect.any(String))
 
       for (let attempt = 1; attempt <= 3; attempt++) {
-        expect(await run(challengedClient, issues)).toEqual({ exitCode: 0, skipped: true })
+        expect(await run(challengedClient, issues)).toMatchObject({ exitCode: 0, skipped: true })
       }
       expect(issues.close).toHaveBeenCalledOnce()
+    })
+
+    test('the stale data alert changes on the first failure and on the recovery, which records the last success', async () => {
+      const stateFile = join(root, 'state', 'fetch-state.json')
+      let now
+      const tracker = createFailureTracker({ stateFile, threshold: 4, issues: stubIssues(), now: () => now })
+      const staleChangedAt = async (at, client) => {
+        now = new Date(at)
+        return (await runFetchSeason({ root, client, tracker })).staleChanged
+      }
+
+      expect(await staleChangedAt('2026-10-10T08:17:00Z', workingClient)).toBe(false)
+      expect(await readStaleSince(stateFile)).toBeNull()
+
+      expect(await staleChangedAt('2026-10-10T10:17:00Z', challengedClient)).toBe(true)
+      expect(await staleChangedAt('2026-10-10T12:17:00Z', challengedClient)).toBe(false)
+      expect(await readStaleSince(stateFile)).toBe('2026-10-10T08:17:00.000Z')
+
+      expect(await staleChangedAt('2026-10-10T14:17:00Z', workingClient)).toBe(true)
+      expect(await readStaleSince(stateFile)).toBeNull()
     })
 
     test('without a state file a failure is thrown right away', async () => {

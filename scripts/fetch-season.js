@@ -29,13 +29,13 @@ export async function runFetchSeason ({ env = process.env, tracker = createTrack
   try {
     const site = await fetchSeason(options)
     printTeams(site.teams)
-    await tracker?.recordSuccess()
-    return { exitCode: 0, skipped: false }
+    const { staleChanged = false } = await tracker?.recordSuccess() ?? {}
+    return { exitCode: 0, skipped: false, staleChanged }
   } catch (error) {
     if (!tracker) throw error
-    const { alerted, consecutiveFailures } = await tracker.recordFailure(error)
+    const { alerted, consecutiveFailures, staleChanged } = await tracker.recordFailure(error)
     console.error(`Fetch failed (${consecutiveFailures} in a row): ${error.message}`)
-    return { exitCode: alerted ? 1 : 0, skipped: true }
+    return { exitCode: alerted ? 1 : 0, skipped: true, staleChanged }
   }
 }
 
@@ -48,9 +48,9 @@ function createTrackerFromEnv (env) {
 }
 
 if (import.meta.main) {
-  const { exitCode, skipped } = await runFetchSeason()
+  const { exitCode, skipped, staleChanged } = await runFetchSeason()
   if (process.env.GITHUB_OUTPUT) {
-    await appendFile(process.env.GITHUB_OUTPUT, `skipped=${skipped}\n`)
+    await appendFile(process.env.GITHUB_OUTPUT, `skipped=${skipped}\nstaleChanged=${staleChanged}\n`)
   }
   process.exitCode = exitCode
 }

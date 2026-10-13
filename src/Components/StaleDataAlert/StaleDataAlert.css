@@ -1,0 +1,11 @@
+.staledataalert {
+  margin: 2vmin auto;
+  padding: 1vmin 3vmin;
+  width: fit-content;
+  border: 1px solid #f0b54a;
+  border-radius: 1vmin;
+  background-color: rgba(240, 181, 74, 0.15);
+  color: #f0b54a;
+  font-size: calc(6px + 1.5vmin);
+  text-align: center;
+}

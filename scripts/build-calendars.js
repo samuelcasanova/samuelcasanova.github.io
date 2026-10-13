@@ -2,9 +2,12 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { buildGroupMatches, grupIdOf } from './lib/fcfGroup.js'
 import { buildCalendars } from './lib/calendarBuilder.js'
+import { readStaleSince } from './lib/failureTracker.js'
 
 export const ROOT = join(import.meta.dirname, '..')
 export const GROUPS_DIR = 'data/fcf'
+// Same path as FETCH_STATE_FILE_PATH in .github/workflows/node.js.yml, restored from the Actions cache.
+const FETCH_STATE_PATH = '.fetch-state/fetch-state.json'
 const CONFIG_PATH = 'season.config.json'
 const ADDITIONAL_MATCHES_PATH = 'data/additionalMatches.json'
 const CALENDARS_PATH = 'src/data/calendars.json'
@@ -39,7 +42,7 @@ export function buildSite ({ config, groups, additionalMatches }) {
   return { calendars: buildCalendars(config, [...matches, ...additionalMatches], statsUrls), teams }
 }
 
-export async function buildCalendarsFile ({ root = ROOT, config, groups } = {}) {
+export async function buildCalendarsFile ({ root = ROOT, config, groups, staleSince = null } = {}) {
   config ??= await readConfig(root)
   if (!groups) {
     groups = new Map()
@@ -49,7 +52,7 @@ export async function buildCalendarsFile ({ root = ROOT, config, groups } = {}) 
   }
   const { matches: additionalMatches } = await readJson(join(root, ADDITIONAL_MATCHES_PATH))
   const site = buildSite({ config, groups, additionalMatches })
-  await writeJson(join(root, CALENDARS_PATH), site.calendars)
+  await writeJson(join(root, CALENDARS_PATH), { ...site.calendars, staleSince })
   return site
 }
 
@@ -63,6 +66,6 @@ export function printTeams (teams) {
 }
 
 if (import.meta.main) {
-  const { teams } = await buildCalendarsFile()
+  const { teams } = await buildCalendarsFile({ staleSince: await readStaleSince(join(ROOT, FETCH_STATE_PATH)) })
   printTeams(teams)
 }
