@@ -613,6 +613,21 @@
     "6": [
       {
         "JORNADA": "6",
+        "COMIENZO1": "2026-10-31T09:00:00",
+        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47009286",
+        "CODCLUB_CASA": "1241",
+        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
+        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+        "CODEQUIPO_FUERA": "47012066",
+        "CODCLUB_FUERA": "2930",
+        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
+        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
+      },
+      {
+        "JORNADA": "6",
         "COMIENZO1": "2026-10-31T09:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
         "GOLES_CASA": null,
@@ -625,21 +640,6 @@
         "CODCLUB_FUERA": "6390",
         "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
         "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-      },
-      {
-        "JORNADA": "6",
-        "COMIENZO1": "2026-10-31T10:23:00",
-        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47009286",
-        "CODCLUB_CASA": "1241",
-        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-        "CODEQUIPO_FUERA": "47012066",
-        "CODCLUB_FUERA": "2930",
-        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
       },
       {
         "JORNADA": "6",

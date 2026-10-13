@@ -3,21 +3,6 @@
     "1": [
       {
         "JORNADA": "1",
-        "COMIENZO1": "2026-10-03T14:00:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "54304710",
-        "CODCLUB_CASA": "6054",
-        "NOMBRE_CASA": "APA POBLE SEC, CE. B",
-        "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
-        "CODEQUIPO_FUERA": "55285102",
-        "CODCLUB_FUERA": "34784987",
-        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
-      },
-      {
-        "JORNADA": "1",
         "COMIENZO1": "2026-10-03T15:10:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
         "GOLES_CASA": "7",
@@ -105,6 +90,21 @@
         "CODCLUB_FUERA": "58329576",
         "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
         "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
+      },
+      {
+        "JORNADA": "1",
+        "COMIENZO1": "2026-10-15T19:30:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "54304710",
+        "CODCLUB_CASA": "6054",
+        "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+        "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+        "CODEQUIPO_FUERA": "55285102",
+        "CODCLUB_FUERA": "34784987",
+        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
       }
     ],
     "2": [
