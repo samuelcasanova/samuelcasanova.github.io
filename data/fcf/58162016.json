@@ -492,21 +492,6 @@
       {
         "JORNADA": "5",
         "COMIENZO1": "2026-10-24T08:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47012517",
-        "CODCLUB_CASA": "1696",
-        "NOMBRE_CASA": "ALZAMORA, C.F. A",
-        "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
-        "CODEQUIPO_FUERA": "47007052",
-        "CODCLUB_FUERA": "1032",
-        "NOMBRE_FUERA": "MARTINENC, F.C. A",
-        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-      },
-      {
-        "JORNADA": "5",
-        "COMIENZO1": "2026-10-24T08:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -533,6 +518,21 @@
         "CODCLUB_FUERA": "6399",
         "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
         "ESCUDO_FUERA": "00100_0001268552_congres.png"
+      },
+      {
+        "JORNADA": "5",
+        "COMIENZO1": "2026-10-24T09:45:00",
+        "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47012517",
+        "CODCLUB_CASA": "1696",
+        "NOMBRE_CASA": "ALZAMORA, C.F. A",
+        "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
+        "CODEQUIPO_FUERA": "47007052",
+        "CODCLUB_FUERA": "1032",
+        "NOMBRE_FUERA": "MARTINENC, F.C. A",
+        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
       },
       {
         "JORNADA": "5",
