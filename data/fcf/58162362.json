@@ -673,21 +673,6 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-24T20:00:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "23093920",
-        "CODCLUB_CASA": "1218",
-        "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
-        "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-        "CODEQUIPO_FUERA": "54313053",
-        "CODCLUB_FUERA": "1970",
-        "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-        "ESCUDO_FUERA": "00100_0000621266_premia200.png"
-      },
-      {
-        "JORNADA": "6",
         "COMIENZO1": "2026-10-25T10:40:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
         "GOLES_CASA": null,
@@ -703,7 +688,7 @@
       },
       {
         "JORNADA": "6",
-        "COMIENZO1": "2026-10-25T11:35:00",
+        "COMIENZO1": "2026-10-25T11:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -730,6 +715,21 @@
         "CODCLUB_FUERA": "28312719",
         "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
         "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+      },
+      {
+        "JORNADA": "6",
+        "COMIENZO1": "2026-10-25T20:00:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "23093920",
+        "CODCLUB_CASA": "1218",
+        "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
+        "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+        "CODEQUIPO_FUERA": "54313053",
+        "CODCLUB_FUERA": "1970",
+        "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
+        "ESCUDO_FUERA": "00100_0000621266_premia200.png"
       }
     ],
     "7": [
