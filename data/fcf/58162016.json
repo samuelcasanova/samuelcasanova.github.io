@@ -215,21 +215,6 @@
       },
       {
         "JORNADA": "2",
-        "COMIENZO1": "2026-10-04T12:30:00",
-        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47009286",
-        "CODCLUB_CASA": "1241",
-        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-        "CODEQUIPO_FUERA": "47011758",
-        "CODCLUB_FUERA": "6178",
-        "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-        "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
-      },
-      {
-        "JORNADA": "2",
         "COMIENZO1": "2026-10-04T14:15:00",
         "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
         "GOLES_CASA": "0",
@@ -242,6 +227,21 @@
         "CODCLUB_FUERA": "1696",
         "NOMBRE_FUERA": "ALZAMORA, C.F. A",
         "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+      },
+      {
+        "JORNADA": "2",
+        "COMIENZO1": "2026-10-15T18:50:00",
+        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47009286",
+        "CODCLUB_CASA": "1241",
+        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
+        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+        "CODEQUIPO_FUERA": "47011758",
+        "CODCLUB_FUERA": "6178",
+        "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
+        "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
       }
     ],
     "3": [

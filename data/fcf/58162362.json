@@ -613,6 +613,21 @@
     "6": [
       {
         "JORNADA": "6",
+        "COMIENZO1": "2026-10-24T10:00:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "36619",
+        "CODCLUB_CASA": "1011",
+        "NOMBRE_CASA": "EUROPA, C.E. A",
+        "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+        "CODEQUIPO_FUERA": "7002023",
+        "CODCLUB_FUERA": "1035",
+        "NOMBRE_FUERA": "IGUALADA, C.F. A",
+        "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
+      },
+      {
+        "JORNADA": "6",
         "COMIENZO1": "2026-10-24T10:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
         "GOLES_CASA": null,
@@ -625,21 +640,6 @@
         "CODCLUB_FUERA": "1336",
         "NOMBRE_FUERA": "VILADECANS U.D. A",
         "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
-      },
-      {
-        "JORNADA": "6",
-        "COMIENZO1": "2026-10-24T11:15:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "36619",
-        "CODCLUB_CASA": "1011",
-        "NOMBRE_CASA": "EUROPA, C.E. A",
-        "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-        "CODEQUIPO_FUERA": "7002023",
-        "CODCLUB_FUERA": "1035",
-        "NOMBRE_FUERA": "IGUALADA, C.F. A",
-        "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
       },
       {
         "JORNADA": "6",
