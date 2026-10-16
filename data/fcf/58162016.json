@@ -506,21 +506,6 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24T09:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47012517",
-        "CODCLUB_CASA": "1696",
-        "NOMBRE_CASA": "ALZAMORA, C.F. A",
-        "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
-        "CODEQUIPO_FUERA": "47007052",
-        "CODCLUB_FUERA": "1032",
-        "NOMBRE_FUERA": "MARTINENC, F.C. A",
-        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-      },
-      {
-        "JORNADA": "5",
         "COMIENZO1": "2026-10-24T10:20:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
         "GOLES_CASA": null,
@@ -533,6 +518,21 @@
         "CODCLUB_FUERA": "1241",
         "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
         "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
+      },
+      {
+        "JORNADA": "5",
+        "COMIENZO1": "2026-10-24T11:00:00",
+        "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47012517",
+        "CODCLUB_CASA": "1696",
+        "NOMBRE_CASA": "ALZAMORA, C.F. A",
+        "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
+        "CODEQUIPO_FUERA": "47007052",
+        "CODCLUB_FUERA": "1032",
+        "NOMBRE_FUERA": "MARTINENC, F.C. A",
+        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
       },
       {
         "JORNADA": "5",
@@ -566,7 +566,7 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-24T15:30:00",
+        "COMIENZO1": "2026-10-24T20:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
@@ -581,8 +581,8 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-25T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "COMIENZO1": "2026-10-25T11:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -826,7 +826,7 @@
       {
         "JORNADA": "7",
         "COMIENZO1": "2026-11-08T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -887,21 +887,6 @@
       },
       {
         "JORNADA": "8",
-        "COMIENZO1": "2026-11-14T10:23:00",
-        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47009286",
-        "CODCLUB_CASA": "1241",
-        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-        "CODEQUIPO_FUERA": "47007167",
-        "CODCLUB_FUERA": "6390",
-        "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-        "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-      },
-      {
-        "JORNADA": "8",
         "COMIENZO1": "2026-11-14T11:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
         "GOLES_CASA": null,
@@ -944,6 +929,21 @@
         "CODCLUB_FUERA": "1696",
         "NOMBRE_FUERA": "ALZAMORA, C.F. A",
         "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+      },
+      {
+        "JORNADA": "8",
+        "COMIENZO1": "2026-11-15T10:00:00",
+        "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47009286",
+        "CODCLUB_CASA": "1241",
+        "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
+        "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+        "CODEQUIPO_FUERA": "47007167",
+        "CODCLUB_FUERA": "6390",
+        "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+        "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
       },
       {
         "JORNADA": "8",
@@ -1070,7 +1070,7 @@
       {
         "JORNADA": "9",
         "COMIENZO1": "2026-11-22T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -1314,7 +1314,7 @@
       {
         "JORNADA": "11",
         "COMIENZO1": "2026-12-13T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -1543,7 +1543,7 @@
       {
         "JORNADA": "13",
         "COMIENZO1": "2027-01-10T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -1695,7 +1695,7 @@
       {
         "JORNADA": "14",
         "COMIENZO1": "2027-01-17T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -2061,7 +2061,7 @@
       {
         "JORNADA": "17",
         "COMIENZO1": "2027-02-14T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -2305,7 +2305,7 @@
       {
         "JORNADA": "19",
         "COMIENZO1": "2027-02-28T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -2534,7 +2534,7 @@
       {
         "JORNADA": "21",
         "COMIENZO1": "2027-03-14T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -2778,7 +2778,7 @@
       {
         "JORNADA": "23",
         "COMIENZO1": "2027-04-04T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -3022,7 +3022,7 @@
       {
         "JORNADA": "25",
         "COMIENZO1": "2027-04-18T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -3266,7 +3266,7 @@
       {
         "JORNADA": "27",
         "COMIENZO1": "2027-05-02T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
@@ -3647,7 +3647,7 @@
       {
         "JORNADA": "30",
         "COMIENZO1": "2027-05-23T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL CEM CLOT DE LA MEL",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
         "GOLES_CASA": null,
         "GOLES_FUERA": null,
         "CODEQUIPO_CASA": "47007584",
