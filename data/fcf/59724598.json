@@ -324,6 +324,21 @@
     "4": [
       {
         "JORNADA": "4",
+        "COMIENZO1": "2026-10-24T13:45:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "58156551",
+        "CODCLUB_CASA": "2670",
+        "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+        "ESCUDO_CASA": "00100_0000003500_images.png",
+        "CODEQUIPO_FUERA": "55285102",
+        "CODCLUB_FUERA": "34784987",
+        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
+      },
+      {
+        "JORNADA": "4",
         "COMIENZO1": "2026-10-24T14:00:00",
         "CAMPO": "CAMP DE FUTBOL CEM MARESME",
         "GOLES_CASA": null,
@@ -396,21 +411,6 @@
         "CODCLUB_FUERA": "40493342",
         "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
         "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png"
-      },
-      {
-        "JORNADA": "4",
-        "COMIENZO1": "2026-10-24T20:00:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "58156551",
-        "CODCLUB_CASA": "2670",
-        "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-        "ESCUDO_CASA": "00100_0000003500_images.png",
-        "CODEQUIPO_FUERA": "55285102",
-        "CODCLUB_FUERA": "34784987",
-        "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-        "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
       },
       {
         "JORNADA": "4",

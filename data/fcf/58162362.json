@@ -566,21 +566,6 @@
       },
       {
         "JORNADA": "5",
-        "COMIENZO1": "2026-10-18T10:00:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "40211",
-        "CODCLUB_CASA": "1034",
-        "NOMBRE_CASA": "TORELLO, C.F. A",
-        "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
-        "CODEQUIPO_FUERA": "37335",
-        "CODCLUB_FUERA": "1278",
-        "NOMBRE_FUERA": "CIRERA, U.D. A",
-        "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
-      },
-      {
-        "JORNADA": "5",
         "COMIENZO1": "2026-10-18T12:00:00",
         "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
         "GOLES_CASA": null,
@@ -608,6 +593,21 @@
         "CODCLUB_FUERA": "6390",
         "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
         "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
+      },
+      {
+        "JORNADA": "5",
+        "COMIENZO1": "2026-10-27T19:00:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "40211",
+        "CODCLUB_CASA": "1034",
+        "NOMBRE_CASA": "TORELLO, C.F. A",
+        "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
+        "CODEQUIPO_FUERA": "37335",
+        "CODCLUB_FUERA": "1278",
+        "NOMBRE_FUERA": "CIRERA, U.D. A",
+        "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
       }
     ],
     "6": [
@@ -625,6 +625,21 @@
         "CODCLUB_FUERA": "1035",
         "NOMBRE_FUERA": "IGUALADA, C.F. A",
         "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
+      },
+      {
+        "JORNADA": "6",
+        "COMIENZO1": "2026-10-24T10:30:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "51647896",
+        "CODCLUB_CASA": "3360",
+        "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
+        "ESCUDO_CASA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
+        "CODEQUIPO_FUERA": "18497045",
+        "CODCLUB_FUERA": "1336",
+        "NOMBRE_FUERA": "VILADECANS U.D. A",
+        "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
       },
       {
         "JORNADA": "6",
@@ -655,21 +670,6 @@
         "CODCLUB_FUERA": "1390",
         "NOMBRE_FUERA": "Descans",
         "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-      },
-      {
-        "JORNADA": "6",
-        "COMIENZO1": "2026-10-25T10:30:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "51647896",
-        "CODCLUB_CASA": "3360",
-        "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
-        "ESCUDO_CASA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
-        "CODEQUIPO_FUERA": "18497045",
-        "CODCLUB_FUERA": "1336",
-        "NOMBRE_FUERA": "VILADECANS U.D. A",
-        "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
       },
       {
         "JORNADA": "6",
