@@ -461,8 +461,8 @@
         "JORNADA": "4",
         "COMIENZO1": "2026-10-18T12:00:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
+        "GOLES_CASA": "0",
+        "GOLES_FUERA": "5",
         "CODEQUIPO_CASA": "47012498",
         "CODCLUB_CASA": "15548283",
         "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -476,8 +476,8 @@
         "JORNADA": "4",
         "COMIENZO1": "2026-10-18T12:45:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-        "GOLES_CASA": "0",
-        "GOLES_FUERA": "0",
+        "GOLES_CASA": "2",
+        "GOLES_FUERA": "4",
         "CODEQUIPO_CASA": "47012556",
         "CODCLUB_CASA": "1014",
         "NOMBRE_CASA": "SANT ANDREU, U.E C",
@@ -795,6 +795,21 @@
       },
       {
         "JORNADA": "7",
+        "COMIENZO1": "2026-11-07T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47011200",
+        "CODCLUB_FUERA": "1011",
+        "NOMBRE_FUERA": "EUROPA, C.E. B",
+        "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
+      },
+      {
+        "JORNADA": "7",
         "COMIENZO1": "2026-11-07T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -822,21 +837,6 @@
         "CODCLUB_FUERA": "1321",
         "NOMBRE_FUERA": "POMAR, C.D. A",
         "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
-      },
-      {
-        "JORNADA": "7",
-        "COMIENZO1": "2026-11-08T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47011200",
-        "CODCLUB_FUERA": "1011",
-        "NOMBRE_FUERA": "EUROPA, C.E. B",
-        "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
       },
       {
         "JORNADA": "7",
@@ -1039,6 +1039,21 @@
       },
       {
         "JORNADA": "9",
+        "COMIENZO1": "2026-11-21T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47012858",
+        "CODCLUB_FUERA": "1218",
+        "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
+        "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
+      },
+      {
+        "JORNADA": "9",
         "COMIENZO1": "2026-11-21T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -1066,21 +1081,6 @@
         "CODCLUB_FUERA": "1014",
         "NOMBRE_FUERA": "SANT ANDREU, U.E C",
         "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
-      },
-      {
-        "JORNADA": "9",
-        "COMIENZO1": "2026-11-22T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47012858",
-        "CODCLUB_FUERA": "1218",
-        "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
-        "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
       },
       {
         "JORNADA": "9",
@@ -1283,6 +1283,21 @@
       },
       {
         "JORNADA": "11",
+        "COMIENZO1": "2026-12-12T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "50600424",
+        "CODCLUB_FUERA": "1049",
+        "NOMBRE_FUERA": "HORTA, U.AT. C",
+        "ESCUDO_FUERA": "00100_0000959029_1049_HortaUAT_200.png"
+      },
+      {
+        "JORNADA": "11",
         "COMIENZO1": "2026-12-12T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -1310,21 +1325,6 @@
         "CODCLUB_FUERA": "6399",
         "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
         "ESCUDO_FUERA": "00100_0001268552_congres.png"
-      },
-      {
-        "JORNADA": "11",
-        "COMIENZO1": "2026-12-13T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "50600424",
-        "CODCLUB_FUERA": "1049",
-        "NOMBRE_FUERA": "HORTA, U.AT. C",
-        "ESCUDO_FUERA": "00100_0000959029_1049_HortaUAT_200.png"
       },
       {
         "JORNADA": "11",
@@ -1527,6 +1527,21 @@
       },
       {
         "JORNADA": "13",
+        "COMIENZO1": "2027-01-09T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47012066",
+        "CODCLUB_FUERA": "2930",
+        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
+        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
+      },
+      {
+        "JORNADA": "13",
         "COMIENZO1": "2027-01-10T09:30:00",
         "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
         "GOLES_CASA": null,
@@ -1539,21 +1554,6 @@
         "CODCLUB_FUERA": "6178",
         "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
         "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
-      },
-      {
-        "JORNADA": "13",
-        "COMIENZO1": "2027-01-10T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47012066",
-        "CODCLUB_FUERA": "2930",
-        "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-        "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
       },
       {
         "JORNADA": "13",
@@ -1649,6 +1649,21 @@
       },
       {
         "JORNADA": "14",
+        "COMIENZO1": "2027-01-16T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47009286",
+        "CODCLUB_FUERA": "1241",
+        "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
+        "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
+      },
+      {
+        "JORNADA": "14",
         "COMIENZO1": "2027-01-16T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -1691,21 +1706,6 @@
         "CODCLUB_FUERA": "1032",
         "NOMBRE_FUERA": "MARTINENC, F.C. A",
         "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-      },
-      {
-        "JORNADA": "14",
-        "COMIENZO1": "2027-01-17T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47009286",
-        "CODCLUB_FUERA": "1241",
-        "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-        "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
       }
     ],
     "15": [
@@ -2030,6 +2030,21 @@
       },
       {
         "JORNADA": "17",
+        "COMIENZO1": "2027-02-13T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47007167",
+        "CODCLUB_FUERA": "6390",
+        "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+        "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
+      },
+      {
+        "JORNADA": "17",
         "COMIENZO1": "2027-02-13T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -2057,21 +2072,6 @@
         "CODCLUB_FUERA": "6399",
         "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
         "ESCUDO_FUERA": "00100_0001268552_congres.png"
-      },
-      {
-        "JORNADA": "17",
-        "COMIENZO1": "2027-02-14T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47007167",
-        "CODCLUB_FUERA": "6390",
-        "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-        "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
       }
     ],
     "18": [
@@ -2289,6 +2289,21 @@
       },
       {
         "JORNADA": "19",
+        "COMIENZO1": "2027-02-27T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47013224",
+        "CODCLUB_FUERA": "18476477",
+        "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
+        "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
+      },
+      {
+        "JORNADA": "19",
         "COMIENZO1": "2027-02-27T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -2301,21 +2316,6 @@
         "CODCLUB_FUERA": "1032",
         "NOMBRE_FUERA": "MARTINENC, F.C. A",
         "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-      },
-      {
-        "JORNADA": "19",
-        "COMIENZO1": "2027-02-28T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47013224",
-        "CODCLUB_FUERA": "18476477",
-        "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-        "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
       }
     ],
     "20": [
@@ -2518,6 +2518,21 @@
       },
       {
         "JORNADA": "21",
+        "COMIENZO1": "2027-03-13T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47012355",
+        "CODCLUB_FUERA": "31528564",
+        "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
+        "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
+      },
+      {
+        "JORNADA": "21",
         "COMIENZO1": "2027-03-13T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -2530,21 +2545,6 @@
         "CODCLUB_FUERA": "1241",
         "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
         "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
-      },
-      {
-        "JORNADA": "21",
-        "COMIENZO1": "2027-03-14T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47012355",
-        "CODCLUB_FUERA": "31528564",
-        "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
-        "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
       },
       {
         "JORNADA": "21",
@@ -2747,6 +2747,21 @@
       },
       {
         "JORNADA": "23",
+        "COMIENZO1": "2027-04-03T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47010178",
+        "CODCLUB_FUERA": "1321",
+        "NOMBRE_FUERA": "POMAR, C.D. A",
+        "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
+      },
+      {
+        "JORNADA": "23",
         "COMIENZO1": "2027-04-03T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -2774,21 +2789,6 @@
         "CODCLUB_FUERA": "1032",
         "NOMBRE_FUERA": "MARTINENC, F.C. A",
         "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-      },
-      {
-        "JORNADA": "23",
-        "COMIENZO1": "2027-04-04T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47010178",
-        "CODCLUB_FUERA": "1321",
-        "NOMBRE_FUERA": "POMAR, C.D. A",
-        "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
       },
       {
         "JORNADA": "23",
@@ -2991,6 +2991,21 @@
       },
       {
         "JORNADA": "25",
+        "COMIENZO1": "2027-04-17T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47007052",
+        "CODCLUB_FUERA": "1032",
+        "NOMBRE_FUERA": "MARTINENC, F.C. A",
+        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
+      },
+      {
+        "JORNADA": "25",
         "COMIENZO1": "2027-04-17T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -3018,21 +3033,6 @@
         "CODCLUB_FUERA": "1241",
         "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
         "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
-      },
-      {
-        "JORNADA": "25",
-        "COMIENZO1": "2027-04-18T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47007052",
-        "CODCLUB_FUERA": "1032",
-        "NOMBRE_FUERA": "MARTINENC, F.C. A",
-        "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
       },
       {
         "JORNADA": "25",
@@ -3235,6 +3235,21 @@
       },
       {
         "JORNADA": "27",
+        "COMIENZO1": "2027-05-01T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47012556",
+        "CODCLUB_FUERA": "1014",
+        "NOMBRE_FUERA": "SANT ANDREU, U.E C",
+        "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
+      },
+      {
+        "JORNADA": "27",
         "COMIENZO1": "2027-05-01T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -3262,21 +3277,6 @@
         "CODCLUB_FUERA": "15548283",
         "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
         "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
-      },
-      {
-        "JORNADA": "27",
-        "COMIENZO1": "2027-05-02T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47012556",
-        "CODCLUB_FUERA": "1014",
-        "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-        "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
       },
       {
         "JORNADA": "27",
@@ -3601,6 +3601,21 @@
       },
       {
         "JORNADA": "30",
+        "COMIENZO1": "2027-05-22T12:15:00",
+        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+        "GOLES_CASA": null,
+        "GOLES_FUERA": null,
+        "CODEQUIPO_CASA": "47007584",
+        "CODCLUB_CASA": "6237",
+        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+        "CODEQUIPO_FUERA": "47012517",
+        "CODCLUB_FUERA": "1696",
+        "NOMBRE_FUERA": "ALZAMORA, C.F. A",
+        "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+      },
+      {
+        "JORNADA": "30",
         "COMIENZO1": "2027-05-22T12:30:00",
         "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
         "GOLES_CASA": null,
@@ -3643,21 +3658,6 @@
         "CODCLUB_FUERA": "1014",
         "NOMBRE_FUERA": "SANT ANDREU, U.E C",
         "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
-      },
-      {
-        "JORNADA": "30",
-        "COMIENZO1": "2027-05-23T10:45:00",
-        "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-        "GOLES_CASA": null,
-        "GOLES_FUERA": null,
-        "CODEQUIPO_CASA": "47007584",
-        "CODCLUB_CASA": "6237",
-        "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-        "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-        "CODEQUIPO_FUERA": "47012517",
-        "CODCLUB_FUERA": "1696",
-        "NOMBRE_FUERA": "ALZAMORA, C.F. A",
-        "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
       }
     ]
   },
