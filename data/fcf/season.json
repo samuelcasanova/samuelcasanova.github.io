@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T15:53:42.000Z",
+  "fetchedAt": "2026-10-28T08:51:46.337Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -496,8 +496,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-24T08:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "8",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "47011200",
             "CODCLUB_CASA": "1011",
             "NOMBRE_CASA": "EUROPA, C.E. B",
@@ -511,8 +511,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-24T10:20:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "5",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "50600424",
             "CODCLUB_CASA": "1049",
             "NOMBRE_CASA": "HORTA, U.AT. C",
@@ -526,8 +526,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-24T11:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "47012517",
             "CODCLUB_CASA": "1696",
             "NOMBRE_CASA": "ALZAMORA, C.F. A",
@@ -541,8 +541,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-24T11:55:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "6",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
@@ -556,8 +556,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-24T12:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
@@ -569,10 +569,10 @@
           },
           {
             "JORNADA": "5",
-            "COMIENZO1": "2026-10-24T20:00:00",
+            "COMIENZO1": "2026-10-24T20:06:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "9",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "47012858",
             "CODCLUB_CASA": "1218",
             "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -586,8 +586,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-25T11:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
@@ -601,8 +601,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-25T16:15:00",
             "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
@@ -616,7 +616,22 @@
         "6": [
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-10-31T08:30:00",
+            "COMIENZO1": "2026-10-31T08:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012556",
+            "CODCLUB_CASA": "1014",
+            "NOMBRE_CASA": "SANT ANDREU, U.E C",
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
+            "CODEQUIPO_FUERA": "47012517",
+            "CODCLUB_FUERA": "1696",
+            "NOMBRE_FUERA": "ALZAMORA, C.F. A",
+            "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+          },
+          {
+            "JORNADA": "6",
+            "COMIENZO1": "2026-10-31T09:20:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -631,7 +646,7 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-10-31T09:30:00",
+            "COMIENZO1": "2026-10-31T11:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -646,7 +661,7 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-10-31T11:00:00",
+            "COMIENZO1": "2026-10-31T11:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -661,18 +676,18 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-10-31T11:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
+            "COMIENZO1": "2026-10-31T11:50:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47010178",
-            "CODCLUB_CASA": "1321",
-            "NOMBRE_CASA": "POMAR, C.D. A",
-            "ESCUDO_CASA": "00100_0001176360_1321_Pomar.png",
-            "CODEQUIPO_FUERA": "47013224",
-            "CODCLUB_FUERA": "18476477",
-            "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
+            "CODEQUIPO_CASA": "47012355",
+            "CODCLUB_CASA": "31528564",
+            "NOMBRE_CASA": "FUNDACIÓ FUTBOL BADALONA B",
+            "ESCUDO_CASA": "00100_0001018810_escudo_ffbadalona_1.png",
+            "CODEQUIPO_FUERA": "47007584",
+            "CODCLUB_FUERA": "6237",
+            "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "6",
@@ -691,21 +706,6 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-11-01T09:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012355",
-            "CODCLUB_CASA": "31528564",
-            "NOMBRE_CASA": "FUNDACIÓ FUTBOL BADALONA B",
-            "ESCUDO_CASA": "00100_0001018810_escudo_ffbadalona_1.png",
-            "CODEQUIPO_FUERA": "47007584",
-            "CODCLUB_FUERA": "6237",
-            "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
-          },
-          {
-            "JORNADA": "6",
             "COMIENZO1": "2026-11-01T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
             "GOLES_CASA": null,
@@ -721,36 +721,21 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-11-01T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
+            "COMIENZO1": "2026-11-01T11:30:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012556",
-            "CODCLUB_CASA": "1014",
-            "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
-            "CODEQUIPO_FUERA": "47012517",
-            "CODCLUB_FUERA": "1696",
-            "NOMBRE_FUERA": "ALZAMORA, C.F. A",
-            "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+            "CODEQUIPO_CASA": "47010178",
+            "CODCLUB_CASA": "1321",
+            "NOMBRE_CASA": "POMAR, C.D. A",
+            "ESCUDO_CASA": "00100_0001176360_1321_Pomar.png",
+            "CODEQUIPO_FUERA": "47013224",
+            "CODCLUB_FUERA": "18476477",
+            "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           }
         ],
         "7": [
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-07T08:45:00",
-            "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012517",
-            "CODCLUB_CASA": "1696",
-            "NOMBRE_CASA": "ALZAMORA, C.F. A",
-            "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
-            "CODEQUIPO_FUERA": "47009286",
-            "CODCLUB_FUERA": "1241",
-            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
-          },
           {
             "JORNADA": "7",
             "COMIENZO1": "2026-11-07T09:30:00",
@@ -780,6 +765,21 @@
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
             "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
+          },
+          {
+            "JORNADA": "7",
+            "COMIENZO1": "2026-11-07T10:30:00",
+            "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012517",
+            "CODCLUB_CASA": "1696",
+            "NOMBRE_CASA": "ALZAMORA, C.F. A",
+            "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
+            "CODEQUIPO_FUERA": "47009286",
+            "CODCLUB_FUERA": "1241",
+            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "7",
@@ -905,7 +905,7 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-14T11:30:00",
+            "COMIENZO1": "2026-11-14T11:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -1012,7 +1012,7 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-21T11:30:00",
+            "COMIENZO1": "2026-11-21T11:20:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -1256,7 +1256,7 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-12-12T11:30:00",
+            "COMIENZO1": "2026-12-12T11:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -2994,7 +2994,7 @@
           },
           {
             "JORNADA": "25",
-            "COMIENZO1": "2027-04-17T12:15:00",
+            "COMIENZO1": "2027-04-17T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -3747,7 +3747,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "1",
@@ -3869,7 +3869,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "2",
@@ -4092,7 +4092,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "23093920",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
@@ -4203,7 +4203,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "4",
@@ -4321,7 +4321,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
@@ -4331,8 +4331,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-27T19:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "40211",
             "CODCLUB_CASA": "1034",
             "NOMBRE_CASA": "TORELLO, C.F. A",
@@ -4348,8 +4348,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-24T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "36619",
             "CODCLUB_CASA": "1011",
             "NOMBRE_CASA": "EUROPA, C.E. A",
@@ -4363,8 +4363,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-24T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "51647896",
             "CODCLUB_CASA": "3360",
             "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
@@ -4378,8 +4378,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-24T12:00:00",
             "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "8",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "34786929",
             "CODCLUB_CASA": "34766344",
             "NOMBRE_CASA": "FUNDACIÓ P. F.BASE REUS A",
@@ -4408,8 +4408,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-25T10:40:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "4",
             "CODEQUIPO_CASA": "36963",
             "CODCLUB_CASA": "1004",
             "NOMBRE_CASA": "SABADELL F.C., C.E. A",
@@ -4423,8 +4423,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-25T11:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "7002165",
             "CODCLUB_CASA": "2753",
             "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
@@ -4438,8 +4438,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-25T12:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "5",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "37335",
             "CODCLUB_CASA": "1278",
             "NOMBRE_CASA": "CIRERA, U.D. A",
@@ -4447,14 +4447,14 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "6",
             "COMIENZO1": "2026-10-25T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "7",
             "CODEQUIPO_CASA": "23093920",
             "CODCLUB_CASA": "1218",
             "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
@@ -4513,7 +4513,22 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-10-31T12:00:00",
+            "COMIENZO1": "2026-10-31T12:15:00",
+            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002023",
+            "CODCLUB_CASA": "1035",
+            "NOMBRE_CASA": "IGUALADA, C.F. A",
+            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
+            "CODEQUIPO_FUERA": "23093920",
+            "CODCLUB_FUERA": "1218",
+            "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
+            "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
+          },
+          {
+            "JORNADA": "7",
+            "COMIENZO1": "2026-10-31T14:00:00",
             "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -4528,7 +4543,7 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-10-31T12:00:00",
+            "COMIENZO1": "2026-11-01T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -4540,21 +4555,6 @@
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
             "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
-          },
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-01T09:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "28682809",
-            "CODCLUB_CASA": "28312719",
-            "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
-            "CODEQUIPO_FUERA": "36963",
-            "CODCLUB_FUERA": "1004",
-            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
-            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
           },
           {
             "JORNADA": "7",
@@ -4573,18 +4573,18 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-01T13:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
+            "COMIENZO1": "2026-11-01T18:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002023",
-            "CODCLUB_CASA": "1035",
-            "NOMBRE_CASA": "IGUALADA, C.F. A",
-            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
-            "CODEQUIPO_FUERA": "23093920",
-            "CODCLUB_FUERA": "1218",
-            "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
-            "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
+            "CODEQUIPO_CASA": "28682809",
+            "CODCLUB_CASA": "28312719",
+            "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
+            "CODEQUIPO_FUERA": "36963",
+            "CODCLUB_FUERA": "1004",
+            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
+            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
           }
         ],
         "8": [
@@ -4632,6 +4632,21 @@
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
             "ESCUDO_FUERA": "00100_0001270584_Prat.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-07T13:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "37335",
+            "CODCLUB_CASA": "1278",
+            "NOMBRE_CASA": "CIRERA, U.D. A",
+            "ESCUDO_CASA": "00100_0000572527_cirera_200x200.png",
+            "CODEQUIPO_FUERA": "18497045",
+            "CODCLUB_FUERA": "1336",
+            "NOMBRE_FUERA": "VILADECANS U.D. A",
+            "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
           },
           {
             "JORNADA": "8",
@@ -4691,22 +4706,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
-          },
-          {
-            "JORNADA": "8",
-            "COMIENZO1": "2026-11-08T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "37335",
-            "CODCLUB_CASA": "1278",
-            "NOMBRE_CASA": "CIRERA, U.D. A",
-            "ESCUDO_CASA": "00100_0000572527_cirera_200x200.png",
-            "CODEQUIPO_FUERA": "18497045",
-            "CODCLUB_FUERA": "1336",
-            "NOMBRE_FUERA": "VILADECANS U.D. A",
-            "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           }
         ],
         "9": [
@@ -4794,7 +4794,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "25810331",
             "CODCLUB_FUERA": "5282",
             "NOMBRE_FUERA": "GIRONA, F.C. A",
@@ -4845,7 +4845,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "10",
@@ -4982,7 +4982,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "11",
@@ -5145,7 +5145,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "7002704",
             "CODCLUB_FUERA": "1390",
             "NOMBRE_FUERA": "Descans",
@@ -5226,7 +5226,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "13",
@@ -5389,7 +5389,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
@@ -5560,7 +5560,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           }
         ],
         "16": [
@@ -5633,7 +5633,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "34786929",
             "CODCLUB_FUERA": "34766344",
             "NOMBRE_FUERA": "FUNDACIÓ P. F.BASE REUS A",
@@ -5755,7 +5755,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "36619",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. A",
@@ -5881,7 +5881,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "18",
@@ -6044,7 +6044,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "51647896",
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
@@ -6110,7 +6110,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "20",
@@ -6258,7 +6258,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "37335",
             "CODCLUB_FUERA": "1278",
             "NOMBRE_FUERA": "CIRERA, U.D. A",
@@ -6384,7 +6384,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "22",
@@ -6502,7 +6502,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "7002165",
             "CODCLUB_FUERA": "2753",
             "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
@@ -6583,7 +6583,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "24",
@@ -6761,7 +6761,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "40211",
             "CODCLUB_FUERA": "1034",
             "NOMBRE_FUERA": "TORELLO, C.F. A",
@@ -6898,7 +6898,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "50599884",
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
@@ -7009,7 +7009,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "27",
@@ -7142,7 +7142,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "18497045",
             "CODCLUB_FUERA": "1336",
             "NOMBRE_FUERA": "VILADECANS U.D. A",
@@ -7223,7 +7223,7 @@
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000654081_AnagramaPNG.png"
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "29",
@@ -7386,7 +7386,7 @@
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000654081_AnagramaPNG.png",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
             "CODEQUIPO_FUERA": "7002023",
             "CODCLUB_FUERA": "1035",
             "NOMBRE_FUERA": "IGUALADA, C.F. A",
@@ -7563,7 +7563,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
@@ -7584,7 +7584,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "2",
@@ -7777,7 +7777,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "54535327",
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
@@ -7789,8 +7789,8 @@
             "JORNADA": "4",
             "COMIENZO1": "2026-10-24T13:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "7",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "58156551",
             "CODCLUB_CASA": "2670",
             "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -7804,8 +7804,8 @@
             "JORNADA": "4",
             "COMIENZO1": "2026-10-24T14:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARESME",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "4",
             "CODEQUIPO_CASA": "54764341",
             "CODCLUB_CASA": "1093",
             "NOMBRE_CASA": "POBLE NOU, AT. B",
@@ -7813,14 +7813,14 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "4",
             "COMIENZO1": "2026-10-24T14:20:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
@@ -7832,10 +7832,10 @@
           },
           {
             "JORNADA": "4",
-            "COMIENZO1": "2026-10-24T15:30:00",
+            "COMIENZO1": "2026-10-24T15:25:00",
             "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "7",
             "CODEQUIPO_CASA": "58457830",
             "CODCLUB_CASA": "58329576",
             "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
@@ -7849,8 +7849,8 @@
             "JORNADA": "4",
             "COMIENZO1": "2026-10-24T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "7",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "58148497",
             "CODCLUB_CASA": "15544315",
             "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -7879,8 +7879,8 @@
             "JORNADA": "4",
             "COMIENZO1": "2026-10-25T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "4",
+            "GOLES_FUERA": "6",
             "CODEQUIPO_CASA": "54535327",
             "CODCLUB_CASA": "1226",
             "NOMBRE_CASA": "DON BOSCO, C.F. A",
@@ -7892,21 +7892,6 @@
           }
         ],
         "5": [
-          {
-            "JORNADA": "5",
-            "COMIENZO1": "2026-10-31T08:30:00",
-            "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "55285102",
-            "CODCLUB_CASA": "34784987",
-            "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
-            "CODEQUIPO_FUERA": "58148497",
-            "CODCLUB_FUERA": "15544315",
-            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
-          },
           {
             "JORNADA": "5",
             "COMIENZO1": "2026-10-31T14:00:00",
@@ -7921,6 +7906,36 @@
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
             "ESCUDO_FUERA": "00100_0000003500_images.png"
+          },
+          {
+            "JORNADA": "5",
+            "COMIENZO1": "2026-10-31T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "55285102",
+            "CODCLUB_CASA": "34784987",
+            "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
+            "CODEQUIPO_FUERA": "58148497",
+            "CODCLUB_FUERA": "15544315",
+            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
+          },
+          {
+            "JORNADA": "5",
+            "COMIENZO1": "2026-10-31T14:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54304710",
+            "CODCLUB_CASA": "6054",
+            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+            "CODEQUIPO_FUERA": "58457830",
+            "CODCLUB_FUERA": "58329576",
+            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
           },
           {
             "JORNADA": "5",
@@ -7939,6 +7954,21 @@
           },
           {
             "JORNADA": "5",
+            "COMIENZO1": "2026-10-31T15:10:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313684",
+            "CODCLUB_CASA": "15548283",
+            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+            "CODEQUIPO_FUERA": "54535327",
+            "CODCLUB_FUERA": "1226",
+            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
+          },
+          {
+            "JORNADA": "5",
             "COMIENZO1": "2026-10-31T15:45:00",
             "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
             "GOLES_CASA": null,
@@ -7954,44 +7984,14 @@
           },
           {
             "JORNADA": "5",
-            "COMIENZO1": "2026-10-31T18:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313684",
-            "CODCLUB_CASA": "15548283",
-            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
-            "CODEQUIPO_FUERA": "54535327",
-            "CODCLUB_FUERA": "1226",
-            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
-            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
-          },
-          {
-            "JORNADA": "5",
-            "COMIENZO1": "2026-11-01T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54304710",
-            "CODCLUB_CASA": "6054",
-            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
-            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
-            "CODEQUIPO_FUERA": "58457830",
-            "CODCLUB_FUERA": "58329576",
-            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
-            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
-          },
-          {
-            "JORNADA": "5",
-            "COMIENZO1": "2026-11-01T11:00:00",
+            "COMIENZO1": "2026-10-31T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
@@ -8072,7 +8072,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "6",
@@ -8205,7 +8205,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
@@ -8256,7 +8256,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "8",
@@ -8419,7 +8419,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "55055874",
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
@@ -8470,7 +8470,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "10",
@@ -8633,7 +8633,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "54312654",
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
@@ -8725,7 +8725,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
             "NOMBRE_FUERA": "Descans",
@@ -8851,7 +8851,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           }
         ],
         "14": [
@@ -8898,7 +8898,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "14",
@@ -9046,7 +9046,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
@@ -9172,7 +9172,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           }
         ],
         "17": [
@@ -9275,7 +9275,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "54764341",
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
@@ -9371,7 +9371,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "18",
@@ -9489,7 +9489,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "58156551",
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -9570,7 +9570,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "20",
@@ -9703,7 +9703,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "58148497",
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -9739,7 +9739,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "22",
@@ -9917,7 +9917,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "58457830",
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
@@ -9968,7 +9968,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "24",
@@ -10105,7 +10105,7 @@
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001226166_FAF.png"
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "25",
@@ -10223,7 +10223,7 @@
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001226166_FAF.png",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
             "CODEQUIPO_FUERA": "54304710",
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
