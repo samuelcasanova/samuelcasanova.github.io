@@ -1,34 +1,14 @@
 import { getDisplayName } from './displayName.js'
+import { listTeams } from './fcfResponse.js'
 
 const CREST_BASE_URL = 'https://files.fcf.cat/escudos/clubes/escudos/'
 const TEAM_PAGE_BASE_URL = 'https://www.fcf.cat/ca/clubs/'
-const USED_MATCH_FIELDS = [
-  'JORNADA', 'COMIENZO1', 'CAMPO', 'GOLES_CASA', 'GOLES_FUERA',
-  'CODEQUIPO_CASA', 'CODCLUB_CASA', 'NOMBRE_CASA', 'ESCUDO_CASA',
-  'CODEQUIPO_FUERA', 'CODCLUB_FUERA', 'NOMBRE_FUERA', 'ESCUDO_FUERA'
-]
 const KICKOFF_PATTERN = /^(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}))?/
-
-export function grupIdOf (competicioUrl) {
-  const grupId = new URL(competicioUrl).searchParams.get('grupId')
-  if (!grupId) {
-    throw new Error(`No grupId in ${competicioUrl}`)
-  }
-  return grupId
-}
 
 // COMIENZO1 is "YYYY-MM-DD HH:MM:SS" for a scheduled match; the time, or the whole value, may be missing until then.
 export function parseKickoff (comienzo) {
   const [, date = null, time = null] = KICKOFF_PATTERN.exec(comienzo ?? '') ?? []
   return { date, time }
-}
-
-export function trimGroup ({ partidos, equipos }) {
-  const pickUsedFields = match => Object.fromEntries(USED_MATCH_FIELDS.map(field => [field, match[field] ?? null]))
-  return {
-    partidos: Object.fromEntries(Object.entries(partidos).map(([matchday, matches]) => [matchday, matches.map(pickUsedFields)])),
-    equipos: listTeams(equipos).map(team => ({ value: team.code, label: team.name }))
-  }
 }
 
 export function buildGroupMatches ({ group, footballerName, team, clubName }) {
@@ -69,16 +49,6 @@ export function buildGroupMatches ({ group, footballerName, team, clubName }) {
         }
       })
   }
-}
-
-export function listTeams (equipos) {
-  const teamsByCode = new Map()
-  for (const { value, label } of equipos) {
-    if (!teamsByCode.has(value)) {
-      teamsByCode.set(value, { code: value, name: label })
-    }
-  }
-  return [...teamsByCode.values()].sort((a, b) => a.name.localeCompare(b.name))
 }
 
 export function flattenMatches (partidos) {

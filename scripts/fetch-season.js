@@ -2,16 +2,12 @@ import { appendFile, readdir, rm } from 'node:fs/promises'
 import { join } from 'node:path'
 import { createFcfClient } from './lib/fcfClient.js'
 import { createFailureTracker } from './lib/failureTracker.js'
-import { trimGroup } from './lib/fcfGroup.js'
-import { GROUPS_DIR, ROOT, buildCalendarsFile, competicioUrlsByGroup, printTeams, readConfig, writeJson } from './build-calendars.js'
+import { fetchGroups, readConfig } from './lib/season.js'
+import { GROUPS_DIR, ROOT, buildCalendarsFile, printTeams, writeJson } from './build-calendars.js'
 
 export async function fetchSeason ({ root = ROOT, client = createFcfClient() } = {}) {
   const config = await readConfig(root)
-
-  const groups = new Map()
-  for (const [grupId, competicioUrl] of competicioUrlsByGroup(config)) {
-    groups.set(grupId, trimGroup(await client.getGroup(competicioUrl)))
-  }
+  const groups = await fetchGroups(config, client)
 
   const site = await buildCalendarsFile({ root, config, groups })
   for (const [grupId, group] of groups) {

@@ -1,4 +1,4 @@
-import { grupIdOf } from './fcfGroup.js'
+import { grupIdOf } from './fcfResponse.js'
 
 const API_BASE_URL = 'https://www.fcf.cat/api/competition'
 const PAUSE_BETWEEN_CALLS_MS = 5_000

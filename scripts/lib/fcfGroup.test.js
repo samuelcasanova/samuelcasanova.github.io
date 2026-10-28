@@ -1,6 +1,7 @@
 // @vitest-environment node
 import group from './fixtures/group-59724598.json' with { type: 'json' }
-import { buildGroupMatches, findClubTeam, findRetiredTeamCodes, flattenMatches, grupIdOf, listTeams, parseKickoff, trimGroup } from './fcfGroup.js'
+import { buildGroupMatches, findClubTeam, findRetiredTeamCodes, flattenMatches, parseKickoff } from './fcfGroup.js'
+import { listTeams } from './fcfResponse.js'
 
 const COMPETICIO_URL = 'https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780268&grupId=59724598'
 const CARMELO_C_CODE = '58652671'
@@ -9,11 +10,6 @@ const PREMIER_D_URL = 'https://www.fcf.cat/ca/clubs/15548283/categories/54313684
 describe('fcfGroup', () => {
   const groupTeams = listTeams(group.equipos)
   const matches = flattenMatches(group.partidos)
-
-  test('the group id comes from the competicio URL', () => {
-    expect(grupIdOf(COMPETICIO_URL)).toBe('59724598')
-    expect(() => grupIdOf('https://www.fcf.cat/ca/competicio')).toThrow(/No grupId/)
-  })
 
   test('the kick-off is split into date and time, each null when FCF does not give it', () => {
     expect(parseKickoff('2026-10-04 20:00:00')).toEqual({ date: '2026-10-04', time: '20:00' })
@@ -26,21 +22,6 @@ describe('fcfGroup', () => {
   test('matches without kick-off are still sorted by matchday', () => {
     const partidos = { 2: [{ JORNADA: '2', COMIENZO1: null }, { JORNADA: '2', COMIENZO1: '2026-10-10 15:30:00' }], 1: [{ JORNADA: '1', COMIENZO1: null }] }
     expect(flattenMatches(partidos).map(match => match.JORNADA)).toEqual(['1', '2', '2'])
-  })
-
-  test('equipos rows are deduplicated by team code', () => {
-    expect(group.equipos.length).toBeGreaterThan(groupTeams.length)
-    expect(groupTeams).toHaveLength(14)
-  })
-
-  test('trimming keeps only the used fields and one row per team', () => {
-    const trimmed = trimGroup(group)
-    expect(Object.keys(trimmed.partidos['1'][0]).sort()).toEqual([
-      'CAMPO', 'CODCLUB_CASA', 'CODCLUB_FUERA', 'CODEQUIPO_CASA', 'CODEQUIPO_FUERA', 'COMIENZO1', 'ESCUDO_CASA', 'ESCUDO_FUERA',
-      'GOLES_CASA', 'GOLES_FUERA', 'JORNADA', 'NOMBRE_CASA', 'NOMBRE_FUERA'
-    ])
-    expect(trimmed.equipos).toHaveLength(14)
-    expect(listTeams(trimmed.equipos)).toEqual(groupTeams)
   })
 
   test('a team whose fixtures became Descans is the only retired team', () => {

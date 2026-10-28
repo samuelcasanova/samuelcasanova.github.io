@@ -4,7 +4,7 @@ import { join } from 'node:path'
 import group from './lib/fixtures/group-59724598.json' with { type: 'json' }
 import { createTestRoot } from './lib/fixtures/testRoot.js'
 import { buildCalendarsFile } from './build-calendars.js'
-import { trimGroup } from './lib/fcfGroup.js'
+import { trimGroup } from './lib/fcfResponse.js'
 
 const friendly = {
   footballer: 'Alex',
