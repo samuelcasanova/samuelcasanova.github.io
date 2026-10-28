@@ -8,6 +8,12 @@ portal imports it, only picks the current week and shows "Última actualización
 than a day old. Display-name fixes (`scripts/displayNameReplacements.json`) and additional matches need only
 `build-calendars`. `.github/workflows/node.js.yml` tests, builds and deploys on every push to `master`.
 
+The home server (`~/git/personal/homeserver`) runs `scripts/publish-season.js` every 2 h: it fetches the season and,
+through the GitHub contents API, rewrites `season.json` on `master` when the groups changed or the published
+`fetchedAt` is 12 h old; that push redeploys. The server downloads only the files listed in
+`scripts/publish-season.files.json`, so a new import in that script goes in the list too (a test runs the script from
+those files alone).
+
 ## fcf.cat blocks datacenter IPs
 Since 2026-10-19 fcf.cat answers GitHub Actions runners with `403` (CloudFront block page, no `x-amzn-waf-action`)
 while the same request from a home connection gets `200`. The fetch can't run in GitHub Actions.
@@ -15,4 +21,5 @@ while the same request from a home connection gets `200`. The fetch can't run in
 ## Tests must not call fcf.cat
 fcf.cat is behind an AWS WAF rate-based rule. A burst of requests blocks every call for hours (`202`, empty
 body, `x-amzn-waf-action`), and test runs count towards that limit. Tests read local fixture files only
-(`scripts/lib/fixtures/`) and stub `fetch`; the only code that calls the FCF API is `npm run fetch-season`.
+(`scripts/lib/fixtures/`) and stub `fetch`; the only code that calls the FCF API is `npm run fetch-season` and
+`scripts/publish-season.js`.

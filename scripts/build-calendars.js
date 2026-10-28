@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path'
 import { buildGroupMatches } from './lib/fcfGroup.js'
 import { grupIdOf } from './lib/fcfResponse.js'
 import { buildCalendars } from './lib/calendarBuilder.js'
-import { SEASON_PATH, readConfig, readJson } from './lib/season.js'
+import { SEASON_PATH, formatJson, readConfig, readJson } from './lib/season.js'
 
 export const ROOT = join(import.meta.dirname, '..')
 const ADDITIONAL_MATCHES_PATH = 'data/additionalMatches.json'
@@ -11,7 +11,7 @@ const CALENDARS_PATH = 'src/data/calendars.json'
 
 export async function writeJson (path, data) {
   await mkdir(dirname(path), { recursive: true })
-  await writeFile(path, JSON.stringify(data, null, 2) + '\n')
+  await writeFile(path, formatJson(data))
 }
 
 export function buildSite ({ config, groups, additionalMatches }) {

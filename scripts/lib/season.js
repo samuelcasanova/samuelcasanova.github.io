@@ -7,6 +7,8 @@ export const SEASON_PATH = 'data/fcf/season.json'
 
 export const readJson = async path => JSON.parse(await readFile(path, 'utf8'))
 
+export const formatJson = data => JSON.stringify(data, null, 2) + '\n'
+
 export const readConfig = root => readJson(join(root, CONFIG_PATH))
 
 export function competicioUrlsByGroup (config) {

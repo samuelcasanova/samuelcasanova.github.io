@@ -1,0 +1,8 @@
+[
+  "season.config.json",
+  "scripts/publish-season.js",
+  "scripts/lib/fcfClient.js",
+  "scripts/lib/fcfResponse.js",
+  "scripts/lib/githubContents.js",
+  "scripts/lib/season.js"
+]
