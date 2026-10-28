@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer'
 import { Switch, Route, HashRouter } from 'react-router-dom'
 import Calendar from './Components/Calendar/Calendar'
 import Categories from './Components/Categories/Categories'
-import { calendars, footballers, staleSince } from './data/calendars.json'
+import { calendars, footballers, fetchedAt } from './data/calendars.json'
 
 const container = document.getElementById('root')
 const root = createRoot(container)
@@ -17,7 +17,7 @@ root.render(
       <Switch>
         <Route key='categories' path='/categorias' component={Categories}/>
         {calendars.map(calendar => (
-          <Route key={calendar.name} exact path={calendar.path}><Calendar calendar={calendar} footballers={footballers} staleSince={staleSince}/></Route>
+          <Route key={calendar.name} exact path={calendar.path}><Calendar calendar={calendar} footballers={footballers} fetchedAt={fetchedAt}/></Route>
         ))}
       </Switch>
       <Footer />

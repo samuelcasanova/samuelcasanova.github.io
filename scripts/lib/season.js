@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { grupIdOf, trimGroup } from './fcfResponse.js'
 
 const CONFIG_PATH = 'season.config.json'
+export const SEASON_PATH = 'data/fcf/season.json'
 
 export const readJson = async path => JSON.parse(await readFile(path, 'utf8'))
 
@@ -13,10 +14,10 @@ export function competicioUrlsByGroup (config) {
   return new Map(teams.map(team => [grupIdOf(team.competicioUrl), team.competicioUrl]))
 }
 
-export async function fetchGroups (config, client) {
-  const groups = new Map()
+export async function fetchSeason (config, client, now = () => new Date()) {
+  const groups = {}
   for (const [grupId, competicioUrl] of competicioUrlsByGroup(config)) {
-    groups.set(grupId, trimGroup(await client.getGroup(competicioUrl)))
+    groups[grupId] = trimGroup(await client.getGroup(competicioUrl))
   }
-  return groups
+  return { fetchedAt: now().toISOString(), groups }
 }

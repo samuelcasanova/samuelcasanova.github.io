@@ -3,13 +3,9 @@ import { dirname, join } from 'node:path'
 import { buildGroupMatches } from './lib/fcfGroup.js'
 import { grupIdOf } from './lib/fcfResponse.js'
 import { buildCalendars } from './lib/calendarBuilder.js'
-import { readStaleSince } from './lib/failureTracker.js'
-import { competicioUrlsByGroup, readConfig, readJson } from './lib/season.js'
+import { SEASON_PATH, readConfig, readJson } from './lib/season.js'
 
 export const ROOT = join(import.meta.dirname, '..')
-export const GROUPS_DIR = 'data/fcf'
-// Same path as FETCH_STATE_FILE_PATH in .github/workflows/node.js.yml, restored from the Actions cache.
-const FETCH_STATE_PATH = '.fetch-state/fetch-state.json'
 const ADDITIONAL_MATCHES_PATH = 'data/additionalMatches.json'
 const CALENDARS_PATH = 'src/data/calendars.json'
 
@@ -24,7 +20,11 @@ export function buildSite ({ config, groups, additionalMatches }) {
   const statsUrls = {}
   for (const footballer of config.footballers) {
     for (const team of footballer.teams) {
-      const group = groups.get(grupIdOf(team.competicioUrl))
+      const grupId = grupIdOf(team.competicioUrl)
+      const group = groups[grupId]
+      if (!group) {
+        throw new Error(`Group ${grupId} of ${footballer.name} is not in ${SEASON_PATH}, run npm run fetch-season`)
+      }
       const built = buildGroupMatches({ group, footballerName: footballer.name, team, clubName: config.clubName })
       teams.push(...built.teams.map(groupTeam => ({ category: team.category, ...groupTeam })))
       matches.push(...built.matches)
@@ -34,17 +34,12 @@ export function buildSite ({ config, groups, additionalMatches }) {
   return { calendars: buildCalendars(config, [...matches, ...additionalMatches], statsUrls), teams }
 }
 
-export async function buildCalendarsFile ({ root = ROOT, config, groups, staleSince = null } = {}) {
+export async function buildCalendarsFile ({ root = ROOT, config, season } = {}) {
   config ??= await readConfig(root)
-  if (!groups) {
-    groups = new Map()
-    for (const grupId of competicioUrlsByGroup(config).keys()) {
-      groups.set(grupId, await readJson(join(root, GROUPS_DIR, `${grupId}.json`)))
-    }
-  }
+  season ??= await readJson(join(root, SEASON_PATH))
   const { matches: additionalMatches } = await readJson(join(root, ADDITIONAL_MATCHES_PATH))
-  const site = buildSite({ config, groups, additionalMatches })
-  await writeJson(join(root, CALENDARS_PATH), { ...site.calendars, staleSince })
+  const site = buildSite({ config, groups: season.groups, additionalMatches })
+  await writeJson(join(root, CALENDARS_PATH), { ...site.calendars, fetchedAt: season.fetchedAt })
   return site
 }
 
@@ -58,6 +53,5 @@ export function printTeams (teams) {
 }
 
 if (import.meta.main) {
-  const { teams } = await buildCalendarsFile({ staleSince: await readStaleSince(join(ROOT, FETCH_STATE_PATH)) })
-  printTeams(teams)
+  printTeams((await buildCalendarsFile()).teams)
 }

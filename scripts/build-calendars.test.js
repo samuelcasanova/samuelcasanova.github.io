@@ -6,6 +6,8 @@ import { createTestRoot } from './lib/fixtures/testRoot.js'
 import { buildCalendarsFile } from './build-calendars.js'
 import { trimGroup } from './lib/fcfResponse.js'
 
+const FETCHED_AT = '2026-10-10T08:17:00.000Z'
+
 const friendly = {
   footballer: 'Alex',
   date: '2026-10-01',
@@ -22,34 +24,26 @@ describe('buildCalendarsFile', () => {
     await rm(root, { recursive: true })
   })
 
-  test('builds the calendars offline from the saved groups, with the additional matches merged in', async () => {
+  const saveSeason = groups => writeFile(join(root, 'data', 'fcf', 'season.json'), JSON.stringify({ fetchedAt: FETCHED_AT, groups }))
+
+  test('builds the calendars offline from the saved season, with the additional matches merged in and its fetch time', async () => {
     root = await createTestRoot({ additionalMatches: [friendly] })
-    await writeFile(join(root, 'data', 'fcf', '59724598.json'), JSON.stringify(trimGroup(group)))
+    await saveSeason({ 59724598: trimGroup(group) })
 
     const { teams } = await buildCalendarsFile({ root })
 
-    const { calendars } = JSON.parse(await readFile(join(root, 'src', 'data', 'calendars.json'), 'utf8'))
+    const { calendars, fetchedAt } = JSON.parse(await readFile(join(root, 'src', 'data', 'calendars.json'), 'utf8'))
     const [firstWeek] = calendars[0].weeks
     expect(firstWeek.matches.map(match => match.date)).toEqual(['2026-10-01', '2026-10-04'])
     expect(firstWeek.matches[0]).toMatchObject({ awayTeam: { displayName: 'Amistoso' }, dateLabel: 'JUE 01 OCT' })
     expect(teams.find(team => team.name === 'CARMELO, C.D. C')).toMatchObject({ category: 'Alex', isRetired: true })
+    expect(fetchedAt).toBe(FETCHED_AT)
   })
 
-  test('writes the stale data time, or none when the data is up to date', async () => {
+  test('a group of the config missing from the saved season is an error', async () => {
     root = await createTestRoot()
-    await writeFile(join(root, 'data', 'fcf', '59724598.json'), JSON.stringify(trimGroup(group)))
-    const readStaleSince = async () => JSON.parse(await readFile(join(root, 'src', 'data', 'calendars.json'), 'utf8')).staleSince
+    await saveSeason({})
 
-    await buildCalendarsFile({ root })
-    expect(await readStaleSince()).toBeNull()
-
-    await buildCalendarsFile({ root, staleSince: '2026-10-10T08:17:00.000Z' })
-    expect(await readStaleSince()).toBe('2026-10-10T08:17:00.000Z')
-  })
-
-  test('a missing saved group is an error', async () => {
-    root = await createTestRoot()
-
-    await expect(buildCalendarsFile({ root })).rejects.toThrow(/ENOENT.*59724598\.json/)
+    await expect(buildCalendarsFile({ root })).rejects.toThrow(/Group 59724598 of Alex is not in data\/fcf\/season\.json/)
   })
 })

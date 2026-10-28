@@ -4,13 +4,13 @@ import StaleDataAlert from '../StaleDataAlert/StaleDataAlert'
 import { getCurrentWeekIndex } from './currentWeek'
 import './Calendar.css'
 
-function Calendar ({ calendar, footballers, staleSince = null, now = new Date() }) {
+function Calendar ({ calendar, footballers, fetchedAt = null, now = new Date() }) {
   const currentWeekIndex = getCurrentWeekIndex(calendar.weeks, now)
   const currentWeek = calendar.weeks[currentWeekIndex]
   const upcomingWeeks = calendar.weeks.slice(currentWeekIndex + 1)
   return (
           <div>
-            <StaleDataAlert staleSince={ staleSince } now={ now }/>
+            <StaleDataAlert fetchedAt={ fetchedAt } now={ now }/>
             <div>
               <div className='nextweek'>
                 {currentWeek && <WeekCard week={ currentWeek } footballers={ footballers } isCurrentWeek={ true }/>}

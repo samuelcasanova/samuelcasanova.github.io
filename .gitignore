@@ -3,4 +3,3 @@ build
 dist
 coverage
 src/data/calendars.json
-.fetch-state
