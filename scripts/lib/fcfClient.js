@@ -9,6 +9,9 @@ export class FcfChallengedError extends Error {}
 
 const defaultSleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
+const isMatchdays = partidos => typeof partidos === 'object' && partidos !== null && !Array.isArray(partidos) &&
+  Object.values(partidos).every(Array.isArray)
+
 export function createFcfClient ({ fetchFn = fetch, sleep = defaultSleep, baseUrl = API_BASE_URL } = {}) {
   let callCount = 0
 
@@ -51,9 +54,9 @@ export function createFcfClient ({ fetchFn = fetch, sleep = defaultSleep, baseUr
 
   async function getGroup (competicioUrl) {
     const grupId = grupIdOf(competicioUrl)
-    const partidos = await requestWithOneRetry('partidos', grupId, competicioUrl)
+    const { partidos } = await requestWithOneRetry('partidos', grupId, competicioUrl) ?? {}
     const equipos = await requestWithOneRetry('equipos', grupId, competicioUrl)
-    if (typeof partidos !== 'object' || partidos === null || Array.isArray(partidos) || !Array.isArray(equipos)) {
+    if (!isMatchdays(partidos) || !Array.isArray(equipos)) {
       throw new FcfChallengedError(`Group ${grupId}: unexpected response shape`)
     }
     return { partidos, equipos }

@@ -4,6 +4,7 @@ import { createFcfClient, FcfChallengedError } from './fcfClient.js'
 const COMPETICIO_URL = 'https://www.fcf.cat/ca/competicio?temporadaId=22&grupId=123'
 
 const ok = body => new Response(JSON.stringify(body), { status: 200 })
+const partidosResponse = partidos => ok({ partidos, jornada: { codjornada: '5', fecha: '2026-11-01T00:00:00.000Z', total: 26 } })
 const challenge = () => new Response('', { status: 202, headers: { 'x-amzn-waf-action': 'challenge' } })
 
 function stubClient (responses) {
@@ -14,7 +15,7 @@ function stubClient (responses) {
 
 describe('fcfClient', () => {
   test('gets partidos and equipos of the group with browser headers, pausing between calls', async () => {
-    const { client, fetchFn, sleep } = stubClient([ok({ 1: [] }), ok([])])
+    const { client, fetchFn, sleep } = stubClient([partidosResponse({ 1: [] }), ok([])])
 
     expect(await client.getGroup(COMPETICIO_URL)).toEqual({ partidos: { 1: [] }, equipos: [] })
 
@@ -27,7 +28,7 @@ describe('fcfClient', () => {
   })
 
   test('a challenge is retried once after 60 s', async () => {
-    const { client, sleep } = stubClient([challenge(), ok({ 1: [] }), ok([])])
+    const { client, sleep } = stubClient([challenge(), partidosResponse({ 1: [] }), ok([])])
 
     await client.getGroup(COMPETICIO_URL)
 
@@ -45,6 +46,18 @@ describe('fcfClient', () => {
     const { client } = stubClient([new Response('<html>', { status: 200 }), new Response('<html>', { status: 200 })])
 
     await expect(client.getGroup(COMPETICIO_URL)).rejects.toThrow(/not JSON/)
+  })
+
+  test('partidos without the matchdays wrapped in a partidos object is an unexpected shape', async () => {
+    const { client } = stubClient([ok({ 1: [] }), ok([])])
+
+    await expect(client.getGroup(COMPETICIO_URL)).rejects.toThrow('Group 123: unexpected response shape')
+  })
+
+  test('a matchday that is not a list of matches is an unexpected shape', async () => {
+    const { client } = stubClient([partidosResponse({ 1: { 0: {} } }), ok([])])
+
+    await expect(client.getGroup(COMPETICIO_URL)).rejects.toThrow('Group 123: unexpected response shape')
   })
 
   test('a competicio URL without grupId is rejected before any call', async () => {
