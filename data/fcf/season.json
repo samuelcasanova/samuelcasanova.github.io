@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T08:57:49.325Z",
+  "fetchedAt": "2026-10-29T16:59:51.888Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4590,21 +4590,6 @@
         "8": [
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-07T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "51647896",
-            "CODCLUB_CASA": "3360",
-            "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
-            "ESCUDO_CASA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
-            "CODEQUIPO_FUERA": "7002023",
-            "CODCLUB_FUERA": "1035",
-            "NOMBRE_FUERA": "IGUALADA, C.F. A",
-            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
-          },
-          {
-            "JORNADA": "8",
             "COMIENZO1": "2026-11-07T11:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TORRES DE PALAU",
             "GOLES_CASA": null,
@@ -4707,6 +4692,21 @@
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
             "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-08T12:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "51647896",
+            "CODCLUB_CASA": "3360",
+            "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
+            "ESCUDO_CASA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
+            "CODEQUIPO_FUERA": "7002023",
+            "CODCLUB_FUERA": "1035",
+            "NOMBRE_FUERA": "IGUALADA, C.F. A",
+            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
           }
         ],
         "9": [
