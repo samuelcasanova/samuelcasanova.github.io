@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T00:55:48.965Z",
+  "fetchedAt": "2026-10-29T08:57:49.325Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -828,7 +828,7 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-08T09:30:00",
+            "COMIENZO1": "2026-11-08T10:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
