@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T16:59:51.888Z",
+  "fetchedAt": "2026-10-29T19:00:23.648Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4680,7 +4680,7 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-08T11:35:00",
+            "COMIENZO1": "2026-11-08T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -7558,8 +7558,8 @@
             "JORNADA": "1",
             "COMIENZO1": "2026-10-29T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
