@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T19:00:23.648Z",
+  "fetchedAt": "2026-10-29T21:00:55.191Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4605,21 +4605,6 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-07T11:15:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "36619",
-            "CODCLUB_CASA": "1011",
-            "NOMBRE_CASA": "EUROPA, C.E. A",
-            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-            "CODEQUIPO_FUERA": "50599884",
-            "CODCLUB_FUERA": "40492715",
-            "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
-            "ESCUDO_FUERA": "00100_0001270584_Prat.png"
-          },
-          {
-            "JORNADA": "8",
             "COMIENZO1": "2026-11-07T13:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
             "GOLES_CASA": null,
@@ -4647,6 +4632,21 @@
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
             "ESCUDO_FUERA": "00100_0000621266_premia200.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-07T14:30:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "36619",
+            "CODCLUB_CASA": "1011",
+            "NOMBRE_CASA": "EUROPA, C.E. A",
+            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+            "CODEQUIPO_FUERA": "50599884",
+            "CODCLUB_FUERA": "40492715",
+            "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+            "ESCUDO_FUERA": "00100_0001270584_Prat.png"
           },
           {
             "JORNADA": "8",
@@ -7558,8 +7558,8 @@
             "JORNADA": "1",
             "COMIENZO1": "2026-10-29T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "8",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
