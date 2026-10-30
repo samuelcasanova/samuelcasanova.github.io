@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T15:05:31.774Z",
+  "fetchedAt": "2026-10-30T17:06:05.202Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -768,7 +768,7 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-07T11:55:00",
+            "COMIENZO1": "2026-11-07T12:10:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -795,21 +795,6 @@
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
             "ESCUDO_FUERA": "00100_0001268552_congres.png"
-          },
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-07T20:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012858",
-            "CODCLUB_CASA": "1218",
-            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
-            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-            "CODEQUIPO_FUERA": "47011758",
-            "CODCLUB_FUERA": "6178",
-            "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -855,6 +840,21 @@
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
             "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
+          },
+          {
+            "JORNADA": "7",
+            "COMIENZO1": "2026-11-08T20:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012858",
+            "CODCLUB_CASA": "1218",
+            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
+            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+            "CODEQUIPO_FUERA": "47011758",
+            "CODCLUB_FUERA": "6178",
+            "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           }
         ],
         "8": [
@@ -8001,6 +8001,21 @@
         "6": [
           {
             "JORNADA": "6",
+            "COMIENZO1": "2026-11-07T12:45:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58156551",
+            "CODCLUB_CASA": "2670",
+            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+            "ESCUDO_CASA": "00100_0000003500_images.png",
+            "CODEQUIPO_FUERA": "54313454",
+            "CODCLUB_FUERA": "40492704",
+            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
+          },
+          {
+            "JORNADA": "6",
             "COMIENZO1": "2026-11-07T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
@@ -8058,21 +8073,6 @@
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
             "ESCUDO_FUERA": "00100_0001170981_escut_apa_net.png"
-          },
-          {
-            "JORNADA": "6",
-            "COMIENZO1": "2026-11-07T20:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58156551",
-            "CODCLUB_CASA": "2670",
-            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-            "ESCUDO_CASA": "00100_0000003500_images.png",
-            "CODEQUIPO_FUERA": "54313454",
-            "CODCLUB_FUERA": "40492704",
-            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "6",
