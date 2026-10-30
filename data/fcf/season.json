@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T19:06:36.737Z",
+  "fetchedAt": "2026-10-30T21:07:08.491Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -3736,6 +3736,21 @@
         "1": [
           {
             "JORNADA": "1",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "7002023",
+            "CODCLUB_FUERA": "1035",
+            "NOMBRE_FUERA": "IGUALADA, C.F. A",
+            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
+          },
+          {
+            "JORNADA": "1",
             "COMIENZO1": "2026-09-17T19:15:00",
             "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
             "GOLES_CASA": "1",
@@ -3826,21 +3841,6 @@
           },
           {
             "JORNADA": "1",
-            "COMIENZO1": "2026-09-19T15:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "7002023",
-            "CODCLUB_FUERA": "1035",
-            "NOMBRE_FUERA": "IGUALADA, C.F. A",
-            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
-          },
-          {
-            "JORNADA": "1",
             "COMIENZO1": "2026-09-20T11:35:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
             "GOLES_CASA": "9",
@@ -3858,6 +3858,21 @@
         "2": [
           {
             "JORNADA": "2",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "34786929",
+            "CODCLUB_CASA": "34766344",
+            "NOMBRE_CASA": "FUNDACIÓ P. F.BASE REUS A",
+            "ESCUDO_CASA": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
+          {
+            "JORNADA": "2",
             "COMIENZO1": "2026-09-26T11:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
             "GOLES_CASA": "0",
@@ -3870,21 +3885,6 @@
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
             "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
-          },
-          {
-            "JORNADA": "2",
-            "COMIENZO1": "2026-09-26T12:00:00",
-            "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "34786929",
-            "CODCLUB_CASA": "34766344",
-            "NOMBRE_CASA": "FUNDACIÓ P. F.BASE REUS A",
-            "ESCUDO_CASA": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "2",
@@ -3980,6 +3980,21 @@
         "3": [
           {
             "JORNADA": "3",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "36619",
+            "CODCLUB_FUERA": "1011",
+            "NOMBRE_FUERA": "EUROPA, C.E. A",
+            "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
+          },
+          {
+            "JORNADA": "3",
             "COMIENZO1": "2026-10-03T11:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TORRES DE PALAU",
             "GOLES_CASA": "9",
@@ -4040,21 +4055,6 @@
           },
           {
             "JORNADA": "3",
-            "COMIENZO1": "2026-10-04T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "36619",
-            "CODCLUB_FUERA": "1011",
-            "NOMBRE_FUERA": "EUROPA, C.E. A",
-            "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
-          },
-          {
-            "JORNADA": "3",
             "COMIENZO1": "2026-10-12T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
             "GOLES_CASA": "2",
@@ -4100,6 +4100,21 @@
           }
         ],
         "4": [
+          {
+            "JORNADA": "4",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "23093920",
+            "CODCLUB_CASA": "1218",
+            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
+            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "4",
             "COMIENZO1": "2026-10-10T11:00:00",
@@ -4162,21 +4177,6 @@
           },
           {
             "JORNADA": "4",
-            "COMIENZO1": "2026-10-10T20:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "23093920",
-            "CODCLUB_CASA": "1218",
-            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
-            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "4",
             "COMIENZO1": "2026-10-11T11:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": "9",
@@ -4222,6 +4222,21 @@
           }
         ],
         "5": [
+          {
+            "JORNADA": "5",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "51647896",
+            "CODCLUB_FUERA": "3360",
+            "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
+            "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
+          },
           {
             "JORNADA": "5",
             "COMIENZO1": "2026-10-17T10:30:00",
@@ -4299,21 +4314,6 @@
           },
           {
             "JORNADA": "5",
-            "COMIENZO1": "2026-10-18T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "51647896",
-            "CODCLUB_FUERA": "3360",
-            "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
-            "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
-          },
-          {
-            "JORNADA": "5",
             "COMIENZO1": "2026-10-18T15:20:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": "3",
@@ -4344,6 +4344,21 @@
           }
         ],
         "6": [
+          {
+            "JORNADA": "6",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54319983",
+            "CODCLUB_CASA": "6390",
+            "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "6",
             "COMIENZO1": "2026-10-24T10:00:00",
@@ -4388,21 +4403,6 @@
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
             "ESCUDO_FUERA": "00100_0001270584_Prat.png"
-          },
-          {
-            "JORNADA": "6",
-            "COMIENZO1": "2026-10-24T13:15:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54319983",
-            "CODCLUB_CASA": "6390",
-            "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "6",
@@ -4466,6 +4466,21 @@
           }
         ],
         "7": [
+          {
+            "JORNADA": "7",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "37335",
+            "CODCLUB_FUERA": "1278",
+            "NOMBRE_FUERA": "CIRERA, U.D. A",
+            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
+          },
           {
             "JORNADA": "7",
             "COMIENZO1": "2026-10-31T10:30:00",
@@ -4558,21 +4573,6 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-01T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "37335",
-            "CODCLUB_FUERA": "1278",
-            "NOMBRE_FUERA": "CIRERA, U.D. A",
-            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
-          },
-          {
-            "JORNADA": "7",
             "COMIENZO1": "2026-11-01T18:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
@@ -4588,6 +4588,21 @@
           }
         ],
         "8": [
+          {
+            "JORNADA": "8",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "36963",
+            "CODCLUB_CASA": "1004",
+            "NOMBRE_CASA": "SABADELL F.C., C.E. A",
+            "ESCUDO_CASA": "00100_0001025828_escut_CES__1_.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "8",
             "COMIENZO1": "2026-11-07T11:00:00",
@@ -4650,21 +4665,6 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-08T10:40:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "36963",
-            "CODCLUB_CASA": "1004",
-            "NOMBRE_CASA": "SABADELL F.C., C.E. A",
-            "ESCUDO_CASA": "00100_0001025828_escut_CES__1_.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "8",
             "COMIENZO1": "2026-11-08T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
             "GOLES_CASA": null,
@@ -4710,6 +4710,21 @@
           }
         ],
         "9": [
+          {
+            "JORNADA": "9",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "7002165",
+            "CODCLUB_FUERA": "2753",
+            "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
+            "ESCUDO_FUERA": "00100_0000062247_escudo-letra.png"
+          },
           {
             "JORNADA": "9",
             "COMIENZO1": "2026-11-14T10:30:00",
@@ -4802,21 +4817,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-15T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "7002165",
-            "CODCLUB_FUERA": "2753",
-            "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
-            "ESCUDO_FUERA": "00100_0000062247_escudo-letra.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-15T13:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -4832,6 +4832,21 @@
           }
         ],
         "10": [
+          {
+            "JORNADA": "10",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. TORRES DE PALAU",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "25810331",
+            "CODCLUB_CASA": "5282",
+            "NOMBRE_CASA": "GIRONA, F.C. A",
+            "ESCUDO_CASA": "00100_0000956159_5282_GironaFC_200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "10",
             "COMIENZO1": "2026-11-21T10:00:00",
@@ -4861,21 +4876,6 @@
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. A",
             "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
-          },
-          {
-            "JORNADA": "10",
-            "COMIENZO1": "2026-11-21T11:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. TORRES DE PALAU",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "25810331",
-            "CODCLUB_CASA": "5282",
-            "NOMBRE_CASA": "GIRONA, F.C. A",
-            "ESCUDO_CASA": "00100_0000956159_5282_GironaFC_200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "10",
@@ -4954,6 +4954,21 @@
           }
         ],
         "11": [
+          {
+            "JORNADA": "11",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "40211",
+            "CODCLUB_FUERA": "1034",
+            "NOMBRE_FUERA": "TORELLO, C.F. A",
+            "ESCUDO_FUERA": "00100_0000651415_torello_200x200.png"
+          },
           {
             "JORNADA": "11",
             "COMIENZO1": "2026-11-28T10:30:00",
@@ -5046,21 +5061,6 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-11-29T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "40211",
-            "CODCLUB_FUERA": "1034",
-            "NOMBRE_FUERA": "TORELLO, C.F. A",
-            "ESCUDO_FUERA": "00100_0000651415_torello_200x200.png"
-          },
-          {
-            "JORNADA": "11",
             "COMIENZO1": "2026-11-29T13:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -5076,6 +5076,21 @@
           }
         ],
         "12": [
+          {
+            "JORNADA": "12",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "28682809",
+            "CODCLUB_CASA": "28312719",
+            "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
+            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "12",
             "COMIENZO1": "2026-12-12T10:00:00",
@@ -5138,21 +5153,6 @@
           },
           {
             "JORNADA": "12",
-            "COMIENZO1": "2026-12-13T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "28682809",
-            "CODCLUB_CASA": "28312719",
-            "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_CASA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "12",
             "COMIENZO1": "2026-12-13T10:40:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
             "GOLES_CASA": null,
@@ -5200,6 +5200,21 @@
         "13": [
           {
             "JORNADA": "13",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "50599884",
+            "CODCLUB_CASA": "40492715",
+            "NOMBRE_CASA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+            "ESCUDO_CASA": "00100_0001270584_Prat.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
+          {
+            "JORNADA": "13",
             "COMIENZO1": "2026-12-19T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
             "GOLES_CASA": null,
@@ -5227,21 +5242,6 @@
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
             "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
-          },
-          {
-            "JORNADA": "13",
-            "COMIENZO1": "2026-12-19T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "50599884",
-            "CODCLUB_CASA": "40492715",
-            "NOMBRE_CASA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
-            "ESCUDO_CASA": "00100_0001270584_Prat.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "13",
@@ -5320,6 +5320,21 @@
           }
         ],
         "14": [
+          {
+            "JORNADA": "14",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "18497045",
+            "CODCLUB_FUERA": "1336",
+            "NOMBRE_FUERA": "VILADECANS U.D. A",
+            "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
+          },
           {
             "JORNADA": "14",
             "COMIENZO1": "2027-01-09T10:00:00",
@@ -5424,24 +5439,24 @@
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
             "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
-          },
-          {
-            "JORNADA": "14",
-            "COMIENZO1": "2027-01-10T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "18497045",
-            "CODCLUB_FUERA": "1336",
-            "NOMBRE_FUERA": "VILADECANS U.D. A",
-            "ESCUDO_FUERA": "00100_0001107661_escudo_UDV.png"
           }
         ],
         "15": [
+          {
+            "JORNADA": "15",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313053",
+            "CODCLUB_CASA": "1970",
+            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "15",
             "COMIENZO1": "2027-01-16T10:30:00",
@@ -5504,21 +5519,6 @@
           },
           {
             "JORNADA": "15",
-            "COMIENZO1": "2027-01-16T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313053",
-            "CODCLUB_CASA": "1970",
-            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": "00100_0000621266_premia200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "15",
             "COMIENZO1": "2027-01-16T13:15:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
             "GOLES_CASA": null,
@@ -5564,6 +5564,21 @@
           }
         ],
         "16": [
+          {
+            "JORNADA": "16",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002023",
+            "CODCLUB_CASA": "1035",
+            "NOMBRE_CASA": "IGUALADA, C.F. A",
+            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "16",
             "COMIENZO1": "2027-01-23T10:30:00",
@@ -5668,24 +5683,24 @@
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
             "ESCUDO_FUERA": "00100_0001270584_Prat.png"
-          },
-          {
-            "JORNADA": "16",
-            "COMIENZO1": "2027-01-24T13:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002023",
-            "CODCLUB_CASA": "1035",
-            "NOMBRE_CASA": "IGUALADA, C.F. A",
-            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           }
         ],
         "17": [
+          {
+            "JORNADA": "17",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "34786929",
+            "CODCLUB_FUERA": "34766344",
+            "NOMBRE_FUERA": "FUNDACIÓ P. F.BASE REUS A",
+            "ESCUDO_FUERA": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png"
+          },
           {
             "JORNADA": "17",
             "COMIENZO1": "2027-01-30T10:00:00",
@@ -5790,24 +5805,24 @@
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
             "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-          },
-          {
-            "JORNADA": "17",
-            "COMIENZO1": "2027-01-31T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "34786929",
-            "CODCLUB_FUERA": "34766344",
-            "NOMBRE_FUERA": "FUNDACIÓ P. F.BASE REUS A",
-            "ESCUDO_FUERA": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png"
           }
         ],
         "18": [
+          {
+            "JORNADA": "18",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "36619",
+            "CODCLUB_CASA": "1011",
+            "NOMBRE_CASA": "EUROPA, C.E. A",
+            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "18",
             "COMIENZO1": "2027-02-13T10:30:00",
@@ -5822,21 +5837,6 @@
             "CODCLUB_FUERA": "1034",
             "NOMBRE_FUERA": "TORELLO, C.F. A",
             "ESCUDO_FUERA": "00100_0000651415_torello_200x200.png"
-          },
-          {
-            "JORNADA": "18",
-            "COMIENZO1": "2027-02-13T11:15:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "36619",
-            "CODCLUB_CASA": "1011",
-            "NOMBRE_CASA": "EUROPA, C.E. A",
-            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "18",
@@ -5932,6 +5932,21 @@
         "19": [
           {
             "JORNADA": "19",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "23093920",
+            "CODCLUB_FUERA": "1218",
+            "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
+            "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
+          },
+          {
+            "JORNADA": "19",
             "COMIENZO1": "2027-02-20T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
             "GOLES_CASA": null,
@@ -6022,21 +6037,6 @@
           },
           {
             "JORNADA": "19",
-            "COMIENZO1": "2027-02-21T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "23093920",
-            "CODCLUB_FUERA": "1218",
-            "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
-            "ESCUDO_FUERA": "00100_0001106091_COLOR.png"
-          },
-          {
-            "JORNADA": "19",
             "COMIENZO1": "2027-02-21T12:10:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
@@ -6054,7 +6054,7 @@
         "20": [
           {
             "JORNADA": "20",
-            "COMIENZO1": "2027-02-27T10:30:00",
+            "COMIENZO1": null,
             "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -6064,8 +6064,8 @@
             "ESCUDO_CASA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png",
             "CODEQUIPO_FUERA": "7002704",
             "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
           },
           {
             "JORNADA": "20",
@@ -6176,6 +6176,21 @@
         "21": [
           {
             "JORNADA": "21",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "54319983",
+            "CODCLUB_FUERA": "6390",
+            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
+          },
+          {
+            "JORNADA": "21",
             "COMIENZO1": "2027-03-06T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
             "GOLES_CASA": null,
@@ -6266,21 +6281,6 @@
           },
           {
             "JORNADA": "21",
-            "COMIENZO1": "2027-03-07T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54319983",
-            "CODCLUB_FUERA": "6390",
-            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-          },
-          {
-            "JORNADA": "21",
             "COMIENZO1": "2027-03-07T13:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -6296,6 +6296,21 @@
           }
         ],
         "22": [
+          {
+            "JORNADA": "22",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "37335",
+            "CODCLUB_CASA": "1278",
+            "NOMBRE_CASA": "CIRERA, U.D. A",
+            "ESCUDO_CASA": "00100_0000572527_cirera_200x200.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "22",
             "COMIENZO1": "2027-03-13T10:30:00",
@@ -6400,24 +6415,24 @@
             "CODCLUB_FUERA": "1034",
             "NOMBRE_FUERA": "TORELLO, C.F. A",
             "ESCUDO_FUERA": "00100_0000651415_torello_200x200.png"
-          },
-          {
-            "JORNADA": "22",
-            "COMIENZO1": "2027-03-14T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "37335",
-            "CODCLUB_CASA": "1278",
-            "NOMBRE_CASA": "CIRERA, U.D. A",
-            "ESCUDO_CASA": "00100_0000572527_cirera_200x200.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           }
         ],
         "23": [
+          {
+            "JORNADA": "23",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "36963",
+            "CODCLUB_FUERA": "1004",
+            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
+            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
+          },
           {
             "JORNADA": "23",
             "COMIENZO1": "2027-03-20T10:00:00",
@@ -6510,21 +6525,6 @@
           },
           {
             "JORNADA": "23",
-            "COMIENZO1": "2027-03-21T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "36963",
-            "CODCLUB_FUERA": "1004",
-            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
-            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
-          },
-          {
-            "JORNADA": "23",
             "COMIENZO1": "2027-03-21T13:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -6540,6 +6540,21 @@
           }
         ],
         "24": [
+          {
+            "JORNADA": "24",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002165",
+            "CODCLUB_CASA": "2753",
+            "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
+            "ESCUDO_CASA": "00100_0000062247_escudo-letra.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
           {
             "JORNADA": "24",
             "COMIENZO1": "2027-04-03T10:00:00",
@@ -6632,21 +6647,6 @@
           },
           {
             "JORNADA": "24",
-            "COMIENZO1": "2027-04-04T11:35:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002165",
-            "CODCLUB_CASA": "2753",
-            "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
-            "ESCUDO_CASA": "00100_0000062247_escudo-letra.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "24",
             "COMIENZO1": "2027-04-04T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
             "GOLES_CASA": null,
@@ -6662,6 +6662,21 @@
           }
         ],
         "25": [
+          {
+            "JORNADA": "25",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "25810331",
+            "CODCLUB_FUERA": "5282",
+            "NOMBRE_FUERA": "GIRONA, F.C. A",
+            "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
+          },
           {
             "JORNADA": "25",
             "COMIENZO1": "2027-04-10T10:30:00",
@@ -6740,21 +6755,6 @@
           {
             "JORNADA": "25",
             "COMIENZO1": "2027-04-11T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "25810331",
-            "CODCLUB_FUERA": "5282",
-            "NOMBRE_FUERA": "GIRONA, F.C. A",
-            "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
-          },
-          {
-            "JORNADA": "25",
-            "COMIENZO1": "2027-04-11T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -6786,7 +6786,7 @@
         "26": [
           {
             "JORNADA": "26",
-            "COMIENZO1": "2027-04-17T10:00:00",
+            "COMIENZO1": null,
             "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -6796,8 +6796,8 @@
             "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
             "CODEQUIPO_FUERA": "7002704",
             "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
           },
           {
             "JORNADA": "26",
@@ -6908,6 +6908,21 @@
         "27": [
           {
             "JORNADA": "27",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "28682809",
+            "CODCLUB_FUERA": "28312719",
+            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
+          },
+          {
+            "JORNADA": "27",
             "COMIENZO1": "2027-04-24T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
             "GOLES_CASA": null,
@@ -6998,21 +7013,6 @@
           },
           {
             "JORNADA": "27",
-            "COMIENZO1": "2027-04-25T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "28682809",
-            "CODCLUB_FUERA": "28312719",
-            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
-          },
-          {
-            "JORNADA": "27",
             "COMIENZO1": "2027-04-25T13:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -7028,6 +7028,21 @@
           }
         ],
         "28": [
+          {
+            "JORNADA": "28",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "50599884",
+            "CODCLUB_FUERA": "40492715",
+            "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
+            "ESCUDO_FUERA": "00100_0001270584_Prat.png"
+          },
           {
             "JORNADA": "28",
             "COMIENZO1": "2027-05-01T10:00:00",
@@ -7106,21 +7121,6 @@
           {
             "JORNADA": "28",
             "COMIENZO1": "2027-05-02T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "50599884",
-            "CODCLUB_FUERA": "40492715",
-            "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
-            "ESCUDO_FUERA": "00100_0001270584_Prat.png"
-          },
-          {
-            "JORNADA": "28",
-            "COMIENZO1": "2027-05-02T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -7152,6 +7152,21 @@
         "29": [
           {
             "JORNADA": "29",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "18497045",
+            "CODCLUB_CASA": "1336",
+            "NOMBRE_CASA": "VILADECANS U.D. A",
+            "ESCUDO_CASA": "00100_0001107661_escudo_UDV.png",
+            "CODEQUIPO_FUERA": "7002704",
+            "CODCLUB_FUERA": "1390",
+            "NOMBRE_FUERA": "OAR VIC A",
+            "ESCUDO_FUERA": "00100_0001397239_OAR.png"
+          },
+          {
+            "JORNADA": "29",
             "COMIENZO1": "2027-05-08T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
             "GOLES_CASA": null,
@@ -7164,21 +7179,6 @@
             "CODCLUB_FUERA": "1278",
             "NOMBRE_FUERA": "CIRERA, U.D. A",
             "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
-          },
-          {
-            "JORNADA": "29",
-            "COMIENZO1": "2027-05-08T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "18497045",
-            "CODCLUB_CASA": "1336",
-            "NOMBRE_CASA": "VILADECANS U.D. A",
-            "ESCUDO_CASA": "00100_0001107661_escudo_UDV.png",
-            "CODEQUIPO_FUERA": "7002704",
-            "CODCLUB_FUERA": "1390",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "29",
@@ -7274,6 +7274,21 @@
         "30": [
           {
             "JORNADA": "30",
+            "COMIENZO1": null,
+            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002704",
+            "CODCLUB_CASA": "1390",
+            "NOMBRE_CASA": "OAR VIC A",
+            "ESCUDO_CASA": "00100_0001397239_OAR.png",
+            "CODEQUIPO_FUERA": "54313053",
+            "CODCLUB_FUERA": "1970",
+            "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
+          },
+          {
+            "JORNADA": "30",
             "COMIENZO1": "2027-05-15T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
             "GOLES_CASA": null,
@@ -7364,21 +7379,6 @@
           },
           {
             "JORNADA": "30",
-            "COMIENZO1": "2027-05-16T12:00:00",
-            "CAMPO": "ESTADI MPAL. TORRAS I BAGES (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002704",
-            "CODCLUB_CASA": "1390",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54313053",
-            "CODCLUB_FUERA": "1970",
-            "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
-          },
-          {
-            "JORNADA": "30",
             "COMIENZO1": "2027-05-16T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
@@ -7466,6 +7466,21 @@
         "1": [
           {
             "JORNADA": "1",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54535327",
+            "CODCLUB_CASA": "1226",
+            "NOMBRE_CASA": "DON BOSCO, C.F. A",
+            "ESCUDO_CASA": "00100_0000105692_bosco.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
+          {
+            "JORNADA": "1",
             "COMIENZO1": "2026-10-03T15:10:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": "7",
@@ -7493,21 +7508,6 @@
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
             "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png"
-          },
-          {
-            "JORNADA": "1",
-            "COMIENZO1": "2026-10-04T17:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54535327",
-            "CODCLUB_CASA": "1226",
-            "NOMBRE_CASA": "DON BOSCO, C.F. A",
-            "ESCUDO_CASA": "00100_0000105692_bosco.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "1",
@@ -7573,6 +7573,21 @@
         "2": [
           {
             "JORNADA": "2",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "55248013",
+            "CODCLUB_FUERA": "2332",
+            "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
+          },
+          {
+            "JORNADA": "2",
             "COMIENZO1": "2026-10-10T08:30:00",
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": "1",
@@ -7633,21 +7648,6 @@
           },
           {
             "JORNADA": "2",
-            "COMIENZO1": "2026-10-10T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "55248013",
-            "CODCLUB_FUERA": "2332",
-            "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
-          },
-          {
-            "JORNADA": "2",
             "COMIENZO1": "2026-10-11T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
             "GOLES_CASA": "1",
@@ -7678,6 +7678,21 @@
           }
         ],
         "3": [
+          {
+            "JORNADA": "3",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313684",
+            "CODCLUB_CASA": "15548283",
+            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "3",
             "COMIENZO1": "2026-10-17T08:30:00",
@@ -7740,21 +7755,6 @@
           },
           {
             "JORNADA": "3",
-            "COMIENZO1": "2026-10-17T18:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313684",
-            "CODCLUB_CASA": "15548283",
-            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "3",
             "COMIENZO1": "2026-10-18T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
             "GOLES_CASA": "1",
@@ -7785,6 +7785,21 @@
           }
         ],
         "4": [
+          {
+            "JORNADA": "4",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "55055874",
+            "CODCLUB_FUERA": "40493342",
+            "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+            "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png"
+          },
           {
             "JORNADA": "4",
             "COMIENZO1": "2026-10-24T13:45:00",
@@ -7862,21 +7877,6 @@
           },
           {
             "JORNADA": "4",
-            "COMIENZO1": "2026-10-24T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "55055874",
-            "CODCLUB_FUERA": "40493342",
-            "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
-            "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png"
-          },
-          {
-            "JORNADA": "4",
             "COMIENZO1": "2026-10-25T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
             "GOLES_CASA": "4",
@@ -7892,6 +7892,21 @@
           }
         ],
         "5": [
+          {
+            "JORNADA": "5",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54312654",
+            "CODCLUB_CASA": "6385",
+            "NOMBRE_CASA": "DIAGONAL CLUB ESP. B",
+            "ESCUDO_CASA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "5",
             "COMIENZO1": "2026-10-31T14:00:00",
@@ -7969,21 +7984,6 @@
           },
           {
             "JORNADA": "5",
-            "COMIENZO1": "2026-10-31T15:45:00",
-            "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54312654",
-            "CODCLUB_CASA": "6385",
-            "NOMBRE_CASA": "DIAGONAL CLUB ESP. B",
-            "ESCUDO_CASA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "5",
             "COMIENZO1": "2026-10-31T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
             "GOLES_CASA": null,
@@ -7999,6 +7999,21 @@
           }
         ],
         "6": [
+          {
+            "JORNADA": "6",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54304710",
+            "CODCLUB_FUERA": "6054",
+            "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
+            "ESCUDO_FUERA": "00100_0001170981_escut_apa_net.png"
+          },
           {
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T12:45:00",
@@ -8061,21 +8076,6 @@
           },
           {
             "JORNADA": "6",
-            "COMIENZO1": "2026-11-07T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54304710",
-            "CODCLUB_FUERA": "6054",
-            "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
-            "ESCUDO_FUERA": "00100_0001170981_escut_apa_net.png"
-          },
-          {
-            "JORNADA": "6",
             "COMIENZO1": "2026-11-08T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
             "GOLES_CASA": null,
@@ -8108,7 +8108,7 @@
         "7": [
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-14T08:30:00",
+            "COMIENZO1": null,
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8118,8 +8118,8 @@
             "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -8215,6 +8215,21 @@
         "8": [
           {
             "JORNADA": "8",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54764341",
+            "CODCLUB_FUERA": "1093",
+            "NOMBRE_FUERA": "POBLE NOU, AT. B",
+            "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png"
+          },
+          {
+            "JORNADA": "8",
             "COMIENZO1": "2026-11-21T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
@@ -8257,21 +8272,6 @@
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
             "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "8",
-            "COMIENZO1": "2026-11-21T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54764341",
-            "CODCLUB_FUERA": "1093",
-            "NOMBRE_FUERA": "POBLE NOU, AT. B",
-            "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png"
           },
           {
             "JORNADA": "8",
@@ -8320,6 +8320,21 @@
           }
         ],
         "9": [
+          {
+            "JORNADA": "9",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58156551",
+            "CODCLUB_CASA": "2670",
+            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+            "ESCUDO_CASA": "00100_0000003500_images.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "9",
             "COMIENZO1": "2026-11-28T08:30:00",
@@ -8382,21 +8397,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-28T20:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58156551",
-            "CODCLUB_CASA": "2670",
-            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-            "ESCUDO_CASA": "00100_0000003500_images.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-29T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
             "GOLES_CASA": null,
@@ -8427,6 +8427,21 @@
           }
         ],
         "10": [
+          {
+            "JORNADA": "10",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "58148497",
+            "CODCLUB_FUERA": "15544315",
+            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
+          },
           {
             "JORNADA": "10",
             "COMIENZO1": "2026-12-12T14:00:00",
@@ -8471,21 +8486,6 @@
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
             "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "10",
-            "COMIENZO1": "2026-12-12T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "58148497",
-            "CODCLUB_FUERA": "15544315",
-            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
           },
           {
             "JORNADA": "10",
@@ -8536,6 +8536,21 @@
         "11": [
           {
             "JORNADA": "11",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58457830",
+            "CODCLUB_CASA": "58329576",
+            "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
+            "ESCUDO_CASA": "00100_0001239322_tarr.jpg",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
+          {
+            "JORNADA": "11",
             "COMIENZO1": "2026-12-19T08:30:00",
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": null,
@@ -8563,21 +8578,6 @@
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
             "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
-          },
-          {
-            "JORNADA": "11",
-            "COMIENZO1": "2026-12-19T15:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58457830",
-            "CODCLUB_CASA": "58329576",
-            "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
-            "ESCUDO_CASA": "00100_0001239322_tarr.jpg",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "11",
@@ -8641,6 +8641,21 @@
           }
         ],
         "12": [
+          {
+            "JORNADA": "12",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313454",
+            "CODCLUB_CASA": "40492704",
+            "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+            "ESCUDO_CASA": "00100_0001421644_faflh.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "12",
             "COMIENZO1": "2027-01-09T14:00:00",
@@ -8718,21 +8733,6 @@
           },
           {
             "JORNADA": "12",
-            "COMIENZO1": "2027-01-10T11:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313454",
-            "CODCLUB_CASA": "40492704",
-            "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_CASA": "00100_0001421644_faflh.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "12",
             "COMIENZO1": "2027-01-10T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
             "GOLES_CASA": null,
@@ -8748,6 +8748,21 @@
           }
         ],
         "13": [
+          {
+            "JORNADA": "13",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "58156824",
+            "CODCLUB_FUERA": "6278",
+            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
+          },
           {
             "JORNADA": "13",
             "COMIENZO1": "2027-01-16T08:30:00",
@@ -8796,21 +8811,6 @@
           {
             "JORNADA": "13",
             "COMIENZO1": "2027-01-16T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "58156824",
-            "CODCLUB_FUERA": "6278",
-            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
-          },
-          {
-            "JORNADA": "13",
-            "COMIENZO1": "2027-01-16T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8855,6 +8855,21 @@
           }
         ],
         "14": [
+          {
+            "JORNADA": "14",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54535327",
+            "CODCLUB_FUERA": "1226",
+            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
+          },
           {
             "JORNADA": "14",
             "COMIENZO1": "2027-01-23T08:30:00",
@@ -8932,21 +8947,6 @@
           },
           {
             "JORNADA": "14",
-            "COMIENZO1": "2027-01-23T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54535327",
-            "CODCLUB_FUERA": "1226",
-            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
-            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
-          },
-          {
-            "JORNADA": "14",
             "COMIENZO1": "2027-01-23T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
             "GOLES_CASA": null,
@@ -8962,6 +8962,21 @@
           }
         ],
         "15": [
+          {
+            "JORNADA": "15",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "55248013",
+            "CODCLUB_CASA": "2332",
+            "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "15",
             "COMIENZO1": "2027-01-30T14:40:00",
@@ -9024,21 +9039,6 @@
           },
           {
             "JORNADA": "15",
-            "COMIENZO1": "2027-01-31T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "55248013",
-            "CODCLUB_CASA": "2332",
-            "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "15",
             "COMIENZO1": "2027-01-31T11:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
             "GOLES_CASA": null,
@@ -9069,6 +9069,21 @@
           }
         ],
         "16": [
+          {
+            "JORNADA": "16",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54313684",
+            "CODCLUB_FUERA": "15548283",
+            "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
+          },
           {
             "JORNADA": "16",
             "COMIENZO1": "2027-02-13T14:00:00",
@@ -9131,21 +9146,6 @@
           },
           {
             "JORNADA": "16",
-            "COMIENZO1": "2027-02-13T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54313684",
-            "CODCLUB_FUERA": "15548283",
-            "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
-          },
-          {
-            "JORNADA": "16",
             "COMIENZO1": "2027-02-13T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
             "GOLES_CASA": null,
@@ -9178,6 +9178,21 @@
         "17": [
           {
             "JORNADA": "17",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "55055874",
+            "CODCLUB_CASA": "40493342",
+            "NOMBRE_CASA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
+            "ESCUDO_CASA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
+          {
+            "JORNADA": "17",
             "COMIENZO1": "2027-02-20T08:30:00",
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": null,
@@ -9190,21 +9205,6 @@
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
             "ESCUDO_FUERA": "00100_0000003500_images.png"
-          },
-          {
-            "JORNADA": "17",
-            "COMIENZO1": "2027-02-20T14:40:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "55055874",
-            "CODCLUB_CASA": "40493342",
-            "NOMBRE_CASA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
-            "ESCUDO_CASA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "17",
@@ -9285,6 +9285,21 @@
         "18": [
           {
             "JORNADA": "18",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54312654",
+            "CODCLUB_FUERA": "6385",
+            "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
+            "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
+          },
+          {
+            "JORNADA": "18",
             "COMIENZO1": "2027-02-27T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
@@ -9327,21 +9342,6 @@
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
             "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
-          },
-          {
-            "JORNADA": "18",
-            "COMIENZO1": "2027-02-27T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54312654",
-            "CODCLUB_FUERA": "6385",
-            "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
-            "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
           },
           {
             "JORNADA": "18",
@@ -9390,6 +9390,21 @@
           }
         ],
         "19": [
+          {
+            "JORNADA": "19",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54304710",
+            "CODCLUB_CASA": "6054",
+            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
           {
             "JORNADA": "19",
             "COMIENZO1": "2027-03-06T08:30:00",
@@ -9467,21 +9482,6 @@
           },
           {
             "JORNADA": "19",
-            "COMIENZO1": "2027-03-07T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54304710",
-            "CODCLUB_CASA": "6054",
-            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
-            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
-          },
-          {
-            "JORNADA": "19",
             "COMIENZO1": "2027-03-07T11:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
             "GOLES_CASA": null,
@@ -9497,6 +9497,21 @@
           }
         ],
         "20": [
+          {
+            "JORNADA": "20",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "55285102",
+            "CODCLUB_FUERA": "34784987",
+            "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
+          },
           {
             "JORNADA": "20",
             "COMIENZO1": "2027-03-13T14:00:00",
@@ -9541,21 +9556,6 @@
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
             "ESCUDO_FUERA": "00100_0000310887_Logo_Facebook.fw.png"
-          },
-          {
-            "JORNADA": "20",
-            "COMIENZO1": "2027-03-13T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "55285102",
-            "CODCLUB_FUERA": "34784987",
-            "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "20",
@@ -9606,6 +9606,21 @@
         "21": [
           {
             "JORNADA": "21",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL CEM MARESME",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54764341",
+            "CODCLUB_CASA": "1093",
+            "NOMBRE_CASA": "POBLE NOU, AT. B",
+            "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
+          {
+            "JORNADA": "21",
             "COMIENZO1": "2027-03-20T08:30:00",
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": null,
@@ -9618,21 +9633,6 @@
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
             "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
-          },
-          {
-            "JORNADA": "21",
-            "COMIENZO1": "2027-03-20T14:00:00",
-            "CAMPO": "CAMP DE FUTBOL CEM MARESME",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54764341",
-            "CODCLUB_CASA": "1093",
-            "NOMBRE_CASA": "POBLE NOU, AT. B",
-            "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "21",
@@ -9713,6 +9713,21 @@
         "22": [
           {
             "JORNADA": "22",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "58156551",
+            "CODCLUB_FUERA": "2670",
+            "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+            "ESCUDO_FUERA": "00100_0000003500_images.png"
+          },
+          {
+            "JORNADA": "22",
             "COMIENZO1": "2027-04-03T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
@@ -9755,21 +9770,6 @@
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
             "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
-          },
-          {
-            "JORNADA": "22",
-            "COMIENZO1": "2027-04-03T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "58156551",
-            "CODCLUB_FUERA": "2670",
-            "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-            "ESCUDO_FUERA": "00100_0000003500_images.png"
           },
           {
             "JORNADA": "22",
@@ -9820,6 +9820,21 @@
         "23": [
           {
             "JORNADA": "23",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58148497",
+            "CODCLUB_CASA": "15544315",
+            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+            "CODEQUIPO_FUERA": "58652671",
+            "CODCLUB_FUERA": "2192",
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
+          },
+          {
+            "JORNADA": "23",
             "COMIENZO1": "2027-04-10T08:30:00",
             "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
             "GOLES_CASA": null,
@@ -9862,21 +9877,6 @@
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
             "ESCUDO_FUERA": "00100_0000956161_6593_EscoladeFutbolStoitchkovRacingSarria_200.png"
-          },
-          {
-            "JORNADA": "23",
-            "COMIENZO1": "2027-04-10T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58148497",
-            "CODCLUB_CASA": "15544315",
-            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-            "CODEQUIPO_FUERA": "58652671",
-            "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
           },
           {
             "JORNADA": "23",
@@ -9927,6 +9927,21 @@
         "24": [
           {
             "JORNADA": "24",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "58457830",
+            "CODCLUB_FUERA": "58329576",
+            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
+          },
+          {
+            "JORNADA": "24",
             "COMIENZO1": "2027-04-17T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
@@ -9969,21 +9984,6 @@
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
             "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "24",
-            "COMIENZO1": "2027-04-17T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "58457830",
-            "CODCLUB_FUERA": "58329576",
-            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
-            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
           },
           {
             "JORNADA": "24",
@@ -10032,6 +10032,21 @@
           }
         ],
         "25": [
+          {
+            "JORNADA": "25",
+            "COMIENZO1": null,
+            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58652671",
+            "CODCLUB_CASA": "2192",
+            "NOMBRE_CASA": "CARMELO, C.D. C",
+            "ESCUDO_CASA": "00100_0000674925_carmelo_200x200.png",
+            "CODEQUIPO_FUERA": "54313454",
+            "CODCLUB_FUERA": "40492704",
+            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
+          },
           {
             "JORNADA": "25",
             "COMIENZO1": "2027-04-24T08:30:00",
@@ -10094,21 +10109,6 @@
           },
           {
             "JORNADA": "25",
-            "COMIENZO1": "2027-04-24T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CARMEL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58652671",
-            "CODCLUB_CASA": "2192",
-            "NOMBRE_CASA": "Descans",
-            "ESCUDO_CASA": "https://www.fcf.cat/img/escutbase.png",
-            "CODEQUIPO_FUERA": "54313454",
-            "CODCLUB_FUERA": "40492704",
-            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "25",
             "COMIENZO1": "2027-04-24T20:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
             "GOLES_CASA": null,
@@ -10141,7 +10141,7 @@
         "26": [
           {
             "JORNADA": "26",
-            "COMIENZO1": "2027-05-01T14:00:00",
+            "COMIENZO1": null,
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -10151,8 +10151,8 @@
             "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
-            "NOMBRE_FUERA": "Descans",
-            "ESCUDO_FUERA": "https://www.fcf.cat/img/escutbase.png"
+            "NOMBRE_FUERA": "CARMELO, C.D. C",
+            "ESCUDO_FUERA": "00100_0000674925_carmelo_200x200.png"
           },
           {
             "JORNADA": "26",
