@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T23:01:26.627Z",
+  "fetchedAt": "2026-10-30T11:04:27.626Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -783,21 +783,6 @@
           },
           {
             "JORNADA": "7",
-            "COMIENZO1": "2026-11-07T12:15:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47007584",
-            "CODCLUB_CASA": "6237",
-            "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
-            "CODEQUIPO_FUERA": "47011200",
-            "CODCLUB_FUERA": "1011",
-            "NOMBRE_FUERA": "EUROPA, C.E. B",
-            "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
-          },
-          {
-            "JORNADA": "7",
             "COMIENZO1": "2026-11-07T12:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
             "GOLES_CASA": null,
@@ -855,6 +840,21 @@
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
             "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
+          },
+          {
+            "JORNADA": "7",
+            "COMIENZO1": "2026-11-08T17:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47007584",
+            "CODCLUB_CASA": "6237",
+            "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
+            "CODEQUIPO_FUERA": "47011200",
+            "CODCLUB_FUERA": "1011",
+            "NOMBRE_FUERA": "EUROPA, C.E. B",
+            "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
           }
         ],
         "8": [
