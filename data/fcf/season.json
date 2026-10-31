@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T15:11:46.343Z",
+  "fetchedAt": "2026-10-31T17:12:17.728Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -7942,7 +7942,7 @@
             "COMIENZO1": "2026-10-31T14:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
             "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "54304710",
             "CODCLUB_CASA": "6054",
             "NOMBRE_CASA": "APA POBLE SEC, CE. B",
@@ -7972,7 +7972,7 @@
             "COMIENZO1": "2026-10-31T15:10:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
             "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
@@ -7986,8 +7986,8 @@
             "JORNADA": "5",
             "COMIENZO1": "2026-10-31T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "6",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "54313454",
             "CODCLUB_CASA": "40492704",
             "NOMBRE_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
