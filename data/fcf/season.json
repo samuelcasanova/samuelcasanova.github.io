@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T21:07:08.491Z",
+  "fetchedAt": "2026-10-31T07:09:39.744Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -618,8 +618,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-10-31T08:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
