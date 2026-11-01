@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T13:17:18.956Z",
+  "fetchedAt": "2026-11-01T17:18:19.646Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4575,8 +4575,8 @@
             "JORNADA": "7",
             "COMIENZO1": "2026-11-01T18:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "28682809",
             "CODCLUB_CASA": "28312719",
             "NOMBRE_CASA": "WOMEN'S SOCCER SCHOOL A",
