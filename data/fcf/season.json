@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T19:23:44.303Z",
+  "fetchedAt": "2026-11-05T21:24:18.064Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -860,7 +860,7 @@
         "8": [
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-14T08:45:00",
+            "COMIENZO1": "2026-11-14T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
