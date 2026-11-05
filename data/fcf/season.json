@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T03:19:32.887Z",
+  "fetchedAt": "2026-11-05T07:20:35.951Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -875,21 +875,6 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-14T09:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47007052",
-            "CODCLUB_CASA": "1032",
-            "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-            "CODEQUIPO_FUERA": "47012355",
-            "CODCLUB_FUERA": "31528564",
-            "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
-            "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
-          },
-          {
-            "JORNADA": "8",
             "COMIENZO1": "2026-11-14T11:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
             "GOLES_CASA": null,
@@ -962,6 +947,21 @@
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
             "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-15T12:00:00",
+            "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47007052",
+            "CODCLUB_CASA": "1032",
+            "NOMBRE_CASA": "MARTINENC, F.C. A",
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+            "CODEQUIPO_FUERA": "47012355",
+            "CODCLUB_FUERA": "31528564",
+            "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
+            "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
           },
           {
             "JORNADA": "8",
