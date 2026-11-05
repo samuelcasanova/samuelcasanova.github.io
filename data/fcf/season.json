@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T17:23:12.400Z",
+  "fetchedAt": "2026-11-05T19:23:44.303Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4972,21 +4972,6 @@
           {
             "JORNADA": "11",
             "COMIENZO1": "2026-11-28T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "18497045",
-            "CODCLUB_CASA": "1336",
-            "NOMBRE_CASA": "VILADECANS U.D. A",
-            "ESCUDO_CASA": "00100_0001107661_escudo_UDV.png",
-            "CODEQUIPO_FUERA": "25810331",
-            "CODCLUB_FUERA": "5282",
-            "NOMBRE_FUERA": "GIRONA, F.C. A",
-            "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
-          },
-          {
-            "JORNADA": "11",
-            "COMIENZO1": "2026-11-28T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -5043,6 +5028,21 @@
             "CODCLUB_FUERA": "2753",
             "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
             "ESCUDO_FUERA": "00100_0000062247_escudo-letra.png"
+          },
+          {
+            "JORNADA": "11",
+            "COMIENZO1": "2026-11-28T12:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "18497045",
+            "CODCLUB_CASA": "1336",
+            "NOMBRE_CASA": "VILADECANS U.D. A",
+            "ESCUDO_CASA": "00100_0001107661_escudo_UDV.png",
+            "CODEQUIPO_FUERA": "25810331",
+            "CODCLUB_FUERA": "5282",
+            "NOMBRE_FUERA": "GIRONA, F.C. A",
+            "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
           },
           {
             "JORNADA": "11",
