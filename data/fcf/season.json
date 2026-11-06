@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T21:24:18.064Z",
+  "fetchedAt": "2026-11-06T09:27:22.937Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8119,6 +8119,21 @@
           },
           {
             "JORNADA": "7",
+            "COMIENZO1": "2026-11-14T13:45:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54304710",
+            "CODCLUB_CASA": "6054",
+            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+            "CODEQUIPO_FUERA": "58156824",
+            "CODCLUB_FUERA": "6278",
+            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
+          },
+          {
+            "JORNADA": "7",
             "COMIENZO1": "2026-11-14T14:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARESME",
             "GOLES_CASA": null,
@@ -8176,21 +8191,6 @@
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
             "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
-          },
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-15T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54304710",
-            "CODCLUB_CASA": "6054",
-            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
-            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
-            "CODEQUIPO_FUERA": "58156824",
-            "CODCLUB_FUERA": "6278",
-            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "7",
