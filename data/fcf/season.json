@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T17:29:27.250Z",
+  "fetchedAt": "2026-11-06T19:29:58.453Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -950,21 +950,6 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-15T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012498",
-            "CODCLUB_CASA": "15548283",
-            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
-            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
-            "CODEQUIPO_FUERA": "47012066",
-            "CODCLUB_FUERA": "2930",
-            "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
-          },
-          {
-            "JORNADA": "8",
             "COMIENZO1": "2026-11-15T12:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
             "GOLES_CASA": null,
@@ -977,6 +962,21 @@
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
             "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-15T12:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012498",
+            "CODCLUB_CASA": "15548283",
+            "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+            "CODEQUIPO_FUERA": "47012066",
+            "CODCLUB_FUERA": "2930",
+            "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           }
         ],
         "9": [
@@ -4727,21 +4727,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-14T09:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313053",
-            "CODCLUB_CASA": "1970",
-            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": "00100_0000621266_premia200.png",
-            "CODEQUIPO_FUERA": "37335",
-            "CODCLUB_FUERA": "1278",
-            "NOMBRE_FUERA": "CIRERA, U.D. A",
-            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-14T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
             "GOLES_CASA": null,
@@ -4799,6 +4784,21 @@
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
             "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-14T12:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313053",
+            "CODCLUB_CASA": "1970",
+            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
+            "CODEQUIPO_FUERA": "37335",
+            "CODCLUB_FUERA": "1278",
+            "NOMBRE_FUERA": "CIRERA, U.D. A",
+            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
           },
           {
             "JORNADA": "9",
