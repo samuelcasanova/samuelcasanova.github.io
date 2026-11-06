@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T09:27:22.937Z",
+  "fetchedAt": "2026-11-06T11:27:54.335Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8119,6 +8119,21 @@
           },
           {
             "JORNADA": "7",
+            "COMIENZO1": "2026-11-14T09:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58156551",
+            "CODCLUB_CASA": "2670",
+            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
+            "ESCUDO_CASA": "00100_0000003500_images.png",
+            "CODEQUIPO_FUERA": "58148497",
+            "CODCLUB_FUERA": "15544315",
+            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
+          },
+          {
+            "JORNADA": "7",
             "COMIENZO1": "2026-11-14T13:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
             "GOLES_CASA": null,
@@ -8176,21 +8191,6 @@
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
             "ESCUDO_FUERA": "00100_0000105692_bosco.png"
-          },
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-14T20:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58156551",
-            "CODCLUB_CASA": "2670",
-            "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
-            "ESCUDO_CASA": "00100_0000003500_images.png",
-            "CODEQUIPO_FUERA": "58148497",
-            "CODCLUB_FUERA": "15544315",
-            "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_FUERA": "00100_0000113186_LOGO_TARONJA.png"
           },
           {
             "JORNADA": "7",
