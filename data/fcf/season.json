@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T11:27:54.335Z",
+  "fetchedAt": "2026-11-06T13:28:25.621Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -920,6 +920,21 @@
           },
           {
             "JORNADA": "8",
+            "COMIENZO1": "2026-11-15T08:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012556",
+            "CODCLUB_CASA": "1014",
+            "NOMBRE_CASA": "SANT ANDREU, U.E C",
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
+            "CODEQUIPO_FUERA": "47013224",
+            "CODCLUB_FUERA": "18476477",
+            "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
+          },
+          {
+            "JORNADA": "8",
             "COMIENZO1": "2026-11-15T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
             "GOLES_CASA": null,
@@ -962,21 +977,6 @@
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
             "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
-          },
-          {
-            "JORNADA": "8",
-            "COMIENZO1": "2026-11-15T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012556",
-            "CODCLUB_CASA": "1014",
-            "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
-            "CODEQUIPO_FUERA": "47013224",
-            "CODCLUB_FUERA": "18476477",
-            "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           }
         ],
         "9": [
@@ -4727,6 +4727,21 @@
           },
           {
             "JORNADA": "9",
+            "COMIENZO1": "2026-11-14T09:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313053",
+            "CODCLUB_CASA": "1970",
+            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
+            "CODEQUIPO_FUERA": "37335",
+            "CODCLUB_FUERA": "1278",
+            "NOMBRE_FUERA": "CIRERA, U.D. A",
+            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
+          },
+          {
+            "JORNADA": "9",
             "COMIENZO1": "2026-11-14T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE VILADECANS",
             "GOLES_CASA": null,
@@ -4787,18 +4802,18 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-14T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "COMIENZO1": "2026-11-14T14:15:00",
+            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313053",
-            "CODCLUB_CASA": "1970",
-            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": "00100_0000621266_premia200.png",
-            "CODEQUIPO_FUERA": "37335",
-            "CODCLUB_FUERA": "1278",
-            "NOMBRE_FUERA": "CIRERA, U.D. A",
-            "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
+            "CODEQUIPO_CASA": "7002023",
+            "CODCLUB_CASA": "1035",
+            "NOMBRE_CASA": "IGUALADA, C.F. A",
+            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
+            "CODEQUIPO_FUERA": "54319983",
+            "CODCLUB_FUERA": "6390",
+            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -4814,21 +4829,6 @@
             "CODCLUB_FUERA": "5282",
             "NOMBRE_FUERA": "GIRONA, F.C. A",
             "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
-          },
-          {
-            "JORNADA": "9",
-            "COMIENZO1": "2026-11-15T13:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002023",
-            "CODCLUB_CASA": "1035",
-            "NOMBRE_CASA": "IGUALADA, C.F. A",
-            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
-            "CODEQUIPO_FUERA": "54319983",
-            "CODCLUB_FUERA": "6390",
-            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           }
         ],
         "10": [
