@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T15:36:13.832Z",
+  "fetchedAt": "2026-11-07T17:36:46.392Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8029,8 +8029,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T15:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "5",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "58457830",
             "CODCLUB_CASA": "58329576",
             "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
@@ -8044,8 +8044,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
             "CODEQUIPO_CASA": "58148497",
             "CODCLUB_CASA": "15544315",
             "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -8059,8 +8059,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T18:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
