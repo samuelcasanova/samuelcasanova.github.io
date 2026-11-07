@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T17:36:46.392Z",
+  "fetchedAt": "2026-11-07T19:37:19.705Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4650,10 +4650,10 @@
           },
           {
             "JORNADA": "8",
-            "COMIENZO1": "2026-11-07T18:00:00",
+            "COMIENZO1": "2026-11-07T18:42:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. SANTA EULÀLIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "23093920",
             "CODCLUB_CASA": "1218",
             "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS A",
@@ -8059,8 +8059,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T18:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
