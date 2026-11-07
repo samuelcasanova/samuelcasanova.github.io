@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T13:35:42.494Z",
+  "fetchedAt": "2026-11-07T15:36:13.832Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -32,7 +32,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "1",
@@ -47,7 +47,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "1",
@@ -58,11 +58,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "1",
@@ -73,11 +73,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "1",
@@ -107,7 +107,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "1",
@@ -118,7 +118,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -135,7 +135,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -150,7 +150,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -180,11 +180,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "2",
@@ -214,7 +214,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "2",
@@ -225,7 +225,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -240,11 +240,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           }
         ],
         "3": [
@@ -272,7 +272,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -291,7 +291,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "3",
@@ -302,7 +302,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -321,7 +321,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "3",
@@ -336,7 +336,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "3",
@@ -347,7 +347,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -362,11 +362,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           }
         ],
         "4": [
@@ -379,11 +379,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -409,7 +409,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -424,11 +424,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -458,7 +458,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -473,7 +473,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -484,7 +484,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -520,7 +520,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "5",
@@ -535,7 +535,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "5",
@@ -546,7 +546,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -561,11 +561,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "5",
@@ -591,11 +591,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "5",
@@ -606,7 +606,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -623,7 +623,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -638,11 +638,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "6",
@@ -653,11 +653,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "6",
@@ -668,7 +668,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -687,7 +687,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "6",
@@ -732,7 +732,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           }
         ],
         "7": [
@@ -764,7 +764,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "7",
@@ -775,11 +775,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -790,7 +790,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -820,11 +820,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "7",
@@ -839,7 +839,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -850,7 +850,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -882,7 +882,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -901,7 +901,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "8",
@@ -927,11 +927,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "8",
@@ -942,11 +942,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "8",
@@ -957,7 +957,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -976,7 +976,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           }
         ],
         "9": [
@@ -1023,7 +1023,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "9",
@@ -1034,7 +1034,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -1049,7 +1049,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -1064,11 +1064,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -1083,7 +1083,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -1094,11 +1094,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           }
         ],
         "10": [
@@ -1115,7 +1115,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -1126,11 +1126,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -1156,7 +1156,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -1171,7 +1171,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -1190,7 +1190,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -1205,7 +1205,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -1216,7 +1216,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -1248,11 +1248,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -1267,7 +1267,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "11",
@@ -1278,11 +1278,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -1293,7 +1293,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -1308,7 +1308,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -1338,7 +1338,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -1359,7 +1359,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "12",
@@ -1389,7 +1389,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "12",
@@ -1400,11 +1400,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "12",
@@ -1415,11 +1415,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "12",
@@ -1460,11 +1460,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           }
         ],
         "13": [
@@ -1492,7 +1492,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -1522,7 +1522,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -1537,11 +1537,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "13",
@@ -1556,7 +1556,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "13",
@@ -1567,11 +1567,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "13",
@@ -1582,7 +1582,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -1618,7 +1618,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "14",
@@ -1633,7 +1633,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "14",
@@ -1644,7 +1644,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -1659,11 +1659,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "14",
@@ -1674,7 +1674,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -1693,7 +1693,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "14",
@@ -1708,7 +1708,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           }
         ],
         "15": [
@@ -1725,7 +1725,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "15",
@@ -1736,11 +1736,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "15",
@@ -1751,7 +1751,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -1781,11 +1781,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "15",
@@ -1811,7 +1811,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -1826,7 +1826,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -1843,7 +1843,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -1858,7 +1858,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -1888,7 +1888,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -1907,7 +1907,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "16",
@@ -1933,11 +1933,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "16",
@@ -1948,11 +1948,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           }
         ],
         "17": [
@@ -1969,7 +1969,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "17",
@@ -1984,7 +1984,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "17",
@@ -1999,7 +1999,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "17",
@@ -2025,11 +2025,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "17",
@@ -2040,11 +2040,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "17",
@@ -2055,7 +2055,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -2087,7 +2087,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -2102,7 +2102,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -2121,7 +2121,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "18",
@@ -2136,7 +2136,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "18",
@@ -2166,7 +2166,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "18",
@@ -2177,7 +2177,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -2192,11 +2192,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           }
         ],
         "19": [
@@ -2243,7 +2243,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "19",
@@ -2258,7 +2258,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "19",
@@ -2269,7 +2269,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -2284,7 +2284,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -2299,11 +2299,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "19",
@@ -2314,11 +2314,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           }
         ],
         "20": [
@@ -2331,7 +2331,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -2346,7 +2346,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -2361,11 +2361,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "20",
@@ -2380,7 +2380,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "20",
@@ -2410,7 +2410,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "20",
@@ -2436,11 +2436,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           }
         ],
         "21": [
@@ -2457,7 +2457,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "21",
@@ -2472,7 +2472,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "21",
@@ -2513,11 +2513,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "21",
@@ -2528,7 +2528,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -2543,11 +2543,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "21",
@@ -2558,7 +2558,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -2579,7 +2579,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "22",
@@ -2590,11 +2590,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "22",
@@ -2605,7 +2605,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -2620,7 +2620,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -2654,7 +2654,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "22",
@@ -2680,11 +2680,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           }
         ],
         "23": [
@@ -2731,7 +2731,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "23",
@@ -2742,11 +2742,11 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "23",
@@ -2757,7 +2757,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -2772,7 +2772,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -2791,7 +2791,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "23",
@@ -2802,11 +2802,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           }
         ],
         "24": [
@@ -2834,7 +2834,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -2853,7 +2853,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "24",
@@ -2864,11 +2864,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "24",
@@ -2879,11 +2879,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "24",
@@ -2898,7 +2898,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "24",
@@ -2924,7 +2924,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -2945,7 +2945,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "25",
@@ -2975,7 +2975,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "25",
@@ -2986,7 +2986,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -3001,11 +3001,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "25",
@@ -3016,7 +3016,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -3035,7 +3035,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "25",
@@ -3046,7 +3046,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -3082,7 +3082,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "26",
@@ -3097,7 +3097,7 @@
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "26",
@@ -3108,7 +3108,7 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -3123,11 +3123,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "26",
@@ -3157,7 +3157,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "26",
@@ -3168,11 +3168,11 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           }
         ],
         "27": [
@@ -3200,11 +3200,11 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "27",
@@ -3230,7 +3230,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -3245,11 +3245,11 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "27",
@@ -3260,7 +3260,7 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -3290,11 +3290,11 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           }
         ],
         "28": [
@@ -3311,7 +3311,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "28",
@@ -3326,7 +3326,7 @@
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "28",
@@ -3337,11 +3337,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           },
           {
             "JORNADA": "28",
@@ -3367,7 +3367,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -3382,11 +3382,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "28",
@@ -3401,7 +3401,7 @@
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "28",
@@ -3433,7 +3433,7 @@
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "29",
@@ -3444,7 +3444,7 @@
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -3459,11 +3459,11 @@
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000586311_cevo_200x200.png"
           },
           {
             "JORNADA": "29",
@@ -3478,7 +3478,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           },
           {
             "JORNADA": "29",
@@ -3489,7 +3489,7 @@
             "CODEQUIPO_CASA": "47007167",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -3519,7 +3519,7 @@
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -3534,7 +3534,7 @@
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -3585,7 +3585,7 @@
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png"
           },
           {
             "JORNADA": "30",
@@ -3596,11 +3596,11 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "30",
@@ -3611,7 +3611,7 @@
             "CODEQUIPO_CASA": "47007584",
             "CODCLUB_CASA": "6237",
             "NOMBRE_CASA": "VILA OLIMPICA CLUB ESP. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000586311_cevo_200x200.png",
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -3626,11 +3626,11 @@
             "CODEQUIPO_CASA": "47012066",
             "CODCLUB_CASA": "2930",
             "NOMBRE_CASA": "Pª BARC. CINC COPES A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000576648_cinccopes_200x200.png",
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "30",
@@ -3645,7 +3645,7 @@
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "30",
@@ -3660,7 +3660,7 @@
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
           }
         ]
       },
@@ -3792,7 +3792,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "1",
@@ -3837,7 +3837,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "1",
@@ -3910,7 +3910,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "7002165",
             "CODCLUB_FUERA": "2753",
             "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
@@ -3940,7 +3940,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "50599884",
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
@@ -4006,7 +4006,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "3",
@@ -4062,7 +4062,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "7002023",
             "CODCLUB_FUERA": "1035",
             "NOMBRE_FUERA": "IGUALADA, C.F. A",
@@ -4158,7 +4158,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "4",
@@ -4169,7 +4169,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "40211",
             "CODCLUB_FUERA": "1034",
             "NOMBRE_FUERA": "TORELLO, C.F. A",
@@ -4306,7 +4306,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "36619",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. A",
@@ -4325,7 +4325,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "5",
@@ -4353,7 +4353,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "7002704",
             "CODCLUB_FUERA": "1390",
             "NOMBRE_FUERA": "OAR VIC A",
@@ -4462,7 +4462,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           }
         ],
         "7": [
@@ -4494,7 +4494,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -4565,7 +4565,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "51647896",
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
@@ -4627,18 +4627,18 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "8",
             "COMIENZO1": "2026-11-07T14:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "36619",
             "CODCLUB_CASA": "1011",
             "NOMBRE_CASA": "EUROPA, C.E. A",
@@ -4794,7 +4794,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "37335",
             "CODCLUB_FUERA": "1278",
             "NOMBRE_FUERA": "CIRERA, U.D. A",
@@ -4813,7 +4813,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -4886,7 +4886,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "34786929",
             "CODCLUB_FUERA": "34766344",
             "NOMBRE_FUERA": "FUNDACIÓ P. F.BASE REUS A",
@@ -4920,7 +4920,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "10",
@@ -4997,7 +4997,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -5023,7 +5023,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "7002165",
             "CODCLUB_FUERA": "2753",
             "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
@@ -5134,7 +5134,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "12",
@@ -5145,7 +5145,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "23093920",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
@@ -5226,7 +5226,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "13",
@@ -5282,7 +5282,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "40211",
             "CODCLUB_FUERA": "1034",
             "NOMBRE_FUERA": "TORELLO, C.F. A",
@@ -5363,7 +5363,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "14",
@@ -5408,7 +5408,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "14",
@@ -5451,7 +5451,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "7002704",
             "CODCLUB_FUERA": "1390",
             "NOMBRE_FUERA": "OAR VIC A",
@@ -5526,7 +5526,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "37335",
             "CODCLUB_FUERA": "1278",
             "NOMBRE_FUERA": "CIRERA, U.D. A",
@@ -5618,7 +5618,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "18497045",
             "CODCLUB_FUERA": "1336",
             "NOMBRE_FUERA": "VILADECANS U.D. A",
@@ -5633,7 +5633,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "36963",
             "CODCLUB_FUERA": "1004",
             "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
@@ -5729,7 +5729,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "17",
@@ -5804,7 +5804,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           }
         ],
         "18": [
@@ -5862,7 +5862,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "25810331",
             "CODCLUB_FUERA": "5282",
             "NOMBRE_FUERA": "GIRONA, F.C. A",
@@ -5926,7 +5926,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           }
         ],
         "19": [
@@ -5958,7 +5958,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "19",
@@ -6014,7 +6014,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "34786929",
             "CODCLUB_FUERA": "34766344",
             "NOMBRE_FUERA": "FUNDACIÓ P. F.BASE REUS A",
@@ -6080,7 +6080,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "20",
@@ -6106,7 +6106,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
@@ -6187,7 +6187,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "21",
@@ -6258,7 +6258,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "23093920",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS A",
@@ -6324,7 +6324,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "22",
@@ -6365,7 +6365,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "18497045",
             "CODCLUB_FUERA": "1336",
             "NOMBRE_FUERA": "VILADECANS U.D. A",
@@ -6487,11 +6487,11 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "23",
@@ -6609,7 +6609,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "7002023",
             "CODCLUB_FUERA": "1035",
             "NOMBRE_FUERA": "IGUALADA, C.F. A",
@@ -6658,7 +6658,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           }
         ],
         "25": [
@@ -6735,7 +6735,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "25",
@@ -6746,7 +6746,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "36963",
             "CODCLUB_FUERA": "1004",
             "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
@@ -6838,7 +6838,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "36619",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. A",
@@ -6872,7 +6872,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "26",
@@ -6990,7 +6990,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "25810331",
             "CODCLUB_FUERA": "5282",
             "NOMBRE_FUERA": "GIRONA, F.C. A",
@@ -7009,7 +7009,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "27",
@@ -7056,7 +7056,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "28",
@@ -7082,7 +7082,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "51647896",
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
@@ -7219,7 +7219,7 @@
             "CODEQUIPO_CASA": "54313053",
             "CODCLUB_CASA": "1970",
             "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
             "CODEQUIPO_FUERA": "28682809",
             "CODCLUB_FUERA": "28312719",
             "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
@@ -7234,7 +7234,7 @@
             "CODEQUIPO_CASA": "54319983",
             "CODCLUB_CASA": "6390",
             "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
             "CODEQUIPO_FUERA": "50599884",
             "CODCLUB_FUERA": "40492715",
             "NOMBRE_FUERA": "FUNDACIO PRIVADA ASSOC. ESP. PRAT  A",
@@ -7285,7 +7285,7 @@
             "CODEQUIPO_FUERA": "54313053",
             "CODCLUB_FUERA": "1970",
             "NOMBRE_FUERA": "PREMIA DALT, C.D. A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000621266_premia200.png"
           },
           {
             "JORNADA": "30",
@@ -7375,7 +7375,7 @@
             "CODEQUIPO_FUERA": "54319983",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "30",
@@ -7514,7 +7514,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "58148497",
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -7529,7 +7529,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "58457830",
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
@@ -7548,7 +7548,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "1",
@@ -7563,7 +7563,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           }
         ],
         "2": [
@@ -7580,7 +7580,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "2",
@@ -7591,7 +7591,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
@@ -7625,7 +7625,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "2",
@@ -7666,7 +7666,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54535327",
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
@@ -7683,7 +7683,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
             "NOMBRE_FUERA": "CARMELO, C.D. C",
@@ -7698,7 +7698,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54764341",
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
@@ -7758,11 +7758,11 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "3",
@@ -7809,7 +7809,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -7835,11 +7835,11 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "4",
@@ -7884,7 +7884,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           }
         ],
         "5": [
@@ -7927,7 +7927,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58148497",
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -7961,7 +7961,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "5",
@@ -7972,7 +7972,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "54535327",
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
@@ -7991,7 +7991,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           }
         ],
         "6": [
@@ -8014,8 +8014,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T12:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA TORRASSA",
-            "GOLES_CASA": "1",
-            "GOLES_FUERA": "5",
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "11",
             "CODEQUIPO_CASA": "58156551",
             "CODCLUB_CASA": "2670",
             "NOMBRE_CASA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -8029,8 +8029,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T15:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58457830",
             "CODCLUB_CASA": "58329576",
             "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
@@ -8038,14 +8038,14 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "6",
             "COMIENZO1": "2026-11-07T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58148497",
             "CODCLUB_CASA": "15544315",
             "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -8064,7 +8064,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54312654",
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
@@ -8079,11 +8079,11 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "6",
@@ -8111,7 +8111,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
             "NOMBRE_FUERA": "CARMELO, C.D. C",
@@ -8145,7 +8145,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "7",
@@ -8175,7 +8175,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "7",
@@ -8205,7 +8205,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           }
         ],
         "8": [
@@ -8233,11 +8233,11 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "8",
@@ -8278,7 +8278,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "55055874",
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
@@ -8293,7 +8293,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54312654",
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
@@ -8340,7 +8340,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54535327",
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
@@ -8374,7 +8374,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -8389,7 +8389,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -8404,7 +8404,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "9",
@@ -8447,7 +8447,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "58156551",
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -8492,7 +8492,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "54304710",
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
@@ -8507,11 +8507,11 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -8554,11 +8554,11 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -8573,7 +8573,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "11",
@@ -8588,7 +8588,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -8661,7 +8661,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "58457830",
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
@@ -8680,7 +8680,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "12",
@@ -8706,7 +8706,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "54764341",
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
@@ -8721,7 +8721,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "58156551",
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -8757,7 +8757,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "13",
@@ -8768,7 +8768,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54312654",
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
@@ -8817,7 +8817,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "13",
@@ -8832,7 +8832,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "13",
@@ -8875,7 +8875,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "54304710",
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
@@ -8905,7 +8905,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
@@ -8924,7 +8924,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "14",
@@ -8939,7 +8939,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "14",
@@ -8967,7 +8967,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
             "NOMBRE_FUERA": "CARMELO, C.D. C",
@@ -9012,7 +9012,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "58457830",
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
@@ -9046,7 +9046,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "15",
@@ -9061,7 +9061,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           }
         ],
         "16": [
@@ -9078,7 +9078,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "16",
@@ -9093,7 +9093,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "16",
@@ -9119,11 +9119,11 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "16",
@@ -9196,7 +9196,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58156551",
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -9226,11 +9226,11 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "17",
@@ -9256,7 +9256,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54535327",
             "CODCLUB_FUERA": "1226",
             "NOMBRE_FUERA": "DON BOSCO, C.F. A",
@@ -9303,7 +9303,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "55055874",
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
@@ -9337,7 +9337,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "18",
@@ -9363,7 +9363,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
@@ -9382,7 +9382,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           }
         ],
         "19": [
@@ -9410,7 +9410,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58457830",
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
@@ -9459,7 +9459,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "19",
@@ -9470,11 +9470,11 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "19",
@@ -9506,7 +9506,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "20",
@@ -9532,7 +9532,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54304710",
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
@@ -9562,7 +9562,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "54313454",
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
@@ -9577,7 +9577,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "55055874",
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
@@ -9624,11 +9624,11 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "21",
@@ -9643,7 +9643,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "21",
@@ -9658,7 +9658,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "21",
@@ -9731,7 +9731,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "54764341",
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
@@ -9776,7 +9776,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "54312654",
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
@@ -9791,7 +9791,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54304710",
             "CODCLUB_FUERA": "6054",
             "NOMBRE_FUERA": "APA POBLE SEC, CE. B",
@@ -9810,7 +9810,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           }
         ],
         "23": [
@@ -9838,11 +9838,11 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "23",
@@ -9887,7 +9887,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "23",
@@ -9902,7 +9902,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "23",
@@ -9945,7 +9945,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "58148497",
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
@@ -9990,11 +9990,11 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "24",
@@ -10005,7 +10005,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "54764341",
             "CODCLUB_FUERA": "1093",
             "NOMBRE_FUERA": "POBLE NOU, AT. B",
@@ -10052,7 +10052,7 @@
             "CODEQUIPO_CASA": "55285102",
             "CODCLUB_CASA": "34784987",
             "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
             "CODEQUIPO_FUERA": "55055874",
             "CODCLUB_FUERA": "40493342",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
@@ -10086,7 +10086,7 @@
             "CODEQUIPO_FUERA": "54313684",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
           },
           {
             "JORNADA": "25",
@@ -10101,7 +10101,7 @@
             "CODEQUIPO_FUERA": "58156824",
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "25",
@@ -10116,7 +10116,7 @@
             "CODEQUIPO_FUERA": "55248013",
             "CODCLUB_FUERA": "2332",
             "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "25",
@@ -10144,7 +10144,7 @@
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
             "CODEQUIPO_FUERA": "58652671",
             "CODCLUB_FUERA": "2192",
             "NOMBRE_FUERA": "CARMELO, C.D. C",
@@ -10178,7 +10178,7 @@
             "CODEQUIPO_FUERA": "55285102",
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": null
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "26",
@@ -10189,7 +10189,7 @@
             "CODEQUIPO_CASA": "54313684",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
             "CODEQUIPO_FUERA": "58156551",
             "CODCLUB_FUERA": "2670",
             "NOMBRE_FUERA": "ESCOLA COLLBLANC-TORRASSA,C.E B",
@@ -10204,7 +10204,7 @@
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_CASA": null,
+            "ESCUDO_CASA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png",
             "CODEQUIPO_FUERA": "58148497",
             "CODCLUB_FUERA": "15544315",
             "NOMBRE_FUERA": "ESCOLA PIA SARRIÀ S.E. A",
