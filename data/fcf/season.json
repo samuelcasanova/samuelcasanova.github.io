@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T19:37:19.705Z",
+  "fetchedAt": "2026-11-08T01:38:50.564Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -58,7 +58,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012556",
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
@@ -244,7 +244,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           }
         ],
         "3": [
@@ -302,7 +302,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47014053",
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
@@ -473,7 +473,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "4",
@@ -595,7 +595,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "5",
@@ -668,7 +668,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47011200",
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
@@ -839,7 +839,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "7",
@@ -882,7 +882,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "50600424",
             "CODCLUB_FUERA": "1049",
             "NOMBRE_FUERA": "HORTA, U.AT. C",
@@ -1068,7 +1068,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "9",
@@ -1171,7 +1171,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012517",
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
@@ -1282,7 +1282,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "11",
@@ -1415,7 +1415,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47013224",
             "CODCLUB_FUERA": "18476477",
             "NOMBRE_FUERA": "FUNDACIÓ ESPORTIVA GRAMA A",
@@ -1556,7 +1556,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "13",
@@ -1644,7 +1644,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47010178",
             "CODCLUB_FUERA": "1321",
             "NOMBRE_FUERA": "POMAR, C.D. A",
@@ -1740,7 +1740,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "15",
@@ -1937,7 +1937,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "16",
@@ -2025,7 +2025,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47009286",
             "CODCLUB_FUERA": "1241",
             "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
@@ -2136,7 +2136,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "18",
@@ -2269,7 +2269,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012498",
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
@@ -2361,7 +2361,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47007584",
             "CODCLUB_FUERA": "6237",
             "NOMBRE_FUERA": "VILA OLIMPICA CLUB ESP. A",
@@ -2472,7 +2472,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "21",
@@ -2620,7 +2620,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012858",
             "CODCLUB_FUERA": "1218",
             "NOMBRE_FUERA": "L'HOSPITALET, CENTRE ESPORTS B",
@@ -2731,7 +2731,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "23",
@@ -2879,7 +2879,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012066",
             "CODCLUB_FUERA": "2930",
             "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
@@ -2945,7 +2945,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "25",
@@ -3123,7 +3123,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47007167",
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
@@ -3294,7 +3294,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           }
         ],
         "28": [
@@ -3367,7 +3367,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47012355",
             "CODCLUB_FUERA": "31528564",
             "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -3478,7 +3478,7 @@
             "CODEQUIPO_FUERA": "47011758",
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+            "ESCUDO_FUERA": null
           },
           {
             "JORNADA": "29",
@@ -3596,7 +3596,7 @@
             "CODEQUIPO_CASA": "47011758",
             "CODCLUB_CASA": "6178",
             "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+            "ESCUDO_CASA": null,
             "CODEQUIPO_FUERA": "47007052",
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
