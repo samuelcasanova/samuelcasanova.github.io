@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T03:39:22.655Z",
+  "fetchedAt": "2026-11-08T09:40:53.058Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -800,8 +800,8 @@
             "JORNADA": "7",
             "COMIENZO1": "2026-11-08T10:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "47012355",
             "CODCLUB_CASA": "31528564",
             "NOMBRE_CASA": "FUNDACIÓ FUTBOL BADALONA B",
@@ -8074,8 +8074,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-08T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM FORT-PIENC",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "55248013",
             "CODCLUB_CASA": "2332",
             "NOMBRE_CASA": "ESCOLA FUTBOL ALMOGAVERS A",
