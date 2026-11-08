@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T11:41:23.909Z",
+  "fetchedAt": "2026-11-08T13:41:54.640Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4667,7 +4667,7 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-08T11:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": "5",
+            "GOLES_CASA": "6",
             "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "7002165",
             "CODCLUB_CASA": "2753",
@@ -4682,8 +4682,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-08T12:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT PERE I SANT PAU",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "5",
             "CODEQUIPO_CASA": "51647896",
             "CODCLUB_CASA": "3360",
             "NOMBRE_CASA": "ESCUELA F.SAN PEDRO SAN PABLO A",
