@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T17:43:00.376Z",
+  "fetchedAt": "2026-11-08T19:43:33.201Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8089,8 +8089,8 @@
             "JORNADA": "6",
             "COMIENZO1": "2026-11-08T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. MENORCA",
-            "GOLES_CASA": "1",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "54535327",
             "CODCLUB_CASA": "1226",
             "NOMBRE_CASA": "DON BOSCO, C.F. A",
