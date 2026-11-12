@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T07:46:37.609Z",
+  "fetchedAt": "2026-11-12T07:08:48.499Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1012,21 +1012,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-21T11:20:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47010178",
-            "CODCLUB_CASA": "1321",
-            "NOMBRE_CASA": "POMAR, C.D. A",
-            "ESCUDO_CASA": "00100_0001176360_1321_Pomar.png",
-            "CODEQUIPO_FUERA": "47007052",
-            "CODCLUB_FUERA": "1032",
-            "NOMBRE_FUERA": "MARTINENC, F.C. A",
-            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-21T11:55:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
             "GOLES_CASA": null,
@@ -1072,7 +1057,7 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-22T09:30:00",
+            "COMIENZO1": "2026-11-22T10:10:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PERE GOL",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -1084,6 +1069,21 @@
             "CODCLUB_FUERA": "1014",
             "NOMBRE_FUERA": "SANT ANDREU, U.E C",
             "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-22T12:30:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47010178",
+            "CODCLUB_CASA": "1321",
+            "NOMBRE_CASA": "POMAR, C.D. A",
+            "ESCUDO_CASA": "00100_0001176360_1321_Pomar.png",
+            "CODEQUIPO_FUERA": "47007052",
+            "CODCLUB_FUERA": "1032",
+            "NOMBRE_FUERA": "MARTINENC, F.C. A",
+            "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
           },
           {
             "JORNADA": "9",
@@ -4085,7 +4085,7 @@
           },
           {
             "JORNADA": "3",
-            "COMIENZO1": "2026-11-11T19:00:00",
+            "COMIENZO1": "2026-11-18T20:35:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -4817,7 +4817,7 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-15T10:30:00",
+            "COMIENZO1": "2026-11-15T15:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -4939,7 +4939,7 @@
           },
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-22T12:00:00",
+            "COMIENZO1": "2026-11-22T14:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
