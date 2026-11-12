@@ -23,7 +23,7 @@ describe('fcfClient', () => {
       'https://www.fcf.cat/api/competition/partidos?grupId=123',
       'https://www.fcf.cat/api/competition/equipos?grupId=123'
     ])
-    expect(fetchFn.mock.calls[0][1].headers).toMatchObject({ Accept: 'application/json', Referer: COMPETICIO_URL })
+    expect(fetchFn.mock.calls[0][1].headers).toMatchObject({ Accept: '*/*', 'Sec-Fetch-Site': 'same-origin', Referer: COMPETICIO_URL })
     expect(sleep.mock.calls).toEqual([[5_000]])
   })
 
