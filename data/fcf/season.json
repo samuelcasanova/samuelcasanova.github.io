@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T11:15:57.608Z",
+  "fetchedAt": "2026-11-13T13:16:29.136Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -982,6 +982,21 @@
         "9": [
           {
             "JORNADA": "9",
+            "COMIENZO1": "2026-11-21T08:30:00",
+            "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47013224",
+            "CODCLUB_CASA": "18476477",
+            "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
+            "CODEQUIPO_FUERA": "47009286",
+            "CODCLUB_FUERA": "1241",
+            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
+          },
+          {
+            "JORNADA": "9",
             "COMIENZO1": "2026-11-21T08:45:00",
             "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
             "GOLES_CASA": null,
@@ -1084,21 +1099,6 @@
             "CODCLUB_FUERA": "1032",
             "NOMBRE_FUERA": "MARTINENC, F.C. A",
             "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png"
-          },
-          {
-            "JORNADA": "9",
-            "COMIENZO1": "2026-11-22T16:10:00",
-            "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47013224",
-            "CODCLUB_CASA": "18476477",
-            "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
-            "CODEQUIPO_FUERA": "47009286",
-            "CODCLUB_FUERA": "1241",
-            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           }
         ],
         "10": [
@@ -4939,7 +4939,7 @@
           },
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-22T10:40:00",
+            "COMIENZO1": "2026-11-22T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
