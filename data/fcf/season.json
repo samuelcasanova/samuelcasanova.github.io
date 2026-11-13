@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T07:14:56.398Z",
+  "fetchedAt": "2026-11-13T11:15:57.608Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1012,21 +1012,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-21T11:55:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47007167",
-            "CODCLUB_CASA": "6390",
-            "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
-            "CODEQUIPO_FUERA": "47014053",
-            "CODCLUB_FUERA": "6399",
-            "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
-            "ESCUDO_FUERA": "00100_0001268552_congres.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-21T12:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
             "GOLES_CASA": null,
@@ -1054,6 +1039,21 @@
             "CODCLUB_FUERA": "6178",
             "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
             "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-21T13:00:00",
+            "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47007167",
+            "CODCLUB_CASA": "6390",
+            "NOMBRE_CASA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_CASA": "00100_0000663994_guineueta_200x200.png",
+            "CODEQUIPO_FUERA": "47014053",
+            "CODCLUB_FUERA": "6399",
+            "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
+            "ESCUDO_FUERA": "00100_0001268552_congres.png"
           },
           {
             "JORNADA": "9",
@@ -4849,21 +4849,6 @@
           },
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-21T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "40211",
-            "CODCLUB_CASA": "1034",
-            "NOMBRE_CASA": "TORELLO, C.F. A",
-            "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
-            "CODEQUIPO_FUERA": "28682809",
-            "CODCLUB_FUERA": "28312719",
-            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
-          },
-          {
-            "JORNADA": "10",
             "COMIENZO1": "2026-11-21T11:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
             "GOLES_CASA": null,
@@ -4879,7 +4864,7 @@
           },
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-21T13:15:00",
+            "COMIENZO1": "2026-11-21T13:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -4936,6 +4921,21 @@
             "CODCLUB_FUERA": "1035",
             "NOMBRE_FUERA": "IGUALADA, C.F. A",
             "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
+          },
+          {
+            "JORNADA": "10",
+            "COMIENZO1": "2026-11-22T10:30:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "40211",
+            "CODCLUB_CASA": "1034",
+            "NOMBRE_CASA": "TORELLO, C.F. A",
+            "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
+            "CODEQUIPO_FUERA": "28682809",
+            "CODCLUB_FUERA": "28312719",
+            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "10",
