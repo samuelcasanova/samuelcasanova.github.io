@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T13:16:29.136Z",
+  "fetchedAt": "2026-11-13T15:17:01.515Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4909,6 +4909,21 @@
           },
           {
             "JORNADA": "10",
+            "COMIENZO1": "2026-11-22T10:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "40211",
+            "CODCLUB_CASA": "1034",
+            "NOMBRE_CASA": "TORELLO, C.F. A",
+            "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
+            "CODEQUIPO_FUERA": "28682809",
+            "CODCLUB_FUERA": "28312719",
+            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
+            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
+          },
+          {
+            "JORNADA": "10",
             "COMIENZO1": "2026-11-22T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE CIRERA",
             "GOLES_CASA": null,
@@ -4921,21 +4936,6 @@
             "CODCLUB_FUERA": "1035",
             "NOMBRE_FUERA": "IGUALADA, C.F. A",
             "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
-          },
-          {
-            "JORNADA": "10",
-            "COMIENZO1": "2026-11-22T10:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE TORELLÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "40211",
-            "CODCLUB_CASA": "1034",
-            "NOMBRE_CASA": "TORELLO, C.F. A",
-            "ESCUDO_CASA": "00100_0000651415_torello_200x200.png",
-            "CODEQUIPO_FUERA": "28682809",
-            "CODCLUB_FUERA": "28312719",
-            "NOMBRE_FUERA": "WOMEN'S SOCCER SCHOOL A",
-            "ESCUDO_FUERA": "00100_0000486044_WOMEN_S_SOCCER_SCHOOL_copia.png"
           },
           {
             "JORNADA": "10",
