@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T13:22:42.526Z",
+  "fetchedAt": "2026-11-14T15:23:13.533Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4802,10 +4802,10 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-14T14:15:00",
+            "COMIENZO1": "2026-11-14T14:21:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "7002023",
             "CODCLUB_CASA": "1035",
             "NOMBRE_CASA": "IGUALADA, C.F. A",
@@ -8136,8 +8136,8 @@
             "JORNADA": "7",
             "COMIENZO1": "2026-11-14T13:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "54304710",
             "CODCLUB_CASA": "6054",
             "NOMBRE_CASA": "APA POBLE SEC, CE. B",
@@ -8151,8 +8151,8 @@
             "JORNADA": "7",
             "COMIENZO1": "2026-11-14T14:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARESME",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "5",
             "CODEQUIPO_CASA": "54764341",
             "CODCLUB_CASA": "1093",
             "NOMBRE_CASA": "POBLE NOU, AT. B",
@@ -8166,8 +8166,8 @@
             "JORNADA": "7",
             "COMIENZO1": "2026-11-14T14:40:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. TEIXONERA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "1",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "55055874",
             "CODCLUB_CASA": "40493342",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL STOITCHKOV-RACING SARRIA  B",
