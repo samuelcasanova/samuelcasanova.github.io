@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T09:27:47.011Z",
+  "fetchedAt": "2026-11-15T11:28:18.059Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -937,8 +937,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-15T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "7",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
@@ -952,8 +952,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-15T12:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "47007052",
             "CODCLUB_CASA": "1032",
             "NOMBRE_CASA": "MARTINENC, F.C. A",
@@ -967,8 +967,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-15T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "47012498",
             "CODCLUB_CASA": "15548283",
             "NOMBRE_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA B",
