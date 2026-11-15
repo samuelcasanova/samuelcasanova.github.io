@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T07:27:16.071Z",
+  "fetchedAt": "2026-11-15T09:27:47.011Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -922,8 +922,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-15T08:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "3",
             "CODEQUIPO_CASA": "47012556",
             "CODCLUB_CASA": "1014",
             "NOMBRE_CASA": "SANT ANDREU, U.E C",
@@ -937,8 +937,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-15T10:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "47009286",
             "CODCLUB_CASA": "1241",
             "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
