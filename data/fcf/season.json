@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T13:34:52.897Z",
+  "fetchedAt": "2026-11-17T01:37:55.573Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1150,21 +1150,6 @@
           {
             "JORNADA": "10",
             "COMIENZO1": "2026-11-28T11:00:00",
-            "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47009286",
-            "CODCLUB_CASA": "1241",
-            "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-            "CODEQUIPO_FUERA": "47012355",
-            "CODCLUB_FUERA": "31528564",
-            "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
-            "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
-          },
-          {
-            "JORNADA": "10",
-            "COMIENZO1": "2026-11-28T11:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -1176,6 +1161,21 @@
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
             "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+          },
+          {
+            "JORNADA": "10",
+            "COMIENZO1": "2026-11-28T11:30:00",
+            "CAMPO": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47009286",
+            "CODCLUB_CASA": "1241",
+            "NOMBRE_CASA": "SANT GABRIEL, C.D. A",
+            "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+            "CODEQUIPO_FUERA": "47012355",
+            "CODCLUB_FUERA": "31528564",
+            "NOMBRE_FUERA": "FUNDACIÓ FUTBOL BADALONA B",
+            "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png"
           },
           {
             "JORNADA": "10",
