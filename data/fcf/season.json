@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T13:47:08.241Z",
+  "fetchedAt": "2026-11-18T17:48:09.492Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1194,6 +1194,21 @@
           },
           {
             "JORNADA": "10",
+            "COMIENZO1": "2026-11-29T09:30:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012556",
+            "CODCLUB_CASA": "1014",
+            "NOMBRE_CASA": "SANT ANDREU, U.E C",
+            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
+            "CODEQUIPO_FUERA": "47010178",
+            "CODCLUB_FUERA": "1321",
+            "NOMBRE_FUERA": "POMAR, C.D. A",
+            "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
+          },
+          {
+            "JORNADA": "10",
             "COMIENZO1": "2026-11-29T10:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
             "GOLES_CASA": null,
@@ -1206,21 +1221,6 @@
             "CODCLUB_FUERA": "6390",
             "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
             "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-          },
-          {
-            "JORNADA": "10",
-            "COMIENZO1": "2026-11-29T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DEL CENTENARI-AISS",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012556",
-            "CODCLUB_CASA": "1014",
-            "NOMBRE_CASA": "SANT ANDREU, U.E C",
-            "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
-            "CODEQUIPO_FUERA": "47010178",
-            "CODCLUB_FUERA": "1321",
-            "NOMBRE_FUERA": "POMAR, C.D. A",
-            "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
           }
         ],
         "11": [
@@ -5046,7 +5046,7 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-11-29T12:45:00",
+            "COMIENZO1": "2026-11-29T12:00:00",
             "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
