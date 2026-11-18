@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T17:48:09.492Z",
+  "fetchedAt": "2026-11-18T21:49:11.503Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4087,8 +4087,8 @@
             "JORNADA": "3",
             "COMIENZO1": "2026-11-18T20:35:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "6",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "7002165",
             "CODCLUB_CASA": "2753",
             "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
