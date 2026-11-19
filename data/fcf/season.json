@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T21:55:23.214Z",
+  "fetchedAt": "2026-11-19T23:55:56.037Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1104,21 +1104,6 @@
         "10": [
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-28T08:45:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47011200",
-            "CODCLUB_CASA": "1011",
-            "NOMBRE_CASA": "EUROPA, C.E. B",
-            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-            "CODEQUIPO_FUERA": "47012066",
-            "CODCLUB_FUERA": "2930",
-            "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
-            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
-          },
-          {
-            "JORNADA": "10",
             "COMIENZO1": "2026-11-28T09:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
             "GOLES_CASA": null,
@@ -1161,6 +1146,21 @@
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
             "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+          },
+          {
+            "JORNADA": "10",
+            "COMIENZO1": "2026-11-28T11:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47011200",
+            "CODCLUB_CASA": "1011",
+            "NOMBRE_CASA": "EUROPA, C.E. B",
+            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+            "CODEQUIPO_FUERA": "47012066",
+            "CODCLUB_FUERA": "2930",
+            "NOMBRE_FUERA": "Pª BARC. CINC COPES A",
+            "ESCUDO_FUERA": "00100_0000576648_cinccopes_200x200.png"
           },
           {
             "JORNADA": "10",
@@ -4986,21 +4986,6 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-11-28T11:15:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "36619",
-            "CODCLUB_CASA": "1011",
-            "NOMBRE_CASA": "EUROPA, C.E. A",
-            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-            "CODEQUIPO_FUERA": "54319983",
-            "CODCLUB_FUERA": "6390",
-            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
-          },
-          {
-            "JORNADA": "11",
             "COMIENZO1": "2026-11-28T12:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
             "GOLES_CASA": null,
@@ -5043,6 +5028,21 @@
             "CODCLUB_FUERA": "3360",
             "NOMBRE_FUERA": "ESCUELA F.SAN PEDRO SAN PABLO A",
             "ESCUDO_FUERA": "00100_0000000582_ESCUT_SANT_PERE_I_SANT_PAU.png"
+          },
+          {
+            "JORNADA": "11",
+            "COMIENZO1": "2026-11-29T10:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "36619",
+            "CODCLUB_CASA": "1011",
+            "NOMBRE_CASA": "EUROPA, C.E. A",
+            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+            "CODEQUIPO_FUERA": "54319983",
+            "CODCLUB_FUERA": "6390",
+            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -8242,21 +8242,6 @@
           {
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58156824",
-            "CODCLUB_CASA": "6278",
-            "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
-            "CODEQUIPO_FUERA": "55285102",
-            "CODCLUB_FUERA": "34784987",
-            "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
-          },
-          {
-            "JORNADA": "8",
-            "COMIENZO1": "2026-11-21T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8268,6 +8253,21 @@
             "CODCLUB_FUERA": "40492704",
             "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
             "ESCUDO_FUERA": "00100_0001421644_faflh.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-21T16:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58156824",
+            "CODCLUB_CASA": "6278",
+            "NOMBRE_CASA": "CAN BUXERES, F.C. C",
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+            "CODEQUIPO_FUERA": "55285102",
+            "CODCLUB_FUERA": "34784987",
+            "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+            "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
           },
           {
             "JORNADA": "8",
@@ -8349,21 +8349,6 @@
           {
             "JORNADA": "9",
             "COMIENZO1": "2026-11-28T14:00:00",
-            "CAMPO": "CAMP DE FUTBOL CEM MARESME",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54764341",
-            "CODCLUB_CASA": "1093",
-            "NOMBRE_CASA": "POBLE NOU, AT. B",
-            "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
-            "CODEQUIPO_FUERA": "58156824",
-            "CODCLUB_FUERA": "6278",
-            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
-            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
-          },
-          {
-            "JORNADA": "9",
-            "COMIENZO1": "2026-11-28T14:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8375,6 +8360,21 @@
             "CODCLUB_FUERA": "58329576",
             "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
             "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-28T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL CEM MARESME",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54764341",
+            "CODCLUB_CASA": "1093",
+            "NOMBRE_CASA": "POBLE NOU, AT. B",
+            "ESCUDO_CASA": "00100_0000310887_Logo_Facebook.fw.png",
+            "CODEQUIPO_FUERA": "58156824",
+            "CODCLUB_FUERA": "6278",
+            "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
+            "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
           },
           {
             "JORNADA": "9",
@@ -8884,21 +8884,6 @@
           {
             "JORNADA": "14",
             "COMIENZO1": "2027-01-23T14:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58156824",
-            "CODCLUB_CASA": "6278",
-            "NOMBRE_CASA": "CAN BUXERES, F.C. C",
-            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
-            "CODEQUIPO_FUERA": "54313454",
-            "CODCLUB_FUERA": "40492704",
-            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "14",
-            "COMIENZO1": "2027-01-23T14:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARESME",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8910,6 +8895,21 @@
             "CODCLUB_FUERA": "6385",
             "NOMBRE_FUERA": "DIAGONAL CLUB ESP. B",
             "ESCUDO_FUERA": "00100_0000484899_DIAGONAL_CLUB_ESPORTIU_copia.png"
+          },
+          {
+            "JORNADA": "14",
+            "COMIENZO1": "2027-01-23T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58156824",
+            "CODCLUB_CASA": "6278",
+            "NOMBRE_CASA": "CAN BUXERES, F.C. C",
+            "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+            "CODEQUIPO_FUERA": "54313454",
+            "CODCLUB_FUERA": "40492704",
+            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "14",
