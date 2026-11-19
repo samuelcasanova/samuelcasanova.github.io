@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T09:52:15.021Z",
+  "fetchedAt": "2026-11-19T11:52:46.828Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -982,21 +982,6 @@
         "9": [
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-21T08:30:00",
-            "CAMPO": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47013224",
-            "CODCLUB_CASA": "18476477",
-            "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
-            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
-            "CODEQUIPO_FUERA": "47009286",
-            "CODCLUB_FUERA": "1241",
-            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
-            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-21T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
             "GOLES_CASA": null,
@@ -1039,6 +1024,21 @@
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
             "ESCUDO_FUERA": "00100_0001268552_congres.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-21T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LES OLIVERES",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47013224",
+            "CODCLUB_CASA": "18476477",
+            "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
+            "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
+            "CODEQUIPO_FUERA": "47009286",
+            "CODCLUB_FUERA": "1241",
+            "NOMBRE_FUERA": "SANT GABRIEL, C.D. A",
+            "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png"
           },
           {
             "JORNADA": "9",
