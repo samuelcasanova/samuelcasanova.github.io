@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T11:52:46.828Z",
+  "fetchedAt": "2026-11-19T15:53:48.119Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8348,6 +8348,21 @@
           },
           {
             "JORNADA": "9",
+            "COMIENZO1": "2026-11-28T12:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54304710",
+            "CODCLUB_CASA": "6054",
+            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
+            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+            "CODEQUIPO_FUERA": "55248013",
+            "CODCLUB_FUERA": "2332",
+            "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
+            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
+          },
+          {
+            "JORNADA": "9",
             "COMIENZO1": "2026-11-28T14:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
             "GOLES_CASA": null,
@@ -8390,21 +8405,6 @@
             "CODCLUB_FUERA": "15548283",
             "NOMBRE_FUERA": "ESCOLA DE FUTBOL PREMIER BARCELONA D",
             "ESCUDO_FUERA": "00100_0000754057_premierbcn_200x200.png"
-          },
-          {
-            "JORNADA": "9",
-            "COMIENZO1": "2026-11-29T10:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54304710",
-            "CODCLUB_CASA": "6054",
-            "NOMBRE_CASA": "APA POBLE SEC, CE. B",
-            "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
-            "CODEQUIPO_FUERA": "55248013",
-            "CODCLUB_FUERA": "2332",
-            "NOMBRE_FUERA": "ESCOLA FUTBOL ALMOGAVERS A",
-            "ESCUDO_FUERA": "00100_0000484926_ESCOLA_FUTBOL_ALMOGAVERS_copia.png"
           },
           {
             "JORNADA": "9",
