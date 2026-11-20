@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T18:00:43.403Z",
+  "fetchedAt": "2026-11-20T20:01:14.991Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4971,6 +4971,21 @@
           },
           {
             "JORNADA": "11",
+            "COMIENZO1": "2026-11-28T10:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "54313053",
+            "CODCLUB_CASA": "1970",
+            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
+            "ESCUDO_CASA": "00100_0000621266_premia200.png",
+            "CODEQUIPO_FUERA": "7002165",
+            "CODCLUB_FUERA": "2753",
+            "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
+            "ESCUDO_FUERA": "00100_0000062247_escudo-letra.png"
+          },
+          {
+            "JORNADA": "11",
             "COMIENZO1": "2026-11-28T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
             "GOLES_CASA": null,
@@ -5016,18 +5031,18 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-11-28T12:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE PREMIÀ DE DALT",
+            "COMIENZO1": "2026-11-28T11:15:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "54313053",
-            "CODCLUB_CASA": "1970",
-            "NOMBRE_CASA": "PREMIA DALT, C.D. A",
-            "ESCUDO_CASA": "00100_0000621266_premia200.png",
-            "CODEQUIPO_FUERA": "7002165",
-            "CODCLUB_FUERA": "2753",
-            "NOMBRE_FUERA": "FONTSANTA-FATJO, C.D. A",
-            "ESCUDO_FUERA": "00100_0000062247_escudo-letra.png"
+            "CODEQUIPO_CASA": "36619",
+            "CODCLUB_CASA": "1011",
+            "NOMBRE_CASA": "EUROPA, C.E. A",
+            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
+            "CODEQUIPO_FUERA": "54319983",
+            "CODCLUB_FUERA": "6390",
+            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
+            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -5043,21 +5058,6 @@
             "CODCLUB_FUERA": "5282",
             "NOMBRE_FUERA": "GIRONA, F.C. A",
             "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png"
-          },
-          {
-            "JORNADA": "11",
-            "COMIENZO1": "2026-11-29T10:15:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "36619",
-            "CODCLUB_CASA": "1011",
-            "NOMBRE_CASA": "EUROPA, C.E. A",
-            "ESCUDO_CASA": "00100_0000735880_europa_200x200.png",
-            "CODEQUIPO_FUERA": "54319983",
-            "CODCLUB_FUERA": "6390",
-            "NOMBRE_FUERA": "ESCOLA ESPORTIVA GUINEUETA C.F A",
-            "ESCUDO_FUERA": "00100_0000663994_guineueta_200x200.png"
           },
           {
             "JORNADA": "11",
@@ -8408,7 +8408,7 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-29T11:00:00",
+            "COMIENZO1": "2026-11-29T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
