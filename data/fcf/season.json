@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T13:59:38.199Z",
+  "fetchedAt": "2026-11-20T18:00:43.403Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -4972,6 +4972,21 @@
           {
             "JORNADA": "11",
             "COMIENZO1": "2026-11-28T10:30:00",
+            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002023",
+            "CODCLUB_CASA": "1035",
+            "NOMBRE_CASA": "IGUALADA, C.F. A",
+            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
+            "CODEQUIPO_FUERA": "36963",
+            "CODCLUB_FUERA": "1004",
+            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
+            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
+          },
+          {
+            "JORNADA": "11",
+            "COMIENZO1": "2026-11-28T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM JULIO MÉNDEZ",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -5058,21 +5073,6 @@
             "CODCLUB_FUERA": "1278",
             "NOMBRE_FUERA": "CIRERA, U.D. A",
             "ESCUDO_FUERA": "00100_0000572527_cirera_200x200.png"
-          },
-          {
-            "JORNADA": "11",
-            "COMIENZO1": "2026-11-29T13:30:00",
-            "CAMPO": "CAMP DE FUTBOL CEM LES COMES  2 Camps",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002023",
-            "CODCLUB_CASA": "1035",
-            "NOMBRE_CASA": "IGUALADA, C.F. A",
-            "ESCUDO_CASA": "00100_0000822231_igualada_200.png",
-            "CODEQUIPO_FUERA": "36963",
-            "CODCLUB_FUERA": "1004",
-            "NOMBRE_FUERA": "SABADELL F.C., C.E. A",
-            "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png"
           }
         ],
         "12": [
@@ -8333,21 +8333,6 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-28T08:30:00",
-            "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "55285102",
-            "CODCLUB_CASA": "34784987",
-            "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
-            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
-            "CODEQUIPO_FUERA": "54535327",
-            "CODCLUB_FUERA": "1226",
-            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
-            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
-          },
-          {
-            "JORNADA": "9",
             "COMIENZO1": "2026-11-28T14:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
             "GOLES_CASA": null,
@@ -8375,6 +8360,21 @@
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
             "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-28T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL CE DE L´ENERGIA",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "55285102",
+            "CODCLUB_CASA": "34784987",
+            "NOMBRE_CASA": "MERCAT NOU MAGORIA, S.E. CLUB A",
+            "ESCUDO_CASA": "00100_0000943118_6568_mercatnou_200x200.png",
+            "CODEQUIPO_FUERA": "54535327",
+            "CODCLUB_FUERA": "1226",
+            "NOMBRE_FUERA": "DON BOSCO, C.F. A",
+            "ESCUDO_FUERA": "00100_0000105692_bosco.png"
           },
           {
             "JORNADA": "9",
