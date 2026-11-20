@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T11:59:06.630Z",
+  "fetchedAt": "2026-11-20T13:59:38.199Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1119,21 +1119,6 @@
           },
           {
             "JORNADA": "10",
-            "COMIENZO1": "2026-11-28T09:30:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012858",
-            "CODCLUB_CASA": "1218",
-            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
-            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-            "CODEQUIPO_FUERA": "50600424",
-            "CODCLUB_FUERA": "1049",
-            "NOMBRE_FUERA": "HORTA, U.AT. C",
-            "ESCUDO_FUERA": "00100_0000959029_1049_HortaUAT_200.png"
-          },
-          {
-            "JORNADA": "10",
             "COMIENZO1": "2026-11-28T11:15:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
             "GOLES_CASA": null,
@@ -1191,6 +1176,21 @@
             "CODCLUB_FUERA": "1696",
             "NOMBRE_FUERA": "ALZAMORA, C.F. A",
             "ESCUDO_FUERA": "00100_0001223467_ALZAMORA.png"
+          },
+          {
+            "JORNADA": "10",
+            "COMIENZO1": "2026-11-28T20:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012858",
+            "CODCLUB_CASA": "1218",
+            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
+            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+            "CODEQUIPO_FUERA": "50600424",
+            "CODCLUB_FUERA": "1049",
+            "NOMBRE_FUERA": "HORTA, U.AT. C",
+            "ESCUDO_FUERA": "00100_0000959029_1049_HortaUAT_200.png"
           },
           {
             "JORNADA": "10",
@@ -5046,7 +5046,7 @@
           },
           {
             "JORNADA": "11",
-            "COMIENZO1": "2026-11-29T12:00:00",
+            "COMIENZO1": "2026-11-29T12:30:00",
             "CAMPO": "ESTADI MPAL. C.F.REUS ANNEX 1",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8393,7 +8393,7 @@
           },
           {
             "JORNADA": "9",
-            "COMIENZO1": "2026-11-28T15:45:00",
+            "COMIENZO1": "2026-11-28T17:30:00",
             "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
