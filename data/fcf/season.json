@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T14:05:53.107Z",
+  "fetchedAt": "2026-11-21T16:06:24.038Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1029,8 +1029,8 @@
             "JORNADA": "9",
             "COMIENZO1": "2026-11-21T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. LES OLIVERES",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "5",
             "CODEQUIPO_CASA": "47013224",
             "CODCLUB_CASA": "18476477",
             "NOMBRE_CASA": "FUNDACIÓ ESPORTIVA GRAMA A",
@@ -8228,8 +8228,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T15:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58457830",
             "CODCLUB_CASA": "58329576",
             "NOMBRE_CASA": "TARR, ASSOC.ESP.  A",
@@ -8243,8 +8243,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58148497",
             "CODCLUB_CASA": "15544315",
             "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
