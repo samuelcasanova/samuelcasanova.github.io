@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T10:04:51.048Z",
+  "fetchedAt": "2026-11-21T12:05:21.890Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -984,8 +984,8 @@
             "JORNADA": "9",
             "COMIENZO1": "2026-11-21T10:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "2",
+            "GOLES_FUERA": "2",
             "CODEQUIPO_CASA": "47012517",
             "CODCLUB_CASA": "1696",
             "NOMBRE_CASA": "ALZAMORA, C.F. A",
@@ -4851,7 +4851,7 @@
             "JORNADA": "10",
             "COMIENZO1": "2026-11-21T10:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": "0",
+            "GOLES_CASA": "10",
             "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "7002165",
             "CODCLUB_CASA": "2753",
