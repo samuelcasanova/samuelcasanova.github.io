@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T16:06:24.038Z",
+  "fetchedAt": "2026-11-21T18:06:54.772Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -829,21 +829,6 @@
           {
             "JORNADA": "7",
             "COMIENZO1": "2026-11-08T17:00:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
-            "GOLES_CASA": "7",
-            "GOLES_FUERA": "3",
-            "CODEQUIPO_CASA": "47012858",
-            "CODCLUB_CASA": "1218",
-            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
-            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-            "CODEQUIPO_FUERA": "47011758",
-            "CODCLUB_FUERA": "6178",
-            "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
-            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
-          },
-          {
-            "JORNADA": "7",
-            "COMIENZO1": "2026-11-08T17:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POBLENOU-AGAPITO FERNÁNDEZ",
             "GOLES_CASA": "5",
             "GOLES_FUERA": "4",
@@ -855,6 +840,21 @@
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. B",
             "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
+          },
+          {
+            "JORNADA": "7",
+            "COMIENZO1": "2026-11-08T17:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+            "GOLES_CASA": "7",
+            "GOLES_FUERA": "3",
+            "CODEQUIPO_CASA": "47012858",
+            "CODCLUB_CASA": "1218",
+            "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS B",
+            "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+            "CODEQUIPO_FUERA": "47011758",
+            "CODCLUB_FUERA": "6178",
+            "NOMBRE_FUERA": "FUNDACIO P. CE. JUPITER A",
+            "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png"
           }
         ],
         "8": [
@@ -2203,21 +2203,6 @@
           {
             "JORNADA": "19",
             "COMIENZO1": "2027-02-27T08:45:00",
-            "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "47012517",
-            "CODCLUB_CASA": "1696",
-            "NOMBRE_CASA": "ALZAMORA, C.F. A",
-            "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
-            "CODEQUIPO_FUERA": "47010178",
-            "CODCLUB_FUERA": "1321",
-            "NOMBRE_FUERA": "POMAR, C.D. A",
-            "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
-          },
-          {
-            "JORNADA": "19",
-            "COMIENZO1": "2027-02-27T08:45:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. L'ÀLIGA",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -2229,6 +2214,21 @@
             "CODCLUB_FUERA": "6399",
             "NOMBRE_FUERA": "CONGRÉS CLUB ESP. A",
             "ESCUDO_FUERA": "00100_0001268552_congres.png"
+          },
+          {
+            "JORNADA": "19",
+            "COMIENZO1": "2027-02-27T08:45:00",
+            "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "47012517",
+            "CODCLUB_CASA": "1696",
+            "NOMBRE_CASA": "ALZAMORA, C.F. A",
+            "ESCUDO_CASA": "00100_0001223467_ALZAMORA.png",
+            "CODEQUIPO_FUERA": "47010178",
+            "CODCLUB_FUERA": "1321",
+            "NOMBRE_FUERA": "POMAR, C.D. A",
+            "ESCUDO_FUERA": "00100_0001176360_1321_Pomar.png"
           },
           {
             "JORNADA": "19",
@@ -8228,7 +8228,7 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T15:30:00",
             "CAMPO": "CAMP DE FUTBOL CEM MUNDET (1)",
-            "GOLES_CASA": "0",
+            "GOLES_CASA": "1",
             "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58457830",
             "CODCLUB_CASA": "58329576",
@@ -8243,7 +8243,7 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T16:00:00",
             "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": "0",
+            "GOLES_CASA": "3",
             "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "58148497",
             "CODCLUB_CASA": "15544315",
@@ -8258,8 +8258,8 @@
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T16:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "7",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "58156824",
             "CODCLUB_CASA": "6278",
             "NOMBRE_CASA": "CAN BUXERES, F.C. C",
