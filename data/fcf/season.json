@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T06:10:00.960Z",
+  "fetchedAt": "2026-11-22T08:10:32.130Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1044,8 +1044,8 @@
             "JORNADA": "9",
             "COMIENZO1": "2026-11-22T09:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "50600424",
             "CODCLUB_CASA": "1049",
             "NOMBRE_CASA": "HORTA, U.AT. C",
