@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T12:11:33.946Z",
+  "fetchedAt": "2026-11-22T14:12:05.348Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -1074,8 +1074,8 @@
             "JORNADA": "9",
             "COMIENZO1": "2026-11-22T12:30:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
-            "GOLES_CASA": "1",
-            "GOLES_FUERA": "4",
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "8",
             "CODEQUIPO_CASA": "47010178",
             "CODCLUB_CASA": "1321",
             "NOMBRE_CASA": "POMAR, C.D. A",
@@ -4941,8 +4941,8 @@
             "JORNADA": "10",
             "COMIENZO1": "2026-11-22T14:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. OLÍMPIA",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
+            "GOLES_CASA": "0",
+            "GOLES_FUERA": "0",
             "CODEQUIPO_CASA": "36963",
             "CODCLUB_CASA": "1004",
             "NOMBRE_CASA": "SABADELL F.C., C.E. A",
