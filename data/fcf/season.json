@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T20:32:21.803Z",
+  "fetchedAt": "2026-11-26T02:33:56.010Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8242,21 +8242,6 @@
           {
             "JORNADA": "8",
             "COMIENZO1": "2026-11-21T16:00:00",
-            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": "3",
-            "GOLES_FUERA": "0",
-            "CODEQUIPO_CASA": "58148497",
-            "CODCLUB_CASA": "15544315",
-            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-            "CODEQUIPO_FUERA": "54313454",
-            "CODCLUB_FUERA": "40492704",
-            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
-            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
-          },
-          {
-            "JORNADA": "8",
-            "COMIENZO1": "2026-11-21T16:00:00",
             "CAMPO": "CAMP DE FUTBOL MPAL. CAN BUXERES",
             "GOLES_CASA": "7",
             "GOLES_FUERA": "1",
@@ -8268,6 +8253,21 @@
             "CODCLUB_FUERA": "34784987",
             "NOMBRE_FUERA": "MERCAT NOU MAGORIA, S.E. CLUB A",
             "ESCUDO_FUERA": "00100_0000943118_6568_mercatnou_200x200.png"
+          },
+          {
+            "JORNADA": "8",
+            "COMIENZO1": "2026-11-21T16:00:00",
+            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "0",
+            "CODEQUIPO_CASA": "58148497",
+            "CODCLUB_CASA": "15544315",
+            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+            "CODEQUIPO_FUERA": "54313454",
+            "CODCLUB_FUERA": "40492704",
+            "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  B",
+            "ESCUDO_FUERA": "00100_0001421644_faflh.png"
           },
           {
             "JORNADA": "8",
@@ -8334,21 +8334,6 @@
           {
             "JORNADA": "9",
             "COMIENZO1": "2026-11-28T14:00:00",
-            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "58148497",
-            "CODCLUB_CASA": "15544315",
-            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
-            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
-            "CODEQUIPO_FUERA": "58457830",
-            "CODCLUB_FUERA": "58329576",
-            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
-            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
-          },
-          {
-            "JORNADA": "9",
-            "COMIENZO1": "2026-11-28T14:00:00",
             "CAMPO": "CAMP DE FUTBOL CEM MARESME",
             "GOLES_CASA": null,
             "GOLES_FUERA": null,
@@ -8360,6 +8345,21 @@
             "CODCLUB_FUERA": "6278",
             "NOMBRE_FUERA": "CAN BUXERES, F.C. C",
             "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png"
+          },
+          {
+            "JORNADA": "9",
+            "COMIENZO1": "2026-11-28T14:00:00",
+            "CAMPO": "CAMP DE FUTBOL ESCOLA PIA DE SARRIÀ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "58148497",
+            "CODCLUB_CASA": "15544315",
+            "NOMBRE_CASA": "ESCOLA PIA SARRIÀ S.E. A",
+            "ESCUDO_CASA": "00100_0000113186_LOGO_TARONJA.png",
+            "CODEQUIPO_FUERA": "58457830",
+            "CODCLUB_FUERA": "58329576",
+            "NOMBRE_FUERA": "TARR, ASSOC.ESP.  A",
+            "ESCUDO_FUERA": "00100_0001239322_tarr.jpg"
           },
           {
             "JORNADA": "9",
