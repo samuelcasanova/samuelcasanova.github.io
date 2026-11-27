@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T08:41:40.971Z",
+  "fetchedAt": "2026-11-27T20:44:44.226Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -5138,6 +5138,21 @@
           },
           {
             "JORNADA": "12",
+            "COMIENZO1": "2026-12-12T13:00:00",
+            "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
+            "GOLES_CASA": null,
+            "GOLES_FUERA": null,
+            "CODEQUIPO_CASA": "7002165",
+            "CODCLUB_CASA": "2753",
+            "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
+            "ESCUDO_CASA": "00100_0000062247_escudo-letra.png",
+            "CODEQUIPO_FUERA": "7002023",
+            "CODCLUB_FUERA": "1035",
+            "NOMBRE_FUERA": "IGUALADA, C.F. A",
+            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
+          },
+          {
+            "JORNADA": "12",
             "COMIENZO1": "2026-12-12T13:15:00",
             "CAMPO": "CAMP DE FUTBOL CEM LA GUINEUETA",
             "GOLES_CASA": null,
@@ -5180,21 +5195,6 @@
             "CODCLUB_FUERA": "1011",
             "NOMBRE_FUERA": "EUROPA, C.E. A",
             "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png"
-          },
-          {
-            "JORNADA": "12",
-            "COMIENZO1": "2026-12-13T11:35:00",
-            "CAMPO": "CAMP DE FUTBOL MPAL. FONTSANTA-FATJÓ",
-            "GOLES_CASA": null,
-            "GOLES_FUERA": null,
-            "CODEQUIPO_CASA": "7002165",
-            "CODCLUB_CASA": "2753",
-            "NOMBRE_CASA": "FONTSANTA-FATJO, C.D. A",
-            "ESCUDO_CASA": "00100_0000062247_escudo-letra.png",
-            "CODEQUIPO_FUERA": "7002023",
-            "CODCLUB_FUERA": "1035",
-            "NOMBRE_FUERA": "IGUALADA, C.F. A",
-            "ESCUDO_FUERA": "00100_0000822231_igualada_200.png"
           }
         ],
         "13": [
