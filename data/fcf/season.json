@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T16:49:53.455Z",
+  "fetchedAt": "2026-11-28T18:50:24.178Z",
   "groups": {
     "58162016": {
       "partidos": {
@@ -8395,8 +8395,8 @@
             "JORNADA": "9",
             "COMIENZO1": "2026-11-28T17:30:00",
             "CAMPO": "CAMP DE FUTBOL UB ESPORTS",
-            "GOLES_CASA": "0",
-            "GOLES_FUERA": "0",
+            "GOLES_CASA": "3",
+            "GOLES_FUERA": "1",
             "CODEQUIPO_CASA": "54312654",
             "CODCLUB_CASA": "6385",
             "NOMBRE_CASA": "DIAGONAL CLUB ESP. B",
